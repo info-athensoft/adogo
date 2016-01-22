@@ -1,4 +1,5 @@
-<%@page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+<%@ page contentType="text/html; charset=utf-8" %>
+<%@ page pageEncoding="utf-8"%>
 <!DOCTYPE HTML>
 <html>
 
@@ -116,7 +117,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <p class="product-location"><i class="fa fa-map-marker"></i> Boston</p>
+                                    <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                                 </div>
                             </div>
                         </a>
@@ -138,7 +139,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <p class="product-location"><i class="fa fa-map-marker"></i> Boston</p>
+                                    <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                                 </div>
                             </div>
                         </a>
@@ -160,7 +161,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <p class="product-location"><i class="fa fa-map-marker"></i> Boston</p>
+                                    <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                                 </div>
                             </div>
                         </a>
@@ -188,7 +189,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Boston</p>
+                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
                 </a>
@@ -210,7 +211,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Boston</p>
+                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
                 </a>
@@ -232,7 +233,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Boston</p>
+                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
                 </a>
@@ -256,7 +257,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Boston</p>
+                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
                 </a>
@@ -278,7 +279,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Boston</p>
+                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
                 </a>
@@ -300,7 +301,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Boston</p>
+                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
                 </a>
@@ -322,7 +323,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Boston</p>
+                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
                 </a>
@@ -348,7 +349,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Boston</p>
+                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
                 </a>
@@ -370,7 +371,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Boston</p>
+                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
                 </a>
@@ -392,7 +393,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Boston</p>
+                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
                 </a>

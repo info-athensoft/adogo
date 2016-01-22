@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-md-2">
                 <a href="index.html" class="logo">
-                    <img src="img/logo-small-dark.png" alt="Image Alternative text" title="Image Title" />
+                    <img src="img/logo-small-dark.png" alt="Adogo logo" title="athensoft.com" />
                 </a>
             </div>
             <div class="col-md-6">
