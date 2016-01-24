@@ -21,6 +21,10 @@
                                         </li>
                                         <li><a href="index-shop-layout-3.html">Layout 3</a>
                                         </li>
+                                        <li><a href="index-shop-layout-4.html">Layout 4</a>
+                                        </li>
+                                        <li><a href="index-shop-layout-5.html">Layout 5</a>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li class="active"><a href="index-coupon-layout-1.html">Coupon Layout</a>

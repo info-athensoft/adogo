@@ -6,7 +6,7 @@
                 <img src="img/1200x480.png" alt="Image Alternative text" title="Bridge" />
                 <div class="bg-mask"></div>
                 <div class="bg-front vert-center text-white text-center">
-                    <h2 class="text-hero">London Weekends</h2>
+                    <h2 class="text-hero">Montreal Weekends</h2>
                     <div class="countdown countdown-big" data-countdown="Jul 27, 2014 5:30:00"></div><a class="btn btn-lg btn-ghost btn-white" href="#">Save 50% Now</a>
                 </div>
             </div>
