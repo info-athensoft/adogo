@@ -86,10 +86,10 @@
     <div class="footer-copyright">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <p>Copyright Â© 2014, Your Store, All Rights Reserved</p>
+                <div class="col-md-6">
+                    <p>Copyright © 2016, Informatique Athensoft, All Rights Reserved</p>
                 </div>
-                <div class="col-md-6 col-md-offset-2">
+                <div class="col-md-5 col-md-offset-1">
                     <div class="pull-right">
                         <ul class="list-inline list-payment">
                             <li>
