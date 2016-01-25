@@ -168,9 +168,7 @@
                     </div>
                 </div>
             </div>
-            
             <div class="gap gap-small"></div>
-            
             <h1 class="mb20">Weekly Featured <small><a href="#">View All</a></small></h1>
             <div class="row row-wrap">
                 <a class="col-md-4" href="#">
@@ -240,84 +238,6 @@
                     </div>
                 </a>
             </div>
-            
-            <div class="gap gap-small"></div>
-            
-            <h1 class="mb20">Monthly Stars <small><a href="#">View All</a></small></h1>
-            <div class="row row-wrap">
-                <a class="col-md-4" href="#">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="img/800x600.png" alt="Image Alternative text" title="Hot mixer" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Modern DJ Set</h5>
-                            <p class="product-desciption">Ad himenaeos mus sed inceptos duis mauris magna</p>
-                            <div class="product-meta"><span class="product-time"><i class="fa fa-clock-o"></i> 9 days 6 h remaining</span>
-                                <ul class="product-price-list">
-                                    <li><span class="product-price">$62</span>
-                                    </li>
-                                    <li><span class="product-old-price">$156</span>
-                                    </li>
-                                    <li><span class="product-save">Save 40%</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="col-md-4" href="#">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="img/800x600.png" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Lovely Ice Cream Spoons</h5>
-                            <p class="product-desciption">Ad himenaeos mus sed inceptos duis mauris magna</p>
-                            <div class="product-meta"><span class="product-time"><i class="fa fa-clock-o"></i> 1 day 48 h remaining</span>
-                                <ul class="product-price-list">
-                                    <li><span class="product-price">$91</span>
-                                    </li>
-                                    <li><span class="product-old-price">$221</span>
-                                    </li>
-                                    <li><span class="product-save">Save 41%</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="col-md-4" href="#">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="img/800x600.png" alt="Image Alternative text" title="waipio valley" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Awesome Vacation</h5>
-                            <p class="product-desciption">Ad himenaeos mus sed inceptos duis mauris magna</p>
-                            <div class="product-meta"><span class="product-time"><i class="fa fa-clock-o"></i> 4 days 33 h remaining</span>
-                                <ul class="product-price-list">
-                                    <li><span class="product-price">$73</span>
-                                    </li>
-                                    <li><span class="product-old-price">$235</span>
-                                    </li>
-                                    <li><span class="product-save">Save 31%</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="gap"></div>
-            
-            
-            <div class="gap gap-small"></div>
-            
-            <h1 class="mb20">Popular in Shopping <small><a href="#">View All</a></small></h1>
             <div class="row row-wrap">
                 <a class="col-md-3" href="#">
                     <div class="product-thumb">
@@ -408,143 +328,76 @@
                     </div>
                 </a>
             </div>
-            
-            
             <div class="gap gap-small"></div>
-            
-            <h1 class="mb20">Popular in Food and drink <small><a href="#">View All</a></small></h1>
+            <h1 class="mb20">Popular <small><a href="#">View All</a></small></h1>
             <div class="row row-wrap">
-                <a class="col-md-3" href="http://auntdai.com/ch/">
+                <a class="col-md-4" href="#">
                     <div class="product-thumb">
                         <header class="product-header">
-                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
+                            <img src="img/800x600.png" alt="Image Alternative text" title="Hot mixer" />
                         </header>
                         <div class="product-inner">
-                            <h5 class="product-title">Cuisine AuntDai</h5>
-                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
-                            <p>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star-half-o"></i>
-                            </p>
-                            <!-- 
-                            <div class="product-meta">
-                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
+                            <h5 class="product-title">Modern DJ Set</h5>
+                            <p class="product-desciption">Ad himenaeos mus sed inceptos duis mauris magna</p>
+                            <div class="product-meta"><span class="product-time"><i class="fa fa-clock-o"></i> 9 days 6 h remaining</span>
                                 <ul class="product-price-list">
-                                    <li><span class="product-price">$108</span>
+                                    <li><span class="product-price">$62</span>
                                     </li>
-                                    <li><span class="product-old-price">$235.00</span>
+                                    <li><span class="product-old-price">$156</span>
                                     </li>
-                                    <li><span class="product-save">Save 46%</span>
+                                    <li><span class="product-save">Save 40%</span>
                                     </li>
                                 </ul>
                             </div>
-                             -->                           
                             <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
                 </a>
-                <a class="col-md-3" href="http://auntdai.com/ch/">
+                <a class="col-md-4" href="#">
                     <div class="product-thumb">
                         <header class="product-header">
-                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
+                            <img src="img/800x600.png" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
                         </header>
                         <div class="product-inner">
-                            <h5 class="product-title">Cuisine AuntDai</h5>
-                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
-                            <p>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star-half-o"></i>
-                            </p>
-                            <!-- 
-                            <div class="product-meta">
-                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
+                            <h5 class="product-title">Lovely Ice Cream Spoons</h5>
+                            <p class="product-desciption">Ad himenaeos mus sed inceptos duis mauris magna</p>
+                            <div class="product-meta"><span class="product-time"><i class="fa fa-clock-o"></i> 1 day 48 h remaining</span>
                                 <ul class="product-price-list">
-                                    <li><span class="product-price">$108</span>
+                                    <li><span class="product-price">$91</span>
                                     </li>
-                                    <li><span class="product-old-price">$235.00</span>
+                                    <li><span class="product-old-price">$221</span>
                                     </li>
-                                    <li><span class="product-save">Save 46%</span>
+                                    <li><span class="product-save">Save 41%</span>
                                     </li>
                                 </ul>
                             </div>
-                             -->                           
                             <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
                 </a>
-                <a class="col-md-3" href="http://auntdai.com/ch/">
+                <a class="col-md-4" href="#">
                     <div class="product-thumb">
                         <header class="product-header">
-                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
+                            <img src="img/800x600.png" alt="Image Alternative text" title="waipio valley" />
                         </header>
                         <div class="product-inner">
-                            <h5 class="product-title">Cuisine AuntDai</h5>
-                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
-                            <p>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star-half-o"></i>
-                            </p>
-                            <!-- 
-                            <div class="product-meta">
-                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
+                            <h5 class="product-title">Awesome Vacation</h5>
+                            <p class="product-desciption">Ad himenaeos mus sed inceptos duis mauris magna</p>
+                            <div class="product-meta"><span class="product-time"><i class="fa fa-clock-o"></i> 4 days 33 h remaining</span>
                                 <ul class="product-price-list">
-                                    <li><span class="product-price">$108</span>
+                                    <li><span class="product-price">$73</span>
                                     </li>
-                                    <li><span class="product-old-price">$235.00</span>
+                                    <li><span class="product-old-price">$235</span>
                                     </li>
-                                    <li><span class="product-save">Save 46%</span>
+                                    <li><span class="product-save">Save 31%</span>
                                     </li>
                                 </ul>
                             </div>
-                             -->                           
                             <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
                 </a>
-                <a class="col-md-3" href="http://auntdai.com/ch/">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Cuisine AuntDai</h5>
-                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
-                            <p>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star-half-o"></i>
-                            </p>
-                            <!-- 
-                            <div class="product-meta">
-                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
-                                <ul class="product-price-list">
-                                    <li><span class="product-price">$108</span>
-                                    </li>
-                                    <li><span class="product-old-price">$235.00</span>
-                                    </li>
-                                    <li><span class="product-save">Save 46%</span>
-                                    </li>
-                                </ul>
-                            </div>
-                             -->                           
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
-                        </div>
-                    </div>
-                </a>
-                
             </div>
-            
             <div class="gap"></div>
         </div>
 
