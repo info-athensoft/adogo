@@ -317,7 +317,7 @@
             
             <div class="gap gap-small"></div>
             
-            <h1 class="mb20">Popular in Shopping <small><a href="#">View All</a></small></h1>
+            <h1 class="mb20">Popular in Shopwise <small><a href="#">View All</a></small></h1>
             <div class="row row-wrap">
                 <a class="col-md-3" href="#">
                     <div class="product-thumb">
@@ -413,6 +413,817 @@
             <div class="gap gap-small"></div>
             
             <h1 class="mb20">Popular in Food and drink <small><a href="#">View All</a></small></h1>
+            <div class="row row-wrap">
+                <a class="col-md-3" href="http://auntdai.com/ch/">
+                    <div class="product-thumb">
+                        <header class="product-header">
+                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
+                        </header>
+                        <div class="product-inner">
+                            <h5 class="product-title">Cuisine AuntDai</h5>
+                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
+                            <p>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star-half-o"></i>
+                            </p>
+                            <!-- 
+                            <div class="product-meta">
+                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
+                                <ul class="product-price-list">
+                                    <li><span class="product-price">$108</span>
+                                    </li>
+                                    <li><span class="product-old-price">$235.00</span>
+                                    </li>
+                                    <li><span class="product-save">Save 46%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                             -->                           
+                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="col-md-3" href="http://auntdai.com/ch/">
+                    <div class="product-thumb">
+                        <header class="product-header">
+                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
+                        </header>
+                        <div class="product-inner">
+                            <h5 class="product-title">Cuisine AuntDai</h5>
+                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
+                            <p>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star-half-o"></i>
+                            </p>
+                            <!-- 
+                            <div class="product-meta">
+                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
+                                <ul class="product-price-list">
+                                    <li><span class="product-price">$108</span>
+                                    </li>
+                                    <li><span class="product-old-price">$235.00</span>
+                                    </li>
+                                    <li><span class="product-save">Save 46%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                             -->                           
+                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="col-md-3" href="http://auntdai.com/ch/">
+                    <div class="product-thumb">
+                        <header class="product-header">
+                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
+                        </header>
+                        <div class="product-inner">
+                            <h5 class="product-title">Cuisine AuntDai</h5>
+                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
+                            <p>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star-half-o"></i>
+                            </p>
+                            <!-- 
+                            <div class="product-meta">
+                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
+                                <ul class="product-price-list">
+                                    <li><span class="product-price">$108</span>
+                                    </li>
+                                    <li><span class="product-old-price">$235.00</span>
+                                    </li>
+                                    <li><span class="product-save">Save 46%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                             -->                           
+                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="col-md-3" href="http://auntdai.com/ch/">
+                    <div class="product-thumb">
+                        <header class="product-header">
+                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
+                        </header>
+                        <div class="product-inner">
+                            <h5 class="product-title">Cuisine AuntDai</h5>
+                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
+                            <p>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star-half-o"></i>
+                            </p>
+                            <!-- 
+                            <div class="product-meta">
+                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
+                                <ul class="product-price-list">
+                                    <li><span class="product-price">$108</span>
+                                    </li>
+                                    <li><span class="product-old-price">$235.00</span>
+                                    </li>
+                                    <li><span class="product-save">Save 46%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                             -->                           
+                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
+                        </div>
+                    </div>
+                </a>
+                
+            </div>
+            
+           <div class="gap gap-small"></div>
+            
+            <h1 class="mb20">Popular in Life Service <small><a href="#">View All</a></small></h1>
+            <div class="row row-wrap">
+                <a class="col-md-3" href="http://auntdai.com/ch/">
+                    <div class="product-thumb">
+                        <header class="product-header">
+                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
+                        </header>
+                        <div class="product-inner">
+                            <h5 class="product-title">Cuisine AuntDai</h5>
+                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
+                            <p>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star-half-o"></i>
+                            </p>
+                            <!-- 
+                            <div class="product-meta">
+                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
+                                <ul class="product-price-list">
+                                    <li><span class="product-price">$108</span>
+                                    </li>
+                                    <li><span class="product-old-price">$235.00</span>
+                                    </li>
+                                    <li><span class="product-save">Save 46%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                             -->                           
+                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="col-md-3" href="http://auntdai.com/ch/">
+                    <div class="product-thumb">
+                        <header class="product-header">
+                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
+                        </header>
+                        <div class="product-inner">
+                            <h5 class="product-title">Cuisine AuntDai</h5>
+                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
+                            <p>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star-half-o"></i>
+                            </p>
+                            <!-- 
+                            <div class="product-meta">
+                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
+                                <ul class="product-price-list">
+                                    <li><span class="product-price">$108</span>
+                                    </li>
+                                    <li><span class="product-old-price">$235.00</span>
+                                    </li>
+                                    <li><span class="product-save">Save 46%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                             -->                           
+                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="col-md-3" href="http://auntdai.com/ch/">
+                    <div class="product-thumb">
+                        <header class="product-header">
+                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
+                        </header>
+                        <div class="product-inner">
+                            <h5 class="product-title">Cuisine AuntDai</h5>
+                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
+                            <p>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star-half-o"></i>
+                            </p>
+                            <!-- 
+                            <div class="product-meta">
+                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
+                                <ul class="product-price-list">
+                                    <li><span class="product-price">$108</span>
+                                    </li>
+                                    <li><span class="product-old-price">$235.00</span>
+                                    </li>
+                                    <li><span class="product-save">Save 46%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                             -->                           
+                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="col-md-3" href="http://auntdai.com/ch/">
+                    <div class="product-thumb">
+                        <header class="product-header">
+                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
+                        </header>
+                        <div class="product-inner">
+                            <h5 class="product-title">Cuisine AuntDai</h5>
+                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
+                            <p>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star-half-o"></i>
+                            </p>
+                            <!-- 
+                            <div class="product-meta">
+                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
+                                <ul class="product-price-list">
+                                    <li><span class="product-price">$108</span>
+                                    </li>
+                                    <li><span class="product-old-price">$235.00</span>
+                                    </li>
+                                    <li><span class="product-save">Save 46%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                             -->                           
+                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
+                        </div>
+                    </div>
+                </a>
+                
+            </div>
+            
+            
+            <div class="gap gap-small"></div>
+            
+            <h1 class="mb20">Popular in Professional Service <small><a href="#">View All</a></small></h1>
+            <div class="row row-wrap">
+                <a class="col-md-3" href="http://auntdai.com/ch/">
+                    <div class="product-thumb">
+                        <header class="product-header">
+                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
+                        </header>
+                        <div class="product-inner">
+                            <h5 class="product-title">Cuisine AuntDai</h5>
+                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
+                            <p>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star-half-o"></i>
+                            </p>
+                            <!-- 
+                            <div class="product-meta">
+                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
+                                <ul class="product-price-list">
+                                    <li><span class="product-price">$108</span>
+                                    </li>
+                                    <li><span class="product-old-price">$235.00</span>
+                                    </li>
+                                    <li><span class="product-save">Save 46%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                             -->                           
+                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="col-md-3" href="http://auntdai.com/ch/">
+                    <div class="product-thumb">
+                        <header class="product-header">
+                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
+                        </header>
+                        <div class="product-inner">
+                            <h5 class="product-title">Cuisine AuntDai</h5>
+                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
+                            <p>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star-half-o"></i>
+                            </p>
+                            <!-- 
+                            <div class="product-meta">
+                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
+                                <ul class="product-price-list">
+                                    <li><span class="product-price">$108</span>
+                                    </li>
+                                    <li><span class="product-old-price">$235.00</span>
+                                    </li>
+                                    <li><span class="product-save">Save 46%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                             -->                           
+                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="col-md-3" href="http://auntdai.com/ch/">
+                    <div class="product-thumb">
+                        <header class="product-header">
+                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
+                        </header>
+                        <div class="product-inner">
+                            <h5 class="product-title">Cuisine AuntDai</h5>
+                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
+                            <p>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star-half-o"></i>
+                            </p>
+                            <!-- 
+                            <div class="product-meta">
+                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
+                                <ul class="product-price-list">
+                                    <li><span class="product-price">$108</span>
+                                    </li>
+                                    <li><span class="product-old-price">$235.00</span>
+                                    </li>
+                                    <li><span class="product-save">Save 46%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                             -->                           
+                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="col-md-3" href="http://auntdai.com/ch/">
+                    <div class="product-thumb">
+                        <header class="product-header">
+                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
+                        </header>
+                        <div class="product-inner">
+                            <h5 class="product-title">Cuisine AuntDai</h5>
+                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
+                            <p>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star-half-o"></i>
+                            </p>
+                            <!-- 
+                            <div class="product-meta">
+                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
+                                <ul class="product-price-list">
+                                    <li><span class="product-price">$108</span>
+                                    </li>
+                                    <li><span class="product-old-price">$235.00</span>
+                                    </li>
+                                    <li><span class="product-save">Save 46%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                             -->                           
+                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
+                        </div>
+                    </div>
+                </a>
+                
+            </div>
+            
+            <div class="gap gap-small"></div>
+            
+            <h1 class="mb20">Popular in Educational Service <small><a href="#">View All</a></small></h1>
+            <div class="row row-wrap">
+                <a class="col-md-3" href="http://auntdai.com/ch/">
+                    <div class="product-thumb">
+                        <header class="product-header">
+                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
+                        </header>
+                        <div class="product-inner">
+                            <h5 class="product-title">Cuisine AuntDai</h5>
+                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
+                            <p>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star-half-o"></i>
+                            </p>
+                            <!-- 
+                            <div class="product-meta">
+                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
+                                <ul class="product-price-list">
+                                    <li><span class="product-price">$108</span>
+                                    </li>
+                                    <li><span class="product-old-price">$235.00</span>
+                                    </li>
+                                    <li><span class="product-save">Save 46%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                             -->                           
+                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="col-md-3" href="http://auntdai.com/ch/">
+                    <div class="product-thumb">
+                        <header class="product-header">
+                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
+                        </header>
+                        <div class="product-inner">
+                            <h5 class="product-title">Cuisine AuntDai</h5>
+                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
+                            <p>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star-half-o"></i>
+                            </p>
+                            <!-- 
+                            <div class="product-meta">
+                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
+                                <ul class="product-price-list">
+                                    <li><span class="product-price">$108</span>
+                                    </li>
+                                    <li><span class="product-old-price">$235.00</span>
+                                    </li>
+                                    <li><span class="product-save">Save 46%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                             -->                           
+                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="col-md-3" href="http://auntdai.com/ch/">
+                    <div class="product-thumb">
+                        <header class="product-header">
+                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
+                        </header>
+                        <div class="product-inner">
+                            <h5 class="product-title">Cuisine AuntDai</h5>
+                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
+                            <p>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star-half-o"></i>
+                            </p>
+                            <!-- 
+                            <div class="product-meta">
+                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
+                                <ul class="product-price-list">
+                                    <li><span class="product-price">$108</span>
+                                    </li>
+                                    <li><span class="product-old-price">$235.00</span>
+                                    </li>
+                                    <li><span class="product-save">Save 46%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                             -->                           
+                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="col-md-3" href="http://auntdai.com/ch/">
+                    <div class="product-thumb">
+                        <header class="product-header">
+                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
+                        </header>
+                        <div class="product-inner">
+                            <h5 class="product-title">Cuisine AuntDai</h5>
+                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
+                            <p>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star-half-o"></i>
+                            </p>
+                            <!-- 
+                            <div class="product-meta">
+                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
+                                <ul class="product-price-list">
+                                    <li><span class="product-price">$108</span>
+                                    </li>
+                                    <li><span class="product-old-price">$235.00</span>
+                                    </li>
+                                    <li><span class="product-save">Save 46%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                             -->                           
+                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
+                        </div>
+                    </div>
+                </a>
+                
+            </div>
+            
+            <div class="gap gap-small"></div>
+            
+            <h1 class="mb20">Popular in Travel and Transport Service <small><a href="#">View All</a></small></h1>
+            <div class="row row-wrap">
+                <a class="col-md-3" href="http://auntdai.com/ch/">
+                    <div class="product-thumb">
+                        <header class="product-header">
+                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
+                        </header>
+                        <div class="product-inner">
+                            <h5 class="product-title">Cuisine AuntDai</h5>
+                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
+                            <p>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star-half-o"></i>
+                            </p>
+                            <!-- 
+                            <div class="product-meta">
+                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
+                                <ul class="product-price-list">
+                                    <li><span class="product-price">$108</span>
+                                    </li>
+                                    <li><span class="product-old-price">$235.00</span>
+                                    </li>
+                                    <li><span class="product-save">Save 46%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                             -->                           
+                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="col-md-3" href="http://auntdai.com/ch/">
+                    <div class="product-thumb">
+                        <header class="product-header">
+                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
+                        </header>
+                        <div class="product-inner">
+                            <h5 class="product-title">Cuisine AuntDai</h5>
+                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
+                            <p>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star-half-o"></i>
+                            </p>
+                            <!-- 
+                            <div class="product-meta">
+                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
+                                <ul class="product-price-list">
+                                    <li><span class="product-price">$108</span>
+                                    </li>
+                                    <li><span class="product-old-price">$235.00</span>
+                                    </li>
+                                    <li><span class="product-save">Save 46%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                             -->                           
+                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="col-md-3" href="http://auntdai.com/ch/">
+                    <div class="product-thumb">
+                        <header class="product-header">
+                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
+                        </header>
+                        <div class="product-inner">
+                            <h5 class="product-title">Cuisine AuntDai</h5>
+                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
+                            <p>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star-half-o"></i>
+                            </p>
+                            <!-- 
+                            <div class="product-meta">
+                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
+                                <ul class="product-price-list">
+                                    <li><span class="product-price">$108</span>
+                                    </li>
+                                    <li><span class="product-old-price">$235.00</span>
+                                    </li>
+                                    <li><span class="product-save">Save 46%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                             -->                           
+                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="col-md-3" href="http://auntdai.com/ch/">
+                    <div class="product-thumb">
+                        <header class="product-header">
+                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
+                        </header>
+                        <div class="product-inner">
+                            <h5 class="product-title">Cuisine AuntDai</h5>
+                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
+                            <p>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star-half-o"></i>
+                            </p>
+                            <!-- 
+                            <div class="product-meta">
+                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
+                                <ul class="product-price-list">
+                                    <li><span class="product-price">$108</span>
+                                    </li>
+                                    <li><span class="product-old-price">$235.00</span>
+                                    </li>
+                                    <li><span class="product-save">Save 46%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                             -->                           
+                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
+                        </div>
+                    </div>
+                </a>
+                
+            </div>
+            
+            <div class="gap gap-small"></div>
+            
+            <h1 class="mb20">Popular in Sport, Recreation and Entertainment <small><a href="#">View All</a></small></h1>
+            <div class="row row-wrap">
+                <a class="col-md-3" href="http://auntdai.com/ch/">
+                    <div class="product-thumb">
+                        <header class="product-header">
+                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
+                        </header>
+                        <div class="product-inner">
+                            <h5 class="product-title">Cuisine AuntDai</h5>
+                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
+                            <p>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star-half-o"></i>
+                            </p>
+                            <!-- 
+                            <div class="product-meta">
+                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
+                                <ul class="product-price-list">
+                                    <li><span class="product-price">$108</span>
+                                    </li>
+                                    <li><span class="product-old-price">$235.00</span>
+                                    </li>
+                                    <li><span class="product-save">Save 46%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                             -->                           
+                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="col-md-3" href="http://auntdai.com/ch/">
+                    <div class="product-thumb">
+                        <header class="product-header">
+                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
+                        </header>
+                        <div class="product-inner">
+                            <h5 class="product-title">Cuisine AuntDai</h5>
+                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
+                            <p>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star-half-o"></i>
+                            </p>
+                            <!-- 
+                            <div class="product-meta">
+                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
+                                <ul class="product-price-list">
+                                    <li><span class="product-price">$108</span>
+                                    </li>
+                                    <li><span class="product-old-price">$235.00</span>
+                                    </li>
+                                    <li><span class="product-save">Save 46%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                             -->                           
+                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="col-md-3" href="http://auntdai.com/ch/">
+                    <div class="product-thumb">
+                        <header class="product-header">
+                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
+                        </header>
+                        <div class="product-inner">
+                            <h5 class="product-title">Cuisine AuntDai</h5>
+                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
+                            <p>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star-half-o"></i>
+                            </p>
+                            <!-- 
+                            <div class="product-meta">
+                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
+                                <ul class="product-price-list">
+                                    <li><span class="product-price">$108</span>
+                                    </li>
+                                    <li><span class="product-old-price">$235.00</span>
+                                    </li>
+                                    <li><span class="product-save">Save 46%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                             -->                           
+                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="col-md-3" href="http://auntdai.com/ch/">
+                    <div class="product-thumb">
+                        <header class="product-header">
+                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
+                        </header>
+                        <div class="product-inner">
+                            <h5 class="product-title">Cuisine AuntDai</h5>
+                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
+                            <p>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star"></i>
+                            	<i class="fa fa-star-half-o"></i>
+                            </p>
+                            <!-- 
+                            <div class="product-meta">
+                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
+                                <ul class="product-price-list">
+                                    <li><span class="product-price">$108</span>
+                                    </li>
+                                    <li><span class="product-old-price">$235.00</span>
+                                    </li>
+                                    <li><span class="product-save">Save 46%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                             -->                           
+                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
+                        </div>
+                    </div>
+                </a>
+                
+            </div>
+            
+            <div class="gap gap-small"></div>
+            
+            <h1 class="mb20">Popular in Non-profit Organization, Community <small><a href="#">View All</a></small></h1>
             <div class="row row-wrap">
                 <a class="col-md-3" href="http://auntdai.com/ch/">
                     <div class="product-thumb">
