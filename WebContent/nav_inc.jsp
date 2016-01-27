@@ -12,64 +12,33 @@
                 <nav>
                     <ul class="nav nav-pills flexnav" id="flexnav" data-breakpoint="800">
                         <li class="active"><a href="index.html">Home</a>
+                        </li>
+                        <li><a href="category-page-shop.jsp">Shops</a>
                             <ul>
-                                <li><a href="index-shop-layout-1.html">Shop Layout</a>
-                                    <ul>
-                                        <li><a href="index-shop-layout-1.html">Layout 1</a>
-                                        </li>
-                                        <li><a href="index-shop-layout-2.html">Layout 2</a>
-                                        </li>
-                                        <li><a href="index-shop-layout-3.html">Layout 3</a>
-                                        </li>
-                                    </ul>
+                                <li><a href="category-page-shop.jsp">Find a shop</a>
+                                </li>
+                                <li><a href="#">Find a product</a>
+                                </li>
+                                <li><a href="#">Find a service</a>
                                 </li>
                             </ul>
                         </li>
-                        <li><a href="category-page-shop.jsp">Shop</a>
+                        <li><a href="#">Good deals</a>
                             <ul>
-                                <li><a href="category-page-shop.jsp">Shop</a>
+                                <li><a href="#">On sale</a>
                                 </li>
-                                <li><a href="category-page-shop.jsp">Coupon</a>
+                                <li><a href="#">Coupon</a>
+                                </li>
+                                <li><a href="#">Flyer</a>
                                 </li>
                             </ul>
                         </li>
-                        <li><a href="category-page-shop.html">Product</a>
+                        <li><a href="#">Events</a>
                             <ul>
-                                <li><a href="category-page-shop.html">Shop</a>
+                                <li><a href="#">Selling activities</a>
                                 </li>
-                                <li><a href="category-page-coupon.html">Coupon</a>
+                                <li><a href="#">Charitable activities</a>
                                 </li>
-                            </ul>
-                        </li>
-                        <li><a href="category-page-shop.html">Service</a>
-                            <ul>
-                                <li><a href="category-page-shop.html">Shop</a>
-                                </li>
-                                <li><a href="category-page-coupon.html">Coupon</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><a href="features-typography.html">Coupon</a>
-                            <ul>
-                                <li><a href="features-typography.html">Typography</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><a href="blog-sidebar-right.html">Flyer</a>
-                            <ul>
-                                <li><a href="blog-sidebar-right.html">Sidebar Right</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><a href="page-full-width.html">Events</a>
-                            <ul>
-                                <li><a href="page-my-account-settings.html">My Account</a>
-                                    <ul>
-                                        <li><a href="page-my-account-settings.html">Settings</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                
                             </ul>
                         </li>
                     </ul>
