@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-2">
-                <a href="index.html" class="logo">
+                <a href="index-coupon-layout-1.jsp" class="logo">
                     <img src="img/logo-small-dark.png" alt="Adogo logo" title="athensoft.com" />
                 </a>
             </div>
@@ -25,11 +25,11 @@
                                 </li>
                             </ul>
                         </li>
-                        <li><a href="category-page-shop.html">Shop</a>
+                        <li><a href="category-page-shop.jsp">Shop</a>
                             <ul>
-                                <li><a href="category-page-shop.html">Shop</a>
+                                <li><a href="category-page-shop.jsp">Shop</a>
                                 </li>
-                                <li><a href="category-page-coupon.html">Coupon</a>
+                                <li><a href="category-page-shop.jsp">Coupon</a>
                                 </li>
                             </ul>
                         </li>
