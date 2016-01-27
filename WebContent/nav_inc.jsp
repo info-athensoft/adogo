@@ -25,7 +25,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li><a href="category-page-shop.html">Category</a>
+                        <li><a href="category-page-shop.html">Shop</a>
                             <ul>
                                 <li><a href="category-page-shop.html">Shop</a>
                                 </li>
@@ -33,36 +33,39 @@
                                 </li>
                             </ul>
                         </li>
-                        <li><a href="features-typography.html">Features</a>
+                        <li><a href="category-page-shop.html">Product</a>
+                            <ul>
+                                <li><a href="category-page-shop.html">Shop</a>
+                                </li>
+                                <li><a href="category-page-coupon.html">Coupon</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="category-page-shop.html">Service</a>
+                            <ul>
+                                <li><a href="category-page-shop.html">Shop</a>
+                                </li>
+                                <li><a href="category-page-coupon.html">Coupon</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="features-typography.html">Coupon</a>
                             <ul>
                                 <li><a href="features-typography.html">Typography</a>
                                 </li>
-                                <li><a href="features-elements.html">Elements</a>
-                                </li>
                             </ul>
                         </li>
-                        <li><a href="blog-sidebar-right.html">Blog</a>
+                        <li><a href="blog-sidebar-right.html">Flyer</a>
                             <ul>
                                 <li><a href="blog-sidebar-right.html">Sidebar Right</a>
                                 </li>
-                                <li><a href="blog-sidebar-left.html">Sidebar Left</a>
-                                </li>
-                                <li><a href="blog-full-width.html">Full Width</a>
-                                </li>
-                                
                             </ul>
                         </li>
-                        <li><a href="page-full-width.html">Pages</a>
+                        <li><a href="page-full-width.html">Events</a>
                             <ul>
                                 <li><a href="page-my-account-settings.html">My Account</a>
                                     <ul>
                                         <li><a href="page-my-account-settings.html">Settings</a>
-                                        </li>
-                                        <li><a href="page-my-account-addresses.html">Address Book</a>
-                                        </li>
-                                        <li><a href="page-my-account-orders.html">Orders History</a>
-                                        </li>
-                                        <li><a href="page-my-account-wishlist.html">Wishlist</a>
                                         </li>
                                     </ul>
                                 </li>
