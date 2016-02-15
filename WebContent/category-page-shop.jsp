@@ -4,7 +4,7 @@
 <html>
 
 <head>
-    <title>Couponia - Category page shop</title>
+    <title>Adogo - Category page shop</title>
     <!-- meta info -->
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
     <meta name="keywords" content="Adogo Montreal Canada Online Brand and Ad Marketing" />
@@ -231,23 +231,21 @@
                                         <li><i class="fa fa-star"></i>
                                         </li>
                                     </ul>
-                                    <h5 class="product-title">Lovely Ice Cream Spoons</h5>
+                                    <h5 class="product-title">Your business title</h5>
                                     <p class="product-desciption">Erat nunc adipiscing enim inceptos posuere pellentesque egestas</p>
-                                    <div class="product-meta">
-                                        <ul class="product-price-list">
-                                            <li><span class="product-price">$82</span>
-                                            </li>
-                                            <li><span class="product-old-price">$195</span>
-                                            </li>
-                                            <li><span class="product-save">Save 42%</span>
-                                            </li>
-                                        </ul>
+                                    <div class="product-meta">                                        
                                         <ul class="product-actions-list">
-                                            <li><a class="btn btn-sm" href="#"><i class="fa fa-shopping-cart"></i> To Cart</a>
+                                            <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
                                             </li>
-                                            <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Details</a>
+                                            <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
                                             </li>
                                         </ul>
+                                        <p class="product-location">
+                                            	<i class="fa fa-map-marker"></i> Your location&nbsp;&nbsp;
+                                            	<span class="product-price"> FR</span>
+                                            	<span class="product-price"> EN</span>
+                                            	<span class="product-price"> CN</span>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -255,42 +253,7 @@
                         <div class="col-md-4">
                             <div class="product-thumb">
                                 <header class="product-header">
-                                    <img src="img/800x600.png" alt="Image Alternative text" title="a turn" />
-                                </header>
-                                <div class="product-inner">
-                                    <ul class="icon-group icon-list-rating" title="3.9/5 rating">
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star-o"></i>
-                                        </li>
-                                    </ul>
-                                    <h5 class="product-title">Diving with Sharks</h5>
-                                    <p class="product-desciption">Erat nunc adipiscing enim inceptos posuere pellentesque egestas</p>
-                                    <div class="product-meta">
-                                        <ul class="product-price-list">
-                                            <li><span class="product-price">$164</span>
-                                            </li>
-                                        </ul>
-                                        <ul class="product-actions-list">
-                                            <li><a class="btn btn-sm" href="#"><i class="fa fa-shopping-cart"></i> To Cart</a>
-                                            </li>
-                                            <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Details</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="product-thumb">
-                                <header class="product-header">
-                                    <img src="img/800x600.png" alt="Image Alternative text" title="Ana 29" />
+                                    <img src="img/800x600.png" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
                                 </header>
                                 <div class="product-inner">
                                     <ul class="icon-group icon-list-rating" title="5/5 rating">
@@ -305,21 +268,19 @@
                                         <li><i class="fa fa-star"></i>
                                         </li>
                                     </ul>
-                                    <h5 class="product-title">Hot Summer Collection</h5>
-                                    <p class="product-desciption">Erat nunc adipiscing enim inceptos posuere pellentesque egestas</p>
-                                    <div class="product-meta">
-                                        <ul class="product-price-list">
-                                            <li><span class="product-price">$86</span>
-                                            </li>
-                                            <li><span class="product-old-price">$175</span>
-                                            </li>
-                                            <li><span class="product-save">Save 49%</span>
-                                            </li>
-                                        </ul>
+                                    <h5 class="product-title">Your business title</h5>
+                                    <p class="product-desciption">word word word word word word word word word word word word</p>
+                                    <div class="product-meta">                                        
+                                        <p class="product-location">
+                                            	<i class="fa fa-map-marker"></i> Your location&nbsp;&nbsp;
+                                            	<span class="product-price"> FR</span>
+                                            	<span class="product-price"> EN</span>
+                                            	<span class="product-price"> CN</span>
+                                        </p>
                                         <ul class="product-actions-list">
-                                            <li><a class="btn btn-sm" href="#"><i class="fa fa-shopping-cart"></i> To Cart</a>
+                                            <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
                                             </li>
-                                            <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Details</a>
+                                            <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -329,45 +290,10 @@
                         <div class="col-md-4">
                             <div class="product-thumb">
                                 <header class="product-header">
-                                    <img src="img/800x600.png" alt="Image Alternative text" title="Our Coffee miss u" />
+                                    <img src="img/800x600.png" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
                                 </header>
                                 <div class="product-inner">
-                                    <ul class="icon-group icon-list-rating" title="3/5 rating">
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star-o"></i>
-                                        </li>
-                                        <li><i class="fa fa-star-o"></i>
-                                        </li>
-                                    </ul>
-                                    <h5 class="product-title">Coffe Shop Discount</h5>
-                                    <p class="product-desciption">Erat nunc adipiscing enim inceptos posuere pellentesque egestas</p>
-                                    <div class="product-meta">
-                                        <ul class="product-price-list">
-                                            <li><span class="product-price">$155</span>
-                                            </li>
-                                        </ul>
-                                        <ul class="product-actions-list">
-                                            <li><a class="btn btn-sm" href="#"><i class="fa fa-shopping-cart"></i> To Cart</a>
-                                            </li>
-                                            <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Details</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="product-thumb">
-                                <header class="product-header">
-                                    <img src="img/800x600.png" alt="Image Alternative text" title="Gamer Chick" />
-                                </header>
-                                <div class="product-inner">
-                                    <ul class="icon-group icon-list-rating" title="4.7/5 rating">
+                                    <ul class="icon-group icon-list-rating" title="5/5 rating">
                                         <li><i class="fa fa-star"></i>
                                         </li>
                                         <li><i class="fa fa-star"></i>
@@ -379,17 +305,18 @@
                                         <li><i class="fa fa-star"></i>
                                         </li>
                                     </ul>
-                                    <h5 class="product-title">Playstation Accessories</h5>
-                                    <p class="product-desciption">Erat nunc adipiscing enim inceptos posuere pellentesque egestas</p>
-                                    <div class="product-meta">
-                                        <ul class="product-price-list">
-                                            <li><span class="product-price">$211</span>
-                                            </li>
-                                        </ul>
+                                    <h5 class="product-title">Informatique Athensoft</h5>
+                                    <p class="product-desciption">Professional e-commerce and Internet service provider</p>
+                                    <div class="product-meta">                                        
+                                        <p class="product-location">
+                                            	<i class="fa fa-map-marker"></i> Montreal QC&nbsp;&nbsp;
+                                            	<span class="product-price"> FR</span>
+                                            	<span class="product-price"> EN</span>
+                                        </p>
                                         <ul class="product-actions-list">
-                                            <li><a class="btn btn-sm" href="#"><i class="fa fa-shopping-cart"></i> To Cart</a>
+                                            <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
                                             </li>
-                                            <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Details</a>
+                                            <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -399,10 +326,10 @@
                         <div class="col-md-4">
                             <div class="product-thumb">
                                 <header class="product-header">
-                                    <img src="img/800x600.png" alt="Image Alternative text" title="AMaze" />
+                                    <img src="images/logo/logo_mora.png" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
                                 </header>
                                 <div class="product-inner">
-                                    <ul class="icon-group icon-list-rating" title="3.6/5 rating">
+                                    <ul class="icon-group icon-list-rating" title="5/5 rating">
                                         <li><i class="fa fa-star"></i>
                                         </li>
                                         <li><i class="fa fa-star"></i>
@@ -411,24 +338,95 @@
                                         </li>
                                         <li><i class="fa fa-star"></i>
                                         </li>
-                                        <li><i class="fa fa-star-o"></i>
+                                        <li><i class="fa fa-star"></i>
                                         </li>
                                     </ul>
-                                    <h5 class="product-title">New Glass Collection</h5>
-                                    <p class="product-desciption">Erat nunc adipiscing enim inceptos posuere pellentesque egestas</p>
-                                    <div class="product-meta">
-                                        <ul class="product-price-list">
-                                            <li><span class="product-price">$101</span>
+                                    <h5 class="product-title">Mora Coiffure</h5>
+                                    <p class="product-desciption">Professional hair dressing and cutting service</p>
+                                    <div class="product-meta">                                        
+                                        <p class="product-location">
+                                            	<i class="fa fa-map-marker"></i> Monk&nbsp;&nbsp;
+                                            	<span class="product-price"> FR</span>
+                                            	<span class="product-price"> EN</span>
+                                            	<span class="product-price"> CN</span>
+                                        </p>
+                                        <ul class="product-actions-list">
+                                            <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
                                             </li>
-                                            <li><span class="product-old-price">$165</span>
-                                            </li>
-                                            <li><span class="product-save">Save 61%</span>
+                                            <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
                                             </li>
                                         </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-thumb">
+                                <header class="product-header">
+                                    <img src="images/logo/logo_mtlpc.png" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                                </header>
+                                <div class="product-inner">
+                                    <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                    </ul>
+                                    <h5 class="product-title">MTL Ordinateur</h5>
+                                    <p class="product-desciption">The TOP Computer and Digital Security System Service Provider</p>
+                                    <div class="product-meta">                                        
+                                        <p class="product-location">
+                                            	<i class="fa fa-map-marker"></i> Guy-Concordia &nbsp;&nbsp;
+                                            	<span class="product-price"> FR</span>
+                                            	<span class="product-price"> EN</span>
+                                            	<span class="product-price"> CN</span>
+                                        </p>
                                         <ul class="product-actions-list">
-                                            <li><a class="btn btn-sm" href="#"><i class="fa fa-shopping-cart"></i> To Cart</a>
+                                            <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
                                             </li>
-                                            <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Details</a>
+                                            <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-thumb">
+                                <header class="product-header">
+                                    <img src="images/logo/logo_zhenimport.png" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                                </header>
+                                <div class="product-inner">
+                                    <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                    </ul>
+                                    <h5 class="product-title">Zhen Import Inc.</h5>
+                                    <p class="product-desciption">The finest wholesaler and distributor of decoration products and gifts</p>
+                                    <div class="product-meta">                                        
+                                        <p class="product-location">
+                                            	<i class="fa fa-map-marker"></i> St-Laurent &nbsp;&nbsp;
+                                            	<span class="product-price"> FR</span>
+                                            	<span class="product-price"> EN</span>
+                                        </p>
+                                        <ul class="product-actions-list">
+                                            <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
+                                            </li>
+                                            <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
                                             </li>
                                         </ul>
                                     </div>

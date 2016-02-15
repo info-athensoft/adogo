@@ -183,9 +183,11 @@
                             <p class="product-desciption">Nulla egestas nam posuere habitant hac lacinia cubilia</p>
                             <div class="product-meta"><span class="product-time"><i class="fa fa-clock-o"></i> 10 days 23 h remaining</span>
                                 <ul class="product-price-list">
-                                    <li><span class="product-price">$62</span>
+                                    <li><span class="product-price">FR</span>
                                     </li>
-                                    <li><span class="product-old-price">$140</span>
+                                    <li><span class="product-price">EN</span>
+                                    </li>
+                                    <li><span class="product-price">CN</span>
                                     </li>
                                     <li><span class="product-save">Save 44%</span>
                                     </li>
@@ -1068,38 +1070,47 @@
                         </div>
                     </div>
                 </a>
-                <a class="col-md-4" href="http://auntdai.com/ch/">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Cuisine AuntDai</h5>
-                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
-                            <p>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star-half-o"></i>
-                            </p>
-                            <!-- 
-                            <div class="product-meta">
-                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
-                                <ul class="product-price-list">
-                                    <li><span class="product-price">$108</span>
-                                    </li>
-                                    <li><span class="product-old-price">$235.00</span>
-                                    </li>
-                                    <li><span class="product-save">Save 46%</span>
-                                    </li>
-                                </ul>
+                <div class="col-md-4">
+                            <div class="product-thumb">
+                                <header class="product-header">
+                                    <img src="img/800x600.png" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                                </header>
+                                <div class="product-inner">
+                                    <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                    </ul>
+                                    <h5 class="product-title">Lovely Ice Cream Spoons</h5>
+                                    <p class="product-desciption">Erat nunc adipiscing enim inceptos posuere pellentesque egestas</p>
+                                    <div class="product-meta">
+                                        <ul class="product-price-list">
+                                            <li><span class="product-price">FR</span></li>
+                                            <li><span class="product-price">EN</span></li>
+                                            <li><span class="product-price">CN</span></li>
+                                            <i class="fa fa-map-marker"></i> Montreal
+                                            <!-- 
+                                            <li><span class="product-old-price">$195</span></li>
+                                            <li><span class="product-save">Save 42%</span></li>
+                                             -->
+                                        </ul>
+                                        <ul class="product-actions-list">
+                                            <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
+                                            </li>
+                                            <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
-                             -->                           
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
-                    </div>
-                </a>
             </div>
             
             <div class="gap"></div>
