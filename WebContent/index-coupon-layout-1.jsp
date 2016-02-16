@@ -73,99 +73,162 @@
                     <aside class="sidebar-left">
                         <h3 class="mb20">I am Looking For</h3>
                         <ul class="nav nav-tabs nav-stacked nav-coupon-category nav-coupon-category-left">
+                        	<li><a href="#"><i class="fa fa-shopping-cart"></i>Shopwise<span>33</span></a>
+                            </li>
                             <li><a href="#"><i class="fa fa-cutlery"></i>Food & Drink<span>50</span></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-calendar"></i>Events<span>49</span></a>
+                            <li><a href="#"><i class="fa fa-calendar"></i>Life Service<span>49</span></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-female"></i>Beauty<span>37</span></a>
+                            <li><a href="#"><i class="fa fa-calendar"></i>Pro. Service<span>49</span></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-bolt"></i>Fitness<span>36</span></a>
+                            <li><a href="#"><i class="fa fa-headphones"></i>Education<span>48</span></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-headphones"></i>Electronics<span>48</span></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-image"></i>Furniture<span>31</span></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-umbrella"></i>Fashion<span>40</span></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-shopping-cart"></i>Shopping<span>33</span></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-home"></i>Home & Graden<span>44</span></a>
+                            <li><a href="#"><i class="fa fa-bolt"></i>Sport,Fitness<span>36</span></a>
                             </li>
                             <li><a href="#"><i class="fa fa-plane"></i>Travel<span>38</span></a>
+                            </li>                     
+                            <li><a href="#"><i class="fa fa-female"></i>Beauty<span>37</span></a>
                             </li>
+                            <li><a href="#"><i class="fa fa-umbrella"></i>Fashion<span>40</span></a>
+                            </li>         
+                            <li><a href="#"><i class="fa fa-home"></i>Home & Graden<span>44</span></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-home"></i>Non-profit<span>44</span></a>
+                            </li>
+                            
+                            
                         </ul>
                     </aside>
                 </div>
                 <div class="col-md-9">
                     <h1 class="mb20">New brands <small><a href="#">View All</a></small></h1>
                     <div class="row row-wrap">
-                        <a class="col-md-4" href="#">
-                            <div class="product-thumb">
-                                <header class="product-header">
-                                    <img src="img/800x600.png" alt="Image Alternative text" title="the best mode of transport here in maldives" />
-                                </header>
-                                <div class="product-inner">
-                                    <h5 class="product-title">Finshing in Maldives</h5>
-                                    <p class="product-desciption">Habitant class blandit arcu parturient at litora per</p>
-                                    <div class="product-meta"><span class="product-time"><i class="fa fa-clock-o"></i> 4 days 32 h remaining</span>
-                                        <ul class="product-price-list">
-                                            <li><span class="product-price">$48</span>
-                                            </li>
-                                            <li><span class="product-old-price">$150</span>
-                                            </li>
-                                            <li><span class="product-save">Save 32%</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
+                		<div class="col-md-4">
+                        <div class="product-thumb">
+                            <header class="product-header">
+                                <img src="images/newbrand/01.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                            </header>
+                            <div class="product-inner">
+                                <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                </ul>
+                                <h5 class="product-title">Your Business Name</h5>
+                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <div class="product-meta">
+                                    <ul class="product-price-list">
+                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
+                                    	<!--
+                                        <li><span class="product-price">FR</span></li>
+                                        <li><span class="product-price">EN</span></li>
+                                        <li><span class="product-price">CH</span></li>
+                                        <li><span class="product-old-price">$195</span></li>
+                                        <li><span class="product-save">Save 42%</span></li>
+                                         -->
+                                    </ul>
+                                    <ul class="product-actions-list">
+                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
+                                        </li>
+                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
-                        </a>
-                        <a class="col-md-4" href="#">
-                            <div class="product-thumb">
-                                <header class="product-header">
-                                    <img src="img/800x600.png" alt="Image Alternative text" title="Green Furniture" />
-                                </header>
-                                <div class="product-inner">
-                                    <h5 class="product-title">Green Furniture Pack</h5>
-                                    <p class="product-desciption">Habitant class blandit arcu parturient at litora per</p>
-                                    <div class="product-meta"><span class="product-time"><i class="fa fa-clock-o"></i> 6 days 8 h remaining</span>
-                                        <ul class="product-price-list">
-                                            <li><span class="product-price">$128</span>
-                                            </li>
-                                            <li><span class="product-old-price">$279</span>
-                                            </li>
-                                            <li><span class="product-save">Save 46%</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
-                                </div>
-                            </div>
-                        </a>
-                        <a class="col-md-4" href="#">
-                            <div class="product-thumb">
-                                <header class="product-header">
-                                    <img src="img/800x600.png" alt="Image Alternative text" title="Our Coffee miss u" />
-                                </header>
-                                <div class="product-inner">
-                                    <h5 class="product-title">Coffe Shop Discount</h5>
-                                    <p class="product-desciption">Habitant class blandit arcu parturient at litora per</p>
-                                    <div class="product-meta"><span class="product-time"><i class="fa fa-clock-o"></i>  33 h remaining</span>
-                                        <ul class="product-price-list">
-                                            <li><span class="product-price">$83</span>
-                                            </li>
-                                            <li><span class="product-old-price">$130</span>
-                                            </li>
-                                            <li><span class="product-save">Save 64%</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
-                                </div>
-                            </div>
-                        </a>
+                        </div>
                     </div>
+					<div class="col-md-4">
+                        <div class="product-thumb">
+                            <header class="product-header">
+                                <img src="images/newbrand/02.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                            </header>
+                            <div class="product-inner">
+                                <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                </ul>
+                                <h5 class="product-title">Your Business Name</h5>
+                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <div class="product-meta">
+                                    <ul class="product-price-list">
+                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
+                                    	<!--
+                                        <li><span class="product-price">FR</span></li>
+                                        <li><span class="product-price">EN</span></li>
+                                        <li><span class="product-price">CH</span></li>
+                                         
+                                        <li><span class="product-old-price">$195</span></li>
+                                        <li><span class="product-save">Save 42%</span></li>
+                                         -->
+                                    </ul>
+                                    <ul class="product-actions-list">
+                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
+                                        </li>
+                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-md-4">
+                        <div class="product-thumb">
+                            <header class="product-header">
+                                <img src="images/newbrand/03.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                            </header>
+                            <div class="product-inner">
+                                <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                </ul>
+                                <h5 class="product-title">Your Business Name</h5>
+                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <div class="product-meta">
+                                    <ul class="product-price-list">
+                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
+                                    	<!--
+                                        <li><span class="product-price">FR</span></li>
+                                        <li><span class="product-price">EN</span></li>
+                                        <li><span class="product-price">CH</span></li>
+                                         
+                                        <li><span class="product-old-price">$195</span></li>
+                                        <li><span class="product-save">Save 42%</span></li>
+                                         -->
+                                    </ul>
+                                    <ul class="product-actions-list">
+                                        <li><a class="btn btn-sm" href="http://www.athensoft.com" target="_blank"><i class="fa fa-home"></i> Home</a>
+                                        </li>
+                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
                 </div>
             </div>
             
@@ -173,146 +236,258 @@
             
             <h1 class="mb20">Weekly Featured <small><a href="#">View All</a></small></h1>
             <div class="row row-wrap">
-                <a class="col-md-4" href="#">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="img/800x600.png" alt="Image Alternative text" title="AMaze" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">New Glass Collection</h5>
-                            <p class="product-desciption">Nulla egestas nam posuere habitant hac lacinia cubilia</p>
-                            <div class="product-meta"><span class="product-time"><i class="fa fa-clock-o"></i> 10 days 23 h remaining</span>
-                                <ul class="product-price-list">
-                                    <li><span class="product-price">FR</span>
+                <div class="col-md-4">
+                        <div class="product-thumb">
+                            <header class="product-header">
+                                <img src="images/weekfeature/01.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                            </header>
+                            <div class="product-inner">
+                                <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-price">EN</span>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-price">CN</span>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-save">Save 44%</span>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                </ul>
-                            </div>
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="col-md-4" href="#">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="img/800x600.png" alt="Image Alternative text" title="Gamer Chick" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Playstation Accessories</h5>
-                            <p class="product-desciption">Nulla egestas nam posuere habitant hac lacinia cubilia</p>
-                            <div class="product-meta"><span class="product-time"><i class="fa fa-clock-o"></i> 6 days 27 h remaining</span>
-                                <ul class="product-price-list">
-                                    <li><span class="product-price">$61</span>
-                                    </li>
-                                    <li><span class="product-old-price">$127</span>
-                                    </li>
-                                    <li><span class="product-save">Save 48%</span>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
                                 </ul>
+                                <h5 class="product-title">Your Business Name</h5>
+                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <div class="product-meta">
+                                    <ul class="product-price-list">
+                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
+                                        <li><span class="product-price">FR</span></li>
+                                        <li><span class="product-price">EN</span></li>
+                                        <li><span class="product-price">CH</span></li>
+                                        <!-- 
+                                        <li><span class="product-old-price">$195</span></li>
+                                        <li><span class="product-save">Save 42%</span></li>
+                                         -->
+                                    </ul>
+                                    <ul class="product-actions-list">
+                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
+                                        </li>
+                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
-                </a>
-                <a class="col-md-4" href="#">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="img/800x600.png" alt="Image Alternative text" title="The Violin" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Violin Lessons</h5>
-                            <p class="product-desciption">Nulla egestas nam posuere habitant hac lacinia cubilia</p>
-                            <div class="product-meta"><span class="product-time"><i class="fa fa-clock-o"></i> 2 days 36 h remaining</span>
-                                <ul class="product-price-list">
-                                    <li><span class="product-price">$182</span>
+					<div class="col-md-4">
+                        <div class="product-thumb">
+                            <header class="product-header">
+                                <img src="images/weekfeature/02.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                            </header>
+                            <div class="product-inner">
+                                <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-old-price">$264</span>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-save">Save 69%</span>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
                                 </ul>
+                                <h5 class="product-title">Your Business Name</h5>
+                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <div class="product-meta">
+                                    <ul class="product-price-list">
+                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
+                                        <li><span class="product-price">FR</span></li>
+                                        <li><span class="product-price">EN</span></li>
+                                        <li><span class="product-price">RA</span></li>
+                                        <!-- 
+                                        <li><span class="product-old-price">$195</span></li>
+                                        <li><span class="product-save">Save 42%</span></li>
+                                         -->
+                                    </ul>
+                                    <ul class="product-actions-list">
+                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
+                                        </li>
+                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
-                </a>
+                <div class="col-md-4">
+                        <div class="product-thumb">
+                            <header class="product-header">
+                                <img src="images/weekfeature/03.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                            </header>
+                            <div class="product-inner">
+                                <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                </ul>
+                                <h5 class="product-title">Your Business Name</h5>
+                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <div class="product-meta">
+                                    <ul class="product-price-list">
+                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
+                                        <li><span class="product-price">FR</span></li>
+                                        <li><span class="product-price">EN</span></li>
+                                        <li><span class="product-price">SP</span></li>
+                                        <!-- 
+                                        <li><span class="product-old-price">$195</span></li>
+                                        <li><span class="product-save">Save 42%</span></li>
+                                         -->
+                                    </ul>
+                                    <ul class="product-actions-list">
+                                        <li><a class="btn btn-sm" href="http://www.athensoft.com" target="_blank"><i class="fa fa-home"></i> Home</a>
+                                        </li>
+                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
             
             <div class="gap gap-small"></div>
             
             <h1 class="mb20">Monthly Stars <small><a href="#">View All</a></small></h1>
             <div class="row row-wrap">
-                <a class="col-md-4" href="#">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="img/800x600.png" alt="Image Alternative text" title="Hot mixer" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Modern DJ Set</h5>
-                            <p class="product-desciption">Ad himenaeos mus sed inceptos duis mauris magna</p>
-                            <div class="product-meta"><span class="product-time"><i class="fa fa-clock-o"></i> 9 days 6 h remaining</span>
-                                <ul class="product-price-list">
-                                    <li><span class="product-price">$62</span>
+                <div class="col-md-4">
+                        <div class="product-thumb">
+                            <header class="product-header">
+                                <img src="images/monthstar/01.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                            </header>
+                            <div class="product-inner">
+                                <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-old-price">$156</span>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-save">Save 40%</span>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                </ul>
-                            </div>
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="col-md-4" href="#">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="img/800x600.png" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Lovely Ice Cream Spoons</h5>
-                            <p class="product-desciption">Ad himenaeos mus sed inceptos duis mauris magna</p>
-                            <div class="product-meta"><span class="product-time"><i class="fa fa-clock-o"></i> 1 day 48 h remaining</span>
-                                <ul class="product-price-list">
-                                    <li><span class="product-price">$91</span>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-old-price">$221</span>
-                                    </li>
-                                    <li><span class="product-save">Save 41%</span>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
                                 </ul>
+                                <h5 class="product-title">Your Business Name</h5>
+                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <div class="product-meta">
+                                    <ul class="product-price-list">
+                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
+                                        <li><span class="product-price">FR</span></li>
+                                        <li><span class="product-price">EN</span></li>
+                                        <li><span class="product-price">CH</span></li>
+                                        <!-- 
+                                        <li><span class="product-old-price">$195</span></li>
+                                        <li><span class="product-save">Save 42%</span></li>
+                                         -->
+                                    </ul>
+                                    <ul class="product-actions-list">
+                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
+                                        </li>
+                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
-                </a>
-                <a class="col-md-4" href="#">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="img/800x600.png" alt="Image Alternative text" title="waipio valley" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Awesome Vacation</h5>
-                            <p class="product-desciption">Ad himenaeos mus sed inceptos duis mauris magna</p>
-                            <div class="product-meta"><span class="product-time"><i class="fa fa-clock-o"></i> 4 days 33 h remaining</span>
-                                <ul class="product-price-list">
-                                    <li><span class="product-price">$73</span>
+					<div class="col-md-4">
+                        <div class="product-thumb">
+                            <header class="product-header">
+                                <img src="images/monthstar/02.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                            </header>
+                            <div class="product-inner">
+                                <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-old-price">$235</span>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-save">Save 31%</span>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
                                 </ul>
+                                <h5 class="product-title">Your Business Name</h5>
+                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <div class="product-meta">
+                                    <ul class="product-price-list">
+                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
+                                        <li><span class="product-price">FR</span></li>
+                                        <li><span class="product-price">EN</span></li>
+                                        <li><span class="product-price">RA</span></li>
+                                        <!-- 
+                                        <li><span class="product-old-price">$195</span></li>
+                                        <li><span class="product-save">Save 42%</span></li>
+                                         -->
+                                    </ul>
+                                    <ul class="product-actions-list">
+                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
+                                        </li>
+                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
-                </a>
+                <div class="col-md-4">
+                        <div class="product-thumb">
+                            <header class="product-header">
+                                <img src="images/monthstar/03.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                            </header>
+                            <div class="product-inner">
+                                <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                </ul>
+                                <h5 class="product-title">Your Business Name</h5>
+                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <div class="product-meta">
+                                    <ul class="product-price-list">
+                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
+                                        <li><span class="product-price">FR</span></li>
+                                        <li><span class="product-price">EN</span></li>
+                                        <li><span class="product-price">SP</span></li>
+                                        <!-- 
+                                        <li><span class="product-old-price">$195</span></li>
+                                        <li><span class="product-save">Save 42%</span></li>
+                                         -->
+                                    </ul>
+                                    <ul class="product-actions-list">
+                                        <li><a class="btn btn-sm" href="http://www.athensoft.com" target="_blank"><i class="fa fa-home"></i> Home</a>
+                                        </li>
+                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
             <div class="gap"></div>
             
@@ -321,72 +496,129 @@
             
             <h1 class="mb20">Popular in Shopwise <small><a href="#">View All</a></small></h1>
             <div class="row row-wrap">
-                <a class="col-md-4" href="#">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="img/800x600.png" alt="Image Alternative text" title="Food is Pride" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Best Pasta</h5>
-                            <p class="product-desciption">Montes parturient eget sodales elit justo senectus massa</p>
-                            <div class="product-meta"><span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
-                                <ul class="product-price-list">
-                                    <li><span class="product-price">$108</span>
+                <div class="col-md-4">
+                        <div class="product-thumb">
+                            <header class="product-header">
+                                <img src="images/shopwise/01.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                            </header>
+                            <div class="product-inner">
+                                <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-old-price">$235</span>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-save">Save 46%</span>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                </ul>
-                            </div>
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="col-md-4" href="#">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="img/800x600.png" alt="Image Alternative text" title="The Hidden Power of the Heart" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Beach Holidays</h5>
-                            <p class="product-desciption">Montes parturient eget sodales elit justo senectus massa</p>
-                            <div class="product-meta"><span class="product-time"><i class="fa fa-clock-o"></i> 1 day 26 h remaining</span>
-                                <ul class="product-price-list">
-                                    <li><span class="product-price">$163</span>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-old-price">$251</span>
-                                    </li>
-                                    <li><span class="product-save">Save 65%</span>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
                                 </ul>
+                                <h5 class="product-title">Your Business Name</h5>
+                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <div class="product-meta">
+                                    <ul class="product-price-list">
+                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
+                                        <li><span class="product-price">FR</span></li>
+                                        <li><span class="product-price">EN</span></li>
+                                        <li><span class="product-price">CH</span></li>
+                                        <!-- 
+                                        <li><span class="product-old-price">$195</span></li>
+                                        <li><span class="product-save">Save 42%</span></li>
+                                         -->
+                                    </ul>
+                                    <ul class="product-actions-list">
+                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
+                                        </li>
+                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
-                </a>
-                <a class="col-md-4" href="#">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="img/800x600.png" alt="Image Alternative text" title="iPhone 5 iPad mini iPad 3" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Electronics Big Deal</h5>
-                            <p class="product-desciption">Montes parturient eget sodales elit justo senectus massa</p>
-                            <div class="product-meta"><span class="product-time"><i class="fa fa-clock-o"></i> 2 days 27 h remaining</span>
-                                <ul class="product-price-list">
-                                    <li><span class="product-price">$115</span>
+					<div class="col-md-4">
+                        <div class="product-thumb">
+                            <header class="product-header">
+                                <img src="images/shopwise/02.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                            </header>
+                            <div class="product-inner">
+                                <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-old-price">$201</span>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-save">Save 57%</span>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
                                 </ul>
+                                <h5 class="product-title">Your Business Name</h5>
+                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <div class="product-meta">
+                                    <ul class="product-price-list">
+                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
+                                        <li><span class="product-price">FR</span></li>
+                                        <li><span class="product-price">EN</span></li>
+                                        <li><span class="product-price">RA</span></li>
+                                        <!-- 
+                                        <li><span class="product-old-price">$195</span></li>
+                                        <li><span class="product-save">Save 42%</span></li>
+                                         -->
+                                    </ul>
+                                    <ul class="product-actions-list">
+                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
+                                        </li>
+                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
-                </a>
+                <div class="col-md-4">
+                        <div class="product-thumb">
+                            <header class="product-header">
+                                <img src="images/shopwise/03.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                            </header>
+                            <div class="product-inner">
+                                <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                </ul>
+                                <h5 class="product-title">Your Business Name</h5>
+                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <div class="product-meta">
+                                    <ul class="product-price-list">
+                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
+                                        <li><span class="product-price">FR</span></li>
+                                        <li><span class="product-price">EN</span></li>
+                                        <li><span class="product-price">SP</span></li>
+                                        <!-- 
+                                        <li><span class="product-old-price">$195</span></li>
+                                        <li><span class="product-save">Save 42%</span></li>
+                                         -->
+                                    </ul>
+                                    <ul class="product-actions-list">
+                                        <li><a class="btn btn-sm" href="http://www.athensoft.com" target="_blank"><i class="fa fa-home"></i> Home</a>
+                                        </li>
+                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
             
             
@@ -394,723 +626,903 @@
             
             <h1 class="mb20">Popular in Food and drink <small><a href="#">View All</a></small></h1>
             <div class="row row-wrap">
-                <a class="col-md-4" href="http://auntdai.com/ch/">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Cuisine AuntDai</h5>
-                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
-                            <p>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star-half-o"></i>
-                            </p>
-                            <!-- 
-                            <div class="product-meta">
-                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
-                                <ul class="product-price-list">
-                                    <li><span class="product-price">$108</span>
+                <div class="col-md-4">
+                        <div class="product-thumb">
+                            <header class="product-header">
+                                <img src="images/fooddrink/01.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                            </header>
+                            <div class="product-inner">
+                                <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-old-price">$235.00</span>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-save">Save 46%</span>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
                                 </ul>
+                                <h5 class="product-title">Your Business Name</h5>
+                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <div class="product-meta">
+                                    <ul class="product-price-list">
+                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
+                                        <li><span class="product-price">FR</span></li>
+                                        <li><span class="product-price">EN</span></li>
+                                        <li><span class="product-price">CH</span></li>
+                                        <!-- 
+                                        <li><span class="product-old-price">$195</span></li>
+                                        <li><span class="product-save">Save 42%</span></li>
+                                         -->
+                                    </ul>
+                                    <ul class="product-actions-list">
+                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
+                                        </li>
+                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                             -->                           
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
-                </a>
-                <a class="col-md-4" href="http://auntdai.com/ch/">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Cuisine AuntDai</h5>
-                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
-                            <p>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star-half-o"></i>
-                            </p>
-                            <!-- 
-                            <div class="product-meta">
-                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
-                                <ul class="product-price-list">
-                                    <li><span class="product-price">$108</span>
+					<div class="col-md-4">
+                        <div class="product-thumb">
+                            <header class="product-header">
+                                <img src="images/fooddrink/02.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                            </header>
+                            <div class="product-inner">
+                                <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-old-price">$235.00</span>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-save">Save 46%</span>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
                                 </ul>
+                                <h5 class="product-title">Your Business Name</h5>
+                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <div class="product-meta">
+                                    <ul class="product-price-list">
+                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
+                                        <li><span class="product-price">FR</span></li>
+                                        <li><span class="product-price">EN</span></li>
+                                        <li><span class="product-price">RA</span></li>
+                                        <!-- 
+                                        <li><span class="product-old-price">$195</span></li>
+                                        <li><span class="product-save">Save 42%</span></li>
+                                         -->
+                                    </ul>
+                                    <ul class="product-actions-list">
+                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
+                                        </li>
+                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                             -->                           
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
-                </a>
-                <a class="col-md-4" href="http://auntdai.com/ch/">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Cuisine AuntDai</h5>
-                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
-                            <p>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star-half-o"></i>
-                            </p>
-                            <!-- 
-                            <div class="product-meta">
-                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
-                                <ul class="product-price-list">
-                                    <li><span class="product-price">$108</span>
+                <div class="col-md-4">
+                        <div class="product-thumb">
+                            <header class="product-header">
+                                <img src="images/fooddrink/03.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                            </header>
+                            <div class="product-inner">
+                                <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-old-price">$235.00</span>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-save">Save 46%</span>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
                                 </ul>
+                                <h5 class="product-title">Your Business Name</h5>
+                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <div class="product-meta">
+                                    <ul class="product-price-list">
+                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
+                                        <li><span class="product-price">FR</span></li>
+                                        <li><span class="product-price">EN</span></li>
+                                        <li><span class="product-price">SP</span></li>
+                                        <!-- 
+                                        <li><span class="product-old-price">$195</span></li>
+                                        <li><span class="product-save">Save 42%</span></li>
+                                         -->
+                                    </ul>
+                                    <ul class="product-actions-list">
+                                        <li><a class="btn btn-sm" href="http://www.athensoft.com" target="_blank"><i class="fa fa-home"></i> Home</a>
+                                        </li>
+                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                             -->                           
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
-                </a>
             </div>
             
            <div class="gap gap-small"></div>
             
             <h1 class="mb20">Popular in Life Service <small><a href="#">View All</a></small></h1>
             <div class="row row-wrap">
-                <a class="col-md-4" href="http://auntdai.com/ch/">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Cuisine AuntDai</h5>
-                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
-                            <p>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star-half-o"></i>
-                            </p>
-                            <!-- 
-                            <div class="product-meta">
-                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
-                                <ul class="product-price-list">
-                                    <li><span class="product-price">$108</span>
+                <div class="col-md-4">
+                        <div class="product-thumb">
+                            <header class="product-header">
+                                <img src="images/lifeservice/01.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                            </header>
+                            <div class="product-inner">
+                                <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-old-price">$235.00</span>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-save">Save 46%</span>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
                                 </ul>
+                                <h5 class="product-title">Your Business Name</h5>
+                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <div class="product-meta">
+                                    <ul class="product-price-list">
+                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
+                                        <li><span class="product-price">FR</span></li>
+                                        <li><span class="product-price">EN</span></li>
+                                        <li><span class="product-price">CH</span></li>
+                                        <!-- 
+                                        <li><span class="product-old-price">$195</span></li>
+                                        <li><span class="product-save">Save 42%</span></li>
+                                         -->
+                                    </ul>
+                                    <ul class="product-actions-list">
+                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
+                                        </li>
+                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                             -->                           
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
-                </a>
-                <a class="col-md-4" href="http://auntdai.com/ch/">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Cuisine AuntDai</h5>
-                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
-                            <p>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star-half-o"></i>
-                            </p>
-                            <!-- 
-                            <div class="product-meta">
-                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
-                                <ul class="product-price-list">
-                                    <li><span class="product-price">$108</span>
+					<div class="col-md-4">
+                        <div class="product-thumb">
+                            <header class="product-header">
+                                <img src="images/lifeservice/02.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                            </header>
+                            <div class="product-inner">
+                                <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-old-price">$235.00</span>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-save">Save 46%</span>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
                                 </ul>
+                                <h5 class="product-title">Your Business Name</h5>
+                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <div class="product-meta">
+                                    <ul class="product-price-list">
+                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
+                                        <li><span class="product-price">FR</span></li>
+                                        <li><span class="product-price">EN</span></li>
+                                        <li><span class="product-price">RA</span></li>
+                                        <!-- 
+                                        <li><span class="product-old-price">$195</span></li>
+                                        <li><span class="product-save">Save 42%</span></li>
+                                         -->
+                                    </ul>
+                                    <ul class="product-actions-list">
+                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
+                                        </li>
+                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                             -->                           
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
-                </a>
-                <a class="col-md-4" href="http://auntdai.com/ch/">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Cuisine AuntDai</h5>
-                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
-                            <p>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star-half-o"></i>
-                            </p>
-                            <!-- 
-                            <div class="product-meta">
-                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
-                                <ul class="product-price-list">
-                                    <li><span class="product-price">$108</span>
+                <div class="col-md-4">
+                        <div class="product-thumb">
+                            <header class="product-header">
+                                <img src="images/lifeservice/03.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                            </header>
+                            <div class="product-inner">
+                                <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-old-price">$235.00</span>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-save">Save 46%</span>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
                                 </ul>
+                                <h5 class="product-title">Your Business Name</h5>
+                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <div class="product-meta">
+                                    <ul class="product-price-list">
+                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
+                                        <li><span class="product-price">FR</span></li>
+                                        <li><span class="product-price">EN</span></li>
+                                        <li><span class="product-price">SP</span></li>
+                                        <!-- 
+                                        <li><span class="product-old-price">$195</span></li>
+                                        <li><span class="product-save">Save 42%</span></li>
+                                         -->
+                                    </ul>
+                                    <ul class="product-actions-list">
+                                        <li><a class="btn btn-sm" href="http://www.athensoft.com" target="_blank"><i class="fa fa-home"></i> Home</a>
+                                        </li>
+                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                             -->                           
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
-                </a>
             </div>
             
             <div class="gap gap-small"></div>
             
             <h1 class="mb20">Popular in Professional Service <small><a href="#">View All</a></small></h1>
             <div class="row row-wrap">
-                <a class="col-md-4" href="http://auntdai.com/ch/">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Cuisine AuntDai</h5>
-                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
-                            <p>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star-half-o"></i>
-                            </p>
-                            <!-- 
-                            <div class="product-meta">
-                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
-                                <ul class="product-price-list">
-                                    <li><span class="product-price">$108</span>
+                <div class="col-md-4">
+                        <div class="product-thumb">
+                            <header class="product-header">
+                                <img src="images/proservice/01.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                            </header>
+                            <div class="product-inner">
+                                <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-old-price">$235.00</span>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-save">Save 46%</span>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
                                 </ul>
+                                <h5 class="product-title">Your Business Name</h5>
+                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <div class="product-meta">
+                                    <ul class="product-price-list">
+                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
+                                        <li><span class="product-price">FR</span></li>
+                                        <li><span class="product-price">EN</span></li>
+                                        <li><span class="product-price">CH</span></li>
+                                        <!-- 
+                                        <li><span class="product-old-price">$195</span></li>
+                                        <li><span class="product-save">Save 42%</span></li>
+                                         -->
+                                    </ul>
+                                    <ul class="product-actions-list">
+                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
+                                        </li>
+                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                             -->                           
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
-                </a>
-                <a class="col-md-4" href="http://auntdai.com/ch/">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Cuisine AuntDai</h5>
-                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
-                            <p>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star-half-o"></i>
-                            </p>
-                            <!-- 
-                            <div class="product-meta">
-                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
-                                <ul class="product-price-list">
-                                    <li><span class="product-price">$108</span>
+					<div class="col-md-4">
+                        <div class="product-thumb">
+                            <header class="product-header">
+                                <img src="images/proservice/02.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                            </header>
+                            <div class="product-inner">
+                                <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-old-price">$235.00</span>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-save">Save 46%</span>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
                                 </ul>
+                                <h5 class="product-title">Your Business Name</h5>
+                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <div class="product-meta">
+                                    <ul class="product-price-list">
+                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
+                                        <li><span class="product-price">FR</span></li>
+                                        <li><span class="product-price">EN</span></li>
+                                        <li><span class="product-price">RA</span></li>
+                                        <!-- 
+                                        <li><span class="product-old-price">$195</span></li>
+                                        <li><span class="product-save">Save 42%</span></li>
+                                         -->
+                                    </ul>
+                                    <ul class="product-actions-list">
+                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
+                                        </li>
+                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                             -->                           
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
-                </a>
-                <a class="col-md-4" href="http://auntdai.com/ch/">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Cuisine AuntDai</h5>
-                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
-                            <p>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star-half-o"></i>
-                            </p>
-                            <!-- 
-                            <div class="product-meta">
-                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
-                                <ul class="product-price-list">
-                                    <li><span class="product-price">$108</span>
+                <div class="col-md-4">
+                        <div class="product-thumb">
+                            <header class="product-header">
+                                <img src="images/proservice/03.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                            </header>
+                            <div class="product-inner">
+                                <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-old-price">$235.00</span>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-save">Save 46%</span>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
                                 </ul>
+                                <h5 class="product-title">Your Business Name</h5>
+                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <div class="product-meta">
+                                    <ul class="product-price-list">
+                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
+                                        <li><span class="product-price">FR</span></li>
+                                        <li><span class="product-price">EN</span></li>
+                                        <li><span class="product-price">SP</span></li>
+                                        <!-- 
+                                        <li><span class="product-old-price">$195</span></li>
+                                        <li><span class="product-save">Save 42%</span></li>
+                                         -->
+                                    </ul>
+                                    <ul class="product-actions-list">
+                                        <li><a class="btn btn-sm" href="http://www.athensoft.com" target="_blank"><i class="fa fa-home"></i> Home</a>
+                                        </li>
+                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                             -->                           
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
-                </a>
             </div>
             
             <div class="gap gap-small"></div>
             
             <h1 class="mb20">Popular in Educational Service <small><a href="#">View All</a></small></h1>
             <div class="row row-wrap">
-                <a class="col-md-4" href="http://auntdai.com/ch/">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Cuisine AuntDai</h5>
-                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
-                            <p>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star-half-o"></i>
-                            </p>
-                            <!-- 
-                            <div class="product-meta">
-                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
-                                <ul class="product-price-list">
-                                    <li><span class="product-price">$108</span>
+                <div class="col-md-4">
+                        <div class="product-thumb">
+                            <header class="product-header">
+                                <img src="images/edu/01.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                            </header>
+                            <div class="product-inner">
+                                <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-old-price">$235.00</span>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-save">Save 46%</span>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
                                 </ul>
+                                <h5 class="product-title">Your Business Name</h5>
+                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <div class="product-meta">
+                                    <ul class="product-price-list">
+                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
+                                        <li><span class="product-price">FR</span></li>
+                                        <li><span class="product-price">EN</span></li>
+                                        <li><span class="product-price">CH</span></li>
+                                        <!-- 
+                                        <li><span class="product-old-price">$195</span></li>
+                                        <li><span class="product-save">Save 42%</span></li>
+                                         -->
+                                    </ul>
+                                    <ul class="product-actions-list">
+                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
+                                        </li>
+                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                             -->                           
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
-                </a>
-                <a class="col-md-4" href="http://auntdai.com/ch/">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Cuisine AuntDai</h5>
-                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
-                            <p>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star-half-o"></i>
-                            </p>
-                            <!-- 
-                            <div class="product-meta">
-                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
-                                <ul class="product-price-list">
-                                    <li><span class="product-price">$108</span>
+					<div class="col-md-4">
+                        <div class="product-thumb">
+                            <header class="product-header">
+                                <img src="images/edu/02.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                            </header>
+                            <div class="product-inner">
+                                <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-old-price">$235.00</span>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-save">Save 46%</span>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
                                 </ul>
+                                <h5 class="product-title">Your Business Name</h5>
+                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <div class="product-meta">
+                                    <ul class="product-price-list">
+                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
+                                        <li><span class="product-price">FR</span></li>
+                                        <li><span class="product-price">EN</span></li>
+                                        <li><span class="product-price">RA</span></li>
+                                        <!-- 
+                                        <li><span class="product-old-price">$195</span></li>
+                                        <li><span class="product-save">Save 42%</span></li>
+                                         -->
+                                    </ul>
+                                    <ul class="product-actions-list">
+                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
+                                        </li>
+                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                             -->                           
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
-                </a>
-                <a class="col-md-4" href="http://auntdai.com/ch/">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Cuisine AuntDai</h5>
-                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
-                            <p>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star-half-o"></i>
-                            </p>
-                            <!-- 
-                            <div class="product-meta">
-                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
-                                <ul class="product-price-list">
-                                    <li><span class="product-price">$108</span>
+                <div class="col-md-4">
+                        <div class="product-thumb">
+                            <header class="product-header">
+                                <img src="images/edu/03.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                            </header>
+                            <div class="product-inner">
+                                <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-old-price">$235.00</span>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-save">Save 46%</span>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
                                 </ul>
+                                <h5 class="product-title">Your Business Name</h5>
+                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <div class="product-meta">
+                                    <ul class="product-price-list">
+                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
+                                        <li><span class="product-price">FR</span></li>
+                                        <li><span class="product-price">EN</span></li>
+                                        <li><span class="product-price">SP</span></li>
+                                        <!-- 
+                                        <li><span class="product-old-price">$195</span></li>
+                                        <li><span class="product-save">Save 42%</span></li>
+                                         -->
+                                    </ul>
+                                    <ul class="product-actions-list">
+                                        <li><a class="btn btn-sm" href="http://www.athensoft.com" target="_blank"><i class="fa fa-home"></i> Home</a>
+                                        </li>
+                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                             -->                           
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
-                </a>
             </div>
             
             <div class="gap gap-small"></div>
             
             <h1 class="mb20">Popular in Travel and Transport Service <small><a href="#">View All</a></small></h1>
             <div class="row row-wrap">
-                <a class="col-md-4" href="http://auntdai.com/ch/">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Cuisine AuntDai</h5>
-                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
-                            <p>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star-half-o"></i>
-                            </p>
-                            <!-- 
-                            <div class="product-meta">
-                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
-                                <ul class="product-price-list">
-                                    <li><span class="product-price">$108</span>
+                <div class="col-md-4">
+                        <div class="product-thumb">
+                            <header class="product-header">
+                                <img src="images/transport/01.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                            </header>
+                            <div class="product-inner">
+                                <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-old-price">$235.00</span>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-save">Save 46%</span>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
                                 </ul>
+                                <h5 class="product-title">Your Business Name</h5>
+                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <div class="product-meta">
+                                    <ul class="product-price-list">
+                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
+                                        <li><span class="product-price">FR</span></li>
+                                        <li><span class="product-price">EN</span></li>
+                                        <li><span class="product-price">CH</span></li>
+                                        <!-- 
+                                        <li><span class="product-old-price">$195</span></li>
+                                        <li><span class="product-save">Save 42%</span></li>
+                                         -->
+                                    </ul>
+                                    <ul class="product-actions-list">
+                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
+                                        </li>
+                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                             -->                           
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
-                </a>
-                <a class="col-md-4" href="http://auntdai.com/ch/">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Cuisine AuntDai</h5>
-                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
-                            <p>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star-half-o"></i>
-                            </p>
-                            <!-- 
-                            <div class="product-meta">
-                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
-                                <ul class="product-price-list">
-                                    <li><span class="product-price">$108</span>
+					<div class="col-md-4">
+                        <div class="product-thumb">
+                            <header class="product-header">
+                                <img src="images/transport/02.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                            </header>
+                            <div class="product-inner">
+                                <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-old-price">$235.00</span>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-save">Save 46%</span>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
                                 </ul>
+                                <h5 class="product-title">Your Business Name</h5>
+                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <div class="product-meta">
+                                    <ul class="product-price-list">
+                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
+                                        <li><span class="product-price">FR</span></li>
+                                        <li><span class="product-price">EN</span></li>
+                                        <li><span class="product-price">RA</span></li>
+                                        <!-- 
+                                        <li><span class="product-old-price">$195</span></li>
+                                        <li><span class="product-save">Save 42%</span></li>
+                                         -->
+                                    </ul>
+                                    <ul class="product-actions-list">
+                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
+                                        </li>
+                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                             -->                           
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
-                </a>
-                <a class="col-md-4" href="http://auntdai.com/ch/">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Cuisine AuntDai</h5>
-                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
-                            <p>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star-half-o"></i>
-                            </p>
-                            <!-- 
-                            <div class="product-meta">
-                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
-                                <ul class="product-price-list">
-                                    <li><span class="product-price">$108</span>
+                <div class="col-md-4">
+                        <div class="product-thumb">
+                            <header class="product-header">
+                                <img src="images/transport/03.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                            </header>
+                            <div class="product-inner">
+                                <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-old-price">$235.00</span>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-save">Save 46%</span>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
                                 </ul>
+                                <h5 class="product-title">Your Business Name</h5>
+                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <div class="product-meta">
+                                    <ul class="product-price-list">
+                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
+                                        <li><span class="product-price">FR</span></li>
+                                        <li><span class="product-price">EN</span></li>
+                                        <li><span class="product-price">SP</span></li>
+                                        <!-- 
+                                        <li><span class="product-old-price">$195</span></li>
+                                        <li><span class="product-save">Save 42%</span></li>
+                                         -->
+                                    </ul>
+                                    <ul class="product-actions-list">
+                                        <li><a class="btn btn-sm" href="http://www.athensoft.com" target="_blank"><i class="fa fa-home"></i> Home</a>
+                                        </li>
+                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                             -->                           
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
-                </a>
             </div>
             
             <div class="gap gap-small"></div>
             
             <h1 class="mb20">Popular in Sport, Recreation and Entertainment <small><a href="#">View All</a></small></h1>
             <div class="row row-wrap">
-                <a class="col-md-4" href="http://auntdai.com/ch/">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Cuisine AuntDai</h5>
-                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
-                            <p>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star-half-o"></i>
-                            </p>
-                            <!-- 
-                            <div class="product-meta">
-                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
-                                <ul class="product-price-list">
-                                    <li><span class="product-price">$108</span>
+                <div class="col-md-4">
+                        <div class="product-thumb">
+                            <header class="product-header">
+                                <img src="images/sport/01.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                            </header>
+                            <div class="product-inner">
+                                <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-old-price">$235.00</span>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-save">Save 46%</span>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
                                 </ul>
+                                <h5 class="product-title">Your Business Name</h5>
+                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <div class="product-meta">
+                                    <ul class="product-price-list">
+                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
+                                        <li><span class="product-price">FR</span></li>
+                                        <li><span class="product-price">EN</span></li>
+                                        <li><span class="product-price">CH</span></li>
+                                        <!-- 
+                                        <li><span class="product-old-price">$195</span></li>
+                                        <li><span class="product-save">Save 42%</span></li>
+                                         -->
+                                    </ul>
+                                    <ul class="product-actions-list">
+                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
+                                        </li>
+                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                             -->                           
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
-                </a>
-                <a class="col-md-4" href="http://auntdai.com/ch/">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Cuisine AuntDai</h5>
-                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
-                            <p>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star-half-o"></i>
-                            </p>
-                            <!-- 
-                            <div class="product-meta">
-                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
-                                <ul class="product-price-list">
-                                    <li><span class="product-price">$108</span>
+					<div class="col-md-4">
+                        <div class="product-thumb">
+                            <header class="product-header">
+                                <img src="images/sport/02.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                            </header>
+                            <div class="product-inner">
+                                <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-old-price">$235.00</span>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-save">Save 46%</span>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
                                 </ul>
+                                <h5 class="product-title">Your Business Name</h5>
+                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <div class="product-meta">
+                                    <ul class="product-price-list">
+                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
+                                        <li><span class="product-price">FR</span></li>
+                                        <li><span class="product-price">EN</span></li>
+                                        <li><span class="product-price">RA</span></li>
+                                        <!-- 
+                                        <li><span class="product-old-price">$195</span></li>
+                                        <li><span class="product-save">Save 42%</span></li>
+                                         -->
+                                    </ul>
+                                    <ul class="product-actions-list">
+                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
+                                        </li>
+                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                             -->                           
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
-                </a>
-                <a class="col-md-4" href="http://auntdai.com/ch/">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Cuisine AuntDai</h5>
-                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
-                            <p>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star-half-o"></i>
-                            </p>
-                            <!-- 
-                            <div class="product-meta">
-                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
-                                <ul class="product-price-list">
-                                    <li><span class="product-price">$108</span>
+                <div class="col-md-4">
+                        <div class="product-thumb">
+                            <header class="product-header">
+                                <img src="images/sport/03.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                            </header>
+                            <div class="product-inner">
+                                <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-old-price">$235.00</span>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
-                                    <li><span class="product-save">Save 46%</span>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
                                     </li>
                                 </ul>
+                                <h5 class="product-title">Your Business Name</h5>
+                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <div class="product-meta">
+                                    <ul class="product-price-list">
+                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
+                                        <li><span class="product-price">FR</span></li>
+                                        <li><span class="product-price">EN</span></li>
+                                        <li><span class="product-price">SP</span></li>
+                                        <!-- 
+                                        <li><span class="product-old-price">$195</span></li>
+                                        <li><span class="product-save">Save 42%</span></li>
+                                         -->
+                                    </ul>
+                                    <ul class="product-actions-list">
+                                        <li><a class="btn btn-sm" href="http://www.athensoft.com" target="_blank"><i class="fa fa-home"></i> Home</a>
+                                        </li>
+                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                             -->                           
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
                         </div>
                     </div>
-                </a>
             </div>
             
             <div class="gap gap-small"></div>
             
             <h1 class="mb20">Popular in Non-profit Organization, Community <small><a href="#">View All</a></small></h1>
             <div class="row row-wrap">
-                <a class="col-md-4" href="http://auntdai.com/ch/">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Cuisine AuntDai</h5>
-                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
-                            <p>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star-half-o"></i>
-                            </p>
-                            <!-- 
-                            <div class="product-meta">
-                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
-                                <ul class="product-price-list">
-                                    <li><span class="product-price">$108</span>
-                                    </li>
-                                    <li><span class="product-old-price">$235.00</span>
-                                    </li>
-                                    <li><span class="product-save">Save 46%</span>
-                                    </li>
-                                </ul>
-                            </div>
-                             -->                           
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="col-md-4" href="http://auntdai.com/ch/">
-                    <div class="product-thumb">
-                        <header class="product-header">
-                            <img src="images/fooddrink/fooddrink_01.png" alt="Image Alternative text" title="Food is Pride" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Cuisine AuntDai</h5>
-                            <p class="product-desciption">La cuisine chinoirs<br/>&nbsp;</p>
-                            <p>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star"></i>
-                            	<i class="fa fa-star-half-o"></i>
-                            </p>
-                            <!-- 
-                            <div class="product-meta">
-                            	<span class="product-time"><i class="fa fa-clock-o"></i> 1 day 50 h remaining</span>
-                                <ul class="product-price-list">
-                                    <li><span class="product-price">$108</span>
-                                    </li>
-                                    <li><span class="product-old-price">$235.00</span>
-                                    </li>
-                                    <li><span class="product-save">Save 46%</span>
-                                    </li>
-                                </ul>
-                            </div>
-                             -->                           
-                            <p class="product-location"><i class="fa fa-map-marker"></i> Montreal</p>
-                        </div>
-                    </div>
-                </a>
                 <div class="col-md-4">
-                            <div class="product-thumb">
-                                <header class="product-header">
-                                    <img src="img/800x600.png" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
-                                </header>
-                                <div class="product-inner">
-                                    <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                        <li><i class="fa fa-star"></i>
+                        <div class="product-thumb">
+                            <header class="product-header">
+                                <img src="images/nonprofit/01.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                            </header>
+                            <div class="product-inner">
+                                <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                </ul>
+                                <h5 class="product-title">Your Business Name</h5>
+                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <div class="product-meta">
+                                    <ul class="product-price-list">
+                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
+                                        <li><span class="product-price">FR</span></li>
+                                        <li><span class="product-price">EN</span></li>
+                                        <li><span class="product-price">CH</span></li>
+                                        <!-- 
+                                        <li><span class="product-old-price">$195</span></li>
+                                        <li><span class="product-save">Save 42%</span></li>
+                                         -->
+                                    </ul>
+                                    <ul class="product-actions-list">
+                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
                                         </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
+                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
                                         </li>
                                     </ul>
-                                    <h5 class="product-title">Lovely Ice Cream Spoons</h5>
-                                    <p class="product-desciption">Erat nunc adipiscing enim inceptos posuere pellentesque egestas</p>
-                                    <div class="product-meta">
-                                        <ul class="product-price-list">
-                                            <li><span class="product-price">FR</span></li>
-                                            <li><span class="product-price">EN</span></li>
-                                            <li><span class="product-price">CN</span></li>
-                                            <i class="fa fa-map-marker"></i> Montreal
-                                            <!-- 
-                                            <li><span class="product-old-price">$195</span></li>
-                                            <li><span class="product-save">Save 42%</span></li>
-                                             -->
-                                        </ul>
-                                        <ul class="product-actions-list">
-                                            <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
-                                            </li>
-                                            <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
-                                            </li>
-                                        </ul>
-                                    </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
+					<div class="col-md-4">
+                        <div class="product-thumb">
+                            <header class="product-header">
+                                <img src="images/nonprofit/02.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                            </header>
+                            <div class="product-inner">
+                                <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                </ul>
+                                <h5 class="product-title">Your Business Name</h5>
+                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <div class="product-meta">
+                                    <ul class="product-price-list">
+                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
+                                        <li><span class="product-price">FR</span></li>
+                                        <li><span class="product-price">EN</span></li>
+                                        <li><span class="product-price">RA</span></li>
+                                        <!-- 
+                                        <li><span class="product-old-price">$195</span></li>
+                                        <li><span class="product-save">Save 42%</span></li>
+                                         -->
+                                    </ul>
+                                    <ul class="product-actions-list">
+                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
+                                        </li>
+                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-md-4">
+                        <div class="product-thumb">
+                            <header class="product-header">
+                                <img src="images/nonprofit/03.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                            </header>
+                            <div class="product-inner">
+                                <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                    <li><i class="fa fa-star"></i>
+                                    </li>
+                                </ul>
+                                <h5 class="product-title">Your Business Name</h5>
+                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <div class="product-meta">
+                                    <ul class="product-price-list">
+                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
+                                        <li><span class="product-price">FR</span></li>
+                                        <li><span class="product-price">EN</span></li>
+                                        <li><span class="product-price">SP</span></li>
+                                        <!-- 
+                                        <li><span class="product-old-price">$195</span></li>
+                                        <li><span class="product-save">Save 42%</span></li>
+                                         -->
+                                    </ul>
+                                    <ul class="product-actions-list">
+                                        <li><a class="btn btn-sm" href="http://www.athensoft.com" target="_blank"><i class="fa fa-home"></i> Home</a>
+                                        </li>
+                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
             
             <div class="gap"></div>

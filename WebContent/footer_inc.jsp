@@ -40,7 +40,7 @@
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <h4>Couponia on Twitter</h4>
+                            <h4>Adogo on Twitter</h4>
                             <!-- START TWITTER -->
                    <div class="twitter-ticker" id="twitter-ticker"></div>
                    <!-- END TWITTER -->
@@ -92,6 +92,7 @@
                 <div class="col-md-5 col-md-offset-1">
                     <div class="pull-right">
                         <ul class="list-inline list-payment">
+                        	<!-- 
                             <li>
                                 <img src="img/payment/american-express-curved-32px.png" alt="Image Alternative text" title="Image Title" />
                             </li>
@@ -101,9 +102,11 @@
                             <li>
                                 <img src="img/payment/discover-curved-32px.png" alt="Image Alternative text" title="Image Title" />
                             </li>
+                             
                             <li>
                                 <img src="img/payment/ebay-curved-32px.png" alt="Image Alternative text" title="Image Title" />
                             </li>
+                            -->
                             <li>
                                 <img src="img/payment/maestro-curved-32px.png" alt="Image Alternative text" title="Image Title" />
                             </li>
