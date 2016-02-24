@@ -11,11 +11,11 @@
                 <div class="flexnav-menu-button" id="flexnav-menu-button">Menu</div>
                 <nav>
                     <ul class="nav nav-pills flexnav" id="flexnav" data-breakpoint="800">
-                        <li class="active"><a href="index-coupon-layout-1.jsp">Home</a>
+                        <li class="active"><a href="index.jsp">Home</a>
                         </li>
-                        <li><a href="category-page-shop.jsp">Shops</a>
+                        <li><a href="shop-category.jsp">Shops</a>
                             <ul>
-                                <li><a href="category-page-shop.jsp">Find a shop</a>
+                                <li><a href="shop-category.jsp">Find a shop</a>
                                 </li>
                                 <li><a href="#">Find a product</a>
                                 </li>

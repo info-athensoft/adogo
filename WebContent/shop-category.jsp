@@ -69,9 +69,9 @@
                 <div class="col-md-3">
                     <aside class="sidebar-left">
                         <ul class="nav nav-tabs nav-stacked nav-coupon-category">
-                            <li class="active"><a href="#"><i class="fa fa-ticket"></i>All</a>
+                            <li class="active"><a href="#"><i class="fa fa-ticket"></i>Life Services</a>
                             </li>
-                            <li><a href="#"><i class="fa fa-cutlery"></i>Food & Drink</a>
+                            <li><a href="#"><i class="fa fa-cutlery"></i>Hair salon services</a>
                             </li>
                             <li><a href="#"><i class="fa fa-calendar"></i>Events</a>
                             </li>
@@ -341,7 +341,7 @@
                                         <li><i class="fa fa-star"></i>
                                         </li>
                                     </ul>
-                                    <h5 class="product-title">Mora Coiffure</h5>
+                                    <h5 class="product-title">Mara Coiffeur</h5>
                                     <p class="product-desciption">Professional hair dressing and cutting service</p>
                                     <div class="product-meta">                                        
                                         <p class="product-location">
@@ -390,7 +390,7 @@
                                         <ul class="product-actions-list">
                                             <li><a class="btn btn-sm" href="http://www.athensoft.com/demo_canvas/index-shop.jsp" target="_blank"><i class="fa fa-home"></i> Home</a>
                                             </li>
-                                            <li><a class="btn btn-sm" href="product-coupon-meta-right.html"><i class="fa fa-bars"></i> Profile</a>
+                                            <li><a class="btn btn-sm" href="shop-profile.html"><i class="fa fa-bars"></i> Profile</a>
                                             </li>
                                         </ul>
                                     </div>

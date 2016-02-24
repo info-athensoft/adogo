@@ -73,28 +73,16 @@
                     <aside class="sidebar-left">
                         <h3 class="mb20">I am Looking For</h3>
                         <ul class="nav nav-tabs nav-stacked nav-coupon-category nav-coupon-category-left">
-                        	<li><a href="#"><i class="fa fa-shopping-cart"></i>Shopwise<span>33</span></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-cutlery"></i>Food & Drink<span>50</span></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-calendar"></i>Life Service<span>49</span></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-calendar"></i>Pro. Service<span>49</span></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-headphones"></i>Education<span>48</span></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-bolt"></i>Sport,Fitness<span>36</span></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-plane"></i>Travel<span>38</span></a>
-                            </li>                     
-                            <li><a href="#"><i class="fa fa-female"></i>Beauty<span>37</span></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-umbrella"></i>Fashion<span>40</span></a>
-                            </li>         
-                            <li><a href="#"><i class="fa fa-home"></i>Home & Graden<span>44</span></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-home"></i>Non-profit<span>44</span></a>
-                            </li>
+                        	<li><a href="#"><i class="fa fa-shopping-cart"></i>Shopwise<span>33</span></a></li>
+                            <li><a href="#"><i class="fa fa-cutlery"></i>Food & Drink<span>50</span></a></li>
+                            <li><a href="#"><i class="fa fa-calendar"></i>Life Service<span>49</span></a></li>
+                            <li><a href="#"><i class="fa fa-calendar"></i>Pro. Service<span>49</span></a></li>
+                            <li><a href="#"><i class="fa fa-headphones"></i>Education<span>48</span></a></li>
+                            <li><a href="#"><i class="fa fa-bolt"></i>Sport,Fitness<span>36</span></a></li>
+                            <li><a href="#"><i class="fa fa-plane"></i>Tourism<span>38</span></a></li>
+                            <li><a href="#"><i class="fa fa-female"></i>Beauty<span>37</span></a></li>
+                            <li><a href="#"><i class="fa fa-umbrella"></i>Fashion<span>40</span></a></li>
+                            <li><a href="#"><i class="fa fa-home"></i>Non-profit<span>44</span></a></li>
                             
                             
                         </ul>
@@ -1140,7 +1128,7 @@
             
             <div class="gap gap-small"></div>
             
-            <h1 class="mb20">Popular in Travel and Transport Service <small><a href="#">View All</a></small></h1>
+            <h1 class="mb20">Popular in Tourism Service <small><a href="#">View All</a></small></h1>
             <div class="row row-wrap">
                 <div class="col-md-4">
                         <div class="product-thumb">
