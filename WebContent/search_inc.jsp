@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
-<form class="search-area form-group">
+<form class="search-area form-group" action="search-result.jsp">
     <div class="container">
         <div class="row">
             <div class="col-md-8 clearfix">
