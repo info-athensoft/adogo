@@ -3,10 +3,10 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 clearfix">
-                <label><i class="fa fa-search"></i><span>I am searching for</span>
+                <label><i class="fa fa-search"></i><span>I want </span>
                 </label>
                 <div class="search-area-division search-area-division-input">
-                    <input class="form-control" type="text" placeholder="input keywords here" />
+                    <input class="form-control" type="text" placeholder="input to do something or something here" />
                 </div>
             </div>
             <div class="col-md-3 clearfix">

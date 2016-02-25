@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-2">
-                <a href="index-coupon-layout-1.jsp" class="logo">
+                <a href="index.jsp" class="logo">
                     <img src="img/logo-small-dark.png" alt="Adogo logo" title="athensoft.com" />
                 </a>
             </div>
@@ -13,14 +13,12 @@
                     <ul class="nav nav-pills flexnav" id="flexnav" data-breakpoint="800">
                         <li class="active"><a href="index.jsp">Home</a>
                         </li>
-                        <li><a href="shop-category.jsp">Shops</a>
+                        <li><a href="shop-category.jsp">Find</a>
                             <ul>
-                                <li><a href="shop-category.jsp">Find a shop</a>
-                                </li>
-                                <li><a href="#">Find a product</a>
-                                </li>
-                                <li><a href="#">Find a service</a>
-                                </li>
+                                <li><a href="shop-category.jsp">Find a shop</a></li>
+                                <li><a href="#">Find a product</a></li>
+                                <li><a href="#">Find a service</a></li>
+                                <li><a href="#">Find a business</a></li>
                             </ul>
                         </li>
                         <li><a href="#">Good deals</a>
