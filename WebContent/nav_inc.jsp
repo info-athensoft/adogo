@@ -3,8 +3,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-2">
-                <a href="index.jsp" class="logo">
-                    <img src="img/logo-small-dark.png" alt="Adogo logo" title="athensoft.com" />
+                <a href="/" class="logo">
+                    <img src="/img/logo-small-dark.png" alt="Adogo logo" title="athensoft.com" />
                 </a>
             </div>
             <div class="col-md-6">
@@ -49,13 +49,13 @@
                             <ul class="shopping-cart-items">
                                 <li>
                                     <a href="#">
-                                        <img src="img/70x70.png" alt="Image Alternative text" title="AMaze" />
+                                        <img src="/img/70x70.png" alt="Image Alternative text" title="AMaze" />
                                         <h5>New Glass Collection</h5><span class="shopping-cart-item-price">$150</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="img/70x70.png" alt="Image Alternative text" title="Gamer Chick" />
+                                        <img src="/img/70x70.png" alt="Image Alternative text" title="Gamer Chick" />
                                         <h5>Playstation Accessories</h5><span class="shopping-cart-item-price">$170</span>
                                     </a>
                                 </li>

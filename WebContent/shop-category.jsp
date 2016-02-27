@@ -353,7 +353,7 @@
                                         <ul class="product-actions-list">
                                             <li><a class="btn btn-sm" href="http://www.athensoft.com/demo_canvas/index-shop.jsp" target="_blank"><i class="fa fa-home"></i> Home</a>
                                             </li>
-                                            <li><a class="btn btn-sm" href="customer/31001/profile.html"><i class="fa fa-bars"></i> Profile</a>
+                                            <li><a class="btn btn-sm" href="cust/31001"><i class="fa fa-bars"></i> Profile</a>
                                             </li>
                                         </ul>
                                     </div>

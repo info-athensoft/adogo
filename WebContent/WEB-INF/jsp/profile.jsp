@@ -1,8 +1,11 @@
+<%@ page contentType="text/html; charset=utf-8" %>
+<%@ page pageEncoding="utf-8"%>
+
 <!DOCTYPE HTML>
 <html>
 
 <head>
-    <title>Couponia - Product coupon meta right</title>
+    <title>Adogo - Profile ${customerId}</title>
     <!-- meta info -->
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
     <meta name="keywords" content="Koupon HTML5 Template" />
@@ -13,18 +16,18 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
     <!-- Bootstrap styles -->
-    <link rel="stylesheet" href="../../css/boostrap.css">
+    <link rel="stylesheet" href="/css/boostrap.css">
     <!-- Font Awesome styles (icons) -->
-    <link rel="stylesheet" href="../../css/font_awesome.css">
+    <link rel="stylesheet" href="/css/font_awesome.css">
     <!-- Main Template styles -->
-    <link rel="stylesheet" href="../../css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
     <!-- IE 8 Fallback -->
     <!--[if lt IE 9]>
 	<link rel="stylesheet" type="text/css" href="css/ie.css" />
 <![endif]-->
 
     <!-- Your custom styles (blank file) -->
-    <link rel="stylesheet" href="../../css/mystyles.css">
+    <link rel="stylesheet" href="/css/mystyles.css">
 
 
 </head>
@@ -35,394 +38,20 @@
     <div class="global-wrap">
 
 
-        <!-- //////////////////////////////////
+    <!-- //////////////////////////////////
 	//////////////MAIN HEADER///////////// 
 	////////////////////////////////////-->
-        <div class="top-main-area text-center">
-            <div class="container">
-                <a href="index.html" class="logo mt5">
-                    <img src="../../logo-small-dark.png" alt="Image Alternative text" title="Image Title" />
-                </a>
-            </div>
-        </div>
-        <header class="main">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <!-- MAIN NAVIGATION -->
-                        <div class="flexnav-menu-button" id="flexnav-menu-button">Menu</div>
-                        <nav>
-                            <ul class="nav nav-pills flexnav" id="flexnav" data-breakpoint="800">
-                                <li><a href="index.html">Home</a>
-                                    <ul>
-                                        <li><a href="index-shop-layout-1.html">Shop Layout</a>
-                                            <ul>
-                                                <li><a href="index-shop-layout-1.html">Layout 1</a>
-                                                </li>
-                                                <li><a href="index-shop-layout-2.html">Layout 2</a>
-                                                </li>
-                                                <li><a href="index-shop-layout-3.html">Layout 3</a>
-                                                </li>
-                                                <li><a href="index-shop-layout-4.html">Layout 4</a>
-                                                </li>
-                                                <li><a href="index-shop-layout-5.html">Layout 5</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="index-coupon-layout-1.html">Coupon Layout</a>
-                                            <ul>
-                                                <li><a href="index-coupon-layout-1.html">Layout 1</a>
-                                                </li>
-                                                <li><a href="index-coupon-layout-2.html">Layout 2</a>
-                                                </li>
-                                                <li><a href="index-coupon-layout-3.html">Layout 3</a>
-                                                </li>
-                                                <li><a href="index.html">Layout 4</a>
-                                                </li>
-                                                <li><a href="index-coupon-layout-5.html">Layout 5</a>
-                                                </li>
-                                                <li><a href="index-coupon-layout-6.html">Layout 6</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="index-header-layout-1.html">Headers</a>
-                                            <ul>
-                                                <li><a href="index-header-layout-1.html">Layout 1</a>
-                                                </li>
-                                                <li><a href="index-header-layout-2.html">Layout 2</a>
-                                                </li>
-                                                <li><a href="index-header-layout-3.html">Layout 3</a>
-                                                </li>
-                                                <li><a href="index-header-layout-4.html">Layout 4</a>
-                                                </li>
-                                                <li><a href="index-header-layout-5.html">Layout 5</a>
-                                                </li>
-                                                <li><a href="index-header-logged-user.html">Logged User</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><a href="category-page-shop.html">Category</a>
-                                    <ul>
-                                        <li><a href="category-page-shop.html">Shop</a>
-                                        </li>
-                                        <li><a href="category-page-coupon.html">Coupon</a>
-                                        </li>
-                                        <li><a href="category-page-thumbnails-shop-layout-1.html">Thumbnails</a>
-                                            <ul>
-                                                <li><a href="category-page-thumbnails-shop-layout-1.html">Shop</a>
-                                                    <ul>
-                                                        <li><a href="category-page-thumbnails-shop-layout-1.html">Layout 1</a>
-                                                        </li>
-                                                        <li><a href="category-page-thumbnails-shop-layout-2.html">Layout 2</a>
-                                                        </li>
-                                                        <li><a href="category-page-thumbnails-shop-layout-3.html">Layout 3</a>
-                                                        </li>
-                                                        <li><a href="category-page-thumbnails-shop-layout-4.html">layout 4</a>
-                                                        </li>
-                                                        <li><a href="category-page-thumbnails-shop-layout-5.html">Layout 5</a>
-                                                        </li>
-                                                        <li><a href="category-page-thumbnails-shop-layout-6.html">Layout 6</a>
-                                                        </li>
-                                                        <li><a href="category-page-thumbnails-shop-horizontal.html">Horizontal</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="category-page-thumbnails-coupon-layout-1.html">Coupon</a>
-                                                    <ul>
-                                                        <li><a href="category-page-thumbnails-coupon-layout-1.html">Layout 1</a>
-                                                        </li>
-                                                        <li><a href="category-page-thumbnails-coupon-layout-2.html">Layout 2</a>
-                                                        </li>
-                                                        <li><a href="category-page-thumbnails-coupon-layout-3.html">Layout 3</a>
-                                                        </li>
-                                                        <li><a href="category-page-thumbnails-coupon-layout-4.html">Layout 4</a>
-                                                        </li>
-                                                        <li><a href="category-page-thumbnails-coupon-layout-5.html">Layout 5</a>
-                                                        </li>
-                                                        <li><a href="category-page-thumbnails-coupon-layout-6.html">Layout 6</a>
-                                                        </li>
-                                                        <li><a href="category-page-thumbnails-coupon-layout-7.html">Layout 7</a>
-                                                        </li>
-                                                        <li><a href="category-page-thumbnails-coupon-layout-8.html">Layout 8</a>
-                                                        </li>
-                                                        <li><a href="category-page-thumbnails-coupon-horizontal.html">Horizontal</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="category-page-thumbnails-breadcrumbs.html">Breadcrumbs</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="active"><a href="product-shop-sidebar.html">Product </a>
-                                    <ul>
-                                        <li><a href="product-shop-sidebar.html">Shop</a>
-                                            <ul>
-                                                <li><a href="product-shop-sidebar.html">Sidebar</a>
-                                                </li>
-                                                <li><a href="product-shop-sidebar-left.html">Sidebar Left</a>
-                                                </li>
-                                                <li><a href="product-shop-centered.html">Centered</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="active"><a href="product-coupon-default.html">Coupon</a>
-                                            <ul>
-                                                <li><a href="product-coupon-default.html">Default</a>
-                                                </li>
-                                                <li class="active"><a href="product-coupon-meta-right.html">Meta right</a>
-                                                </li>
-                                                <li><a href="product-coupon-gallery.html">Gallery</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><a href="features-typography.html">Features</a>
-                                    <ul>
-                                        <li><a href="features-typography.html">Typography</a>
-                                        </li>
-                                        <li><a href="features-elements.html">Elements</a>
-                                        </li>
-                                        <li><a href="features-grid.html">Grid</a>
-                                        </li>
-                                        <li><a href="features-icons.html">Icons</a>
-                                        </li>
-                                        <li><a href="features-image-hover.html">Image Hovers</a>
-                                        </li>
-                                        <li><a href="features-sliders.html">Sliders</a>
-                                        </li>
-                                        <li><a href="features-media.html">Media</a>
-                                        </li>
-                                        <li><a href="features-lightbox.html">Lightbox</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><a href="blog-sidebar-right.html">Blog</a>
-                                    <ul>
-                                        <li><a href="blog-sidebar-right.html">Sidebar Right</a>
-                                        </li>
-                                        <li><a href="blog-sidebar-left.html">Sidebar Left</a>
-                                        </li>
-                                        <li><a href="blog-full-width.html">Full Width</a>
-                                        </li>
-                                        <li><a href="post-sidebar-right.html">Post</a>
-                                            <ul>
-                                                <li><a href="post-sidebar-right.html">Sidebar Right</a>
-                                                </li>
-                                                <li><a href="post-sidebar-left.html">Sidebar Left</a>
-                                                </li>
-                                                <li><a href="post-full-width.html">Full Width</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><a href="page-full-width.html">Pages</a>
-                                    <ul>
-                                        <li><a href="page-my-account-settings.html">My Account</a>
-                                            <ul>
-                                                <li><a href="page-my-account-settings.html">Settings</a>
-                                                </li>
-                                                <li><a href="page-my-account-addresses.html">Address Book</a>
-                                                </li>
-                                                <li><a href="page-my-account-orders.html">Orders History</a>
-                                                </li>
-                                                <li><a href="page-my-account-wishlist.html">Wishlist</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="page-full-width.html">Full Width</a>
-                                        </li>
-                                        <li><a href="page-sidebar-right.html">Sidebar Right</a>
-                                        </li>
-                                        <li><a href="page-sidebar-left.html">Sidebar Left</a>
-                                        </li>
-                                        <li><a href="page-faq.html">Faq</a>
-                                        </li>
-                                        <li><a href="page-about-us.html">About us</a>
-                                        </li>
-                                        <li><a href="page-team.html">Team</a>
-                                        </li>
-                                        <li><a href="page-cart.html">Shopping Cart</a>
-                                        </li>
-                                        <li><a href="page-checkout.html">Checkout</a>
-                                        </li>
-                                        <li><a href="page-404.html">404</a>
-                                        </li>
-                                        <li><a href="page-search.html">Search</a>
-                                            <ul>
-                                                <li><a href="page-search-black.html">Black</a>
-                                                </li>
-                                                <li><a href="page-search-white.html">White</a>
-                                                </li>
-                                                <li><a href="page-search-sticky.html">Sticky</a>
-                                                </li>
-                                                <li><a href="page-search-no-search.html">No Search</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="page-contact.html">Contact</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </nav>
-                        <!-- END MAIN NAVIGATION -->
-                    </div>
-                    <div class="col-md-6">
-                        <!-- LOGIN REGISTER LINKS -->
-                        <ul class="login-register">
-                            <li class="shopping-cart"><a href="page-cart.html"><i class="fa fa-shopping-cart"></i>My Cart</a>
-                                <div class="shopping-cart-box">
-                                    <ul class="shopping-cart-items">
-                                        <li>
-                                            <a href="product-shop-sidebar.html">
-                                                <img src="../../70x70.png" alt="Image Alternative text" title="AMaze" />
-                                                <h5>New Glass Collection</h5><span class="shopping-cart-item-price">$150</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="product-shop-sidebar.html">
-                                                <img src="../../70x70.png" alt="Image Alternative text" title="Gamer Chick" />
-                                                <h5>Playstation Accessories</h5><span class="shopping-cart-item-price">$170</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                    <ul class="list-inline text-center">
-                                        <li><a href="page-cart.html"><i class="fa fa-shopping-cart"></i> View Cart</a>
-                                        </li>
-                                        <li><a href="page-checkout.html"><i class="fa fa-check-square"></i> Checkout</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li><a class="popup-text" href="#login-dialog" data-effect="mfp-move-from-top"><i class="fa fa-sign-in"></i>Sign in</a>
-                            </li>
-                            <li><a class="popup-text" href="#register-dialog" data-effect="mfp-move-from-top"><i class="fa fa-edit"></i>Sign up</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </header>
-
+        <!-- Main header -->
+		<jsp:include page="../../nav_inc.jsp"></jsp:include>
+		<!-- EMDS Main header -->
+        
         <!-- LOGIN REGISTER LINKS CONTENT -->
-        <div id="login-dialog" class="mfp-with-anim mfp-hide mfp-dialog clearfix">
-            <i class="fa fa-sign-in dialog-icon"></i>
-            <h3>Member Login</h3>
-            <h5>Welcome back, friend. Login to get started</h5>
-            <form class="dialog-form">
-                <div class="form-group">
-                    <label>E-mail</label>
-                    <input type="text" placeholder="email@domain.com" class="form-control">
-                </div>
-                <div class="form-group">
-                    <label>Password</label>
-                    <input type="password" placeholder="My secret password" class="form-control">
-                </div>
-                <div class="checkbox">
-                    <label>
-                        <input type="checkbox">Remember me
-                    </label>
-                </div>
-                <input type="submit" value="Sign in" class="btn btn-primary">
-            </form>
-            <ul class="dialog-alt-links">
-                <li><a class="popup-text" href="#register-dialog" data-effect="mfp-zoom-out">Not member yet</a>
-                </li>
-                <li><a class="popup-text" href="#password-recover-dialog" data-effect="mfp-zoom-out">Forgot password</a>
-                </li>
-            </ul>
-        </div>
-
-
-        <div id="register-dialog" class="mfp-with-anim mfp-hide mfp-dialog clearfix">
-            <i class="fa fa-edit dialog-icon"></i>
-            <h3>Member Register</h3>
-            <h5>Ready to get best offers? Let's get started!</h5>
-            <form class="dialog-form">
-                <div class="form-group">
-                    <label>E-mail</label>
-                    <input type="text" placeholder="email@domain.com" class="form-control">
-                </div>
-                <div class="form-group">
-                    <label>Password</label>
-                    <input type="password" placeholder="My secret password" class="form-control">
-                </div>
-                <div class="form-group">
-                    <label>Repeat Password</label>
-                    <input type="password" placeholder="Type your password again" class="form-control">
-                </div>
-                <div class="row">
-                    <div class="col-md-8">
-                        <div class="form-group">
-                            <label>Your Area</label>
-                            <input type="password" placeholder="Boston" class="form-control">
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <label>Postal/Zip</label>
-                            <input type="password" placeholder="12345" class="form-control">
-                        </div>
-                    </div>
-                </div>
-                <div class="checkbox">
-                    <label>
-                        <input type="checkbox">Get hot offers via e-mail
-                    </label>
-                </div>
-                <input type="submit" value="Sign up" class="btn btn-primary">
-            </form>
-            <ul class="dialog-alt-links">
-                <li><a class="popup-text" href="#login-dialog" data-effect="mfp-zoom-out">Already member</a>
-                </li>
-            </ul>
-        </div>
-
-
-        <div id="password-recover-dialog" class="mfp-with-anim mfp-hide mfp-dialog clearfix">
-            <i class="icon-retweet dialog-icon"></i>
-            <h3>Password Recovery</h3>
-            <h5>Fortgot your password? Don't worry we can deal with it</h5>
-            <form class="dialog-form">
-                <label>E-mail</label>
-                <input type="text" placeholder="email@domain.com" class="span12">
-                <input type="submit" value="Request new password" class="btn btn-primary">
-            </form>
-        </div>
+        <jsp:include page="../../login_inc.jsp"></jsp:include>
         <!-- END LOGIN REGISTER LINKS CONTENT -->
-
-
+		
 
         <!-- SEARCH AREA -->
-        <form class="search-area form-group">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 clearfix">
-                        <label><i class="fa fa-search"></i><span>I am searching for</span>
-                        </label>
-                        <div class="search-area-division search-area-division-input">
-                            <input class="form-control" type="text" placeholder="Travel Vacation" />
-                        </div>
-                    </div>
-                    <div class="col-md-3 clearfix">
-                        <label><i class="fa fa-map-marker"></i><span>In</span>
-                        </label>
-                        <div class="search-area-division search-area-division-location">
-                            <input class="form-control" type="text" placeholder="Boston" />
-                        </div>
-                    </div>
-                    <div class="col-md-1">
-                        <button class="btn btn-block btn-white search-btn" type="submit">Search</button>
-                    </div>
-                </div>
-            </div>
-        </form>
+        <jsp:include page="../../search_inc.jsp"></jsp:include>
         <!-- END SEARCH AREA -->
 
         <div class="gap"></div>
@@ -443,9 +72,9 @@
             <div class="row">
                 <div class="col-md-9">
                     <div class="fotorama">
-                        <img src="../../customer/31001/photo_id.png" alt="Image Alternative text" title="cascada" />
-                        <img src="../../customer/31001/photo_id.png" alt="Image Alternative text" title="waipio valley" />
-                        <img src="../../customer/31001/photo_id.png" alt="Image Alternative text" title="the best mode of transport here in maldives" />
+                        <img src="/customer/31001/photo_id.png" alt="Image Alternative text" title="cascada" />
+                        <img src="/customer/31001/photo_id.png" alt="Image Alternative text" title="waipio valley" />
+                        <img src="/customer/31001/photo_id.png" alt="Image Alternative text" title="the best mode of transport here in maldives" />
                     </div>
                     <div class="gap gap-small"></div>
                     <div class="tabbable">
@@ -469,24 +98,24 @@
                                         </p>
                                         <br/>
                                         <h4>Who we are</h4>
-                                        <p>老梁   美发师<br/>
+                                        <p>èæ¢   ç¾åå¸<br/>
 										   Roni  Hairdresser
 										</p>                                        
-                                        <p>孟娜    美 发 屋<br/>
+                                        <p>å­å¨    ç¾ å å±<br/>
 										   Salon de Coiffure Mara
 										</p>
                                         
                                     </div>
                                     <div class="col-md-4">
                                     	<h4>What we provide</h4>
-                                        <p>剪发、烫发、染发、造型等全面技术服务<br/>
+                                        <p>åªåãç«åãæåãé åç­å¨é¢ææ¯æå¡<br/>
 											Services including haircut, perm, hair color, doing hairstyle etc.
 										</p>
 										
 										<br/>
                                         <h4>Competences</h4>
                                         <p>
-                                        	3万人次以上各款男女发型剪发经验<br/>
+                                        	3ä¸äººæ¬¡ä»¥ä¸åæ¬¾ç·å¥³åååªåç»éª<br/>
 											Roni hairdresser has professional experience of a variety of haircut more than 30 thousand people.
 										</p>
                                         
@@ -504,7 +133,7 @@
 											<tr><td>SUN.</td><td>10:00 am</td><td>-</td><td>6:00 pm</td></tr>
 											</table>
 											<br/>
-											每天10:00—6:00营业，周一休息。<br/>
+											æ¯å¤©10:00â6:00è¥ä¸ï¼å¨ä¸ä¼æ¯ã<br/>
                                         </p>
                                     </div>
                                 </div>
@@ -520,7 +149,7 @@
                                             <li>2403 Spring Land</li>
                                             <li>Montreal QC &nbsp; H4E 2G2</li>
                                             <li>&nbsp;</li>
-                                            <li>走Monk商业街到Jean-Coutu商店停车场即见</li>
+                                            <li>èµ°Monkåä¸è¡å°Jean-Coutuååºåè½¦åºå³è§</li>
                                             <li>Near Monk metro station, opposite Jean-Coutu shop parking place</li>
                                         </ul>
                                         <br/>
@@ -909,127 +538,9 @@
 	//////////////MAIN FOOTER////////////// 
 	////////////////////////////////////-->
 
-        <footer class="main">
-            <div class="footer-top-area">
-                <div class="container">
-                    <div class="row row-wrap">
-                        <div class="col-md-3">
-                            <a href="index.html">
-                                <img src="../../img/logo.png" alt="logo" title="logo" class="logo">
-                            </a>
-                            <ul class="list list-social">
-                                <li>
-                                    <a class="fa fa-facebook box-icon" href="#" data-toggle="tooltip" title="Facebook"></a>
-                                </li>
-                                <li>
-                                    <a class="fa fa-twitter box-icon" href="#" data-toggle="tooltip" title="Twitter"></a>
-                                </li>
-                                <li>
-                                    <a class="fa fa-flickr box-icon" href="#" data-toggle="tooltip" title="Flickr"></a>
-                                </li>
-                                <li>
-                                    <a class="fa fa-linkedin box-icon" href="#" data-toggle="tooltip" title="LinkedIn"></a>
-                                </li>
-                                <li>
-                                    <a class="fa fa-tumblr box-icon" href="#" data-toggle="tooltip" title="Tumblr"></a>
-                                </li>
-                            </ul>
-                            <p>Nulla placerat nibh dolor rhoncus nullam nam mi suscipit montes quis dictumst gravida mi interdum ad donec diam eget iaculis</p>
-                        </div>
-                        <div class="col-md-3">
-                            <h4>Sign Up to the Newsletter</h4>
-                            <div class="box">
-                                <form>
-                                    <div class="form-group mb10">
-                                        <label>E-mail</label>
-                                        <input type="text" class="form-control" />
-                                    </div>
-                                    <p class="mb10">Himenaeos interdum nunc ipsum parturient duis varius</p>
-                                    <input type="submit" class="btn btn-primary" value="Sign Up" />
-                                </form>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <h4>Couponia on Twitter</h4>
-                            <!-- START TWITTER -->
-                            <div class="twitter-ticker" id="twitter-ticker"></div>
-                            <!-- END TWITTER -->
-                        </div>
-                        <div class="col-md-3">
-                            <h4>Recent News</h4>
-                            <ul class="thumb-list">
-                                <li>
-                                    <a href="#">
-                                        <img src="../../img/70x70.png" alt="Image Alternative text" title="Urbex Esch/Lux with Laney and Laaaaag" />
-                                    </a>
-                                    <div class="thumb-list-item-caption">
-                                        <p class="thumb-list-item-meta">Jul 18, 2014</p>
-                                        <h5 class="thumb-list-item-title"><a href="#">A congue</a></h5>
-                                        <p class="thumb-list-item-desciption">Sociosqu eget ullamcorper tempus blandit</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="../../img/70x70.png" alt="Image Alternative text" title="AMaze" />
-                                    </a>
-                                    <div class="thumb-list-item-caption">
-                                        <p class="thumb-list-item-meta">Jul 18, 2014</p>
-                                        <h5 class="thumb-list-item-title"><a href="#">Accumsan sociis</a></h5>
-                                        <p class="thumb-list-item-desciption">Facilisi vel suscipit habitant arcu</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="../../img/70x70.png" alt="Image Alternative text" title="The Hidden Power of the Heart" />
-                                    </a>
-                                    <div class="thumb-list-item-caption">
-                                        <p class="thumb-list-item-meta">Jul 18, 2014</p>
-                                        <h5 class="thumb-list-item-title"><a href="#">Ridiculus eget</a></h5>
-                                        <p class="thumb-list-item-desciption">Nam integer inceptos commodo aptent</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-copyright">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <p>Copyright © 2014, Your Store, All Rights Reserved</p>
-                        </div>
-                        <div class="col-md-6 col-md-offset-2">
-                            <div class="pull-right">
-                                <ul class="list-inline list-payment">
-                                    <li>
-                                        <img src="../../img/payment/american-express-curved-32px.png" alt="Image Alternative text" title="Image Title" />
-                                    </li>
-                                    <li>
-                                        <img src="../../img/payment/cirrus-curved-32px.png" alt="Image Alternative text" title="Image Title" />
-                                    </li>
-                                    <li>
-                                        <img src="../../img/payment/discover-curved-32px.png" alt="Image Alternative text" title="Image Title" />
-                                    </li>
-                                    <li>
-                                        <img src="../../img/payment/ebay-curved-32px.png" alt="Image Alternative text" title="Image Title" />
-                                    </li>
-                                    <li>
-                                        <img src="../../img/payment/maestro-curved-32px.png" alt="Image Alternative text" title="Image Title" />
-                                    </li>
-                                    <li>
-                                        <img src="../../img/payment/mastercard-curved-32px.png" alt="Image Alternative text" title="Image Title" />
-                                    </li>
-                                    <li>
-                                        <img src="../../img/payment/visa-curved-32px.png" alt="Image Alternative text" title="Image Title" />
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+		<!-- Main footer -->
+		<jsp:include page="../../footer_inc.jsp"></jsp:include>
+		<!-- EMDS Main footer -->
         <!-- //////////////////////////////////
 	//////////////END MAIN  FOOTER///////// 
 	////////////////////////////////////-->
@@ -1037,22 +548,22 @@
 
 
         <!-- Scripts queries -->
-        <script src="../../js/jquery.js"></script>
-        <script src="../../js/boostrap.min.js"></script>
-        <script src="../../js/countdown.min.js"></script>
-        <script src="../../js/flexnav.min.js"></script>
-        <script src="../../js/magnific.js"></script>
-        <script src="../../js/tweet.min.js"></script>
+        <script src="/js/jquery.js"></script>
+        <script src="/js/boostrap.min.js"></script>
+        <script src="/js/countdown.min.js"></script>
+        <script src="/js/flexnav.min.js"></script>
+        <script src="/js/magnific.js"></script>
+        <script src="/js/tweet.min.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
-        <script src="../../js/fitvids.min.js"></script>
-        <script src="../../js/mail.min.js"></script>
-        <script src="../../js/ionrangeslider.js"></script>
-        <script src="../../js/icheck.js"></script>
-        <script src="../../js/fotorama.js"></script>
-        <script src="../../js/card-payment.js"></script>
-        <script src="../../js/owl-carousel.js"></script>
-        <script src="../../js/masonry.js"></script>
-        <script src="../../js/nicescroll.js"></script>
+        <script src="/js/fitvids.min.js"></script>
+        <script src="/js/mail.min.js"></script>
+        <script src="/js/ionrangeslider.js"></script>
+        <script src="/js/icheck.js"></script>
+        <script src="/js/fotorama.js"></script>
+        <script src="/js/card-payment.js"></script>
+        <script src="/js/owl-carousel.js"></script>
+        <script src="/js/masonry.js"></script>
+        <script src="/js/nicescroll.js"></script>
 
         <!-- Custom scripts -->
         <script src="../../js/custom.js"></script>
