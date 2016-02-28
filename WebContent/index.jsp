@@ -74,16 +74,16 @@
                         <!-- <h3 class="mb20">I am Looking For</h3> -->
                         <ul class="nav nav-tabs nav-stacked nav-coupon-category nav-coupon-category-left">
                         	<li class="active"><a href="#"><i class="fa fa-shopping-cart"></i>I want shopping</a></li>
-                        	<li><a href="category-shopwise.jsp"><i class="fa fa-shopping-cart"></i>Shopwise<span>33</span></a></li>
+                        	<li><a href="/category/shopwise"><i class="fa fa-shopping-cart"></i>Shopwise<span>33</span></a></li>
                         	
                         	<li class="active"><a href="#"><i class="fa fa-shopping-cart"></i>I need services</a></li>
-                            <li><a href="#"><i class="fa fa-cutlery"></i>Food & drink<span>50</span></a></li>                            
+                            <li><a href="/category/fooddrink"><i class="fa fa-cutlery"></i>Food & drink<span>50</span></a></li>                            
                             
-                            <li><a href="category-lifeservice.jsp"><i class="fa fa-calendar"></i>Life Service<span>49</span></a></li>
-                            <li><a href="category-proservice.jsp"><i class="fa fa-calendar"></i>Pro. Service<span>49</span></a></li>
-                            <li><a href="#"><i class="fa fa-headphones"></i>Education<span>48</span></a></li>
-                            <li><a href="#"><i class="fa fa-plane"></i>Tourism<span>38</span></a></li>
-                            <li><a href="#"><i class="fa fa-home"></i>Non-profit<span>44</span></a></li>
+                            <li><a href="/category/lifeservice"><i class="fa fa-calendar"></i>Life Service<span>49</span></a></li>
+                            <li><a href="/category/proservice"><i class="fa fa-calendar"></i>Pro. Service<span>49</span></a></li>
+                            <li><a href="/category/education"><i class="fa fa-headphones"></i>Education<span>48</span></a></li>
+                            <li><a href="/category/tourism"><i class="fa fa-plane"></i>Tourism<span>38</span></a></li>
+                            <li><a href="/category/nonprofit"><i class="fa fa-home"></i>Non-profit<span>44</span></a></li>
                             
                             <li class="active"><a href="#"><i class="fa fa-shopping-cart"></i>Business</a></li>
                             <li><a href="#"><i class="fa fa-cutlery"></i>Buying a Business<span>50</span></a></li>
