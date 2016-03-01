@@ -32,12 +32,8 @@
 
 </head>
 
-<body>
-
-
+<body class="sticky-header sticky-search">
     <div class="global-wrap">
-
-
     <!-- //////////////////////////////////
 	//////////////MAIN HEADER///////////// 
 	////////////////////////////////////-->
@@ -81,11 +77,11 @@
                         <ul class="nav nav-tabs" id="myTab">
                             <li class="active"><a href="#tab-1" data-toggle="tab"><i class="fa fa-tag"></i>Home</a>
                             </li>
-                            <li><a href="#google-map-tab" data-toggle="tab"><i class="fa fa-map-marker"></i>Contact</a>
+                            <li><a href="#google-map-tab" data-toggle="tab"><i class="fa fa-map-marker"></i>Location</a>
                             </li>
-                            <li><a href="#tab-3" data-toggle="tab"><i class="fa fa-comments"></i>Comments</a>
+                            <li><a href="#tab-3" data-toggle="tab"><i class="fa fa-comments"></i>Opening hour</a>
                             </li>
-                            <li><a href="#tab-4" data-toggle="tab"><i class="fa fa-info"></i>The Company</a>
+                            <li><a href="#tab-4" data-toggle="tab"><i class="fa fa-info"></i>About</a>
                             </li>
                         </ul>
                         <div class="tab-content">
@@ -98,9 +94,9 @@
                                         </p>
                                         <br/>
                                         <h4>Who we are</h4>
-										   Roni  Hairdresser
+										   <h5>Roni  Hairdresser</h5>
 										</p>                                        
-										   Salon de Coiffure Mara
+										   <h5>Salon de Coiffure Mara</h5>
 										</p>
                                         
                                     </div>
@@ -119,19 +115,17 @@
                                         
                                     </div>
                                     <div class="col-md-4">
-                                        <h4>Business hour</h4>
-                                        <p>
-											<table>
-											<tr><td>MON.</td><td>closed</td><td></td><td></td></tr>
-											<tr><td>TUE.</td><td>10:00 am</td><td>-</td><td>6:00 pm</td></tr>
-											<tr><td>WED.</td><td>10:00 am</td><td>-</td><td>6:00 pm</td></tr>
-											<tr><td>THU.</td><td>10:00 am</td><td>-</td><td>6:00 pm</td></tr>
-											<tr><td>FRI.</td><td>10:00 am</td><td>-</td><td>6:00 pm</td></tr>
-											<tr><td>SAT.</td><td>10:00 am</td><td>-</td><td>6:00 pm</td></tr>
-											<tr><td>SUN.</td><td>10:00 am</td><td>-</td><td>6:00 pm</td></tr>
-											</table>
-											<br/>
-                                        </p>
+                                    	<h4>Reach us</h4>
+                                        <ul class="list">
+                                            <li>2403 Spring Land</li>
+                                            <li>Montreal QC &nbsp; H4E 2G2</li>
+                                            <li>&nbsp;</li>
+                                            <li>Near Monk metro station, opposite Jean-Coutu shop parking place</li>
+                                        </ul>
+                                        <br/>                                        
+                                        <ul class="list">
+                                            <li>Tel.: (438)875-1768</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -146,7 +140,6 @@
                                             <li>2403 Spring Land</li>
                                             <li>Montreal QC &nbsp; H4E 2G2</li>
                                             <li>&nbsp;</li>
-                                            <li>èµ°Monkåä¸è¡å°Jean-Coutuååºåè½¦åºå³è§</li>
                                             <li>Near Monk metro station, opposite Jean-Coutu shop parking place</li>
                                         </ul>
                                         <br/>
@@ -160,101 +153,21 @@
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="tab-3">
-                                <!-- START COMMENTS -->
-                                <ul class="comments-list">
-                                    <li>
-                                        <!-- COMMENT -->
-                                        <article class="comment">
-                                            <div class="comment-author">
-                                                <img src="../../img/50x50.png" alt="Image Alternative text" title="Gamer Chick" />
-                                            </div>
-                                            <div class="comment-inner"><span class="comment-author-name">Joseph Hudson</span>
-                                                <p class="comment-content">Mi volutpat mattis cum facilisis nunc platea tincidunt vehicula laoreet montes parturient urna</p><span class="comment-time">15 seconds ago</span><a class="comment-reply" href="#"><i class="fa fa-reply"></i> Reply</a><a class="comment-like" href="#"><i class="fa fa-heart"></i> 32</a>
-                                            </div>
-                                        </article>
-                                    </li>
-                                    <li>
-                                        <!-- COMMENT -->
-                                        <article class="comment">
-                                            <div class="comment-author">
-                                                <img src="../../img/50x50.png" alt="Image Alternative text" title="Ana 29" />
-                                            </div>
-                                            <div class="comment-inner"><span class="comment-author-name">Blake Abraham</span>
-                                                <p class="comment-content">Vehicula potenti risus iaculis lacus laoreet porttitor aliquam massa mauris netus duis eu diam et</p><span class="comment-time">15 seconds ago</span><a class="comment-reply" href="#"><i class="fa fa-reply"></i> Reply</a><a class="comment-like" href="#"><i class="fa fa-heart"></i> 14</a>
-                                            </div>
-                                        </article>
-                                    </li>
-                                    <li>
-                                        <!-- COMMENT -->
-                                        <article class="comment">
-                                            <div class="comment-author">
-                                                <img src="../../img/50x50.png" alt="Image Alternative text" title="Afro" />
-                                            </div>
-                                            <div class="comment-inner"><span class="comment-author-name">Keith Churchill</span>
-                                                <p class="comment-content">Ac placerat lacinia ultrices morbi ipsum non facilisis sed etiam arcu justo quam tellus magna nullam suscipit</p><span class="comment-time">15 seconds ago</span><a class="comment-reply" href="#"><i class="fa fa-reply"></i> Reply</a><a class="comment-like" href="#"><i class="fa fa-heart"></i> 6</a>
-                                            </div>
-                                        </article>
-                                        <ul>
-                                            <li>
-                                                <!-- COMMENT -->
-                                                <article class="comment">
-                                                    <div class="comment-author">
-                                                        <img src="../../img/50x50.png" alt="Image Alternative text" title="Bubbles" />
-                                                    </div>
-                                                    <div class="comment-inner"><span class="comment-author-name">Blake Hardacre</span>
-                                                        <p class="comment-content">Turpis natoque molestie libero elementum placerat litora molestie primis lorem ipsum velit</p><span class="comment-time">15 seconds ago</span><a class="comment-reply" href="#"><i class="fa fa-reply"></i> Reply</a><a class="comment-like" href="#"><i class="fa fa-heart"></i> 38</a>
-                                                    </div>
-                                                </article>
-                                            </li>
-                                        </ul>
-                                        <li>
-                                            <!-- COMMENT -->
-                                            <article class="comment">
-                                                <div class="comment-author">
-                                                    <img src="../../img/50x50.png" alt="Image Alternative text" title="Me with the Uke" />
-                                                </div>
-                                                <div class="comment-inner"><span class="comment-author-name">Olivia Slater</span>
-                                                    <p class="comment-content">Pulvinar cum aliquet tristique turpis sed curabitur vulputate pharetra sit egestas nulla cras</p><span class="comment-time">15 seconds ago</span><a class="comment-reply" href="#"><i class="fa fa-reply"></i> Reply</a><a class="comment-like" href="#"><i class="fa fa-heart"></i> 11</a>
-                                                </div>
-                                            </article>
-                                        </li>
-                                        <li>
-                                            <!-- COMMENT -->
-                                            <article class="comment">
-                                                <div class="comment-author">
-                                                    <img src="../../img/50x50.png" alt="Image Alternative text" title="AMaze" />
-                                                </div>
-                                                <div class="comment-inner"><span class="comment-author-name">Keith Churchill</span>
-                                                    <p class="comment-content">Blandit natoque turpis aliquet dapibus elementum tincidunt ligula facilisi sem neque accumsan</p><span class="comment-time">15 seconds ago</span><a class="comment-reply" href="#"><i class="fa fa-reply"></i> Reply</a><a class="comment-like" href="#"><i class="fa fa-heart"></i> 37</a>
-                                                </div>
-                                            </article>
-                                        </li>
-                                        <li>
-                                            <!-- COMMENT -->
-                                            <article class="comment">
-                                                <div class="comment-author">
-                                                    <img src="../../img/50x50.png" alt="Image Alternative text" title="Chiara" />
-                                                </div>
-                                                <div class="comment-inner"><span class="comment-author-name">Joe Smith</span>
-                                                    <p class="comment-content">Curabitur tempor duis id metus luctus velit sit nullam ultrices nisl sodales</p><span class="comment-time">15 seconds ago</span><a class="comment-reply" href="#"><i class="fa fa-reply"></i> Reply</a><a class="comment-like" href="#"><i class="fa fa-heart"></i> 49</a>
-                                                </div>
-                                            </article>
-                                            <ul>
-                                                <li>
-                                                    <!-- COMMENT -->
-                                                    <article class="comment">
-                                                        <div class="comment-author">
-                                                            <img src="../../img/50x50.png" alt="Image Alternative text" title="Andrea" />
-                                                        </div>
-                                                        <div class="comment-inner"><span class="comment-author-name">Joseph Watson</span>
-                                                            <p class="comment-content">Bibendum porttitor neque placerat nulla nostra velit molestie neque facilisis</p><span class="comment-time">15 seconds ago</span><a class="comment-reply" href="#"><i class="fa fa-reply"></i> Reply</a><a class="comment-like" href="#"><i class="fa fa-heart"></i> 6</a>
-                                                        </div>
-                                                    </article>
-                                                    <ul></ul>
-                                            </ul>
-                                </ul>
-                                <!-- END COMMENTS -->
-                                <div class="text-center"><a class="btn btn-primary"><i class="fa fa-pencil"></i> Leave a Comment</a>
+                            	<div class="row">
+                                    <div class="col-md-6">
+                                    	<h4>Opening hour</h4>
+                                		<p>
+											<table>
+											<tr><td>MON.</td><td>closed</td><td></td><td></td></tr>
+											<tr><td>TUE.</td><td>10:00 am</td><td>-</td><td>6:00 pm</td></tr>
+											<tr><td>WED.</td><td>10:00 am</td><td>-</td><td>6:00 pm</td></tr>
+											<tr><td>THU.</td><td>10:00 am</td><td>-</td><td>6:00 pm</td></tr>
+											<tr><td>FRI.</td><td>10:00 am</td><td>-</td><td>6:00 pm</td></tr>
+											<tr><td>SAT.</td><td>10:00 am</td><td>-</td><td>6:00 pm</td></tr>
+											<tr><td>SUN.</td><td>10:00 am</td><td>-</td><td>6:00 pm</td></tr>
+											</table>
+                                		</p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="tab-4">
@@ -371,11 +284,75 @@
                         </a>
                     </div>
                     <div class="gap gap-small"></div>
-
+                    
+                    
+                    <!-- comments -->
+                    <div class="gap gap-small"></div>
+                    <div class="tabbable">
+                        <ul class="nav nav-tabs" id="myTab">
+                            <li class="active"><a href="#tab-3" data-toggle="tab"><i class="fa fa-comments"></i>Reviews</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane fade in active" id="tab-3">
+                                <!-- START COMMENTS -->
+                                <ul class="comments-list">
+                                    <li>
+                                        <!-- COMMENT -->
+                                        <article class="comment">
+                                            <div class="comment-author">
+                                                <img src="../../img/50x50.png" alt="Image Alternative text" title="Gamer Chick" />
+                                            </div>
+                                            <div class="comment-inner"><span class="comment-author-name">Joseph Hudson</span>
+                                                <p class="comment-content">Mi volutpat mattis cum facilisis nunc platea tincidunt vehicula laoreet montes parturient urna</p><span class="comment-time">15 seconds ago</span><a class="comment-reply" href="#"><i class="fa fa-reply"></i> Reply</a><a class="comment-like" href="#"><i class="fa fa-heart"></i> 32</a>
+                                            </div>
+                                        </article>
+                                    </li>
+                                    <li>
+                                        <!-- COMMENT -->
+                                        <article class="comment">
+                                            <div class="comment-author">
+                                                <img src="../../img/50x50.png" alt="Image Alternative text" title="Ana 29" />
+                                            </div>
+                                            <div class="comment-inner"><span class="comment-author-name">Blake Abraham</span>
+                                                <p class="comment-content">Vehicula potenti risus iaculis lacus laoreet porttitor aliquam massa mauris netus duis eu diam et</p><span class="comment-time">15 seconds ago</span><a class="comment-reply" href="#"><i class="fa fa-reply"></i> Reply</a><a class="comment-like" href="#"><i class="fa fa-heart"></i> 14</a>
+                                            </div>
+                                        </article>
+                                    </li>
+                                    <li>
+                                        <!-- COMMENT -->
+                                        <article class="comment">
+                                            <div class="comment-author">
+                                                <img src="../../img/50x50.png" alt="Image Alternative text" title="Afro" />
+                                            </div>
+                                            <div class="comment-inner"><span class="comment-author-name">Keith Churchill</span>
+                                                <p class="comment-content">Ac placerat lacinia ultrices morbi ipsum non facilisis sed etiam arcu justo quam tellus magna nullam suscipit</p><span class="comment-time">15 seconds ago</span><a class="comment-reply" href="#"><i class="fa fa-reply"></i> Reply</a><a class="comment-like" href="#"><i class="fa fa-heart"></i> 6</a>
+                                            </div>
+                                        </article>
+                                        <ul>
+                                            <li>
+                                                <!-- COMMENT -->
+                                                <article class="comment">
+                                                    <div class="comment-author">
+                                                        <img src="../../img/50x50.png" alt="Image Alternative text" title="Bubbles" />
+                                                    </div>
+                                                    <div class="comment-inner"><span class="comment-author-name">Blake Hardacre</span>
+                                                        <p class="comment-content">Turpis natoque molestie libero elementum placerat litora molestie primis lorem ipsum velit</p><span class="comment-time">15 seconds ago</span><a class="comment-reply" href="#"><i class="fa fa-reply"></i> Reply</a><a class="comment-like" href="#"><i class="fa fa-heart"></i> 38</a>
+                                                    </div>
+                                                </article>
+                                            </li>
+                                        </ul>
+                                </ul>
+                                <!-- END COMMENTS -->
+                                <div class="text-center"><a class="btn btn-primary"><i class="fa fa-pencil"></i> Leave a Comment</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gap gap-small"></div>
                 </div>
                 <div class="col-md-3">
                     <div class="product-page-meta box">
-                        <h4>Awesome Vacation Pack</h4>
+                        <h4>Mara Coiffeur</h4>
                         <p>Pretium ad placerat justo felis enim dignissim condimentum nisl ullamcorper fermentum posuere felis habitant mollis faucibus penatibus inceptos senectus mauris</p><a class="btn btn-primary btn-lg btn-block" href="http://www.athensoft.com/demo_canvas/index-shop.jsp"  target="_blank">View Ad. Page</a>
                         <ul class="list product-page-meta-info">
                             <li>

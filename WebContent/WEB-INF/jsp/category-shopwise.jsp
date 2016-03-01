@@ -35,7 +35,7 @@
 
 </head>
 
-<body class="boxed bg-cover" style="background-image: url(/img/backgrounds/flowers.jpg)">
+<body class="boxed bg-cover sticky-header sticky-search" style="background-image: url(/img/backgrounds/flowers.jpg)">
 
     <div class="global-wrap">
 
@@ -43,7 +43,7 @@
 	//////////////MAIN HEADER///////////// 
 	////////////////////////////////////-->
         <!-- Main header -->
-		<jsp:include page="nav_inc.jsp"></jsp:include>
+		<jsp:include page="../../nav_inc.jsp"></jsp:include>
 		<!-- EMDS Main header -->
         
         <!-- LOGIN REGISTER LINKS CONTENT -->

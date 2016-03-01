@@ -18,9 +18,9 @@
                                 <li><a href="#">Explore</a></li>
                             </ul>
                         </li>
-                        <li><a href="shop-category.jsp">Find</a>
+                        <li><a href="#">Find</a>
                             <ul>
-                                <li><a href="shop-category.jsp">Find a shop</a></li>
+                                <li><a href="/category/shopwise">Find a shop</a></li>
                                 <li><a href="#">Find a product</a></li>
                                 <li><a href="#">Find a service</a></li>
                                 <li><a href="#">Find a business</a></li>

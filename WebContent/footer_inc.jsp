@@ -6,7 +6,7 @@
                         <div class="col-md-3">
                             <a href="/index.jsp">
                                 <!-- <img src="/img/logo.png" alt="logo" title="logo" class="logo">  -->
-                                <h4>Follow us</h4>
+                                <h3>Follow us</h3>
                             </a>
                             <ul class="list list-social">
                                 <li>
@@ -28,7 +28,7 @@
                             <p>Adogo is a new concept advertising platform and we are committed to providing professional online marketing services and helping to explore market for your business!</p>
                         </div>
                         <div class="col-md-3">
-                            <h4>Sign Up to the Newsletter</h4>
+                            <h3>Subscribe Newsletters</h3>
                             <div class="box">
                                 <form>
                                     <div class="form-group mb10">
@@ -41,13 +41,13 @@
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <h4>Adogo on Twitter</h4>
+                            <h3>Adogo on Twitter</h3>
                             <!-- START TWITTER -->
                    <div class="twitter-ticker" id="twitter-ticker"></div>
                    <!-- END TWITTER -->
                 </div>
                 <div class="col-md-3">
-                    <h4>Recent News</h4>
+                    <h3>Recent News</h3>
                     <ul class="thumb-list">
                         <li>
                             <a href="#">
