@@ -43,7 +43,7 @@
 	//////////////MAIN HEADER///////////// 
 	////////////////////////////////////-->
         <!-- Main header -->
-		<jsp:include page="nav_inc.jsp"></jsp:include>
+		<jsp:include page="../../nav_inc.jsp"></jsp:include>
 		<!-- EMDS Main header -->
         
         <!-- LOGIN REGISTER LINKS CONTENT -->

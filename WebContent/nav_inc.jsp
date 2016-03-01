@@ -44,6 +44,14 @@
                                 </li>
                             </ul>
                         </li>
+                        <li><a href="#">Join us</a>
+                            <ul>
+                                <li><a href="#">As an advertiser</a>
+                                </li>
+                                <li><a href="#">As a distributer</a>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </nav>
             </div>
@@ -54,14 +62,14 @@
                             <ul class="shopping-cart-items">
                                 <li>
                                     <a href="#">
-                                        <img src="/img/70x70.png" alt="Image Alternative text" title="AMaze" />
-                                        <h5>New Glass Collection</h5><span class="shopping-cart-item-price">$150</span>
+                                        <img src="/img/70x70.png" alt="Test" title="Test" />
+                                        <h5>Service A101</h5><span class="shopping-cart-item-price">$99.99</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="/img/70x70.png" alt="Image Alternative text" title="Gamer Chick" />
-                                        <h5>Playstation Accessories</h5><span class="shopping-cart-item-price">$170</span>
+                                        <img src="/img/70x70.png" alt="Test" title="Test" />
+                                        <h5>Service B101</h5><span class="shopping-cart-item-price">$49.99</span>
                                     </a>
                                 </li>
                             </ul>

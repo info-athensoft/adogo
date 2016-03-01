@@ -4,8 +4,9 @@
                 <div class="container">
                     <div class="row row-wrap">
                         <div class="col-md-3">
-                            <a href="index.html">
-                                <img src="/img/logo.png" alt="logo" title="logo" class="logo">
+                            <a href="/index.jsp">
+                                <!-- <img src="/img/logo.png" alt="logo" title="logo" class="logo">  -->
+                                <h4>Follow us</h4>
                             </a>
                             <ul class="list list-social">
                                 <li>

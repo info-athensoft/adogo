@@ -47,7 +47,7 @@
 		<!-- EMDS Main header -->
         
         <!-- LOGIN REGISTER LINKS CONTENT -->
-        <jsp:include page="login_inc.jsp"></jsp:include>
+        <jsp:include page="../../login_inc.jsp"></jsp:include>
         <!-- END LOGIN REGISTER LINKS CONTENT -->
 
         <!-- SEARCH AREA -->
