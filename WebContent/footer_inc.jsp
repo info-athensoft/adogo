@@ -24,7 +24,7 @@
                                     <a class="fa fa-tumblr box-icon" href="#" data-toggle="tooltip" title="Tumblr"></a>
                                 </li>
                             </ul>
-                            <p>Facilisis neque taciti congue laoreet nullam magnis dis cras nostra scelerisque curabitur a etiam conubia libero conubia sociis felis arcu</p>
+                            <p>Adogo is a new concept advertising platform and we are committed to providing professional online marketing services and helping to explore market for your business!</p>
                         </div>
                         <div class="col-md-3">
                             <h4>Sign Up to the Newsletter</h4>
@@ -34,7 +34,7 @@
                                         <label>E-mail</label>
                                         <input type="text" class="form-control" />
                                     </div>
-                                    <p class="mb10">Massa quis donec quisque praesent faucibus aliquet</p>
+                                    <p class="mb10">Later you may subscribe newsletters that you might be interested in </p>
                                     <input type="submit" class="btn btn-primary" value="Sign Up" />
                                 </form>
                             </div>
@@ -53,9 +53,9 @@
                                 <img src="/img/70x70.png" alt="Image Alternative text" title="Urbex Esch/Lux with Laney and Laaaaag" />
                             </a>
                             <div class="thumb-list-item-caption">
-                                <p class="thumb-list-item-meta">Jul 18, 2014</p>
-                                <h5 class="thumb-list-item-title"><a href="#">Sagittis sodales</a></h5>
-                                <p class="thumb-list-item-desciption">Quam per sapien dui proin</p>
+                                <p class="thumb-list-item-meta">Mar 1, 2016</p>
+                                <h5 class="thumb-list-item-desciption"><a href="#">Public test</a></h5>
+                                <p class="thumb-list-item-desciption">Starts from April 1, 2016</p>
                             </div>
                         </li>
                         <li>
@@ -63,9 +63,9 @@
                                 <img src="/img/70x70.png" alt="Image Alternative text" title="AMaze" />
                             </a>
                             <div class="thumb-list-item-caption">
-                                <p class="thumb-list-item-meta">Jul 18, 2014</p>
-                                <h5 class="thumb-list-item-title"><a href="#">Fames consequat</a></h5>
-                                <p class="thumb-list-item-desciption">Convallis vestibulum vitae magnis vel</p>
+                                <p class="thumb-list-item-meta">Mar 1, 2016</p>
+                                <h5 class="thumb-list-item-desciption"><a href="#">Apply for trail</a></h5>
+                                <p class="thumb-list-item-desciption">We'll open accounts for selected advertisers!</p>
                             </div>
                         </li>
                         <li>
@@ -73,9 +73,9 @@
                                 <img src="/img/70x70.png" alt="Image Alternative text" title="The Hidden Power of the Heart" />
                             </a>
                             <div class="thumb-list-item-caption">
-                                <p class="thumb-list-item-meta">Jul 18, 2014</p>
-                                <h5 class="thumb-list-item-title"><a href="#">Ullamcorper risus</a></h5>
-                                <p class="thumb-list-item-desciption">Convallis massa montes facilisis quis</p>
+                                <p class="thumb-list-item-meta">Mar 1, 2016</p>
+                                <h5 class="thumb-list-item-desciption"><a href="#">How to reach us?</a></h5>
+                                <p class="thumb-list-item-desciption">info@athensoft.com</p>
                             </div>
                         </li>
                     </ul>
@@ -87,7 +87,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <p>Copyright © 2016, Informatique Athensoft, All Rights Reserved</p>
+                    <p>Copyright &copy; 2016, Adogo &trade; Informatique Athensoft, All Rights Reserved</p>
                 </div>
                 <div class="col-md-5 col-md-offset-1">
                     <div class="pull-right">

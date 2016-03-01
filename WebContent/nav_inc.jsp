@@ -12,6 +12,11 @@
                 <nav>
                     <ul class="nav nav-pills flexnav" id="flexnav" data-breakpoint="800">
                         <li class="active"><a href="index.jsp">Home</a>
+                        	<ul>
+                                <li><a href="#">Get started</a></li>
+                                <li><a href="#">New features</a></li>
+                                <li><a href="#">Explore</a></li>
+                            </ul>
                         </li>
                         <li><a href="shop-category.jsp">Find</a>
                             <ul>
