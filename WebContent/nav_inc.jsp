@@ -11,7 +11,7 @@
                 <div class="flexnav-menu-button" id="flexnav-menu-button">Menu</div>
                 <nav>
                     <ul class="nav nav-pills flexnav" id="flexnav" data-breakpoint="800">
-                        <li class="active"><a href="index.jsp">Home</a>
+                        <li class="active"><a href="/index.jsp">Home</a>
                         	<ul>
                                 <li><a href="#">Get started</a></li>
                                 <li><a href="#">New features</a></li>

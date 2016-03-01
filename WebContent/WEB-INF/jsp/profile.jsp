@@ -10,7 +10,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
     <meta name="keywords" content="Koupon HTML5 Template" />
     <meta name="description" content="Koupon - Premiun HTML5 Template for Coupons Website">
-    <meta name="author" content="Tsoy">
+    <meta name="author" content="athensoft.com">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Google fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
@@ -129,6 +129,7 @@
                                     </div>
                                 </div>
                             </div>
+                            <!-- 
                             <div class="tab-pane fade" id="google-map-tab">
                                 <div class="row">
                                     <div class="col-md-9">
@@ -148,7 +149,29 @@
                                         <ul class="list">
                                             <li>(438)875-1768</li>
                                         </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            -->
+                           <div class="tab-pane fade" id="google-map-tab">
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div id="map-canvas" style="width:100%; height:300px;"></div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h4>Address</h4>
+                                        <ul class="list">
+                                            <li>2403 Spring Land</li>
+                                            <li>Montreal QC &nbsp; H4E 2G2</li>
+                                            <li>&nbsp;</li>
+                                            <li>Near Monk metro station, opposite Jean-Coutu shop parking place</li>
+                                        </ul>
+                                        <br/>
                                         
+                                        <h4>Call</h4>
+                                        <ul class="list">
+                                            <li>(438)875-1768</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -522,8 +545,8 @@
 
 
 
-        <!-- Scripts queries -->
-        <script src="/js/jquery.js"></script>
+        <!-- Scripts queries -->       
+        <script src="/js/jquery.js"></script>         
         <script src="/js/boostrap.min.js"></script>
         <script src="/js/countdown.min.js"></script>
         <script src="/js/flexnav.min.js"></script>
@@ -541,7 +564,7 @@
         <script src="/js/nicescroll.js"></script>
 
         <!-- Custom scripts -->
-        <script src="../../js/custom.js"></script>
+        <script src="/js/custom.js"></script>
     </div>
 </body>
 

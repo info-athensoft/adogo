@@ -1,9 +1,10 @@
 "use strict";
 // Global vars
 var TWITTER_USERNAME = 'envato',
-    GOOGLE_MAP_LAT = 40.7564971,
-    GOOGLE_MAP_LNG = -73.9743277;
+    GOOGLE_MAP_LAT = 45.4540644,
+    GOOGLE_MAP_LNG = -73.594746;
 
+//45.454064, -73.594762
 
 // Countdown
 $(function() {
@@ -196,7 +197,7 @@ if ($('#map-canvas').length) {
         $(document).ready(function() {
             var latlng = new google.maps.LatLng(GOOGLE_MAP_LAT, GOOGLE_MAP_LNG);
             var myOptions = {
-                zoom: 14,
+                zoom: 17,
                 center: latlng,
                 mapTypeId: google.maps.MapTypeId.ROADMAP
             };
@@ -303,13 +304,13 @@ $(document).ready(function() {
 
 
      // footer always on bottom
-    var docHeight = $(window).height();
-   var footerHeight = $('#main-footer').height();
-   var footerTop = $('#main-footer').position().top + footerHeight;
+   var docHeight = $(window).height();
+   //var footerHeight = $('#main-footer').height();
+   //var footerTop = $('#main-footer').position().top + footerHeight;
    
-   if (footerTop < docHeight) {
-    $('#main-footer').css('margin-top', (docHeight - footerTop) + 'px');
-   }
+   //if (footerTop < docHeight) {
+   // $('#main-footer').css('margin-top', (docHeight - footerTop) + 'px');
+  // }
 
 });
 
