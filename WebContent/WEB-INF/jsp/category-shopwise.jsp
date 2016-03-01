@@ -74,19 +74,25 @@
                     <aside class="sidebar-left">
                         <ul class="nav nav-tabs nav-stacked nav-coupon-category">
                             <li class="active"><a href="#"><i class="fa fa-ticket"></i>SHOPWISE</a></li>
-                            <li><a href="#"><i class="fa fa-cutlery"></i>Clothing, Shoes, Accessories</a></li>
-                            <li><a href="#"><i class="fa fa-calendar"></i>钟表，珠宝首饰，眼镜</a></li>
-                            <li><a href="#"><i class="fa fa-female"></i>化妆品，个人护理</a></li>
-                            <li><a href="#"><i class="fa fa-bolt"></i>手机，摄影，数码，电脑，办公</a></li>
-                            <li><a href="#"><i class="fa fa-headphones"></i>母婴玩具</a></li>
-                            <li><a href="#"><i class="fa fa-image"></i>FOOD AND DRINK</a></li>
-                            <li><a href="#"><i class="fa fa-umbrella"></i>HOME, HOUSE AND GARDEN</a></li>
-                            <li><a href="#"><i class="fa fa-plane"></i>宠物</a></li>
+                            <li><a href="#"><i class="fa fa-cutlery"></i>Clothing, Shoes</a></li>
+                            <li><a href="#"><i class="fa fa-calendar"></i>Watch, Glasses</a></li>
+                            <li><a href="#"><i class="fa fa-calendar"></i>Jewelry</a></li>
+                            <li><a href="#"><i class="fa fa-female"></i>Beauty</a></li>
+                            <li><a href="#"><i class="fa fa-female"></i>Personal care</a></li>
+                            <li><a href="#"><i class="fa fa-bolt"></i>Smartphone, Camera</a></li>
+                            <li><a href="#"><i class="fa fa-bolt"></i>Digital, Computer</a></li>
+                            <li><a href="#"><i class="fa fa-bolt"></i>Office supplies</a></li>
+                            <li><a href="#"><i class="fa fa-headphones"></i>Mommy &amp; Toyes</a></li>
+                            <li><a href="#"><i class="fa fa-image"></i>Food &amp; drink</a></li>
+                            <li><a href="#"><i class="fa fa-umbrella"></i>House &amp; Garden</a></li>
+                            <li><a href="#"><i class="fa fa-plane"></i>Pet</a></li>
                             <li><a href="#"><i class="fa fa-shopping-cart"></i>Auto, Motor, Bike</a></li>
                             <li><a href="#"><i class="fa fa-home"></i>Health care</a></li>
-                            <li><a href="#"><i class="fa fa-plane"></i>Book, Movie, Music, eReader, Game</a></li>
-                            <li><a href="#"><i class="fa fa-plane"></i>艺术,  古玩</a></li>
-                            <li><a href="#"><i class="fa fa-plane"></i>Sports, Recreation, Fitness, Outdoor</a></li>
+                            <li><a href="#"><i class="fa fa-plane"></i>Book, eReader</a></li>
+                            <li><a href="#"><i class="fa fa-plane"></i>Movie, Music, Game</a></li>
+                            <li><a href="#"><i class="fa fa-plane"></i>Art,  Antique</a></li>
+                            <li><a href="#"><i class="fa fa-plane"></i>Sports, Fitness</a></li>
+                            <li><a href="#"><i class="fa fa-plane"></i>Outdoor, Recreation</a></li>
                         </ul>
                         <div class="sidebar-box">
                             <h5>Filter By Price</h5>
@@ -209,6 +215,116 @@
                         </div>
                     </div>
                     <div class="row row-wrap">
+                    	<div class="col-md-4">
+                            <div class="product-thumb">
+                                <header class="product-header">
+                                    <img src="/images/logo/logo_mora.png" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                                </header>
+                                <div class="product-inner">
+                                    <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                    </ul>
+                                    <h5 class="product-title">Mara Coiffeur</h5>
+                                    <p class="product-desciption">Professional hair dressing and cutting service</p>
+                                    <div class="product-meta">                                        
+                                        <p class="product-location">
+                                            	<i class="fa fa-map-marker"></i> Monk&nbsp;&nbsp;
+                                            	<span class="product-price"> FR</span>
+                                            	<span class="product-price"> EN</span>
+                                            	<span class="product-price"> CN</span>
+                                        </p>
+                                        <ul class="product-actions-list">
+                                            <li><a class="btn btn-sm" href="http://www.athensoft.com/demo_canvas/index-shop.jsp" target="_blank"><i class="fa fa-home"></i> Home</a>
+                                            </li>
+                                            <li><a class="btn btn-sm" href="/biz/31001"><i class="fa fa-bars"></i> Profile</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-thumb">
+                                <header class="product-header">
+                                    <img src="/images/logo/logo_mtlpc.png" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                                </header>
+                                <div class="product-inner">
+                                    <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                    </ul>
+                                    <h5 class="product-title">MTL Ordinateur</h5>
+                                    <p class="product-desciption">The TOP Computer and Digital Security System Service Provider</p>
+                                    <div class="product-meta">                                        
+                                        <p class="product-location">
+                                            	<i class="fa fa-map-marker"></i> Guy-Concordia &nbsp;&nbsp;
+                                            	<span class="product-price"> FR</span>
+                                            	<span class="product-price"> EN</span>
+                                            	<span class="product-price"> CN</span>
+                                        </p>
+                                        <ul class="product-actions-list">
+                                            <li><a class="btn btn-sm" href="http://www.athensoft.com/demo_canvas/index-shop.jsp" target="_blank"><i class="fa fa-home"></i> Home</a>
+                                            </li>
+                                            <li><a class="btn btn-sm" href="/biz/31002"><i class="fa fa-bars"></i> Profile</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-thumb">
+                                <header class="product-header">
+                                    <img src="/images/logo/logo_zhenimport.png" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                                </header>
+                                <div class="product-inner">
+                                    <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                    </ul>
+                                    <h5 class="product-title">Zhen Import Inc.</h5>
+                                    <p class="product-desciption">The finest wholesaler and distributor of decoration products and gifts</p>
+                                    <div class="product-meta">                                        
+                                        <p class="product-location">
+                                            	<i class="fa fa-map-marker"></i> St-Laurent &nbsp;&nbsp;
+                                            	<span class="product-price"> FR</span>
+                                            	<span class="product-price"> EN</span>
+                                        </p>
+                                        <ul class="product-actions-list">
+                                            <li><a class="btn btn-sm" href="http://www.athensoft.com/demo_canvas/index-shop.jsp" target="_blank"><i class="fa fa-home"></i> Home</a>
+                                            </li>
+                                            <li><a class="btn btn-sm" href="/biz/31003"><i class="fa fa-bars"></i> Profile</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="col-md-4">
                             <div class="product-thumb">
                                 <header class="product-header">
@@ -229,19 +345,20 @@
                                     </ul>
                                     <h5 class="product-title">Your business title</h5>
                                     <p class="product-desciption">Erat nunc adipiscing enim inceptos posuere pellentesque egestas</p>
-                                    <div class="product-meta">                                        
+                                    <div class="product-meta">
+                                    	<p class="product-location">
+                                            	<i class="fa fa-map-marker"></i> Your location&nbsp;&nbsp;
+                                            	<span class="product-price"> FR</span>
+                                            	<span class="product-price"> EN</span>
+                                            	<span class="product-price"> CN</span>
+                                        </p>                                        
                                         <ul class="product-actions-list">
                                             <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
                                             </li>
                                             <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
                                             </li>
                                         </ul>
-                                        <p class="product-location">
-                                            	<i class="fa fa-map-marker"></i> Your location&nbsp;&nbsp;
-                                            	<span class="product-price"> FR</span>
-                                            	<span class="product-price"> EN</span>
-                                            	<span class="product-price"> CN</span>
-                                        </p>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -319,225 +436,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="product-thumb">
-                                <header class="product-header">
-                                    <img src="/images/logo/logo_mora.png" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
-                                </header>
-                                <div class="product-inner">
-                                    <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                    </ul>
-                                    <h5 class="product-title">Mara Coiffeur</h5>
-                                    <p class="product-desciption">Professional hair dressing and cutting service</p>
-                                    <div class="product-meta">                                        
-                                        <p class="product-location">
-                                            	<i class="fa fa-map-marker"></i> Monk&nbsp;&nbsp;
-                                            	<span class="product-price"> FR</span>
-                                            	<span class="product-price"> EN</span>
-                                            	<span class="product-price"> CN</span>
-                                        </p>
-                                        <ul class="product-actions-list">
-                                            <li><a class="btn btn-sm" href="http://www.athensoft.com/demo_canvas/index-shop.jsp" target="_blank"><i class="fa fa-home"></i> Home</a>
-                                            </li>
-                                            <li><a class="btn btn-sm" href="/biz/31001"><i class="fa fa-bars"></i> Profile</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="product-thumb">
-                                <header class="product-header">
-                                    <img src="/images/logo/logo_mtlpc.png" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
-                                </header>
-                                <div class="product-inner">
-                                    <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                    </ul>
-                                    <h5 class="product-title">MTL Ordinateur</h5>
-                                    <p class="product-desciption">The TOP Computer and Digital Security System Service Provider</p>
-                                    <div class="product-meta">                                        
-                                        <p class="product-location">
-                                            	<i class="fa fa-map-marker"></i> Guy-Concordia &nbsp;&nbsp;
-                                            	<span class="product-price"> FR</span>
-                                            	<span class="product-price"> EN</span>
-                                            	<span class="product-price"> CN</span>
-                                        </p>
-                                        <ul class="product-actions-list">
-                                            <li><a class="btn btn-sm" href="http://www.athensoft.com/demo_canvas/index-shop.jsp" target="_blank"><i class="fa fa-home"></i> Home</a>
-                                            </li>
-                                            <li><a class="btn btn-sm" href="shop-profile.html"><i class="fa fa-bars"></i> Profile</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="product-thumb">
-                                <header class="product-header">
-                                    <img src="/images/logo/logo_zhenimport.png" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
-                                </header>
-                                <div class="product-inner">
-                                    <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                    </ul>
-                                    <h5 class="product-title">Zhen Import Inc.</h5>
-                                    <p class="product-desciption">The finest wholesaler and distributor of decoration products and gifts</p>
-                                    <div class="product-meta">                                        
-                                        <p class="product-location">
-                                            	<i class="fa fa-map-marker"></i> St-Laurent &nbsp;&nbsp;
-                                            	<span class="product-price"> FR</span>
-                                            	<span class="product-price"> EN</span>
-                                        </p>
-                                        <ul class="product-actions-list">
-                                            <li><a class="btn btn-sm" href="http://www.athensoft.com/demo_canvas/index-shop.jsp" target="_blank"><i class="fa fa-home"></i> Home</a>
-                                            </li>
-                                            <li><a class="btn btn-sm" href="product-coupon-meta-right.html"><i class="fa fa-bars"></i> Profile</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="product-thumb">
-                                <header class="product-header">
-                                    <img src="/img/800x600.png" alt="Image Alternative text" title="Green Furniture" />
-                                </header>
-                                <div class="product-inner">
-                                    <ul class="icon-group icon-list-rating" title="4.2/5 rating">
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star-half-empty"></i>
-                                        </li>
-                                    </ul>
-                                    <h5 class="product-title">Green Furniture Pack</h5>
-                                    <p class="product-desciption">Erat nunc adipiscing enim inceptos posuere pellentesque egestas</p>
-                                    <div class="product-meta">
-                                        <ul class="product-price-list">
-                                            <li><span class="product-price">$199</span>
-                                            </li>
-                                        </ul>
-                                        <ul class="product-actions-list">
-                                            <li><a class="btn btn-sm" href="http://www.athensoft.com/demo_canvas/index-shop.jsp" target="_blank"><i class="fa fa-shopping-cart"></i> To Cart</a>
-                                            </li>
-                                            <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Details</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="product-thumb">
-                                <header class="product-header">
-                                    <img src="/img/800x600.png" alt="Image Alternative text" title="The Violin" />
-                                </header>
-                                <div class="product-inner">
-                                    <ul class="icon-group icon-list-rating" title="4.2/5 rating">
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star-half-empty"></i>
-                                        </li>
-                                    </ul>
-                                    <h5 class="product-title">Violin Lessons</h5>
-                                    <p class="product-desciption">Erat nunc adipiscing enim inceptos posuere pellentesque egestas</p>
-                                    <div class="product-meta">
-                                        <ul class="product-price-list">
-                                            <li><span class="product-price">$91</span>
-                                            </li>
-                                            <li><span class="product-old-price">$169</span>
-                                            </li>
-                                            <li><span class="product-save">Save 54%</span>
-                                            </li>
-                                        </ul>
-                                        <ul class="product-actions-list">
-                                            <li><a class="btn btn-sm" href="#"><i class="fa fa-shopping-cart"></i> To Cart</a>
-                                            </li>
-                                            <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Details</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="product-thumb">
-                                <header class="product-header">
-                                    <img src="/img/800x600.png" alt="Image Alternative text" title="iPhone 5 iPad mini iPad 3" />
-                                </header>
-                                <div class="product-inner">
-                                    <ul class="icon-group icon-list-rating" title="4.1/5 rating">
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star-half-empty"></i>
-                                        </li>
-                                    </ul>
-                                    <h5 class="product-title">Electronics Big Deal</h5>
-                                    <p class="product-desciption">Erat nunc adipiscing enim inceptos posuere pellentesque egestas</p>
-                                    <div class="product-meta">
-                                        <ul class="product-price-list">
-                                            <li><span class="product-price">$170</span>
-                                            </li>
-                                        </ul>
-                                        <ul class="product-actions-list">
-                                            <li><a class="btn btn-sm" href="#"><i class="fa fa-shopping-cart"></i> To Cart</a>
-                                            </li>
-                                            <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Details</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        
                         <div class="col-md-4">
                             <div class="product-thumb">
                                 <header class="product-header">
@@ -647,119 +546,11 @@
                                 </div>
                             </div>
                         </div>
+                        
                         <div class="col-md-4">
                             <div class="product-thumb">
                                 <header class="product-header">
-                                    <img src="/img/800x600.png" alt="Image Alternative text" title="Food is Pride" />
-                                </header>
-                                <div class="product-inner">
-                                    <ul class="icon-group icon-list-rating" title="3/5 rating">
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star-o"></i>
-                                        </li>
-                                        <li><i class="fa fa-star-o"></i>
-                                        </li>
-                                    </ul>
-                                    <h5 class="product-title">Best Pasta</h5>
-                                    <p class="product-desciption">Erat nunc adipiscing enim inceptos posuere pellentesque egestas</p>
-                                    <div class="product-meta">
-                                        <ul class="product-price-list">
-                                            <li><span class="product-price">$237</span>
-                                            </li>
-                                        </ul>
-                                        <ul class="product-actions-list">
-                                            <li><a class="btn btn-sm" href="#"><i class="fa fa-shopping-cart"></i> To Cart</a>
-                                            </li>
-                                            <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Details</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="product-thumb">
-                                <header class="product-header">
-                                    <img src="/img/800x600.png" alt="Image Alternative text" title="Urbex Esch/Lux with Laney and Laaaaag" />
-                                </header>
-                                <div class="product-inner">
-                                    <ul class="icon-group icon-list-rating icon-list-non-rated" title="not rated yet">
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                    </ul>
-                                    <h5 class="product-title">Best Camera</h5>
-                                    <p class="product-desciption">Erat nunc adipiscing enim inceptos posuere pellentesque egestas</p>
-                                    <div class="product-meta">
-                                        <ul class="product-price-list">
-                                            <li><span class="product-price">$199</span>
-                                            </li>
-                                        </ul>
-                                        <ul class="product-actions-list">
-                                            <li><a class="btn btn-sm" href="#"><i class="fa fa-shopping-cart"></i> To Cart</a>
-                                            </li>
-                                            <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Details</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="product-thumb">
-                                <header class="product-header">
-                                    <img src="/img/800x600.png" alt="Image Alternative text" title="Old No7" />
-                                </header>
-                                <div class="product-inner">
-                                    <ul class="icon-group icon-list-rating icon-list-non-rated" title="not rated yet">
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                    </ul>
-                                    <h5 class="product-title">Jack Daniels Huge Pack</h5>
-                                    <p class="product-desciption">Erat nunc adipiscing enim inceptos posuere pellentesque egestas</p>
-                                    <div class="product-meta">
-                                        <ul class="product-price-list">
-                                            <li><span class="product-price">$116</span>
-                                            </li>
-                                            <li><span class="product-old-price">$297</span>
-                                            </li>
-                                            <li><span class="product-save">Save 39%</span>
-                                            </li>
-                                        </ul>
-                                        <ul class="product-actions-list">
-                                            <li><a class="btn btn-sm" href="#"><i class="fa fa-shopping-cart"></i> To Cart</a>
-                                            </li>
-                                            <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Details</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="product-thumb">
-                                <header class="product-header">
-                                    <img src="/img/800x600.png" alt="Image Alternative text" title="The Hidden Power of the Heart" />
+                                    <img src="/img/800x600.png" alt="Image Alternative text" title="waipio valley" />
                                 </header>
                                 <div class="product-inner">
                                     <ul class="icon-group icon-list-rating" title="4.3/5 rating">
@@ -774,15 +565,11 @@
                                         <li><i class="fa fa-star-half-empty"></i>
                                         </li>
                                     </ul>
-                                    <h5 class="product-title">Beach Holidays</h5>
+                                    <h5 class="product-title">Awesome Vacation</h5>
                                     <p class="product-desciption">Erat nunc adipiscing enim inceptos posuere pellentesque egestas</p>
                                     <div class="product-meta">
                                         <ul class="product-price-list">
-                                            <li><span class="product-price">$131</span>
-                                            </li>
-                                            <li><span class="product-old-price">$292</span>
-                                            </li>
-                                            <li><span class="product-save">Save 45%</span>
+                                            <li><span class="product-price">$268</span>
                                             </li>
                                         </ul>
                                         <ul class="product-actions-list">
@@ -795,6 +582,7 @@
                                 </div>
                             </div>
                         </div>
+                       
                         <div class="col-md-4">
                             <div class="product-thumb">
                                 <header class="product-header">

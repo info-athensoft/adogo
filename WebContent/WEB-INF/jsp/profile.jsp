@@ -98,24 +98,22 @@
                                         </p>
                                         <br/>
                                         <h4>Who we are</h4>
-                                        <p>èæ¢   ç¾åå¸<br/>
 										   Roni  Hairdresser
 										</p>                                        
-                                        <p>å­å¨    ç¾ å å±<br/>
 										   Salon de Coiffure Mara
 										</p>
                                         
                                     </div>
                                     <div class="col-md-4">
                                     	<h4>What we provide</h4>
-                                        <p>åªåãç«åãæåãé åç­å¨é¢ææ¯æå¡<br/>
+                                        <p>
 											Services including haircut, perm, hair color, doing hairstyle etc.
 										</p>
 										
 										<br/>
                                         <h4>Competences</h4>
                                         <p>
-                                        	3ä¸äººæ¬¡ä»¥ä¸åæ¬¾ç·å¥³åååªåç»éª<br/>
+                                        	
 											Roni hairdresser has professional experience of a variety of haircut more than 30 thousand people.
 										</p>
                                         
@@ -133,7 +131,6 @@
 											<tr><td>SUN.</td><td>10:00 am</td><td>-</td><td>6:00 pm</td></tr>
 											</table>
 											<br/>
-											æ¯å¤©10:00â6:00è¥ä¸ï¼å¨ä¸ä¼æ¯ã<br/>
                                         </p>
                                     </div>
                                 </div>

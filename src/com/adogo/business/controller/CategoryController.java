@@ -13,7 +13,6 @@ import com.adogo.business.entity.Business;
 import com.adogo.business.service.BusinessService;
 
 @Controller
-@RequestMapping("/category")
 public class CategoryController {
 	
 	private BusinessService businessService;
@@ -23,7 +22,7 @@ public class CategoryController {
 		this.businessService = businessService;
 	}
 	
-	@RequestMapping("/{categoryName}")
+	@RequestMapping("/category/{categoryName}")
 	public ModelAndView showCustProfile(
 			@PathVariable String categoryName){
 		ModelAndView mav = new ModelAndView();

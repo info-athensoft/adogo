@@ -85,9 +85,9 @@
                             <li><a href="/category/tourism"><i class="fa fa-plane"></i>Tourism<span>38</span></a></li>
                             <li><a href="/category/nonprofit"><i class="fa fa-home"></i>Non-profit<span>44</span></a></li>
                             
-                            <li class="active"><a href="#"><i class="fa fa-shopping-cart"></i>Business</a></li>
+                            <li class="active"><a href="#"><i class="fa fa-shopping-cart"></i>I want to do business</a></li>
+                            <li><a href="#"><i class="fa fa-cutlery"></i>Connecting to Business<span>50</span></a></li>
                             <li><a href="#"><i class="fa fa-cutlery"></i>Buying a Business<span>50</span></a></li>
-                            
                             
                             <!--
                             <li><a href="#"><i class="fa fa-cutlery"></i>Housing<span>50</span></a></li>

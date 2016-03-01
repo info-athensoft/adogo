@@ -52,9 +52,9 @@ public class BusinessDaoImpl implements BusinessDao{
 		
 		b = new Business();
 		b.setBizNo(31002);
-		b.setBizName("Mara Coiffeur2");
-		b.setBizDesc("Professional hair dressing and cutting service2");
-		b.setLocationName("Monk2");
+		b.setBizName("MTL Ordinateur");
+		b.setBizDesc("The TOP Computer and Digital Security System Service Provider");
+		b.setLocationName("Guy-Concordia");
 		
 		listBiz.add(b);
 		b = null;
@@ -62,9 +62,9 @@ public class BusinessDaoImpl implements BusinessDao{
 		
 		b = new Business();
 		b.setBizNo(31003);
-		b.setBizName("Mara Coiffeur3");
-		b.setBizDesc("Professional hair dressing and cutting service3");
-		b.setLocationName("Monk3");
+		b.setBizName("Zhen Import Inc.");
+		b.setBizDesc("The finest wholesaler and distributor of decoration products and gifts");
+		b.setLocationName("St-Laurent");
 		
 		listBiz.add(b);
 		b = null;

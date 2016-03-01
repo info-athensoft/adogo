@@ -12,6 +12,11 @@
                 <nav>
                     <ul class="nav nav-pills flexnav" id="flexnav" data-breakpoint="800">
                         <li class="active"><a href="index.jsp">Home</a>
+                        	<ul>
+                                <li><a href="#">Get started</a></li>
+                                <li><a href="#">New features</a></li>
+                                <li><a href="#">Explore</a></li>
+                            </ul>
                         </li>
                         <li><a href="shop-category.jsp">Find</a>
                             <ul>
@@ -36,6 +41,14 @@
                                 <li><a href="#">Selling activities</a>
                                 </li>
                                 <li><a href="#">Charitable activities</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Join us</a>
+                            <ul>
+                                <li><a href="#">Become an advertiser</a>
+                                </li>
+                                <li><a href="#">Become a distributer</a>
                                 </li>
                             </ul>
                         </li>
