@@ -79,7 +79,7 @@
                             </li>
                             <li><a href="#google-map-tab" data-toggle="tab"><i class="fa fa-map-marker"></i>Location</a>
                             </li>
-                            <li><a href="#tab-3" data-toggle="tab"><i class="fa fa-comments"></i>Opening hour</a>
+                            <li><a href="#tab-3" data-toggle="tab"><i class="fa fa-clock-o"></i>Opening hour</a>
                             </li>
                             <li><a href="#tab-4" data-toggle="tab"><i class="fa fa-info"></i>About</a>
                             </li>
