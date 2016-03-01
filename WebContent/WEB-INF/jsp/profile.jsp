@@ -171,9 +171,9 @@
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="tab-4">
-                                <h3>Company Name</h3>
-                                <p>Dignissim magna inceptos lectus feugiat cubilia nullam porttitor sapien dignissim ultricies ipsum leo nulla tempus facilisi nostra tincidunt nisi nascetur cum venenatis penatibus varius in fermentum dapibus ornare dictumst ultricies praesent in tempus enim in interdum felis erat sapien integer sociis justo accumsan nisi et porttitor orci potenti volutpat neque</p>
-                                <p>Rutrum vestibulum senectus ad ad bibendum consectetur maecenas leo et posuere vel penatibus enim vehicula tempus quisque enim pharetra elit fusce vivamus elementum mauris luctus pellentesque luctus penatibus risus accumsan purus cum fusce enim tellus vehicula purus commodo donec metus commodo rhoncus nisi sollicitudin volutpat viverra imperdiet imperdiet massa vestibulum</p><a class="btn btn-primary">Company Website <i class="fa fa-external-link"></i></a>
+                                <h3>Mara Coiffeur</h3>
+                                <p>put your brief introduction here</p>
+                                <p>put your brief introduction here</p><a class="btn btn-primary" href="#">Check out our Website <i class="fa fa-external-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -352,8 +352,9 @@
                 </div>
                 <div class="col-md-3">
                     <div class="product-page-meta box">
-                        <h4>Mara Coiffeur</h4>
-                        <p>Pretium ad placerat justo felis enim dignissim condimentum nisl ullamcorper fermentum posuere felis habitant mollis faucibus penatibus inceptos senectus mauris</p><a class="btn btn-primary btn-lg btn-block" href="http://www.athensoft.com/demo_canvas/index-shop.jsp"  target="_blank">View Ad. Page</a>
+                        <h4><strong>Mara Coiffeur</strong></h4>
+                        <p>Mr. Roni is providing services for you which includes haircut, perm, hair color, doing hairstyle etc.<br/></p>
+                        <a class="btn btn-primary btn-lg btn-block" href="#"  target="_blank">View Ad. Page</a>
                         <ul class="list product-page-meta-info">
                             <li>
                                 <ul class="list product-page-meta-price-list">
