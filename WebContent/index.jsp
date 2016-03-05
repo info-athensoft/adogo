@@ -12,6 +12,11 @@
     <meta name="description" content="Adogo - The creative online brand and ad marketing platform">
     <meta name="author" content="athensoft.com">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Pinterest -->
+    <meta name="p:domain_verify" content="b5eded4718d158c6ff3ccb3e1dd7f1b2"/>
+    
+    
     <!-- Google fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
@@ -29,10 +34,10 @@
     <!-- Your custom styles (blank file) -->
     <link rel="stylesheet" href="/css/mystyles.css">
 	
-
+	
 </head>
 
-<body class="boxed bg-cover sticky-header sticky-search" style="background-image: url(/img/backgrounds/wood.jpg)">
+<body class="boxed bg-cover" style="background-image: url(/img/backgrounds/wood.jpg)">
 
 
     <div class="global-wrap">

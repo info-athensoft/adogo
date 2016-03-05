@@ -32,7 +32,7 @@
 
 </head>
 
-<body class="sticky-header sticky-search">
+<body>
     <div class="global-wrap">
     <!-- //////////////////////////////////
 	//////////////MAIN HEADER///////////// 

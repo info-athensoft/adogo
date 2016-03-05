@@ -10,11 +10,18 @@
                             </a>
                             <ul class="list list-social">
                                 <li>
-                                    <a class="fa fa-facebook box-icon" href="#" data-toggle="tooltip" title="Facebook"></a>
+                                    <a class="fa fa-facebook box-icon" href="https://www.facebook.com/adogo.service" data-toggle="tooltip" title="Facebook"></a>
                                 </li>
                                 <li>
-                                    <a class="fa fa-twitter box-icon" href="#" data-toggle="tooltip" title="Twitter"></a>
+                                    <a class="fa fa-twitter box-icon" href="https://twitter.com/adogo_service" data-toggle="tooltip" title="Twitter"></a>
                                 </li>
+                                <li>
+                                    <a class="fa fa-pinterest box-icon" href="https://www.pinterest.com/adogoservice" data-toggle="tooltip" title="Pinterest"></a>
+                                </li>
+                                <li>
+                                    <a class="fa fa-instagram box-icon" href="https://www.instagram.com/adogo.service" data-toggle="tooltip" title="Instagram"></a>
+                                </li>
+                                <!--  
                                 <li>
                                     <a class="fa fa-flickr box-icon" href="#" data-toggle="tooltip" title="Flickr"></a>
                                 </li>
@@ -24,8 +31,9 @@
                                 <li>
                                     <a class="fa fa-tumblr box-icon" href="#" data-toggle="tooltip" title="Tumblr"></a>
                                 </li>
+                                -->
                             </ul>
-                            <p>Adogo is a new concept advertising platform and we are committed to providing professional online marketing services and helping to explore market for your business!</p>
+                            <p>Adogo&trade; is a new concept advertising platform and we are committed to providing professional online marketing services and helping to explore market for your business!</p>
                         </div>
                         <div class="col-md-3">
                             <h3>Subscribe Newsletters</h3>
