@@ -13,8 +13,7 @@ import com.adogo.business.service.BusinessService;
 
 @Controller
 public class BusinessController {
-	
-	
+		
 	private BusinessService businessService;
 	
 	@Autowired
@@ -34,9 +33,5 @@ public class BusinessController {
 		
 		mav.setViewName("profile");
 		return mav;
-	}
-
-
-
-	
+	}	
 }
