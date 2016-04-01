@@ -1569,6 +1569,18 @@
 
         <!-- Custom scripts -->
         <script src="/js/custom.js"></script>
+        
+        <script>
+        /*
+		$("#owl-carousel-slider").owlCarousel({
+		
+		// Most important owl features
+		
+		//Autoplay
+		autoPlay : 1000,
+		stopOnHover : false
+		})*/
+		</script>
     </div>
 </body>
 
