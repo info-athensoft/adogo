@@ -283,7 +283,8 @@ $(document).ready(function() {
         navigation: true,
         navigationText: ['', ''],
         transitionStyle: 'goDown',
-        autoPlay: 4500
+        autoPlay: 4500,
+        stopOnHover : true
     });
 
 
