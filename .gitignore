@@ -2,3 +2,5 @@
 /.settings/
 /.project
 /.classpath
+
+/src/com/adogo/config/jdbc-mysql.properties
