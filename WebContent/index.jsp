@@ -113,7 +113,7 @@
                 		<div class="col-md-4">
                         <div class="product-thumb">
                             <header class="product-header">
-                                <img src="images/newbrand/01.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                                <img src="images/newbrand/silvertac.jpg" alt="Image Alternative text" title="silvertac" />
                             </header>
                             <div class="product-inner">
                                 <ul class="icon-group icon-list-rating" title="5/5 rating">
@@ -128,8 +128,11 @@
                                     <li><i class="fa fa-star"></i>
                                     </li>
                                 </ul>
-                                <h5 class="product-title">Your Business Name</h5>
-                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <h5 class="product-title">Silvertac Design Studio</h5>
+                                <p class="product-desciption">Graphic Design,
+Company logo, Product design, Concept design,Poster, Car wrapping Menu, video editing, 
+Business card, printing service etc.
+</p>
                                 <div class="product-meta">
                                     <ul class="product-price-list">
                                     	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
@@ -154,7 +157,7 @@
 					<div class="col-md-4">
                         <div class="product-thumb">
                             <header class="product-header">
-                                <img src="images/newbrand/02.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                                <img src="images/newbrand/zhenimport.png" alt="Image Alternative text" title="zhenimport" />
                             </header>
                             <div class="product-inner">
                                 <ul class="icon-group icon-list-rating" title="5/5 rating">
@@ -169,8 +172,9 @@
                                     <li><i class="fa fa-star"></i>
                                     </li>
                                 </ul>
-                                <h5 class="product-title">Your Business Name</h5>
-                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <h5 class="product-title">Zhenimport Inc.</h5>
+                                <p class="product-desciption">Wholesaler and distributor of 
+                                decoration products and gifts. Glass vases, artificial flowers, fiberglass planters and ceramic pots and more...</p>
                                 <div class="product-meta">
                                     <ul class="product-price-list">
                                     	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
@@ -196,7 +200,7 @@
                 <div class="col-md-4">
                         <div class="product-thumb">
                             <header class="product-header">
-                                <img src="images/newbrand/03.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                                <img src="images/newbrand/clc.jpg" alt="Image Alternative text" title="CLC" />
                             </header>
                             <div class="product-inner">
                                 <ul class="icon-group icon-list-rating" title="5/5 rating">
@@ -211,8 +215,9 @@
                                     <li><i class="fa fa-star"></i>
                                     </li>
                                 </ul>
-                                <h5 class="product-title">Your Business Name</h5>
-                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <h5 class="product-title">CLC Logistics International Inc</h5>
+                                <p class="product-desciption">Complete international shipping and logistical 
+                                services for import and export requirements and specialized in handling ocean shipments...</p>
                                 <div class="product-meta">
                                     <ul class="product-price-list">
                                     	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
@@ -226,7 +231,7 @@
                                          -->
                                     </ul>
                                     <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="http://www.athensoft.com" target="_blank"><i class="fa fa-home"></i> Home</a>
+                                        <li><a class="btn btn-sm" href="http://www.clclogistics.com/aboutus.asp" target="_blank"><i class="fa fa-home"></i> Home</a>
                                         </li>
                                         <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
                                         </li>
