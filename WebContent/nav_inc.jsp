@@ -1,10 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+
+
 <header class="main main-white">
     <div class="container">
         <div class="row">
             <div class="col-md-2">
                 <a href="/" class="logo">
-                    <img src="/img/logo-small-dark.png" alt="Adogo logo" title="athensoft.com" />
+                    <img src="/img/logo-small-dark.png" alt="Adogo logo" title="athensoft.com" width="32" height="32"/>
                 </a>
             </div>
             <div class="col-md-6">

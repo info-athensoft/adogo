@@ -37,7 +37,7 @@
 	
 </head>
 
-<body class="boxed bg-cover" style="background-image: url(/img/backgrounds/wood.jpg)">
+<body class="boxed bg-cover" style="background-image: url(/img/backgrounds/s4.jpg)">
 
 
     <div class="global-wrap">
@@ -292,7 +292,7 @@ Business card, printing service etc.
 					<div class="col-md-4">
                         <div class="product-thumb">
                             <header class="product-header">
-                                <img src="images/weekfeature/02.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                                <img src="images/weekfeature/pke_big.jpg" alt="Image Alternative text" title="Pest Kontrol" />
                             </header>
                             <div class="product-inner">
                                 <ul class="icon-group icon-list-rating" title="5/5 rating">
@@ -307,21 +307,21 @@ Business card, printing service etc.
                                     <li><i class="fa fa-star"></i>
                                     </li>
                                 </ul>
-                                <h5 class="product-title">Your Business Name</h5>
-                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <h5 class="product-title">Extermination PK</h5>
+                                <p class="product-desciption">Services d'extermination et de gestion parasitaire de rongeur et insecte nuisible</p>
                                 <div class="product-meta">
                                     <ul class="product-price-list">
                                     	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
                                         <li><span class="product-price">FR</span></li>
                                         <li><span class="product-price">EN</span></li>
-                                        <li><span class="product-price">RA</span></li>
+                                        <li><span class="product-price">CH</span></li>
                                         <!-- 
                                         <li><span class="product-old-price">$195</span></li>
                                         <li><span class="product-save">Save 42%</span></li>
                                          -->
                                     </ul>
                                     <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
+                                        <li><a class="btn btn-sm" href="http://www.facebook.com/exterminationpk"><i class="fa fa-home"></i> Home</a>
                                         </li>
                                         <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
                                         </li>
@@ -770,7 +770,7 @@ Business card, printing service etc.
                 <div class="col-md-4">
                         <div class="product-thumb">
                             <header class="product-header">
-                                <img src="images/lifeservice/01.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                                <img src="images/lifeservice/pke_big.jpg" alt="Image Alternative text" title="Pest Kontrol" />
                             </header>
                             <div class="product-inner">
                                 <ul class="icon-group icon-list-rating" title="5/5 rating">
@@ -785,8 +785,8 @@ Business card, printing service etc.
                                     <li><i class="fa fa-star"></i>
                                     </li>
                                 </ul>
-                                <h5 class="product-title">Your Business Name</h5>
-                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <h5 class="product-title">Extermination PK</h5>
+                                <p class="product-desciption">Services d'extermination et de gestion parasitaire de rongeur et insecte nuisible</p>
                                 <div class="product-meta">
                                     <ul class="product-price-list">
                                     	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
@@ -799,7 +799,7 @@ Business card, printing service etc.
                                          -->
                                     </ul>
                                     <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
+                                        <li><a class="btn btn-sm" href="http://www.facebook.com/exterminationpk"><i class="fa fa-home"></i> Home</a>
                                         </li>
                                         <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
                                         </li>
