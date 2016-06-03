@@ -20,10 +20,14 @@
                                 <li><a href="#">New features</a></li>
                                 <li><a href="#">Explore</a></li>
                              -->
-                                <li><a href="#">About</a></li>
+                                <li><a href="/about">About</a></li>
+                                <li><a href="/about/ch">About (CHS)</a></li>
                             </ul>
                         </li>
-                        <li class="active"><a href="/index.jsp">Public test</a>
+                        <li class="active"><a href="faq">Public test</a>
+                        	<ul>
+                                <li><a href="/faq">FAQ</a></li>
+                            </ul>
                         </li>                   
                         <li><a href="#">Find</a>
                         <!-- 
@@ -98,10 +102,15 @@
                         </div>
                     </li>
                      -->
+                     <!-- 
                     <li><a class="popup-text" href="#login-dialog" data-effect="mfp-move-from-top"><i class="fa fa-sign-in"></i>Sign in</a>
-                    </li>
+                    </li>                     
                     <li><a class="popup-text" href="#register-dialog" data-effect="mfp-move-from-top"><i class="fa fa-edit"></i>Sign up</a>
                     </li>
+                    -->
+                    <li><a class="popup-text" href="#public-test-dialog" data-effect="mfp-move-from-top"><i class="fa fa-edit"></i>Apply Now</a>
+                    </li>
+                    
                 </ul>
             </div>
         </div>

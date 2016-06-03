@@ -35,7 +35,7 @@
 
 </head>
 
-<body class="boxed bg-cover" style="background-image: url(/img/backgrounds/flowers.jpg)">
+<body class="boxed bg-cover" style="background-image: url(/img/backgrounds/s7.jpg)">
 
     <div class="global-wrap">
 
@@ -65,8 +65,6 @@
         <!-- //////////////////////////////////
 	//////////////PAGE CONTENT///////////// 
 	////////////////////////////////////-->
-
-
 
         <div class="container">
             <div class="row">
