@@ -13,22 +13,30 @@
                 <div class="flexnav-menu-button" id="flexnav-menu-button">Menu</div>
                 <nav>
                     <ul class="nav nav-pills flexnav" id="flexnav" data-breakpoint="800">
-                        <li class="active"><a href="/index.jsp">Home</a>
+                        <li><a href="/index.jsp">Home</a>
                         	<ul>
+                        	<!-- 
                                 <li><a href="#">Get started</a></li>
                                 <li><a href="#">New features</a></li>
                                 <li><a href="#">Explore</a></li>
+                             -->
+                                <li><a href="#">About</a></li>
                             </ul>
                         </li>
+                        <li class="active"><a href="/index.jsp">Public test</a>
+                        </li>                   
                         <li><a href="#">Find</a>
+                        <!-- 
                             <ul>
                                 <li><a href="/category/shopwise">Find a shop</a></li>
                                 <li><a href="#">Find a product</a></li>
                                 <li><a href="#">Find a service</a></li>
                                 <li><a href="#">Find a business</a></li>
                             </ul>
+                         -->
                         </li>
                         <li><a href="#">Good deals</a>
+                        <!-- 
                             <ul>
                                 <li><a href="#">On sale</a>
                                 </li>
@@ -37,21 +45,26 @@
                                 <li><a href="#">Flyer</a>
                                 </li>
                             </ul>
+                          -->
                         </li>
                         <li><a href="#">Events</a>
+                        		<!-- 
                             <ul>
                                 <li><a href="#">Selling activities</a>
                                 </li>
                                 <li><a href="#">Charitable activities</a>
                                 </li>
                             </ul>
+                             -->
                         </li>
                         <li><a href="#">Join us</a>
                             <ul>
                                 <li><a href="#">As an advertiser</a>
                                 </li>
+                                <!-- 
                                 <li><a href="#">As a distributer</a>
                                 </li>
+                                 -->
                             </ul>
                         </li>
                     </ul>
@@ -59,6 +72,7 @@
             </div>
             <div class="col-md-4">
                 <ul class="login-register">
+                	<!-- 
                     <li class="shopping-cart shopping-cart-white"><a href="#"><i class="fa fa-shopping-cart"></i>My Cart</a>
                         <div class="shopping-cart-box">
                             <ul class="shopping-cart-items">
@@ -83,6 +97,7 @@
                             </ul>
                         </div>
                     </li>
+                     -->
                     <li><a class="popup-text" href="#login-dialog" data-effect="mfp-move-from-top"><i class="fa fa-sign-in"></i>Sign in</a>
                     </li>
                     <li><a class="popup-text" href="#register-dialog" data-effect="mfp-move-from-top"><i class="fa fa-edit"></i>Sign up</a>
