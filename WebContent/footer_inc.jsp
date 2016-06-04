@@ -59,7 +59,7 @@
                     <ul class="thumb-list">
                         <li>
                             <a href="#">
-                                <img src="/img/70x70.png" alt="Image Alternative text" title="Urbex Esch/Lux with Laney and Laaaaag" />
+                                <img src="/img/adogo-logo-70.png" alt="Image Alternative text" title="Urbex Esch/Lux with Laney and Laaaaag" />
                             </a>
                             <div class="thumb-list-item-caption">
                                 <p class="thumb-list-item-meta">Mar 1, 2016</p>
@@ -69,7 +69,7 @@
                         </li>
                         <li>
                             <a href="#">
-                                <img src="/img/70x70.png" alt="Image Alternative text" title="AMaze" />
+                                <img src="/img/adogo-logo-70.png" alt="Image Alternative text" title="AMaze" />
                             </a>
                             <div class="thumb-list-item-caption">
                                 <p class="thumb-list-item-meta">Mar 1, 2016</p>
@@ -79,7 +79,7 @@
                         </li>
                         <li>
                             <a href="#">
-                                <img src="/img/70x70.png" alt="Image Alternative text" title="The Hidden Power of the Heart" />
+                                <img src="/img/adogo-logo-70.png" alt="Image Alternative text" title="The Hidden Power of the Heart" />
                             </a>
                             <div class="thumb-list-item-caption">
                                 <p class="thumb-list-item-meta">Mar 1, 2016</p>

@@ -6,12 +6,9 @@
 
 <c:set var="about1" value="Adogo 是一个新概念的广告平台，一个B2C和B2B无疆界的综合市场，一个生活和生意的生态圈。"/>
 <c:set var="about2" value="Adogo 为所有浏览者提供了一个一站式获取提供产品和服务的商家信息的搜索引擎。
-浏览者可以有目的性地找到想要的商家，取得商家基本信息和动态，快速比较筛选，确定是否联系。浏览者亦可以探索、发现、搜藏、分享
-有兴趣的商家以便将来不时之需。 浏览者亦可以成为商家。"/>
-<c:set var="about3" value="Adogo 为所有商家提供了一个新的开放式广告投放渠道。支持发布静态信息，让消费者
-和潜在伙伴了解基本信息。支持链接官方网站，展现现商业动态、发布活动等。同时向没有网站或者想拥有精美广告网页的商家提供提供制作服务。"/>
-<c:set var="about4" value="Adogo 是一个集广告发布、制作、推广、互动和培训为一体的创新型商业信息服务模式；融合商业、广告页、互联网技术、
-移动互联网技术、电子商务、人工智能、大数据等多项科技的新一代广告平台。发现客户市场、发现商家、发现伙伴、发现商机、发现更多可能性尽在ADOGO，欢迎您的加盟！"/>
+浏览者可以有目的性地找到想要的商家，取得商家基本信息和动态，快速比较筛选，确定是否联系。浏览者亦可以探索、发现、收藏、分享感兴趣的商家以便将来不时之需。 浏览者亦可以成为商家。"/>
+<c:set var="about3" value="Adogo 为所有商家提供了一个新的开放式广告投放渠道。支持发布静态信息，让消费者和潜在伙伴了解基本信息。支持链接官方网站，展现商业动态、发布活动等。同时向没有网站或者想拥有精美广告网页的商家提供制作服务。"/>
+<c:set var="about4" value="Adogo 是一个集广告发布、制作、推广、互动和培训为一体的创新型商业信息服务模式；融合商业、广告页、互联网技术、移动互联网技术、电子商务、人工智能、大数据等多项科技的新一代广告平台。发现客户市场、发现商家、发现伙伴、发现商机、发现更多可能性尽在ADOGO，欢迎您的加盟！"/>
 <!DOCTYPE HTML>
 <html>
 
@@ -108,102 +105,56 @@
             <div class="gap gap-small"></div>
             <div class="row row-wrap">
                 <div class="col-md-4">
-                    <h3>Story</h3>
-                    <p>Cras rhoncus vitae cras natoque nec pharetra praesent vitae rhoncus tincidunt euismod faucibus ut fusce dis ante dapibus eleifend eu cursus at fames torquent consectetur praesent quisque taciti tempus pretium feugiat montes ultricies dapibus duis</p>
+                    <h3>背景</h3>
+                    <p>ADOGO 是由Informatique Athensoft互联网及电子商务软件技术服务公司自主研发运营的新概念广告推广平台。</p>
                 </div>
                 <div class="col-md-4">
-                    <h3>Mission</h3>
-                    <p>Risus duis parturient curae turpis eget eros habitasse risus ultricies nisl mollis proin ridiculus quisque ultricies nostra purus feugiat egestas rhoncus faucibus integer per aliquet laoreet nec vestibulum rhoncus netus vehicula gravida sapien pulvinar commodo</p>
+                    <h3>使命</h3>
+                    <p>ADOGO 的使命是打造一个从用户的目的和愿望出发来搜寻目标信息载体的创新型智能引擎和信息供需服务平台。</p>
                 </div>
                 <div class="col-md-4">
-                    <h3>Vision</h3>
-                    <p>Mauris lorem hac cras porttitor orci ipsum orci nostra orci iaculis pretium maecenas fermentum donec venenatis adipiscing adipiscing id litora leo netus taciti sed maecenas hendrerit conubia class gravida dignissim cubilia ultricies quam ipsum himenaeos</p>
+                    <h3>愿景</h3>
+                    <p>让生活以人为本。<br/>
+                    	找就是你想要的。</p>
                 </div>
             </div>
             <div class="gap gap-small"></div>
             <div class="row row-wrap">
                 <div class="col-md-3">
-                    <h3>Behind the Scenes</h3>
-                    <p>Id ultrices tempor rutrum arcu nascetur ultricies sollicitudin arcu ultrices integer montes vitae platea ornare feugiat torquent condimentum mattis dapibus interdum tellus fringilla mollis nulla duis velit ipsum consequat suscipit primis enim a accumsan magna</p>
+                    <h3>战略合作伙伴</h3>
+                    <p>ADOGO 秉承开放原则和多家值得信赖的优秀企业和个人携手共建无疆界的智能商业生态圈。为了一个共同的目标，我们和伙伴们一道，集思广益、深度合作、勇敢创新，不断进取。我们为能给社区和广大人群带来价值和贡献感到骄傲和荣幸！</p>
                 </div>
                 <div class="col-md-9">
                     <div class="row row-no-gutter " id="popup-gallery">
                         <div class="col-md-3">
                             <!-- HOVER IMAGE -->
                             <a class="hover-img popup-gallery-image" href="img/800x600.png" data-effect="mfp-zoom-out">
-                                <img src="/img/800x600.png" alt="Image Alternative text" title="4 Strokes of Fun" /><i class="fa fa-resize-full hover-icon"></i>
+                                <img src="/img/partner/clc.jpg" alt="Image Alternative text" title="4 Strokes of Fun" /><i class="fa fa-resize-full hover-icon"></i>
                             </a>
                         </div>
                         <div class="col-md-3">
                             <!-- HOVER IMAGE -->
                             <a class="hover-img popup-gallery-image" href="img/800x600.png" data-effect="mfp-zoom-out">
-                                <img src="/img/800x600.png" alt="Image Alternative text" title="new york at an angle" /><i class="fa fa-resize-full hover-icon"></i>
+                                <img src="/img/partner/zhenimport.png" alt="Image Alternative text" title="new york at an angle" /><i class="fa fa-resize-full hover-icon"></i>
                             </a>
                         </div>
                         <div class="col-md-3">
                             <!-- HOVER IMAGE -->
                             <a class="hover-img popup-gallery-image" href="img/800x600.png" data-effect="mfp-zoom-out">
-                                <img src="/img/800x600.png" alt="Image Alternative text" title="Workspace" /><i class="fa fa-resize-full hover-icon"></i>
+                                <img src="/img/partner/silvertac.jpg" alt="Image Alternative text" title="Workspace" /><i class="fa fa-resize-full hover-icon"></i>
                             </a>
                         </div>
                         <div class="col-md-3">
                             <!-- HOVER IMAGE -->
                             <a class="hover-img popup-gallery-image" href="img/800x600.png" data-effect="mfp-zoom-out">
-                                <img src="/img/800x600.png" alt="Image Alternative text" title="Hot mixer" /><i class="fa fa-resize-full hover-icon"></i>
-                            </a>
-                        </div>
-                        <div class="col-md-3">
-                            <!-- HOVER IMAGE -->
-                            <a class="hover-img popup-gallery-image" href="img/800x600.png" data-effect="mfp-zoom-out">
-                                <img src="/img/800x600.png" alt="Image Alternative text" title="Andrea" /><i class="fa fa-resize-full hover-icon"></i>
-                            </a>
-                        </div>
-                        <div class="col-md-3">
-                            <!-- HOVER IMAGE -->
-                            <a class="hover-img popup-gallery-image" href="img/800x600.png" data-effect="mfp-zoom-out">
-                                <img src="/img/800x600.png" alt="Image Alternative text" title="Happy Bokeh Day" /><i class="fa fa-resize-full hover-icon"></i>
-                            </a>
-                        </div>
-                        <div class="col-md-3">
-                            <!-- HOVER IMAGE -->
-                            <a class="hover-img popup-gallery-image" href="img/800x600.png" data-effect="mfp-zoom-out">
-                                <img src="/img/800x600.png" alt="Image Alternative text" title="Sleeping" /><i class="fa fa-resize-full hover-icon"></i>
-                            </a>
-                        </div>
-                        <div class="col-md-3">
-                            <!-- HOVER IMAGE -->
-                            <a class="hover-img popup-gallery-image" href="img/800x600.png" data-effect="mfp-zoom-out">
-                                <img src="/img/800x600.png" alt="Image Alternative text" title="Going out tonight" /><i class="fa fa-resize-full hover-icon"></i>
-                            </a>
-                        </div>
-                        <div class="col-md-3">
-                            <!-- HOVER IMAGE -->
-                            <a class="hover-img popup-gallery-image" href="img/800x600.png" data-effect="mfp-zoom-out">
-                                <img src="/img/800x600.png" alt="Image Alternative text" title="The Hidden Power of the Heart" /><i class="fa fa-resize-full hover-icon"></i>
-                            </a>
-                        </div>
-                        <div class="col-md-3">
-                            <!-- HOVER IMAGE -->
-                            <a class="hover-img popup-gallery-image" href="img/800x600.png" data-effect="mfp-zoom-out">
-                                <img src="/img/800x600.png" alt="Image Alternative text" title="Me with the Uke" /><i class="fa fa-resize-full hover-icon"></i>
-                            </a>
-                        </div>
-                        <div class="col-md-3">
-                            <!-- HOVER IMAGE -->
-                            <a class="hover-img popup-gallery-image" href="img/800x600.png" data-effect="mfp-zoom-out">
-                                <img src="/img/800x600.png" alt="Image Alternative text" title="The Big Showoff-Take 2" /><i class="fa fa-resize-full hover-icon"></i>
-                            </a>
-                        </div>
-                        <div class="col-md-3">
-                            <!-- HOVER IMAGE -->
-                            <a class="hover-img popup-gallery-image" href="img/800x600.png" data-effect="mfp-zoom-out">
-                                <img src="/img/800x600.png" alt="Image Alternative text" title="Playstation controller" /><i class="fa fa-resize-full hover-icon"></i>
+                                <img src="/img/partner/jstudio-big.png" alt="Image Alternative text" title="Hot mixer" /><i class="fa fa-resize-full hover-icon"></i>
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="gap gap-small"></div>
+            <!-- 
             <div class="row row-wrap">
                 <div class="col-md-3">
                     <h3>Meet The Team</h3>
@@ -340,6 +291,7 @@
                     </div>
                 </div>
             </div>
+             -->
             <div class="gap gap-small"></div>
         </div>
 

@@ -389,7 +389,7 @@ Business card, printing service etc.
                 <div class="col-md-4">
                         <div class="product-thumb">
                             <header class="product-header">
-                                <img src="images/monthstar/01.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                                <img src="images/monthstar/xinyueanni-big.jpg" alt="Image Alternative text" title="Xinyueanni" />
                             </header>
                             <div class="product-inner">
                                 <ul class="icon-group icon-list-rating" title="5/5 rating">
@@ -404,8 +404,10 @@ Business card, printing service etc.
                                     <li><i class="fa fa-star"></i>
                                     </li>
                                 </ul>
-                                <h5 class="product-title">Your Business Name</h5>
-                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
+                                <h5 class="product-title">Cabinet de Convalescence Xinyue Annie</h5>
+                                <p class="product-desciption">We are specialized in breast care during lactation, 
+                                breastfeeding training and care, health care program for mommy during lactation, 
+                                family activities and more...</p>
                                 <div class="product-meta">
                                     <ul class="product-price-list">
                                     	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
@@ -867,7 +869,7 @@ Business card, printing service etc.
                 <div class="col-md-4">
                         <div class="product-thumb">
                             <header class="product-header">
-                                <img src="images/weekfeature/03.jpg" alt="Image Alternative text" title="" />
+                                <img src="images/monthstar/xinyueanni-big.jpg" alt="Image Alternative text" title="Xinyueanni" />
                             </header>
                             <div class="product-inner">
                                 <ul class="icon-group icon-list-rating" title="5/5 rating">
@@ -882,11 +884,10 @@ Business card, printing service etc.
                                     <li><i class="fa fa-star"></i>
                                     </li>
                                 </ul>
-                               <h5 class="product-title">Your Business Name</h5>
-                                <p class="product-desciption">
-                                	One sentence with less than 15 words to describe your business
-                                	<br/><br/>
-                                </p>
+                                <h5 class="product-title">Cabinet de Convalescence Xinyue Annie</h5>
+                                <p class="product-desciption">We are specialized in breast care during lactation, 
+                                breastfeeding training and care, health care program for mommy during lactation, 
+                                family activities and more...</p>
                                 <div class="product-meta">
                                     <ul class="product-price-list">
                                     	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
@@ -899,7 +900,7 @@ Business card, printing service etc.
                                          -->
                                     </ul>
                                     <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="https://silaws.com/" target="_blank"><i class="fa fa-home"></i> Home</a>
+                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
                                         </li>
                                         <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
                                         </li>
