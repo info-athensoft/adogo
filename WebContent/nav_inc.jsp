@@ -19,14 +19,14 @@
                                 <li><a href="#">Get started</a></li>
                                 <li><a href="#">New features</a></li>
                                 <li><a href="#">Explore</a></li>
-                             -->
-                                <li><a href="/about">About</a></li>
+                             
+                                <li><a href="/about">About</a></li>-->
                                 <li><a href="/about/ch">About (CHS)</a></li>
                             </ul>
                         </li>
                         <li class="active"><a href="faq">Public test</a>
                         	<ul>
-                                <li><a href="/faq">FAQ</a></li>
+                                <li><a href="/faq">FAQ (CHS)</a></li>
                             </ul>
                         </li>                   
                         <li><a href="#">Find</a>
