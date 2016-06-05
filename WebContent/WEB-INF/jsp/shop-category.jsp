@@ -4,7 +4,7 @@
 <html>
 
 <head>
-    <title>Adogo - Search result</title>
+    <title>Adogo - Category page shop</title>
     <!-- meta info -->
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
     <meta name="keywords" content="Adogo Montreal Canada Online Brand and Ad Marketing" />
@@ -39,15 +39,15 @@
 	//////////////MAIN HEADER///////////// 
 	////////////////////////////////////-->
         <!-- Main header -->
-		<jsp:include page="nav_inc.jsp"></jsp:include>
+		<jsp:include page="inc/nav_inc.jsp"></jsp:include>
 		<!-- EMDS Main header -->
         
         <!-- LOGIN REGISTER LINKS CONTENT -->
-        <jsp:include page="login_inc.jsp"></jsp:include>
+        <jsp:include page="inc/login_inc.jsp"></jsp:include>
         <!-- END LOGIN REGISTER LINKS CONTENT -->
 
         <!-- SEARCH AREA -->
-        <jsp:include page="search_inc.jsp"></jsp:include>
+        <jsp:include page="inc/search_inc.jsp"></jsp:include>
         <!-- END SEARCH AREA -->
 
         <div class="gap"></div>
@@ -69,27 +69,29 @@
                 <div class="col-md-3">
                     <aside class="sidebar-left">
                         <ul class="nav nav-tabs nav-stacked nav-coupon-category">
-                            <li class="active"><a href="#"><i class="fa fa-ticket"></i>What to do?</a></li>
-                            <li><a href="#"><i class="fa fa-calendar"></i>Lease</a></li>
-                            <li><a href="#"><i class="fa fa-cutlery"></i>Buy</a></li>
-                            <li><a href="#"><i class="fa fa-female"></i>Sell</a></li>                            
-                            <li><a href="#"><i class="fa fa-umbrella"></i>Clean</a></li>
-                            <li><a href="#"><i class="fa fa-umbrella"></i>Fix</a></li>
-                            <li><a href="#"><i class="fa fa-umbrella"></i>Decorate</a></li>
-                            <li><a href="#"><i class="fa fa-umbrella"></i>Renovate</a></li>
+                            <li class="active"><a href="#"><i class="fa fa-ticket"></i>Life Services</a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-cutlery"></i>Hair salon services</a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-calendar"></i>Events</a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-female"></i>Beauty</a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-bolt"></i>Fitness</a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-headphones"></i>Electronics</a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-image"></i>Furniture</a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-umbrella"></i>Fashion</a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-shopping-cart"></i>Shopping</a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-home"></i>Home & Garden</a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-plane"></i>Travel</a>
+                            </li>
                         </ul>
-                        
-                        <ul class="nav nav-tabs nav-stacked nav-coupon-category" style="margin-bottom:0;padding-bottom:0">
-                            <li class="active"><a href="#"><i class="fa fa-umbrella"></i>or else?</a></li>
-                        </ul>
-                        
-                         <div class="sidebar-box">
-                            <h5>Let us know your new goal</h5>
-                            <form action="#">
-                            	<input type="text" id="search-goal" class="form-control" style="width:140px;float:left"/>
-                            	<input type="submit" id="sumbit-goal" class="btn btn-primary btn-mini" value="GO" />                            	
-                            </form>
-                        </div>
                         <div class="sidebar-box">
                             <h5>Filter By Price</h5>
                             <input type="text" id="price-slider">
@@ -351,7 +353,7 @@
                                         <ul class="product-actions-list">
                                             <li><a class="btn btn-sm" href="http://www.athensoft.com/demo_canvas/index-shop.jsp" target="_blank"><i class="fa fa-home"></i> Home</a>
                                             </li>
-                                            <li><a class="btn btn-sm" href="customer/31001/profile.html"><i class="fa fa-bars"></i> Profile</a>
+                                            <li><a class="btn btn-sm" href="cust/31001"><i class="fa fa-bars"></i> Profile</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -649,7 +651,115 @@
                                 </div>
                             </div>
                         </div>
-                        
+                        <div class="col-md-4">
+                            <div class="product-thumb">
+                                <header class="product-header">
+                                    <img src="img/800x600.png" alt="Image Alternative text" title="Food is Pride" />
+                                </header>
+                                <div class="product-inner">
+                                    <ul class="icon-group icon-list-rating" title="3/5 rating">
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                        <li><i class="fa fa-star-o"></i>
+                                        </li>
+                                        <li><i class="fa fa-star-o"></i>
+                                        </li>
+                                    </ul>
+                                    <h5 class="product-title">Best Pasta</h5>
+                                    <p class="product-desciption">Erat nunc adipiscing enim inceptos posuere pellentesque egestas</p>
+                                    <div class="product-meta">
+                                        <ul class="product-price-list">
+                                            <li><span class="product-price">$237</span>
+                                            </li>
+                                        </ul>
+                                        <ul class="product-actions-list">
+                                            <li><a class="btn btn-sm" href="#"><i class="fa fa-shopping-cart"></i> To Cart</a>
+                                            </li>
+                                            <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Details</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-thumb">
+                                <header class="product-header">
+                                    <img src="img/800x600.png" alt="Image Alternative text" title="Urbex Esch/Lux with Laney and Laaaaag" />
+                                </header>
+                                <div class="product-inner">
+                                    <ul class="icon-group icon-list-rating icon-list-non-rated" title="not rated yet">
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                    </ul>
+                                    <h5 class="product-title">Best Camera</h5>
+                                    <p class="product-desciption">Erat nunc adipiscing enim inceptos posuere pellentesque egestas</p>
+                                    <div class="product-meta">
+                                        <ul class="product-price-list">
+                                            <li><span class="product-price">$199</span>
+                                            </li>
+                                        </ul>
+                                        <ul class="product-actions-list">
+                                            <li><a class="btn btn-sm" href="#"><i class="fa fa-shopping-cart"></i> To Cart</a>
+                                            </li>
+                                            <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Details</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-thumb">
+                                <header class="product-header">
+                                    <img src="img/800x600.png" alt="Image Alternative text" title="Old No7" />
+                                </header>
+                                <div class="product-inner">
+                                    <ul class="icon-group icon-list-rating icon-list-non-rated" title="not rated yet">
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                        </li>
+                                    </ul>
+                                    <h5 class="product-title">Jack Daniels Huge Pack</h5>
+                                    <p class="product-desciption">Erat nunc adipiscing enim inceptos posuere pellentesque egestas</p>
+                                    <div class="product-meta">
+                                        <ul class="product-price-list">
+                                            <li><span class="product-price">$116</span>
+                                            </li>
+                                            <li><span class="product-old-price">$297</span>
+                                            </li>
+                                            <li><span class="product-save">Save 39%</span>
+                                            </li>
+                                        </ul>
+                                        <ul class="product-actions-list">
+                                            <li><a class="btn btn-sm" href="#"><i class="fa fa-shopping-cart"></i> To Cart</a>
+                                            </li>
+                                            <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Details</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="col-md-4">
                             <div class="product-thumb">
                                 <header class="product-header">

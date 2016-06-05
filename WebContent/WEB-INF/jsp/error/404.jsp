@@ -41,16 +41,16 @@
 	////////////////////////////////////-->
 
 		<!-- Main header -->
-		<jsp:include page="nav_inc.jsp"></jsp:include>
+		<jsp:include page="../inc/nav_inc.jsp"></jsp:include>
 		<!-- EMDS Main header -->
         
         <!-- LOGIN REGISTER LINKS CONTENT -->
-        <jsp:include page="login_inc.jsp"></jsp:include>
+        <jsp:include page="../inc/login_inc.jsp"></jsp:include>
         <!-- END LOGIN REGISTER LINKS CONTENT -->
 		
 
         <!-- SEARCH AREA -->
-        <jsp:include page="search_inc.jsp"></jsp:include>
+        <jsp:include page="../inc/search_inc.jsp"></jsp:include>
         <!-- END SEARCH AREA -->
 
         <div class="gap"></div>
@@ -83,7 +83,7 @@
 
 
 		<!-- Main footer -->
-		<jsp:include page="footer_inc.jsp"></jsp:include>
+		<jsp:include page="../inc/footer_inc.jsp"></jsp:include>
 		<!-- EMDS Main footer -->
 
 
