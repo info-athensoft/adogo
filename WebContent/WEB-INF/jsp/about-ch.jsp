@@ -80,13 +80,13 @@
                     <div id="my-carousel" class="carousel slide">
                         <div class="carousel-inner">
                             <div class="active item">
-                                <img src="/img/960x540.png" alt="Image Alternative text" title="cascada" />
+                                <img src="/img/about/1banner960x540.png" alt="Image Alternative text" title="cascada" />
                             </div>
                             <div class="item">
-                                <img src="/img/960x540.png" alt="Image Alternative text" title="waipio valley" />
+                                <img src="/img/about/2banner960x540.png" alt="Image Alternative text" title="waipio valley" />
                             </div>
                             <div class="item">
-                                <img src="/img/960x540.png" alt="Image Alternative text" title="the best mode of transport here in maldives" />
+                                <img src="/img/about/3banner960x540.png" alt="Image Alternative text" title="the best mode of transport here in maldives" />
                             </div>
                         </div>
                         <a class="carousel-control left" href="#my-carousel" data-slide="prev"></a>
