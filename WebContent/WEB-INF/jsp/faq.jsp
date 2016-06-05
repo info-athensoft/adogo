@@ -23,7 +23,10 @@
 <c:set var="answer1_5" value="有两种方式可获取内测资格。第一、我们直接联系您并发出邀请，您同意后可以直接获取内测资格。第二、在微信群或者朋友圈看见公共邀请广告后，通过微信群，微信好友联系我们我们亦可获得内测资格。"/>
 
 <c:set var="quest1_6" value="1.6 参加内测有哪些好处？"/>
-<c:set var="answer1_6" value="有两种方式可获取内测资格。"/>
+<c:set var="answer1_6" value="可以率先拥有广告展位，提早曝光积聚人气，免费在线推广评估与咨询，获取一定的网络推广策划帮助。"/>
+
+<c:set var="quest1_7" value="1.7 广告展位收费吗？"/>
+<c:set var="answer1_7" value="内测期间发放的广告展位，是免费的，并且可以永久保留。"/>
 
 <c:set var="sec2" value="2. 一般问题"/>
 <c:set var="quest2_1" value="2.1 什么是浏览者?"/>
@@ -152,6 +155,26 @@
                             <div class="panel-collapse collapse" id="collapse-1-5">
                                 <div class="panel-body">
                                     <p><c:out value="${answer1_5}"/></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse-1-6"><c:out value="${quest1_6}"/></a></h4>
+                            </div>
+                            <div class="panel-collapse collapse" id="collapse-1-6">
+                                <div class="panel-body">
+                                    <p><c:out value="${answer1_6}"/></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse-1-7"><c:out value="${quest1_7}"/></a></h4>
+                            </div>
+                            <div class="panel-collapse collapse" id="collapse-1-7">
+                                <div class="panel-body">
+                                    <p><c:out value="${answer1_7}"/></p>
                                 </div>
                             </div>
                         </div>
