@@ -22,7 +22,7 @@
 	</context:component-scan>
 	
 	<context:component-scan 
-		base-package="com.adogo.common.email.controller">
+		base-package="com.athensoft.common.email.controller">
 	</context:component-scan>
 	
 

@@ -1601,6 +1601,52 @@ Business card, printing service etc.
         <script src="/js/custom.js"></script>
         
         <script>
+		var countryObject = {
+		    "Canada": {
+		        "Alberta": ["Salinas", "Gonzales"],
+		        "British Columbia": ["Oakland", "Berkeley"],
+		        "Quebec": ["Montreal", "OtherCity"]
+		    },
+		    "The United States": {
+		        "Douglas": ["Roseburg", "Winston"],
+		        "Jackson": ["Medford", "Jacksonville"]
+		    },
+		    "China": {
+		        "FuJian": ["XiaMen", "Winston"],
+		        "GuangDong": ["ShengZheng", "Jacksonville"]
+		    }
+		}
+		
+		$(document).ready(function(){
+			 var c_countryCode = document.getElementById("c_countryCode"),
+		     c_provinceCode = document.getElementById("c_provinceCode"),
+		     c_cityCode = document.getElementById("c_cityCode");
+			 for (var state in countryObject) {
+			     c_countryCode.options[c_countryCode.options.length] = new Option(state, state);
+			 }
+			 c_countryCode.onchange = function () {
+			     c_provinceCode.length = 1; // remove all options bar first
+			     c_cityCode.length = 1; // remove all options bar first
+			     if (this.selectedIndex < 1) return; // done   
+			     for (var county in countryObject[this.value]) {
+			         c_provinceCode.options[c_provinceCode.options.length] = new Option(county, county);
+			     }
+			 }
+		     $('#c_countryCode').val("Canada");
+			 c_countryCode.onchange(); // reset in case page is reloaded
+			 c_provinceCode.onchange = function () {
+			     c_cityCode.length = 1; // remove all options bar first
+			     if (this.selectedIndex < 1) return; // done   
+			     var cities = countryObject[c_countryCode.value][this.value];
+			     for (var i = 0; i < cities.length; i++) {
+			         c_cityCode.options[c_cityCode.options.length] = new Option(cities[i], cities[i]);
+			     }
+			 }
+			
+		});
+		</script>
+        
+        <script>
         /*
 		$("#owl-carousel-slider").owlCarousel({
 		

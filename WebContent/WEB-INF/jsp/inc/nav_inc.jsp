@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
-
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
 <header class="main main-white">
     <div class="container">
@@ -114,6 +114,17 @@
                     <li><a class="popup-text" href="#register-dialog" data-effect="mfp-move-from-top"><i class="fa fa-edit"></i>Sign up</a>
                     </li>
                     -->
+                    <c:if test="${empty userAccount}">
+	            		 <li><a class="popup-text" href="#login-dialog" data-effect="mfp-move-from-top"><i class="fa fa-sign-in"></i>Sign in</a>
+                    	</li>
+                   		<li><a class="popup-text" href="#register-dialog" data-effect="mfp-move-from-top"><i class="fa fa-edit"></i>Sign up</a>
+                    	</li>
+	            	</c:if>
+	            	<c:if test="${!empty userAccount}">
+	            		<li><c:out value="${userAccount.acctName}"/>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+	            		 <li><a class="" href="signout"><i class="fa fa-sign-in"></i>Sign out</a>
+                    	</li>
+	            	</c:if> 
                     <li><a class="popup-text" href="#public-test-dialog" data-effect="mfp-move-from-top"><i class="fa fa-edit"></i>Apply Now</a>
                     </li>
                     

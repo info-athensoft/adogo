@@ -14,15 +14,15 @@ import com.adogo.uaas.entity.UserAccount;
 @Controller
 public class UaasController {
 	
-	@RequestMapping("/")
-	public String goIndex(){
-		return "uaas/index";
-	}
-	
-	@RequestMapping("/index")
-	public String goTest(){
-		return "uaas/index";
-	}
+//	@RequestMapping("/")
+//	public String goIndex(){
+//		return "uaas/index";
+//	}
+//	
+//	@RequestMapping("/index")
+//	public String goTest(){
+//		return "uaas/index";
+//	}
 	
 	@RequestMapping("/gosignup")
 	public String goSignup(){
