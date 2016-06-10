@@ -22,7 +22,7 @@ import org.springframework.stereotype.Service;
 public class EmailService {
 	
 	public static final String FROM_EMAIL_ADDR = "support@athensoft.com";
-	public static final String TO_EMAIL_ADDR = "athens314@hotmail.com";
+	public static final String TO_EMAIL_ADDR = "fangze@gmail.com";
 	
 	private MailSender mailSender ;
 	
@@ -43,7 +43,7 @@ public class EmailService {
 		
 		SimpleMailMessage mail = new SimpleMailMessage();
 		mail.setFrom("support@athensoft.com");	//test athensoft email sender
-		mail.setTo("athens314@hotmail.com");
+		mail.setTo(TO_EMAIL_ADDR);
 		mail.setSubject("[Adogo]Activation_notice");
 		
 		String strMsg = "<html><body><a href='www.athensoft.com'>Welcome to INF. Athensoft</a><br/>"
@@ -68,7 +68,7 @@ public class EmailService {
 		try{
 			messageHelper.setFrom(FROM_EMAIL_ADDR);
 //			messageHelper.setTo("595472653@qq.com");  
-			messageHelper.setTo("athens314@hotmail.com");  
+			messageHelper.setTo(TO_EMAIL_ADDR);  
           
 			messageHelper.setSubject("[Adogo]Activation_notice");
 			//String strMsg = msg;

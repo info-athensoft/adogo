@@ -1,16 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
-	<div id="login-dialog" class="mfp-with-anim mfp-hide mfp-dialog clearfix">
+<div id="login-dialog" class="mfp-with-anim mfp-hide mfp-dialog clearfix">
     <i class="fa fa-sign-in dialog-icon"></i>
     <h3>Member Login</h3>
     <h5>Welcome back, friend. Login to get started</h5>
-    <form class="dialog-form" action="signin" method="post">
+    <form class="dialog-form">
         <div class="form-group">
             <label>E-mail</label>
-            <input type="text" placeholder="email@domain.com" class="form-control" name="acctName">
+            <input type="text" placeholder="email@domain.com" class="form-control">
         </div>
         <div class="form-group">
             <label>Password</label>
-            <input type="password" placeholder="My secret password" class="form-control" name="password">
+            <input type="password" placeholder="My secret password" class="form-control">
         </div>
         <div class="checkbox">
             <label>
@@ -32,50 +32,30 @@
     <i class="fa fa-edit dialog-icon"></i>
     <h3>Member Register</h3>
     <h5>Ready to get best offers? Let's get started!</h5>
-    <form class="dialog-form" action="signup" method="post">
+    <form class="dialog-form">
         <div class="form-group">
             <label>E-mail</label>
-            <input type="text" placeholder="email@domain.com" class="form-control" name="acctName">
+            <input type="text" placeholder="email@domain.com" class="form-control">
         </div>
         <div class="form-group">
             <label>Password</label>
-            <input type="password" placeholder="My secret password" class="form-control" name="password">
+            <input type="password" placeholder="My secret password" class="form-control">
         </div>
         <div class="form-group">
             <label>Repeat Password</label>
-            <input type="password" placeholder="Type your password again" class="form-control" name="password2">
+            <input type="password" placeholder="Type your password again" class="form-control">
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-8">
                 <div class="form-group">
-                    <label>Country</label>
-                    <!-- <input type="text" placeholder="Canada" class="form-control" value="Canada" name="countryCode">  -->
-                    <!-- <select name="countryCode" id="c_countryCode" class="form-control" >
-						<option value="CA" selected="selected">Canada</option>
-						<option value="US">United States</option>
-						<option value="CN">China</option>
-					 </select>   -->
-					 <select name="countryCode" id="c_countryCode" size="1" class="form-control">
-				        <option value="" selected="selected">Select Country</option>
-				    </select>                   
+                    <label>Your Area</label>
+                    <input type="password" placeholder="Boston" class="form-control">
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div class="form-group">
-                    <label>Province</label>
-                    <!-- <input type="text" placeholder="Quebec" class="form-control" value="Quebec" name="provinceCode">  -->
-                    <select name="provinceCode" id="c_provinceCode" size="1" class="form-control">
-				        <option value="" selected="selected">Select Prov.</option>
-				    </select>
-                </div>
-            </div>
-            <div class="col-md-12">
-                <div class="form-group">
-                    <label>City</label>
-                    <!-- <input type="text" placeholder="Montreal" class="form-control" value="Montreal" name="cityCode">  -->
-                    <select name="cityCode" id="c_cityCode" size="1" class="form-control">
-				        <option value="" selected="selected">Select City</option>
-				    </select>
+                    <label>Postal/Zip</label>
+                    <input type="password" placeholder="12345" class="form-control">
                 </div>
             </div>
         </div>
@@ -105,18 +85,6 @@
 </div>
 
 
-<div id="login-error-dialog" class="mfp-with-anim mfp-hide mfp-dialog clearfix">
-    <i class="icon-retweet dialog-icon"></i>
-    <h3>Wrong user name or password</h3>
-    <h5>Fortgot your password? Don't worry we can deal with it</h5>
-    <form class="dialog-form">
-        <label>E-mail</label>
-        <input type="text" placeholder="email@domain.com" class="span12">
-        <input type="submit" value="Request new password" class="btn btn-primary">
-    </form>
-</div>
-
-
 <div id="public-test-dialog" class="mfp-with-anim mfp-hide mfp-dialog clearfix">
     <i class="fa fa-edit dialog-icon"></i>
     <h3>商家申请内部测试</h3>
@@ -130,5 +98,3 @@
         <h5>请注明标题"参加ADOGO内测"</h5>
     </form>
 </div>
-
-
