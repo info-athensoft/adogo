@@ -1,232 +1,155 @@
-<%@ page language="java" contentType="text/html; charset=utf-8"
-    pageEncoding="utf-8"%>
+<%@ page contentType="text/html; charset=utf-8" %>
+<%@ page pageEncoding="utf-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
-<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>    
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 
-<c:set var="base_path" value="/prototype_uaas"/>
+<c:set var="title" value="Account activation"/>
 
-
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
+
 <head>
-<title>Insert title here</title>
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- Bootstrap styles -->
-    <link rel="stylesheet" href="${base_path}/css/boostrap.css">
+	<!-- page: Index coupon layout 1 -->
+    <title>Adogo - Online Brands and Ad Marketing</title>
+    <!-- meta info -->
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta name="keywords" content="Adogo Montreal Canada Online Brand and Ad Marketing" />
+    <meta name="description" content="Adogo - The creative online brand and ad marketing platform">
+    <meta name="author" content="athensoft.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap styles -->
+    <link rel="stylesheet" href="/css/boostrap.css">
     <!-- Font Awesome styles (icons) -->
-    <link rel="stylesheet" href="${base_path}/css/font_awesome.css">
+    <link rel="stylesheet" href="/css/font_awesome.css">
     <!-- Main Template styles -->
-    <link rel="stylesheet" href="${base_path}/css/styles.css">
-    
+    <link rel="stylesheet" href="/css/styles.css">
+    <!-- IE 8 Fallback -->
+    <!--[if lt IE 9]>
+	<link rel="stylesheet" type="text/css" href="css/ie.css" />
+<![endif]-->
+
+    <!-- Your custom styles (blank file) -->
+    <link rel="stylesheet" href="/css/mystyles.css">
+	
+
 </head>
-<body class="boxed bg-cover">
 
-	<div class="global-wrap">
-	
-	<header class="main main-white">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-2">
-                
+<body class="boxed bg-cover" style="background-image: url(/img/backgrounds/wood.jpg)">
+
+
+    <div class="global-wrap">
+	<!-- //////////////////////////////////
+	//////////////MAIN HEADER///////////// 
+	////////////////////////////////////-->
+
+		<!-- Main header -->
+		<jsp:include page="../inc/nav_inc.jsp"></jsp:include>
+		<!-- EMDS Main header -->
+        
+        <!-- LOGIN REGISTER LINKS CONTENT -->
+        <jsp:include page="../inc/login_inc.jsp"></jsp:include>
+        <!-- END LOGIN REGISTER LINKS CONTENT -->
+		
+
+        <!-- SEARCH AREA -->
+        <jsp:include page="../inc/search_inc.jsp"></jsp:include>
+        <!-- END SEARCH AREA -->
+
+        <div class="gap"></div>
+
+
+        <!-- //////////////////////////////////
+	//////////////END MAIN HEADER////////// 
+	////////////////////////////////////-->
+
+
+        <!-- //////////////////////////////////
+	//////////////PAGE CONTENT///////////// 
+	////////////////////////////////////-->
+        <div class="container">
+		 <div class="row row-wrap">
+            <div class="col-md-9">
+	            <h3><c:out value="${title}"/></h3>
+	            
+	            <div id="info-msg"></div>
+	            <div style="text-align: center">
+	            	 <a href="javascript:void(0);" class="btn btn-primary" onclick="sendActivateLink('${userAccount.acctId}','${userAccount.primaryEmail}');">Send Activate Link</a>
+            		<a href="/index" class="btn">Activate later</a>
+	            </div>
+	           	
+	           	<div>
+	           		<c:out value="${error_msg}"/>
+	           	</div>
+	           
+            	<div id="user_account">
+	            	<label id="ua1"><c:out value="${userAccount.acctId}"/></label>
+	            	<label id="ua2"><c:out value="${userAccount.acctName}"/></label>
+	            	<label id="ua3"><c:out value="${userAccount.password}"/></label>
+	            	<label id="ua4"><c:out value="${userAccount.acctStatus}"/></label>
+           		</div>
             </div>
-            <div class="col-md-6">
-                <div class="flexnav-menu-button" id="flexnav-menu-button">Menu</div>
-                <nav>
-                    <ul class="nav nav-pills flexnav" id="flexnav" data-breakpoint="800">
-                        <li class="active"><a href="/index.jsp">Home</a>
-                        	<ul>
-                                <li><a href="#">Get started</a></li>
-                                <li><a href="#">New features</a></li>
-                                <li><a href="#">Explore</a></li>
-                            </ul>
-                        </li>
-                        
-                    </ul>
-                </nav>
-            </div>
-            <div class="col-md-4">
-            	<ul class="login-register">
-	            	<c:if test="${empty userAccount}">
-	            		 <li><a class="popup-text" href="#login-dialog" data-effect="mfp-move-from-top"><i class="fa fa-sign-in"></i>Sign in</a>
-                    	</li>
-                   		<li><a class="popup-text" href="#register-dialog" data-effect="mfp-move-from-top"><i class="fa fa-edit"></i>Sign up</a>
-                    	</li>
-	            	</c:if>
-	            	<c:if test="${!empty userAccount}">
-	            		<li><c:out value="${userAccount.acctName}"/>&nbsp;&nbsp;&nbsp;&nbsp;</li>
-	            		 <li><a class="" href="signout"><i class="fa fa-sign-in"></i>Sign out</a>
-                    	</li>
-	            	</c:if>  
-                </ul>
-            </div>
-        </div>
-    </div>
-</header>
-	
-	
-	<div class="container">
-		 <div class="row">
-            <div class="col-md-12">
-            	<c:out value="${error_msg}"/>
-            </div>
-            <div class="col-md-12">
-            	<div id="info-msg"></div>
-            </div>
+            
+            <div class="col-md-3">
+                    <aside class="sidebar-right">
+                        <h4>Still Have Questions?</h4>
+                        <form class="box">
+                            <div class="form-group">
+                                <label>Name</label>
+                                <input type="text" class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label>E-mail</label>
+                                <input type="text" class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label>Question</label>
+                                <textarea class="form-control"></textarea>
+                            </div>
+                            <input type="submit" class="btn btn-primary" value="Ask Question" />
+                        </form>
+                    </aside>
+                </div>
            </div>
 	</div>
-	
-	<div class="container">
-		 <div class="row" id="sec_activate">
-            <div class="col-md-12">
-            	
-            	<a href="javascript:void(0);" class="btn btn-primary" onclick="sendActivateLink('${userAccount.acctId}','${userAccount.primaryEmail}');">Send Activate Link</a>
-            	 
-            	<a href="test" class="btn">Go back</a>
-            </div>
-          </div>
-          
-           <div class="row" id="user_account">
-            <div class="col-md-12">
-            	<label id="ua1"><c:out value="${userAccount.acctId}"/></label>
-            	<label id="ua2"><c:out value="${userAccount.acctName}"/></label>
-            	<label id="ua3"><c:out value="${userAccount.password}"/></label>
-            	<label id="ua4"><c:out value="${userAccount.acctStatus}"/></label>
-            </div>
-           </div>
-           
-          
-	</div>
-	
-	
-	
-	
-	<div id="login-dialog" class="mfp-with-anim mfp-hide mfp-dialog clearfix">
-    <i class="fa fa-sign-in dialog-icon"></i>
-    <h3>Member Login</h3>
-    <h5>Welcome back, friend. Login to get started</h5>
-    <form class="dialog-form" action="signin" method="post">
-        <div class="form-group">
-            <label>E-mail</label>
-            <input type="text" placeholder="email@domain.com" class="form-control" name="acctName">
-        </div>
-        <div class="form-group">
-            <label>Password</label>
-            <input type="password" placeholder="My secret password" class="form-control" name="password">
-        </div>
-        <div class="checkbox">
-            <label>
-                <input type="checkbox">Remember me
-            </label>
-        </div>
-        <input type="submit" value="Sign in" class="btn btn-primary">
-    </form>
-    <ul class="dialog-alt-links">
-        <li><a class="popup-text" href="#register-dialog" data-effect="mfp-zoom-out">Not member yet</a>
-        </li>
-        <li><a class="popup-text" href="#password-recover-dialog" data-effect="mfp-zoom-out">Forgot password</a>
-        </li>
-    </ul>
-</div>
+        <!-- //////////////////////////////////
+	//////////////END PAGE CONTENT///////// 
+	////////////////////////////////////-->
 
 
-<div id="register-dialog" class="mfp-with-anim mfp-hide mfp-dialog clearfix">
-    <i class="fa fa-edit dialog-icon"></i>
-    <h3>Member Register</h3>
-    <h5>Ready to get best offers? Let's get started!</h5>
-    <form class="dialog-form" action="signup" method="post">
-        <div class="form-group">
-            <label>E-mail</label>
-            <input type="text" placeholder="email@domain.com" class="form-control" name="acctName">
-        </div>
-        <div class="form-group">
-            <label>Password</label>
-            <input type="password" placeholder="My secret password" class="form-control" name="password">
-        </div>
-        <div class="form-group">
-            <label>Repeat Password</label>
-            <input type="password" placeholder="Type your password again" class="form-control" name="password2">
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="form-group">
-                    <label>Country</label>
-                    <input type="text" placeholder="Canada" class="form-control" value="Canada" name="countryCode">
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="form-group">
-                    <label>Province</label>
-                    <input type="text" placeholder="Quebec" class="form-control" value="Quebec" name="provinceCode">
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="form-group">
-                    <label>City</label>
-                    <input type="text" placeholder="Montreal" class="form-control" value="Montreal" name="cityCode">
-                </div>
-            </div>
-        </div>
-        <div class="checkbox">
-            <label>
-                <input type="checkbox">Get hot offers via e-mail
-            </label>
-        </div>
-        <input type="submit" value="Sign up" class="btn btn-primary">
-    </form>
-    <ul class="dialog-alt-links">
-        <li><a class="popup-text" href="#login-dialog" data-effect="mfp-zoom-out">Already member</a>
-        </li>
-    </ul>
-</div>
+
+		<!-- Main footer -->
+		<jsp:include page="../inc/footer_inc.jsp"></jsp:include>
+		<!-- EMDS Main footer -->
 
 
-<div id="password-recover-dialog" class="mfp-with-anim mfp-hide mfp-dialog clearfix">
-    <i class="icon-retweet dialog-icon"></i>
-    <h3>Password Recovery</h3>
-    <h5>Fortgot your password? Don't worry we can deal with it</h5>
-    <form class="dialog-form">
-        <label>E-mail</label>
-        <input type="text" placeholder="email@domain.com" class="span12">
-        <input type="submit" value="Request new password" class="btn btn-primary">
-    </form>
-</div>
-
-<div id="login-error-dialog" class="mfp-with-anim mfp-hide mfp-dialog clearfix">
-    <i class="icon-retweet dialog-icon"></i>
-    <h3>Wrong user name or password</h3>
-    <h5>Fortgot your password? Don't worry we can deal with it</h5>
-    <form class="dialog-form">
-        <label>E-mail</label>
-        <input type="text" placeholder="email@domain.com" class="span12">
-        <input type="submit" value="Request new password" class="btn btn-primary">
-    </form>
-</div>
 
 
-</div> <!-- global wrap -->
-<!-- Scripts queries -->
-        <script src="${base_path}/js/jquery.js"></script>
-        <script src="${base_path}/js/boostrap.min.js"></script>
-        <script src="${base_path}/js/countdown.min.js"></script>
-        <script src="${base_path}/js/flexnav.min.js"></script>
-        <script src="${base_path}/js/magnific.js"></script>
-        <script src="${base_path}/js/tweet.min.js"></script>
-        <script src="${base_path}/js/fitvids.min.js"></script>
-        <script src="${base_path}/js/mail.min.js"></script>
-        <script src="${base_path}/js/ionrangeslider.js"></script>
-        <script src="${base_path}/js/icheck.js"></script>
-        <script src="${base_path}/js/fotorama.js"></script>
-        <script src="${base_path}/js/card-payment.js"></script>
-        <script src="${base_path}/js/owl-carousel.js"></script>
-        <script src="${base_path}/js/masonry.js"></script>
-        <script src="${base_path}/js/nicescroll.js"></script>
-	<!-- Custom scripts -->
-        <script src="${base_path}/js/custom.js"></script>
+        <!-- Scripts queries -->
+        <script src="/js/jquery.js"></script>
+        <script src="/js/boostrap.min.js"></script>
+        <script src="/js/countdown.min.js"></script>
+        <script src="/js/flexnav.min.js"></script>
+        <script src="/js/magnific.js"></script>
+        <script src="/js/tweet.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+        <script src="/js/fitvids.min.js"></script>
+        <script src="/js/mail.min.js"></script>
+        <script src="/js/ionrangeslider.js"></script>
+        <script src="/js/icheck.js"></script>
+        <script src="/js/fotorama.js"></script>
+        <script src="/js/card-payment.js"></script>
+        <script src="/js/owl-carousel.js"></script>
+        <script src="/js/masonry.js"></script>
+        <script src="/js/nicescroll.js"></script>
+
+        <!-- Custom scripts -->
+        <script src="/js/custom.js"></script>
         
-        
-   <script type="text/javascript">
+        <script type="text/javascript">
 		function activateAccount(acctId){
 			
 			//alert("activateAccount()");
@@ -245,8 +168,6 @@
 					$("#ua2").text(userAccount.acctName);
 					$("#ua3").text(userAccount.password);
 					$("#ua4").text(userAccount.acctStatus);
-					
-					
 				}		
 			});
 		}
@@ -275,6 +196,8 @@
 			});
 			
 		}
-	</script>     
+	</script>
+    </div>
 </body>
-</html>  
+
+</html>
