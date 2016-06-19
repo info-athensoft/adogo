@@ -211,12 +211,13 @@
                                 <a class="fa fa-list" href="category-page-thumbnails-shop-horizontal.html"></a>
                             </div>
                         </div>
-                    </div>
+                    </div>                    
                     <div class="row row-wrap">
+                      <c:forEach var="booth" items="${boothList}">
                     	<div class="col-md-4">
                             <div class="product-thumb">
                                 <header class="product-header">
-                                    <img src="/images/logo/logo_mora.png" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                                    <img src="${booth.logoCoverUrl}" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
                                 </header>
                                 <div class="product-inner">
                                     <ul class="icon-group icon-list-rating" title="5/5 rating">
@@ -231,7 +232,7 @@
                                         <li><i class="fa fa-star"></i>
                                         </li>
                                     </ul>
-                                    <h5 class="product-title">Mara Coiffeur</h5>
+                                    <h5 class="product-title">${booth.bizName}</h5>
                                     <p class="product-desciption">Professional hair dressing and cutting service</p>
                                     <div class="product-meta">                                        
                                         <p class="product-location">
@@ -250,6 +251,8 @@
                                 </div>
                             </div>
                         </div>
+                      </c:forEach>
+<!--                      
                         <div class="col-md-4">
                             <div class="product-thumb">
                                 <header class="product-header">
@@ -616,6 +619,7 @@
                                 </div>
                             </div>
                         </div>
+                        
                         <div class="col-md-4">
                             <div class="product-thumb">
                                 <header class="product-header">
@@ -651,7 +655,8 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+ -->                       
+                    </div>                     
                     <ul class="pagination">
                         <li class="prev disabled">
                             <a href="#"></a>

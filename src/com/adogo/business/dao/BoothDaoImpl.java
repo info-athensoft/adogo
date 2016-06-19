@@ -59,7 +59,7 @@ public class BoothDaoImpl implements BoothDao{
 			x.setClassCode(rs.getString("class_code"));
 			x.setBizName(rs.getString("biz_name"));
 			x.setBizDesc(rs.getString("biz_desc"));
-			x.setBoothStauts(rs.getInt("booth_stauts"));
+			x.setBoothStauts(rs.getInt("booth_status"));
 			x.setHasAdpage(rs.getInt("has_adpage"));
 			x.setHasWebsite(rs.getInt("has_website"));
 			x.setLocCountry(rs.getString("loc_country"));

@@ -1,10 +1,10 @@
 package com.adogo.business.controller;
 
+import java.util.List;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -23,13 +23,13 @@ public class BoothController {
 	
 	@RequestMapping("/booth")
 	public ModelAndView showCustProfile(
-			@PathVariable int bizNo){
+			){
 		ModelAndView mav = new ModelAndView();
 		
-		Booth booth = boothService.findByBizNo(bizNo);
+		List<Booth> booth = boothService.findAll();
 		
 		Map<String,Object> data = mav.getModel();
-		data.put("booth", booth);
+		data.put("boothList", booth);
 		
 		mav.setViewName("booth/allbooth");
 		return mav;
