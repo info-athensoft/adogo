@@ -1,6 +1,5 @@
 package com.adogo.business.controller;
 
-import java.util.List;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,8 +12,8 @@ import com.adogo.business.entity.Booth;
 import com.adogo.business.service.BoothService;
 
 @Controller
-public class CategoryController {
-	
+public class BoothController {
+		
 	private BoothService boothService;
 	
 	@Autowired
@@ -22,20 +21,17 @@ public class CategoryController {
 		this.boothService = boothService;
 	}
 	
-	@RequestMapping("/category/{categoryName}")
-	public ModelAndView showBooth(
-			@PathVariable String categoryName){
+	@RequestMapping("/biz/{bizNo}")
+	public ModelAndView showCustProfile(
+			@PathVariable int bizNo){
 		ModelAndView mav = new ModelAndView();
 		
+		Booth booth = boothService.findByBizNo(bizNo);
+		
 		Map<String,Object> data = mav.getModel();
-		data.put("categoryName", categoryName);
+		data.put("booth", booth);
 		
-		List<Booth> boothList = boothService.findAll();
-		data.put("boothList", boothList);
-		
-		mav.setViewName("category-"+categoryName);
+		mav.setViewName("booth/allbooth");
 		return mav;
-	}
-	
-
+	}	
 }

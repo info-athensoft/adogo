@@ -42,7 +42,7 @@ public class EmailService {
 		System.out.println("sendSimpleMail() of"+ this.getClass().getName()+"\t\t"+msg);
 		
 		SimpleMailMessage mail = new SimpleMailMessage();
-		mail.setFrom("support@athensoft.com");	//test athensoft email sender
+		mail.setFrom(FROM_EMAIL_ADDR);	//test athensoft email sender
 		mail.setTo(TO_EMAIL_ADDR);
 		mail.setSubject("[Adogo]Activation_notice");
 		

@@ -108,7 +108,7 @@ public class UserController {
 		/* initial settings */
 		ModelAndView mav = new ModelAndView();
 		Map<String,Object> data = mav.getModel();
-		String viewName = "uaas/index";
+		String viewName = "index";
 		
 		/* data construction */
 		UserAccount ua = new UserAccount();
@@ -150,7 +150,7 @@ public class UserController {
 		/* initial settings */
 		ModelAndView mav = new ModelAndView();
 		Map<String,Object> data = mav.getModel();
-		String viewName = "uaas/index";
+		String viewName = "index";
 		
 		/* data construction */
 		UserAccount ua = null;		
@@ -240,7 +240,7 @@ public class UserController {
 		//1. url encode
 		//2. encrypt
 		
-		String activateLink = "http://www.adogo.ca/prototype_uaas/activatemail?acctId="+acctId;
+		String activateLink = "http://www.adogo.ca/activatemail?acctId="+acctId;
 		System.out.println("activation request sent to: activateLink");	//to log
 		
 		try{
