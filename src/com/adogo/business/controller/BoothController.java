@@ -21,7 +21,7 @@ public class BoothController {
 		this.boothService = boothService;
 	}
 	
-	@RequestMapping("/biz/{bizNo}")
+	@RequestMapping("/booth")
 	public ModelAndView showCustProfile(
 			@PathVariable int bizNo){
 		ModelAndView mav = new ModelAndView();
