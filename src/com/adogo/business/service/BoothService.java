@@ -26,4 +26,12 @@ private BoothDao boothDao;
 	public List<Booth> findAll(){
 		return boothDao.findAll();
 	}
+	
+	public List<Booth> findByClassLevel1(int classNum){
+		return boothDao.findByClassLevel1(classNum);
+	}
+	
+	public List<Booth> findByClassLevel1(String classCode){
+		return boothDao.findByClassLevel1(classCode);
+	}
 }

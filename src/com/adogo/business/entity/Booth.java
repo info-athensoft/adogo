@@ -18,6 +18,7 @@ public class Booth {
 	private String locName;
 	private String logoCoverUrl;
 	private double score;
+	private String supportLang;
 	private long viewedBooth;
 	private long viewedHomepage;
 	private long viewedProfile;
@@ -91,6 +92,12 @@ public class Booth {
 	}
 	public void setScore(double score) {
 		this.score = score;
+	}
+	public String getSupportLang() {
+		return supportLang;
+	}
+	public void setSupportLang(String supportLang) {
+		this.supportLang = supportLang;
 	}
 	public long getViewedBooth() {
 		return viewedBooth;

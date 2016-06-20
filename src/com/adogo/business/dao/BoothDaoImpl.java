@@ -2,8 +2,7 @@ package com.adogo.business.dao;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Timestamp;
-import java.util.Date;
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.sql.DataSource;
@@ -50,6 +49,36 @@ public class BoothDaoImpl implements BoothDao{
 		return jdbc.query(sql, new BoothRowMapper());
 	}
 	
+	@Override
+	public List<Booth> findByClassLevel1(int classNum) {
+		String sql = "select * from booth where class_num=:classNum";
+		MapSqlParameterSource paramSource = new MapSqlParameterSource();
+		paramSource.addValue("classNum", classNum);
+		List<Booth> boothList = new ArrayList<Booth>();
+		try{
+			boothList = jdbc.query(sql, paramSource, new BoothRowMapper());
+		}catch(EmptyResultDataAccessException ex){
+			
+			ex.printStackTrace();
+		}
+		return boothList;
+	}
+
+	@Override
+	public List<Booth> findByClassLevel1(String classCode) {
+		String sql = "select * from booth where class_code=:classCode";
+		MapSqlParameterSource paramSource = new MapSqlParameterSource();
+		paramSource.addValue("classCode", classCode);
+		List<Booth> boothList = new ArrayList<Booth>();
+		try{
+			boothList = jdbc.query(sql, paramSource, new BoothRowMapper());
+		}catch(EmptyResultDataAccessException ex){
+			
+			ex.printStackTrace();
+		}
+		return boothList;
+	} 
+	
 	private static class BoothRowMapper implements RowMapper<Booth>{
 		public Booth mapRow(ResultSet rs, int rowNumber) throws SQLException {
 			Booth x = new Booth();
@@ -70,6 +99,7 @@ public class BoothDaoImpl implements BoothDao{
 			x.setLocName(rs.getString("loc_name"));
 			x.setLogoCoverUrl(rs.getString("logo_cover_url"));
 			x.setScore(rs.getDouble("score"));
+			x.setSupportLang(rs.getString("support_lang"));
 			x.setViewedBooth(rs.getLong("viewed_booth"));
 			x.setViewedHomepage(rs.getLong("viewed_homepage"));
 			x.setViewedProfile(rs.getLong("viewed_profile"));
@@ -78,6 +108,8 @@ public class BoothDaoImpl implements BoothDao{
 			x.setNumOfShared(rs.getLong("num_of_shared"));
             return x;
 		}		
-	} 
+	}
+
+	
 	
 }

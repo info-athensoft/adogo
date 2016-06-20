@@ -22,7 +22,8 @@ public class CategoryController {
 		this.boothService = boothService;
 	}
 	
-	@RequestMapping("/category/{categoryName}")
+	
+	@RequestMapping("/category/name/{categoryName}")
 	public ModelAndView showBooth(
 			@PathVariable String categoryName){
 		ModelAndView mav = new ModelAndView();

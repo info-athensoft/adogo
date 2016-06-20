@@ -1,6 +1,7 @@
 <%@ page contentType="text/html; charset=utf-8" %>
 <%@ page pageEncoding="utf-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 
@@ -232,14 +233,25 @@
                                         <li><i class="fa fa-star"></i>
                                         </li>
                                     </ul>
-                                    <h5 class="product-title">${booth.bizName}</h5>
-                                    <p class="product-desciption">Professional hair dressing and cutting service</p>
+                                    <c:if test="${booth.bizName.length()<=30}">
+                                    	<h5 class="product-title">${booth.bizName}<br/>
+                                    	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5>
+                                    </c:if>
+                                    <c:if test="${booth.bizName.length()>30}">
+                                    	<h5 class="product-title">${booth.bizName}</h5>
+                                    </c:if>
+                                    
+                                    <p class="product-desciption">${booth.bizDesc}</p>
                                     <div class="product-meta">                                        
                                         <p class="product-location">
-                                            	<i class="fa fa-map-marker"></i> Monk&nbsp;&nbsp;
-                                            	<span class="product-price"> FR</span>
-                                            	<span class="product-price"> EN</span>
-                                            	<span class="product-price"> CN</span>
+                                            	<i class="fa fa-map-marker"></i> ${booth.locCity}&nbsp;&nbsp;
+                                            <c:set var="arrayvalue" value="${booth.supportLang}" />
+											<c:set var="delim" value=","/> 
+											<c:set var="array" value="${fn:split(arrayvalue, delim)}"/>
+                                            	
+                                           	<c:forEach var="lang" items="${array}">
+                                           		<span class="product-price">${lang}</span>
+                                           	</c:forEach>
                                         </p>
                                         <ul class="product-actions-list">
                                             <li><a class="btn btn-sm" href="#" target="_blank"><i class="fa fa-home"></i> Home</a>
