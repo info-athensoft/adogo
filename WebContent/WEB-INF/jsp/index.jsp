@@ -114,7 +114,7 @@
                 		<div class="col-md-4">
                         <div class="product-thumb">
                             <header class="product-header">
-                                <img src="images/newbrand/silvertac.jpg" alt="Image Alternative text" title="silvertac" />
+                                <img src="images/newbrand/silvertac-big.jpg" alt="Image Alternative text" title="silvertac" />
                             </header>
                             <div class="product-inner">
                                 <ul class="icon-group icon-list-rating" title="5/5 rating">
@@ -158,7 +158,7 @@ Business card, printing service etc.
 					<div class="col-md-4">
                         <div class="product-thumb">
                             <header class="product-header">
-                                <img src="images/newbrand/zhenimport.png" alt="Image Alternative text" title="zhenimport" />
+                                <img src="images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="zhenimport" />
                             </header>
                             <div class="product-inner">
                                 <ul class="icon-group icon-list-rating" title="5/5 rating">
@@ -201,7 +201,7 @@ Business card, printing service etc.
                 <div class="col-md-4">
                         <div class="product-thumb">
                             <header class="product-header">
-                                <img src="images/newbrand/clc.jpg" alt="Image Alternative text" title="CLC" />
+                                <img src="images/newbrand/clc-big.jpg" alt="Image Alternative text" title="CLC" />
                             </header>
                             <div class="product-inner">
                                 <ul class="icon-group icon-list-rating" title="5/5 rating">
