@@ -1587,7 +1587,7 @@ Business card, printing service etc.
         <script src="/js/flexnav.min.js"></script>
         <script src="/js/magnific.js"></script>
         <script src="/js/tweet.min.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+        
         <script src="/js/fitvids.min.js"></script>
         <script src="/js/mail.min.js"></script>
         <script src="/js/ionrangeslider.js"></script>
@@ -1597,7 +1597,12 @@ Business card, printing service etc.
         <script src="/js/owl-carousel.js"></script>
         <script src="/js/masonry.js"></script>
         <script src="/js/nicescroll.js"></script>
-
+		
+		<!-- Unused Scripts queries -->
+		<!-- 
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+         -->
+		
         <!-- Custom scripts -->
         <script src="/js/custom.js"></script>
         
