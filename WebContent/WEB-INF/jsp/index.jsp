@@ -1581,7 +1581,8 @@ Business card, printing service etc.
 
 
         <!-- Scripts queries -->
-        <script src="/js/jquery.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        
         <script src="/js/boostrap.min.js"></script>
         <script src="/js/countdown.min.js"></script>
         <script src="/js/flexnav.min.js"></script>
@@ -1599,7 +1600,9 @@ Business card, printing service etc.
         <script src="/js/nicescroll.js"></script>
 		
 		<!-- Unused Scripts queries -->
-		<!-- 
+		<!--
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="/js/jquery.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
          -->
 		
