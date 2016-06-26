@@ -11,7 +11,7 @@
 
 <head>
 	<!-- page: Index coupon layout 1 -->
-    <title>Adogo - Online Brands and Ad Marketing</title>
+    <title>Adogo - Online Branding and Marketing</title>
     <!-- meta info -->
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
     <meta name="keywords" content="Adogo Montreal Canada Online Brand and Ad Marketing" />
@@ -77,22 +77,20 @@
 	            
 	            <div id="info-msg"></div>
 	            <div style="text-align: center">
-	            	 <a href="javascript:void(0);" class="btn btn-primary" onclick="sendActivateLink('${userAccount.acctId}','${userAccount.primaryEmail}');">Send Activate Link</a>
-            		<a href="/index" class="btn">Activate later</a>
+	            	 <h4>Please turn to your email to activate your account now!</h4>
+            		 <a href="/index" class="btn">Activate later</a>
 	            </div>
 	           	
 	           	<div>
 	           		<c:out value="${error_msg}"/>
 	           	</div>
 	           
-	           <!-- 
             	<div id="user_account">
 	            	<label id="ua1"><c:out value="${userAccount.acctId}"/></label>
 	            	<label id="ua2"><c:out value="${userAccount.acctName}"/></label>
 	            	<label id="ua3"><c:out value="${userAccount.password}"/></label>
 	            	<label id="ua4"><c:out value="${userAccount.acctStatus}"/></label>
            		</div>
-           		 -->
             </div>
             
             <div class="col-md-3">
@@ -194,7 +192,7 @@
 				success:function(data){
 					//var activateLink = data.activateLink;
 					//location = "goactivateemail?activateLink="+activateLink+"&acctId="+acctId;
-					location="goactivatenotice";
+					location="index";
 				}
 			});
 			
