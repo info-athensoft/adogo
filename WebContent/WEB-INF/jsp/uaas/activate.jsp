@@ -192,7 +192,7 @@
 				success:function(data){
 					//var activateLink = data.activateLink;
 					//location = "goactivateemail?activateLink="+activateLink+"&acctId="+acctId;
-					location="index";
+					location="goactivatenotice";
 				}
 			});
 			

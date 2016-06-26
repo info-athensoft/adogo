@@ -59,6 +59,22 @@ public class UaasController {
 		return mav;
 	}
 	
+	@RequestMapping(value="/goactivatenotice")
+	public ModelAndView goActivateNotice(){
+		
+		System.out.println("/goactivatenotice");
+		
+		/* initial settings */
+		ModelAndView mav = new ModelAndView();
+		Map<String,Object> data = mav.getModel();
+		String viewName = "uaas/activate-notice";
+
+		mav.setViewName(viewName);
+		
+		return mav;
+	}
+	
+	
 	@RequestMapping(value="/goactivateresult")
 	public ModelAndView goActivateResult(
 			@RequestParam String resultMsg){
