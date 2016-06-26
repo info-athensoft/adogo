@@ -190,9 +190,10 @@
 				data: {	acctId:acctId, email:email },
 				timeout : 5000,
 				success:function(data){
-					var activateLink = data.activateLink;
-					location = "goactivateemail?activateLink="+activateLink+"&acctId="+acctId;
-				}		
+					//var activateLink = data.activateLink;
+					//location = "goactivateemail?activateLink="+activateLink+"&acctId="+acctId;
+					location="index";
+				}
 			});
 			
 		}

@@ -1,4 +1,4 @@
-package com.adogo.uaas.controller;
+package test.adogo.uaas.controller;
 
 import java.util.Map;
 

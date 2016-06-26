@@ -89,7 +89,8 @@
                             <li><a href="/category/5"><i class="fa fa-headphones"></i>Education<span>48</span></a></li>
                             <li><a href="/category/6"><i class="fa fa-plane"></i>Tourism<span>38</span></a></li>
                             <li><a href="/category/7"><i class="fa fa-plane"></i>Trans.&amp;Logistic<span>38</span></a></li>
-                            <li><a href="/category/8"><i class="fa fa-home"></i>Non-profit<span>44</span></a></li>
+                            <li><a href="/category/8"><i class="fa fa-home"></i>Sport,Recreation<span>44</span></a></li>
+                            <li><a href="/category/9"><i class="fa fa-home"></i>Non-profit<span>44</span></a></li>
                             
                             <li class="active"><a href="#"><i class="fa fa-shopping-cart"></i>I want to do business</a></li>
                             <li><a href="#"><i class="fa fa-cutlery"></i>Connecting to Business<span>50</span></a></li>

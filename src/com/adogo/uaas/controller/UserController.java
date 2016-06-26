@@ -18,6 +18,12 @@ import com.adogo.uaas.exception.UserAccountExistException;
 import com.adogo.uaas.service.UserService;
 import com.athensoft.common.email.service.EmailService;
 
+/**
+ * For Adogo front end use
+ * 
+ * @author Athens
+ *
+ */
 @Controller
 public class UserController {
 	
@@ -246,7 +252,7 @@ public class UserController {
 		
 		try{
 //			emailService.sendSimpleMail(activateLink);
-			emailService.sendMail(activateLink);
+			emailService.sendMail(activateLink, ua.getPrimaryEmail());
 		}catch(Exception ex){
 			System.out.println("ERROR: Activation email failed.");
 			ex.printStackTrace();
