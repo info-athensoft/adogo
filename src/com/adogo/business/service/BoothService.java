@@ -34,4 +34,12 @@ private BoothDao boothDao;
 	public List<Booth> findByClassLevel1(String classCode){
 		return boothDao.findByClassLevel1(classCode);
 	}
+	
+	public List<Booth> findNewBrands(){
+		return boothDao.findNewBrands();
+	}
+	
+	public List<Booth> findWeeklyFeatured(){
+		return boothDao.findWeeklyFeatured();
+	}
 }
