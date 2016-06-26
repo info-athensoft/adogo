@@ -110,6 +110,18 @@ public class BoothDaoImpl implements BoothDao{
 		}		
 	}
 
+	@Override
+	public List<Booth> findNewBrands() {
+		String sql = "select * from view_booth_new_brand";		
+		return jdbc.query(sql, new BoothRowMapper());
+	}
+
+	@Override
+	public List<Booth> findWeeklyFeatured() {
+		String sql = "select * from view_booth_weekly_featured";		
+		return jdbc.query(sql, new BoothRowMapper());
+	}
+
 	
 	
 }
