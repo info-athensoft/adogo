@@ -4,7 +4,7 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>    
 
-<c:set var="base_path" value="/prototype_uaas"/>
+<c:set var="base_path" value=""/>
 
 
 <!DOCTYPE html>

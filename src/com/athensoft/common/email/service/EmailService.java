@@ -22,7 +22,7 @@ import org.springframework.stereotype.Service;
 public class EmailService {
 	
 	public static final String FROM_EMAIL_ADDR = "support@athensoft.com";
-	public static final String TO_EMAIL_ADDR = "fangze@gmail.com";
+	public static final String TO_EMAIL_ADDR = "athens314@hotmail.com";
 	
 	private MailSender mailSender ;
 	
@@ -46,7 +46,7 @@ public class EmailService {
 		mail.setTo(TO_EMAIL_ADDR);
 		mail.setSubject("[Adogo]Activation_notice");
 		
-		String strMsg = "<html><body><a href='www.athensoft.com'>Welcome to INF. Athensoft</a><br/>"
+		String strMsg = "<html><body>Welcome to Adogo Online Advertising and Marketing Platform<br/>"
 						+"<img src='http://www.athensoft.com/content/img/slide/b6.jpg'/>"
 						+"<p>"+msg+"</p>"
 						+"</body></html>";
@@ -58,7 +58,7 @@ public class EmailService {
 		}
 	}
 	
-	public void sendMail(String msg){
+	public void sendMail(String msg, String toEmail){
 		System.out.println("sendMail() of"+ this.getClass().getName()+"\t\t"+msg);
 //		MimeMessage mail = mailSender.createMimeMessage();
 		//JavaMailSenderImpl senderImpl = new JavaMailSenderImpl();
@@ -68,12 +68,12 @@ public class EmailService {
 		try{
 			messageHelper.setFrom(FROM_EMAIL_ADDR);
 //			messageHelper.setTo("595472653@qq.com");  
-			messageHelper.setTo(TO_EMAIL_ADDR);  
+			messageHelper.setTo(toEmail);  
           
 			messageHelper.setSubject("[Adogo]Activation_notice");
 			//String strMsg = msg;
 			
-			String strMsg = "<html><body><a href='www.athensoft.com'>Welcome to INF. Athensoft</a><br/>"
+			String strMsg = "<html><body>Welcome to Adogo Online Advertising and Marketing Platform<br/>"
 					+"<p>"+msg+"</p>"
 					+"</body></html>";
 			

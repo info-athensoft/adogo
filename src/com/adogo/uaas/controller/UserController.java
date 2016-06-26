@@ -18,6 +18,12 @@ import com.adogo.uaas.exception.UserAccountExistException;
 import com.adogo.uaas.service.UserService;
 import com.athensoft.common.email.service.EmailService;
 
+/**
+ * For Adogo front end use
+ * 
+ * @author Athens
+ *
+ */
 @Controller
 public class UserController {
 	
@@ -162,6 +168,50 @@ public class UserController {
 	}
 	
 	
+	@RequestMapping(value="/activaterequest",method=RequestMethod.POST,produces="application/json")
+		@ResponseBody
+		public Map<String,Object> activateRequest(
+				@RequestParam long acctId,
+				@RequestParam String email){
+			
+			System.out.println("/activaterequest");
+			
+			/* initial settings */
+			ModelAndView mav = new ModelAndView();
+			Map<String,Object> data = mav.getModel();
+			//String viewName = "uaas/activate-email";
+			
+			/* data construction */
+			UserAccount ua = new UserAccount();	
+			ua.setAcctId(acctId);
+			ua.setPrimaryEmail(email);
+			
+			/* business logic
+			 * 		1. construct activate link string	
+			* 		2. send email with activate request	*/
+			//to do list
+			//1. url encode
+			//2. encrypt
+			
+	//		String activateLink = "http://www.adogo.ca/activatemail?acctId="+acctId;
+			String activateLink = "http://104.233.108.12/activatemail?acctId="+acctId;
+			System.out.println("activation request sent to: activateLink");	//to log
+			
+			try{
+	//			emailService.sendSimpleMail(activateLink);
+				emailService.sendMail(activateLink, ua.getPrimaryEmail());
+			}catch(Exception ex){
+				System.out.println("ERROR: Activation email failed.");
+				ex.printStackTrace();
+			}
+			
+			/* assemble model and view */
+			//mav.setViewName(viewName);
+			data.put("activateLink",activateLink);
+			data.put("userAccount", ua);
+			return data;
+		}
+
 	@RequestMapping(value="/activate",produces="application/json")
 	@ResponseBody
 	public Map<String,Object> activateUserAccount(
@@ -213,49 +263,6 @@ public class UserController {
 		data.put("activate_msg","account activated");
 		data.put("userAccount", ua);
 		return mav;
-	}
-	
-	@RequestMapping(value="/activaterequest",method=RequestMethod.POST,produces="application/json")
-	@ResponseBody
-	public Map<String,Object> activateRequest(
-			@RequestParam long acctId,
-			@RequestParam String email){
-		
-		System.out.println("/activaterequest");
-		
-		/* initial settings */
-		ModelAndView mav = new ModelAndView();
-		Map<String,Object> data = mav.getModel();
-		//String viewName = "uaas/activate-email";
-		
-		/* data construction */
-		UserAccount ua = new UserAccount();	
-		ua.setAcctId(acctId);
-		ua.setPrimaryEmail(email);
-		
-		/* business logic
-		 * 		1. construct activate link string	
-		* 		2. send email with activate request	*/
-		//to do list
-		//1. url encode
-		//2. encrypt
-		
-		String activateLink = "http://www.adogo.ca/activatemail?acctId="+acctId;
-		System.out.println("activation request sent to: activateLink");	//to log
-		
-		try{
-//			emailService.sendSimpleMail(activateLink);
-			emailService.sendMail(activateLink);
-		}catch(Exception ex){
-			System.out.println("ERROR: Activation email failed.");
-			ex.printStackTrace();
-		}
-		
-		/* assemble model and view */
-		//mav.setViewName(viewName);
-		data.put("activateLink",activateLink);
-		data.put("userAccount", ua);
-		return data;
 	}
 	
 	

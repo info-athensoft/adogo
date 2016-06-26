@@ -94,7 +94,8 @@
                             <li><a href="/category/5"><i class="fa fa-headphones"></i>Education<span>48</span></a></li>
                             <li><a href="/category/6"><i class="fa fa-plane"></i>Tourism<span>38</span></a></li>
                             <li><a href="/category/7"><i class="fa fa-plane"></i>Trans.&amp;Logistic<span>38</span></a></li>
-                            <li><a href="/category/8"><i class="fa fa-home"></i>Non-profit<span>44</span></a></li>
+                            <li><a href="/category/8"><i class="fa fa-home"></i>Sport,Recreation<span>44</span></a></li>
+                            <li><a href="/category/9"><i class="fa fa-home"></i>Non-profit<span>44</span></a></li>
                             
                             <li class="active"><a href="#"><i class="fa fa-shopping-cart"></i>I want to do business</a></li>
                             <li><a href="#"><i class="fa fa-cutlery"></i>Connecting to Business<span>50</span></a></li>
@@ -1661,13 +1662,14 @@ Business card, printing service etc.
 
 
         <!-- Scripts queries -->
-        <script src="/js/jquery.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        
         <script src="/js/boostrap.min.js"></script>
         <script src="/js/countdown.min.js"></script>
         <script src="/js/flexnav.min.js"></script>
         <script src="/js/magnific.js"></script>
         <script src="/js/tweet.min.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+        
         <script src="/js/fitvids.min.js"></script>
         <script src="/js/mail.min.js"></script>
         <script src="/js/ionrangeslider.js"></script>
@@ -1677,7 +1679,14 @@ Business card, printing service etc.
         <script src="/js/owl-carousel.js"></script>
         <script src="/js/masonry.js"></script>
         <script src="/js/nicescroll.js"></script>
-
+		
+		<!-- Unused Scripts queries -->
+		<!--
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="/js/jquery.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+         -->
+		
         <!-- Custom scripts -->
         <script src="/js/custom.js"></script>
         

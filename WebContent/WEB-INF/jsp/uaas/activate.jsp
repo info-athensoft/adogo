@@ -38,7 +38,7 @@
 
 </head>
 
-<body class="boxed bg-cover" style="background-image: url(/img/backgrounds/wood.jpg)">
+<body class="boxed bg-cover" style="background-image: url(/img/backgrounds/s7.jpg)">
 
 
     <div class="global-wrap">
@@ -190,9 +190,10 @@
 				data: {	acctId:acctId, email:email },
 				timeout : 5000,
 				success:function(data){
-					var activateLink = data.activateLink;
-					location = "goactivateemail?activateLink="+activateLink+"&acctId="+acctId;
-				}		
+					//var activateLink = data.activateLink;
+					//location = "goactivateemail?activateLink="+activateLink+"&acctId="+acctId;
+					location="goactivatenotice";
+				}
 			});
 			
 		}

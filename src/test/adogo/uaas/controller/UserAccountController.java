@@ -1,4 +1,4 @@
-package com.adogo.uaas.controller;
+package test.adogo.uaas.controller;
 
 import java.util.List;
 import java.util.Map;
@@ -16,6 +16,13 @@ import org.springframework.web.servlet.ModelAndView;
 import com.adogo.uaas.entity.UserAccount;
 import com.adogo.uaas.service.UserAccountService;
 
+/**
+ * For Back-end Management use
+ * For test purpose
+ * 
+ * @author Athens
+ *
+ */
 @Controller
 public class UserAccountController {
 	
