@@ -1662,8 +1662,7 @@ Business card, printing service etc.
 
 
         <!-- Scripts queries -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        
+        <script src="/js/jquery.js"></script>        
         <script src="/js/boostrap.min.js"></script>
         <script src="/js/countdown.min.js"></script>
         <script src="/js/flexnav.min.js"></script>
