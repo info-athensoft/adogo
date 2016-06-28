@@ -10,7 +10,7 @@
 
 <head>
 	<!-- page: Index coupon layout 1 -->
-    <title>Adogo - Online Brands and Ad Marketing</title>
+    <title>Adogo | Online Brands and Advertising Marketing</title>
     <!-- meta info -->
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
     <meta name="keywords" content="Adogo Montreal Canada Online Brand and Ad Marketing" />
