@@ -45,13 +45,13 @@ public class BoothDaoImpl implements BoothDao{
 
 	@Override
 	public List<Booth> findAll() {
-		String sql = "select * from booth";		
+		String sql = "select * from booth where biz_no > 0";		
 		return jdbc.query(sql, new BoothRowMapper());
 	}
 	
 	@Override
 	public List<Booth> findByClassLevel1(int classNum) {
-		String sql = "select * from booth where class_num=:classNum";
+		String sql = "select * from booth where class_num=:classNum and biz_no > 0";
 		MapSqlParameterSource paramSource = new MapSqlParameterSource();
 		paramSource.addValue("classNum", classNum);
 		List<Booth> boothList = new ArrayList<Booth>();
@@ -66,7 +66,7 @@ public class BoothDaoImpl implements BoothDao{
 
 	@Override
 	public List<Booth> findByClassLevel1(String classCode) {
-		String sql = "select * from booth where class_code=:classCode";
+		String sql = "select * from booth where class_code=:classCode and biz_no > 0";
 		MapSqlParameterSource paramSource = new MapSqlParameterSource();
 		paramSource.addValue("classCode", classCode);
 		List<Booth> boothList = new ArrayList<Booth>();
@@ -112,13 +112,13 @@ public class BoothDaoImpl implements BoothDao{
 
 	@Override
 	public List<Booth> findNewBrands() {
-		String sql = "select * from view_booth_new_brand";		
+		String sql = "select * from view_booth_new_brand where biz_no > 0";		
 		return jdbc.query(sql, new BoothRowMapper());
 	}
 
 	@Override
 	public List<Booth> findWeeklyFeatured() {
-		String sql = "select * from view_booth_weekly_featured";		
+		String sql = "select * from view_booth_weekly_featured where biz_no > 0";		
 		return jdbc.query(sql, new BoothRowMapper());
 	}
 
