@@ -143,6 +143,7 @@ public class UserController {
 		}
 		
 		/* assemble model and view */
+		viewName = "redirect:/index";
 		mav.setViewName(viewName);
 		data.put("userAccount", ua);		
 		return mav;

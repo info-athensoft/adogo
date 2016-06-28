@@ -14,7 +14,7 @@ import com.adogo.business.service.BoothService;
 @Controller
 public class GeneralController {
 	
-private BoothService boothService;
+	private BoothService boothService;
 	
 	@Autowired
 	public void setBoothService(BoothService boothService) {
@@ -27,8 +27,7 @@ private BoothService boothService;
 	}
 */	
 	@RequestMapping("/")
-	public ModelAndView goIndex(
-			){
+	public ModelAndView goIndex(){
 		ModelAndView mav = new ModelAndView();
 		
 		List<Booth> boothNewBrands = boothService.findNewBrands();
@@ -48,8 +47,7 @@ private BoothService boothService;
 	}
 */
 	@RequestMapping("/index")
-	public ModelAndView goIndex2(
-			){
+	public ModelAndView goIndex2(){
 		ModelAndView mav = new ModelAndView();
 		
 		List<Booth> boothNewBrands = boothService.findNewBrands();
