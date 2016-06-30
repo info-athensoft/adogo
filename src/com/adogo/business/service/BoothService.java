@@ -42,4 +42,8 @@ private BoothDao boothDao;
 	public List<Booth> findWeeklyFeatured(){
 		return boothDao.findWeeklyFeatured();
 	}
+	
+	public List<Booth> findMonthlyStars(){
+		return boothDao.findMonthlyStars();
+	}
 }
