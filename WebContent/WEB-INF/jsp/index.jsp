@@ -282,62 +282,60 @@ Business card, printing service etc.
             </div>
                 </div>
             </div>
-            
             <div class="gap gap-small"></div>
             
             <h1 class="mb20">Weekly Featured <small><a href="#">View All</a></small></h1>
             <div class="row row-wrap">
             
             <c:forEach var="booth" items="${boothWeeklyFeaturedList}">
-                    	<div class="col-md-4">
-                            <div class="product-thumb">
-                                <header class="product-header">
-                                    <img src="${booth.logoCoverUrl}" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
-                                </header>
-                                <div class="product-inner">
-                                    <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                    </ul>
-                                    <c:if test="${booth.bizName.length()<=30}">
-                                    	<h5 class="product-title">${booth.bizName}<br/>
-                                    	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5>
-                                    </c:if>
-                                    <c:if test="${booth.bizName.length()>30}">
-                                    	<h5 class="product-title">${booth.bizName}</h5>
-                                    </c:if>
-                                    
-                                    <p class="product-desciption">${booth.bizDesc}</p>
-                                    <div class="product-meta">                                        
-                                        <p class="product-location">
-                                            	<i class="fa fa-map-marker"></i> ${booth.locCity}&nbsp;&nbsp;
-                                            <c:set var="arrayvalue" value="${booth.supportLang}" />
-											<c:set var="delim" value=","/> 
-											<c:set var="array" value="${fn:split(arrayvalue, delim)}"/>
-                                            	
-                                           	<c:forEach var="lang" items="${array}">
-                                           		<span class="product-price">${lang}</span>
-                                           	</c:forEach>
-                                        </p>
-                                        <ul class="product-actions-list">
-                                            <li><a class="btn btn-sm" href="#" target="_blank"><i class="fa fa-home"></i> Home</a>
-                                            </li>
-                                            <li><a class="btn btn-sm" href="/biz/31001"><i class="fa fa-bars"></i> Profile</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                      </c:forEach>
+            	<div class="col-md-4">
+	                <div class="product-thumb">
+	                	<header class="product-header">
+                            <img src="${booth.logoCoverUrl}" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                        </header>
+	                    <div class="product-inner">
+                             <ul class="icon-group icon-list-rating" title="5/5 rating">
+                                 <li><i class="fa fa-star"></i>
+                                 </li>
+                                 <li><i class="fa fa-star"></i>
+                                 </li>
+                                 <li><i class="fa fa-star"></i>
+                                 </li>
+                                 <li><i class="fa fa-star"></i>
+                                 </li>
+                                 <li><i class="fa fa-star"></i>
+                                 </li>
+                             </ul>
+                             <c:if test="${booth.bizName.length()<=30}">
+                             	<h5 class="product-title">${booth.bizName}<br/>
+                             	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5>
+                             </c:if>
+                             <c:if test="${booth.bizName.length()>30}">
+                             	<h5 class="product-title">${booth.bizName}</h5>
+                             </c:if>
+                             
+                             <p class="product-desciption">${booth.bizDesc}</p>
+                             <div class="product-meta">                                        
+                                 <p class="product-location">
+                                     <i class="fa fa-map-marker"></i> ${booth.locCity}&nbsp;&nbsp;
+                                     <c:set var="arrayvalue" value="${booth.supportLang}" />
+									 <c:set var="delim" value=","/> 
+									 <c:set var="array" value="${fn:split(arrayvalue, delim)}"/>
+                                    	<c:forEach var="lang" items="${array}">
+                                    		<span class="product-price">${lang}</span>
+                                    	</c:forEach>
+                                 </p>
+                                 <ul class="product-actions-list">
+                                     <li><a class="btn btn-sm" href="#" target="_blank"><i class="fa fa-home"></i> Home</a>
+                                     </li>
+                                     <li><a class="btn btn-sm" href="/biz/31001"><i class="fa fa-bars"></i> Profile</a>
+                                     </li>
+                                 </ul>
+                             </div>
+                         </div>
+	                </div>
+                </div>
+            </c:forEach>
             
 <!--                 <div class="col-md-4">
                         <div class="product-thumb">
@@ -463,7 +461,6 @@ Business card, printing service etc.
                         </div>
                     </div> -->
             </div>
-            
             <div class="gap gap-small"></div>
             
             <h1 class="mb20">Monthly Stars <small><a href="#">View All</a></small></h1>
@@ -594,9 +591,6 @@ Business card, printing service etc.
                         </div>
                     </div>
             </div>
-            <div class="gap"></div>
-            
-            
             <div class="gap gap-small"></div>
             
             <h1 class="mb20">Popular in Shopwise <small><a href="#">View All</a></small></h1>
@@ -725,8 +719,6 @@ Business card, printing service etc.
                         </div>
                     </div>
             </div>
-            
-            
             <div class="gap gap-small"></div>
             
             <h1 class="mb20">Popular in Food and drink <small><a href="#">View All</a></small></h1>
@@ -855,8 +847,7 @@ Business card, printing service etc.
                         </div>
                     </div>
             </div>
-            
-           <div class="gap gap-small"></div>
+            <div class="gap gap-small"></div>
             
             <h1 class="mb20">Popular in Life Service <small><a href="#">View All</a></small></h1>
             <div class="row row-wrap">
@@ -992,7 +983,6 @@ Business card, printing service etc.
                         </div>
                     </div>
             </div>
-            
             <div class="gap gap-small"></div>
             
             <h1 class="mb20">Popular in Professional Service <small><a href="#">View All</a></small></h1>
@@ -1127,7 +1117,6 @@ Business card, printing service etc.
                         </div>
                     </div>
             </div>
-            
             <div class="gap gap-small"></div>
             
             <h1 class="mb20">Popular in Educational Service <small><a href="#">View All</a></small></h1>
@@ -1256,7 +1245,6 @@ Business card, printing service etc.
                         </div>
                     </div>
             </div>
-            
             <div class="gap gap-small"></div>
             
             <h1 class="mb20">Popular in Tourism Service <small><a href="#">View All</a></small></h1>
@@ -1385,7 +1373,6 @@ Business card, printing service etc.
                         </div>
                     </div>
             </div>
-            
             <div class="gap gap-small"></div>
             
             <h1 class="mb20">Popular in Sport, Recreation and Entertainment <small><a href="#">View All</a></small></h1>
@@ -1514,7 +1501,6 @@ Business card, printing service etc.
                         </div>
                     </div>
             </div>
-            
             <div class="gap gap-small"></div>
             
             <h1 class="mb20">Popular in Non-profit Organization, Community <small><a href="#">View All</a></small></h1>
@@ -1643,7 +1629,6 @@ Business card, printing service etc.
                         </div>
                     </div>
             </div>
-            
             <div class="gap"></div>
         </div>
 
