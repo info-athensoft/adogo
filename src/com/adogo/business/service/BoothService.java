@@ -46,4 +46,8 @@ private BoothDao boothDao;
 	public List<Booth> findMonthlyStars(){
 		return boothDao.findMonthlyStars();
 	}
+	
+	public List<Booth> findPopular(){
+		return boothDao.findPopular();
+	}
 }
