@@ -135,6 +135,7 @@ public class UserController {
 				System.out.println("go activate");
 				viewName = "uaas/activate";
 			}else if(acctStatus==UserAccount.ACCOUNT_ACTIVATED){
+				viewName = "forward:/";
 				System.out.println("sign in normally");
 			}else{
 				System.out.println("account pending or closed, please contact admin");
@@ -147,9 +148,12 @@ public class UserController {
 		}
 		
 		/* assemble model and view */
-		//viewName = "redirect:/index";
+//		viewName = "redirect:/index";
+		
 		mav.setViewName(viewName);
-		data.put("userAccount", ua);		
+		data.put("userAccount", ua);
+			//test
+			System.out.println(ua.toString());
 		return mav;
 	}
 	

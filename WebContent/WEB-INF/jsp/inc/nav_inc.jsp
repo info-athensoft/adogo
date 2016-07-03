@@ -20,7 +20,7 @@
                         </li>
                         <li class="active"><a href="faq">Public test</a>
                         	<ul>
-                                <li><a class="popup-text" href="#public-test-dialog" data-effect="mfp-move-from-top">Apply Now (CHS)</a></li>
+                                <li><a class="popup-text" href="/applybooth" data-effect="mfp-move-from-top">Apply a booth(CHS)</a></li>
                                 <li><a href="/faq">FAQ (CHS)</a></li>
                             </ul>
                         </li>
@@ -93,10 +93,11 @@
 	            		 <li><a class="" href="signout"><i class="fa fa-sign-in"></i>Sign out</a>
                     	</li>
 	            	</c:if>
-	            	<!--  
-                    <li><a class="popup-text" href="#public-test-dialog" data-effect="mfp-move-from-top"><i class="fa fa-edit"></i>Apply Now</a>
+	            	
+	            	  
+                    <li><a class="popup-text" href="#public-test-dialog" data-effect="mfp-move-from-top"><i class="fa fa-edit"></i>Contact us</a>
                     </li>
-                     -->
+                     
                     
                 </ul>
             </div>

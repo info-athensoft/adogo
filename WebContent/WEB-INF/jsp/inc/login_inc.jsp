@@ -123,11 +123,12 @@
     <h5>内测期间入驻的商家，将免费获得展位</h5>
     <form class="dialog-form">
         <label>选择一：电子邮件申请</label>
+        <h5>站内查看入驻要求和相关说明</h5>
         <h5>请致邮到  support@adogo.ca</h5>
         <h5>请注明标题"参加ADOGO内测"</h5>
         <label>选择二：微信申请</label>
         <h5>加微信好友  athens314</h5>
-        <h5>请注明标题"参加ADOGO内测"</h5>
+        <div><img src="img/logos/athens_wechat_qr_code.jpg" width="80"/></div>
     </form>
 </div>
 

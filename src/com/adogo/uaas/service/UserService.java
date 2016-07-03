@@ -44,7 +44,8 @@ public class UserService {
 		
 		try{
 			//create userAccount
-			key = userAccoutDao.create(user.getUserAccount());		
+			key = userAccoutDao.create(user.getUserAccount());
+				System.out.println("UserService:  key="+key);
 
 			//key >0 means a valid user account has been created		
 			if(key>0){
@@ -56,6 +57,7 @@ public class UserService {
 				throw new InvalidKeyValueException();
 			}
 		}catch(org.springframework.dao.DuplicateKeyException ex){
+			System.out.println("UserService:  DuplicateKeyException  key="+key);
 			key = INVALID_KEY;
 			throw new UserAccountExistException();
 		}

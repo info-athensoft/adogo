@@ -48,14 +48,15 @@ public class VisitorProfileParamImpl implements VisitorProfileDao {
 		
 		StringBuffer sbf = new StringBuffer();
 		sbf.append("insert into "+TABLE);
-		sbf.append("(uid,first_name,last_name,nick_name,country_code,province_code,city_code,postal_code,");
+		sbf.append("(uid,user_id,first_name,last_name,nick_name,country_code,province_code,city_code,postal_code,");
 		sbf.append("gender,birth_year,birth_month,birth_day,phone_country_code,phone_num) ");
-		sbf.append("values(:uid,:first_name,:last_name,:nick_name,:country_code,:province_code,:city_code,:postal_code,");
+		sbf.append("values(:uid,:user_id,:first_name,:last_name,:nick_name,:country_code,:province_code,:city_code,:postal_code,");
 		sbf.append(":gender,:birth_year,:birth_month,:birth_day,:phone_country_code,:phone_num)");
 		String sql = sbf.toString();
 		
 		MapSqlParameterSource paramSource = new MapSqlParameterSource();
 		paramSource.addValue("uid", visitorProfile.getUid());
+		paramSource.addValue("user_id", visitorProfile.getUserId());
 		paramSource.addValue("first_name", visitorProfile.getFirstName());
 		paramSource.addValue("last_name", visitorProfile.getLastName());
 		paramSource.addValue("nick_name", visitorProfile.getNickName());
@@ -70,11 +71,12 @@ public class VisitorProfileParamImpl implements VisitorProfileDao {
 		paramSource.addValue("phone_country_code", visitorProfile.getPhoneCountryCode());
 		paramSource.addValue("phone_num", visitorProfile.getPhoneNum());
 
-//		KeyHolder keyholder = new GeneratedKeyHolder();
-//		jdbc.update(sql, paramSource, keyholder);
-		jdbc.update(sql, paramSource);
-//		return (long)keyholder.getKey();
-		return visitorProfile.getUid();
+		KeyHolder keyholder = new GeneratedKeyHolder();
+		jdbc.update(sql, paramSource, keyholder);
+		return (long)keyholder.getKey();
+		
+//		jdbc.update(sql, paramSource);
+//		return visitorProfile.getUid();
 	}
 
 	@Override
@@ -93,6 +95,7 @@ public class VisitorProfileParamImpl implements VisitorProfileDao {
 		public VisitorProfile mapRow(ResultSet rs, int rowNumber) throws SQLException {
 			VisitorProfile x = new VisitorProfile();
 			x.setUid(rs.getLong("uid"));
+			x.setUserId(rs.getLong("user_id"));
 			x.setFirstName(rs.getString("first_name"));
 			x.setLastName(rs.getString("last_name"));
 			x.setNickName(rs.getString("nick_name"));

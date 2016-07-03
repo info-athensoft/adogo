@@ -152,6 +152,7 @@
         <script src="/js/custom.js"></script>
         
         <script type="text/javascript">
+        /*
 		function activateAccount(acctId){
 			
 			//alert("activateAccount()");
@@ -172,7 +173,7 @@
 					$("#ua4").text(userAccount.acctStatus);
 				}		
 			});
-		}
+		}*/
 		
 		function sendActivateLink(acctId,email){
 			//var userAccount = accountObj;

@@ -120,6 +120,11 @@ public class GeneralController {
 		return "faq";
 	}
 	
+	@RequestMapping("/applybooth")
+	public String goApplybooth(){
+		return "applybooth";
+	}
+	
 	@RequestMapping("/about/ch")
 	public String goAboutCH(){
 		return "about-ch";

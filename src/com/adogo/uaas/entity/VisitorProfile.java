@@ -2,7 +2,8 @@ package com.adogo.uaas.entity;
 
 public class VisitorProfile {
 	private long uid;
-//	private String acctName;
+	private long userId;	//fk reference user_acct.uid
+	private String acctName;
 	private String firstName;
 	private String lastName;
 	private String nickName;
@@ -22,12 +23,18 @@ public class VisitorProfile {
 	public void setUid(long uid) {
 		this.uid = uid;
 	}
-//	public String getAcctName() {
-//		return acctName;
-//	}
-//	public void setAcctName(String acctName) {
-//		this.acctName = acctName;
-//	}
+	public long getUserId() {
+		return userId;
+	}
+	public void setUserId(long userId) {
+		this.userId = userId;
+	}
+	public String getAcctName() {
+		return acctName;
+	}
+	public void setAcctName(String acctName) {
+		this.acctName = acctName;
+	}
 	public String getFirstName() {
 		return firstName;
 	}
