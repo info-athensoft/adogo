@@ -82,13 +82,13 @@
                     <li><a class="popup-text" href="#register-dialog" data-effect="mfp-move-from-top"><i class="fa fa-edit"></i>Sign up</a>
                     </li>
                     -->
-                    <c:if test="${empty userAccount.acctName}">
+                    <c:if test="${empty userAccount}">
 	            		 <li><a class="popup-text" href="#login-dialog" data-effect="mfp-move-from-top"><i class="fa fa-sign-in"></i>Sign in</a>
                     	</li>
                    		<li><a class="popup-text" href="#register-dialog" data-effect="mfp-move-from-top"><i class="fa fa-edit"></i>Sign up</a>
                     	</li>
 	            	</c:if>
-	            	<c:if test="${!empty userAccount.acctName}">
+	            	<c:if test="${!empty userAccount}">
 	            		<li><c:out value="${userAccount.acctName}"/>&nbsp;&nbsp;&nbsp;&nbsp;</li>
 	            		 <li><a class="" href="signout"><i class="fa fa-sign-in"></i>Sign out</a>
                     	</li>

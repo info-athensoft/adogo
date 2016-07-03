@@ -86,14 +86,7 @@
 	           	<div>
 	           		<c:out value="${error_msg}"/>
 	           	</div>
-	           <!-- 
-            	<div id="user_account">
-	            	<label id="ua1"><c:out value="${userAccount.acctId}"/></label>
-	            	<label id="ua2"><c:out value="${userAccount.acctName}"/></label>
-	            	<label id="ua3"><c:out value="${userAccount.password}"/></label>
-	            	<label id="ua4"><c:out value="${userAccount.acctStatus}"/></label>
-           		</div>
-           		 -->
+	           
             </div>
             
             <div class="col-md-3">

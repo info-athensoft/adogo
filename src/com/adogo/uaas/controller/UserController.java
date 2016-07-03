@@ -26,7 +26,7 @@ import com.athensoft.common.email.service.EmailService;
  *
  */
 @Controller
-@SessionAttributes("userAccount")
+//@SessionAttributes("userAccount")
 public class UserController {
 	
 	private UserService userService;
@@ -140,12 +140,14 @@ public class UserController {
 				System.out.println("account pending or closed, please contact admin");
 			}
 		}catch(IncorrectUserNameOrPasswordException ex){
+//			ua = new UserAccount();
+//			ua.setAcctName("");
 			ua = null;
 			data.put("error_msg", "ERROR: Incorrect User name or Password");
 		}
 		
 		/* assemble model and view */
-		viewName = "redirect:/index";
+		//viewName = "redirect:/index";
 		mav.setViewName(viewName);
 		data.put("userAccount", ua);		
 		return mav;
@@ -162,8 +164,9 @@ public class UserController {
 		String viewName = "index";
 		
 		/* data construction */
-		UserAccount ua = new UserAccount();
-		ua.setAcctName("");
+//		UserAccount ua = new UserAccount();
+//		ua.setAcctName("");
+		UserAccount ua = null;
 		
 		/* assemble model and view */
 		mav.setViewName("redirect:/");
@@ -256,6 +259,8 @@ public class UserController {
 		/* data construction */
 		UserAccount ua = new UserAccount();	
 		ua.setAcctId(acctId);
+		
+		//ua = userService.getUserAccountById(acctId);
 		
 		/* business logic
 		 * 		1. activate	*/
