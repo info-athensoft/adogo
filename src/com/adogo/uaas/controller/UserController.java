@@ -154,7 +154,7 @@ public class UserController {
 	@RequestMapping(value="/signout")
 	public ModelAndView signout(){
 		
-		System.out.println("/signin");
+		System.out.println("/signout");
 		
 		/* initial settings */
 		ModelAndView mav = new ModelAndView();
@@ -162,10 +162,11 @@ public class UserController {
 		String viewName = "index";
 		
 		/* data construction */
-		UserAccount ua = null;		
+		UserAccount ua = new UserAccount();
+		ua.setAcctName("");
 		
 		/* assemble model and view */
-		mav.setViewName(viewName);
+		mav.setViewName("redirect:/");
 		data.put("userAccount", ua);		
 		return mav;
 	}
