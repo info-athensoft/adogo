@@ -15,68 +15,36 @@
                     <ul class="nav nav-pills flexnav" id="flexnav" data-breakpoint="800">
                         <li><a href="/">Home</a>
                         	<ul>
-                        	<!-- 
-                                <li><a href="#">Get started</a></li>
-                                <li><a href="#">New features</a></li>
-                                <li><a href="#">Explore</a></li>
-                             
-                                <li><a href="/about">About</a></li>-->
                                 <li><a href="/about/ch">About (CHS)</a></li>
                             </ul>
                         </li>
                         <li class="active"><a href="faq">Public test</a>
                         	<ul>
+                                <li><a class="popup-text" href="#public-test-dialog" data-effect="mfp-move-from-top">Apply Now (CHS)</a></li>
                                 <li><a href="/faq">FAQ (CHS)</a></li>
                             </ul>
-                        </li>                   
+                        </li>
+                        <!--                    
                         <li><a href="#">Find</a>
-                        <!-- 
-                            <ul>
-                                <li><a href="/category/shopwise">Find a shop</a></li>
-                                <li><a href="#">Find a product</a></li>
-                                <li><a href="#">Find a service</a></li>
-                                <li><a href="#">Find a business</a></li>
-                            </ul>
-                         -->
                         </li>
                         <li><a href="#">Good deals</a>
-                        <!-- 
-                            <ul>
-                                <li><a href="#">On sale</a>
-                                </li>
-                                <li><a href="#">Coupon</a>
-                                </li>
-                                <li><a href="#">Flyer</a>
-                                </li>
-                            </ul>
-                          -->
                         </li>
                         <li><a href="#">Events</a>
-                        		<!-- 
-                            <ul>
-                                <li><a href="#">Selling activities</a>
-                                </li>
-                                <li><a href="#">Charitable activities</a>
-                                </li>
-                            </ul>
-                             -->
                         </li>
                         <li><a href="#">Join us</a>
                             <ul>
                                 <li><a href="#">As an advertiser</a>
                                 </li>
-                                <!-- 
-                                <li><a href="#">As a distributer</a>
-                                </li>
-                                 -->
                             </ul>
                         </li>
-                        <li><a href="#">FAQ</a>
+                        -->
+                        <li><a href="#">Support</a>
                             <ul>
-                                <li><a href="/faq">FAQ for public test</a>
+                                <li><a href="/faq">FAQ (CHS)</a>
                                 </li>
                             </ul>
                         </li>
+                         
                     </ul>
                 </nav>
             </div>
@@ -124,9 +92,11 @@
 	            		<li><c:out value="${userAccount.acctName}"/>&nbsp;&nbsp;&nbsp;&nbsp;</li>
 	            		 <li><a class="" href="signout"><i class="fa fa-sign-in"></i>Sign out</a>
                     	</li>
-	            	</c:if> 
+	            	</c:if>
+	            	<!--  
                     <li><a class="popup-text" href="#public-test-dialog" data-effect="mfp-move-from-top"><i class="fa fa-edit"></i>Apply Now</a>
                     </li>
+                     -->
                     
                 </ul>
             </div>

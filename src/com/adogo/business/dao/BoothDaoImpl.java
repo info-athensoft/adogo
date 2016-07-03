@@ -134,6 +134,16 @@ public class BoothDaoImpl implements BoothDao{
 		return jdbc.query(sql, new BoothRowMapper());
 	}
 
+	@Override
+	public List<Booth> findPopular(int classNum) {
+		String sql = "select distinct * from view_booth_popular where class_num=:classNum";
+		MapSqlParameterSource paramSource = new MapSqlParameterSource();
+		paramSource.addValue("classNum", classNum);
+		List<Booth> boothList = jdbc.query(sql, paramSource, new BoothRowMapper());
+		return boothList;
+		
+	}
+
 	
 	
 }

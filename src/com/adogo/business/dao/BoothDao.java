@@ -14,5 +14,19 @@ public interface BoothDao {
 	public List<Booth> findNewBrands();
 	public List<Booth> findWeeklyFeatured();
 	public List<Booth> findMonthlyStars();
+	
+	/**
+	 * find all popular booths
+	 * @return
+	 */
 	public List<Booth> findPopular();
+	
+	
+	/**
+	 * find popular booths by class num of level 1
+	 * @param classNum
+	 * @return
+	 */
+	public List<Booth> findPopular(int classNum);
+	
 }

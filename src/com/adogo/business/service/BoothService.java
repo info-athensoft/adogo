@@ -50,4 +50,8 @@ private BoothDao boothDao;
 	public List<Booth> findPopular(){
 		return boothDao.findPopular();
 	}
+	
+	public List<Booth> findPopular(int classNum){
+		return boothDao.findPopular(classNum);
+	}
 }

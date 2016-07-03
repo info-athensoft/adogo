@@ -63,7 +63,7 @@
         <!-- END TOP AREA -->
 
         <!-- SEARCH AREA -->
-        <jsp:include page="inc/search_inc.jsp"></jsp:include>
+        <!--<jsp:include page="inc/search_inc.jsp"></jsp:include>-->
         <!-- END SEARCH AREA -->
 
         <div class="gap"></div>
@@ -92,7 +92,7 @@
                             <li><a href="/category/3"><i class="fa fa-calendar"></i>Life Service<span>49</span></a></li>
                             <li><a href="/category/4"><i class="fa fa-calendar"></i>Pro. Service<span>49</span></a></li>
                             <li><a href="/category/5"><i class="fa fa-headphones"></i>Education<span>48</span></a></li>
-                            <li><a href="/category/6"><i class="fa fa-plane"></i>Tourism<span>38</span></a></li>
+                            <li><a href="/category/6"><i class="fa fa-plane"></i>Tourism&amp;Hotel<span>38</span></a></li>
                             <li><a href="/category/7"><i class="fa fa-plane"></i>Trans.&amp;Logistic<span>38</span></a></li>
                             <li><a href="/category/8"><i class="fa fa-home"></i>Sport,Recreation<span>44</span></a></li>
                             <li><a href="/category/9"><i class="fa fa-home"></i>Non-profit<span>44</span></a></li>
@@ -635,315 +635,164 @@ Business card, printing service etc.
             
             <h1 class="mb20">Popular in Shopwise <small><a href="#">View All</a></small></h1>
             <div class="row row-wrap">
-                <div class="col-md-4">
-                        <div class="product-thumb">
-                            <header class="product-header">
-                                <img src="images/shopwise/01.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
-                            </header>
-                            <div class="product-inner">
-                                <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <h5 class="product-title">Your Business Name</h5>
-                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
-                                <div class="product-meta">
-                                    <ul class="product-price-list">
-                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
-                                        <li><span class="product-price">FR</span></li>
-                                        <li><span class="product-price">EN</span></li>
-                                        <li><span class="product-price">CH</span></li>
-                                        <!-- 
-                                        <li><span class="product-old-price">$195</span></li>
-                                        <li><span class="product-save">Save 42%</span></li>
-                                         -->
-                                    </ul>
-                                    <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
-                                        </li>
-                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-					<div class="col-md-4">
-                        <div class="product-thumb">
-                            <header class="product-header">
-                                <img src="images/shopwise/02.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
-                            </header>
-                            <div class="product-inner">
-                                <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <h5 class="product-title">Your Business Name</h5>
-                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
-                                <div class="product-meta">
-                                    <ul class="product-price-list">
-                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
-                                        <li><span class="product-price">FR</span></li>
-                                        <li><span class="product-price">EN</span></li>
-                                        <li><span class="product-price">RA</span></li>
-                                        <!-- 
-                                        <li><span class="product-old-price">$195</span></li>
-                                        <li><span class="product-save">Save 42%</span></li>
-                                         -->
-                                    </ul>
-                                    <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
-                                        </li>
-                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                <div class="col-md-4">
-                        <div class="product-thumb">
-                            <header class="product-header">
-                                <img src="images/shopwise/03.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
-                            </header>
-                            <div class="product-inner">
-                                <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <h5 class="product-title">Your Business Name</h5>
-                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
-                                <div class="product-meta">
-                                    <ul class="product-price-list">
-                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
-                                        <li><span class="product-price">FR</span></li>
-                                        <li><span class="product-price">EN</span></li>
-                                        <li><span class="product-price">SP</span></li>
-                                        <!-- 
-                                        <li><span class="product-old-price">$195</span></li>
-                                        <li><span class="product-save">Save 42%</span></li>
-                                         -->
-                                    </ul>
-                                    <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="http://www.athensoft.com" target="_blank"><i class="fa fa-home"></i> Home</a>
-                                        </li>
-                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <c:forEach var="booth" items="${boothPopularShopwiseList}">
+	            	<div class="col-md-4">
+		                <div class="product-thumb">
+		                	<header class="product-header">
+	                            <img src="${booth.logoCoverUrl}" alt="" title="" />
+	                        </header>
+		                    <div class="product-inner">
+	                             <ul class="icon-group icon-list-rating" title="5/5 rating">
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                             </ul>
+	                             <c:if test="${booth.bizName.length()<=30}">
+	                             	<h5 class="product-title">${booth.bizName}<br/>
+	                             	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5>
+	                             </c:if>
+	                             <c:if test="${booth.bizName.length()>30}">
+	                             	<h5 class="product-title">${booth.bizName}</h5>
+	                             </c:if>
+	                             
+	                             <p class="product-desciption">${booth.bizDesc}</p>
+	                             <div class="product-meta">                                        
+	                                 <p class="product-location">
+	                                     <i class="fa fa-map-marker"></i> ${booth.locCity}&nbsp;&nbsp;
+	                                     <c:set var="arrayvalue" value="${booth.supportLang}" />
+										 <c:set var="delim" value=","/> 
+										 <c:set var="array" value="${fn:split(arrayvalue, delim)}"/>
+	                                    	<c:forEach var="lang" items="${array}">
+	                                    		<span class="product-price">${lang}</span>
+	                                    	</c:forEach>
+	                                 </p>
+	                                 <ul class="product-actions-list">
+	                                     <li><a class="btn btn-sm" href="#" target="_blank"><i class="fa fa-home"></i> Home</a>
+	                                     </li>
+	                                     <li><a class="btn btn-sm" href="/biz/31001"><i class="fa fa-bars"></i> Profile</a>
+	                                     </li>
+	                                 </ul>
+	                             </div>
+	                         </div>
+		                </div>
+	                </div>
+	            </c:forEach>
             </div>
             <div class="gap gap-small"></div>
             
             <h1 class="mb20">Popular in Food and drink <small><a href="#">View All</a></small></h1>
             <div class="row row-wrap">
-                <div class="col-md-4">
-                        <div class="product-thumb">
-                            <header class="product-header">
-                                <img src="images/fooddrink/01.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
-                            </header>
-                            <div class="product-inner">
-                                <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <h5 class="product-title">Your Business Name</h5>
-                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
-                                <div class="product-meta">
-                                    <ul class="product-price-list">
-                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
-                                        <li><span class="product-price">FR</span></li>
-                                        <li><span class="product-price">EN</span></li>
-                                        <li><span class="product-price">CH</span></li>
-                                        <!-- 
-                                        <li><span class="product-old-price">$195</span></li>
-                                        <li><span class="product-save">Save 42%</span></li>
-                                         -->
-                                    </ul>
-                                    <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
-                                        </li>
-                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-					<div class="col-md-4">
-                        <div class="product-thumb">
-                            <header class="product-header">
-                                <img src="images/fooddrink/02.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
-                            </header>
-                            <div class="product-inner">
-                                <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <h5 class="product-title">Your Business Name</h5>
-                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
-                                <div class="product-meta">
-                                    <ul class="product-price-list">
-                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
-                                        <li><span class="product-price">FR</span></li>
-                                        <li><span class="product-price">EN</span></li>
-                                        <li><span class="product-price">RA</span></li>
-                                        <!-- 
-                                        <li><span class="product-old-price">$195</span></li>
-                                        <li><span class="product-save">Save 42%</span></li>
-                                         -->
-                                    </ul>
-                                    <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
-                                        </li>
-                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                <div class="col-md-4">
-                        <div class="product-thumb">
-                            <header class="product-header">
-                                <img src="images/fooddrink/03.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
-                            </header>
-                            <div class="product-inner">
-                                <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <h5 class="product-title">Your Business Name</h5>
-                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
-                                <div class="product-meta">
-                                    <ul class="product-price-list">
-                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
-                                        <li><span class="product-price">FR</span></li>
-                                        <li><span class="product-price">EN</span></li>
-                                        <li><span class="product-price">SP</span></li>
-                                        <!-- 
-                                        <li><span class="product-old-price">$195</span></li>
-                                        <li><span class="product-save">Save 42%</span></li>
-                                         -->
-                                    </ul>
-                                    <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="http://www.athensoft.com" target="_blank"><i class="fa fa-home"></i> Home</a>
-                                        </li>
-                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <c:forEach var="booth" items="${boothPopularFooddrinkList}">
+	            	<div class="col-md-4">
+		                <div class="product-thumb">
+		                	<header class="product-header">
+	                            <img src="${booth.logoCoverUrl}" alt="" title="" />
+	                        </header>
+		                    <div class="product-inner">
+	                             <ul class="icon-group icon-list-rating" title="5/5 rating">
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                             </ul>
+	                             <c:if test="${booth.bizName.length()<=30}">
+	                             	<h5 class="product-title">${booth.bizName}<br/>
+	                             	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5>
+	                             </c:if>
+	                             <c:if test="${booth.bizName.length()>30}">
+	                             	<h5 class="product-title">${booth.bizName}</h5>
+	                             </c:if>
+	                             
+	                             <p class="product-desciption">${booth.bizDesc}</p>
+	                             <div class="product-meta">                                        
+	                                 <p class="product-location">
+	                                     <i class="fa fa-map-marker"></i> ${booth.locCity}&nbsp;&nbsp;
+	                                     <c:set var="arrayvalue" value="${booth.supportLang}" />
+										 <c:set var="delim" value=","/> 
+										 <c:set var="array" value="${fn:split(arrayvalue, delim)}"/>
+	                                    	<c:forEach var="lang" items="${array}">
+	                                    		<span class="product-price">${lang}</span>
+	                                    	</c:forEach>
+	                                 </p>
+	                                 <ul class="product-actions-list">
+	                                     <li><a class="btn btn-sm" href="#" target="_blank"><i class="fa fa-home"></i> Home</a>
+	                                     </li>
+	                                     <li><a class="btn btn-sm" href="/biz/31001"><i class="fa fa-bars"></i> Profile</a>
+	                                     </li>
+	                                 </ul>
+	                             </div>
+	                         </div>
+		                </div>
+	                </div>
+	            </c:forEach>
             </div>
             <div class="gap gap-small"></div>
             
             <h1 class="mb20">Popular in Life Service <small><a href="#">View All</a></small></h1>
             <div class="row row-wrap">
           
-            	<c:forEach var="booth" items="${boothPopularList}">
-            		<c:if test="${booth.classNum==3}">
-                    	<div class="col-md-4">
-                            <div class="product-thumb">
-                                <header class="product-header">
-                                    <img src="${booth.logoCoverUrl}" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
-                                </header>
-                                <div class="product-inner">
-                                    <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                    </ul>
-                                    <c:if test="${booth.bizName.length()<=30}">
-                                    	<h5 class="product-title">${booth.bizName}<br/>
-                                    	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5>
-                                    </c:if>
-                                    <c:if test="${booth.bizName.length()>30}">
-                                    	<h5 class="product-title">${booth.bizName}</h5>
-                                    </c:if>
-                                    
-                                    <p class="product-desciption">${booth.bizDesc}</p>
-                                    <div class="product-meta">                                        
-                                        <p class="product-location">
-                                            	<i class="fa fa-map-marker"></i> ${booth.locCity}&nbsp;&nbsp;
-                                            <c:set var="arrayvalue" value="${booth.supportLang}" />
-											<c:set var="delim" value=","/> 
-											<c:set var="array" value="${fn:split(arrayvalue, delim)}"/>
-                                            	
-                                           	<c:forEach var="lang" items="${array}">
-                                           		<span class="product-price">${lang}</span>
-                                           	</c:forEach>
-                                        </p>
-                                        <ul class="product-actions-list">
-                                            <li><a class="btn btn-sm" href="#" target="_blank"><i class="fa fa-home"></i> Home</a>
-                                            </li>
-                                            <li><a class="btn btn-sm" href="/biz/31001"><i class="fa fa-bars"></i> Profile</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </c:if>
-                </c:forEach>
+            	<c:forEach var="booth" items="${boothPopularLifeServiceList}">
+	            	<div class="col-md-4">
+		                <div class="product-thumb">
+		                	<header class="product-header">
+	                            <img src="${booth.logoCoverUrl}" alt="" title="" />
+	                        </header>
+		                    <div class="product-inner">
+	                             <ul class="icon-group icon-list-rating" title="5/5 rating">
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                             </ul>
+	                             <c:if test="${booth.bizName.length()<=30}">
+	                             	<h5 class="product-title">${booth.bizName}<br/>
+	                             	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5>
+	                             </c:if>
+	                             <c:if test="${booth.bizName.length()>30}">
+	                             	<h5 class="product-title">${booth.bizName}</h5>
+	                             </c:if>
+	                             
+	                             <p class="product-desciption">${booth.bizDesc}</p>
+	                             <div class="product-meta">                                        
+	                                 <p class="product-location">
+	                                     <i class="fa fa-map-marker"></i> ${booth.locCity}&nbsp;&nbsp;
+	                                     <c:set var="arrayvalue" value="${booth.supportLang}" />
+										 <c:set var="delim" value=","/> 
+										 <c:set var="array" value="${fn:split(arrayvalue, delim)}"/>
+	                                    	<c:forEach var="lang" items="${array}">
+	                                    		<span class="product-price">${lang}</span>
+	                                    	</c:forEach>
+	                                 </p>
+	                                 <ul class="product-actions-list">
+	                                     <li><a class="btn btn-sm" href="#" target="_blank"><i class="fa fa-home"></i> Home</a>
+	                                     </li>
+	                                     <li><a class="btn btn-sm" href="/biz/31001"><i class="fa fa-bars"></i> Profile</a>
+	                                     </li>
+	                                 </ul>
+	                             </div>
+	                         </div>
+		                </div>
+	                </div>
+	            </c:forEach>
             
                 <!-- <div class="col-md-4">
                         <div class="product-thumb">
@@ -1070,58 +919,55 @@ Business card, printing service etc.
             <h1 class="mb20">Popular in Professional Service <small><a href="#">View All</a></small></h1>
             <div class="row row-wrap">
             
-            <c:forEach var="booth" items="${boothPopularList}">
-            		<c:if test="${booth.classNum==4}">
-                    	<div class="col-md-4">
-                            <div class="product-thumb">
-                                <header class="product-header">
-                                    <img src="${booth.logoCoverUrl}" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
-                                </header>
-                                <div class="product-inner">
-                                    <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                    </ul>
-                                    <c:if test="${booth.bizName.length()<=30}">
-                                    	<h5 class="product-title">${booth.bizName}<br/>
-                                    	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5>
-                                    </c:if>
-                                    <c:if test="${booth.bizName.length()>30}">
-                                    	<h5 class="product-title">${booth.bizName}</h5>
-                                    </c:if>
-                                    
-                                    <p class="product-desciption">${booth.bizDesc}</p>
-                                    <div class="product-meta">                                        
-                                        <p class="product-location">
-                                            	<i class="fa fa-map-marker"></i> ${booth.locCity}&nbsp;&nbsp;
-                                            <c:set var="arrayvalue" value="${booth.supportLang}" />
-											<c:set var="delim" value=","/> 
-											<c:set var="array" value="${fn:split(arrayvalue, delim)}"/>
-                                            	
-                                           	<c:forEach var="lang" items="${array}">
-                                           		<span class="product-price">${lang}</span>
-                                           	</c:forEach>
-                                        </p>
-                                        <ul class="product-actions-list">
-                                            <li><a class="btn btn-sm" href="#" target="_blank"><i class="fa fa-home"></i> Home</a>
-                                            </li>
-                                            <li><a class="btn btn-sm" href="/biz/31001"><i class="fa fa-bars"></i> Profile</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </c:if>
-                </c:forEach>
+            <c:forEach var="booth" items="${boothPopularProServiceList}">
+	            	<div class="col-md-4">
+		                <div class="product-thumb">
+		                	<header class="product-header">
+	                            <img src="${booth.logoCoverUrl}" alt="" title="" />
+	                        </header>
+		                    <div class="product-inner">
+	                             <ul class="icon-group icon-list-rating" title="5/5 rating">
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                             </ul>
+	                             <c:if test="${booth.bizName.length()<=30}">
+	                             	<h5 class="product-title">${booth.bizName}<br/>
+	                             	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5>
+	                             </c:if>
+	                             <c:if test="${booth.bizName.length()>30}">
+	                             	<h5 class="product-title">${booth.bizName}</h5>
+	                             </c:if>
+	                             
+	                             <p class="product-desciption">${booth.bizDesc}</p>
+	                             <div class="product-meta">                                        
+	                                 <p class="product-location">
+	                                     <i class="fa fa-map-marker"></i> ${booth.locCity}&nbsp;&nbsp;
+	                                     <c:set var="arrayvalue" value="${booth.supportLang}" />
+										 <c:set var="delim" value=","/> 
+										 <c:set var="array" value="${fn:split(arrayvalue, delim)}"/>
+	                                    	<c:forEach var="lang" items="${array}">
+	                                    		<span class="product-price">${lang}</span>
+	                                    	</c:forEach>
+	                                 </p>
+	                                 <ul class="product-actions-list">
+	                                     <li><a class="btn btn-sm" href="#" target="_blank"><i class="fa fa-home"></i> Home</a>
+	                                     </li>
+	                                     <li><a class="btn btn-sm" href="/biz/31001"><i class="fa fa-bars"></i> Profile</a>
+	                                     </li>
+	                                 </ul>
+	                             </div>
+	                         </div>
+		                </div>
+	                </div>
+	            </c:forEach>
             
 <!--             <div class="col-md-4">
                         <div class="product-thumb">
@@ -1245,513 +1091,271 @@ Business card, printing service etc.
             
             <h1 class="mb20">Popular in Educational Service <small><a href="#">View All</a></small></h1>
             <div class="row row-wrap">
-                <div class="col-md-4">
-                        <div class="product-thumb">
-                            <header class="product-header">
-                                <img src="images/edu/01.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
-                            </header>
-                            <div class="product-inner">
-                                <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <h5 class="product-title">Your Business Name</h5>
-                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
-                                <div class="product-meta">
-                                    <ul class="product-price-list">
-                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
-                                        <li><span class="product-price">FR</span></li>
-                                        <li><span class="product-price">EN</span></li>
-                                        <li><span class="product-price">CH</span></li>
-                                        <!-- 
-                                        <li><span class="product-old-price">$195</span></li>
-                                        <li><span class="product-save">Save 42%</span></li>
-                                         -->
-                                    </ul>
-                                    <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
-                                        </li>
-                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-					<div class="col-md-4">
-                        <div class="product-thumb">
-                            <header class="product-header">
-                                <img src="images/edu/02.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
-                            </header>
-                            <div class="product-inner">
-                                <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <h5 class="product-title">Your Business Name</h5>
-                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
-                                <div class="product-meta">
-                                    <ul class="product-price-list">
-                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
-                                        <li><span class="product-price">FR</span></li>
-                                        <li><span class="product-price">EN</span></li>
-                                        <li><span class="product-price">RA</span></li>
-                                        <!-- 
-                                        <li><span class="product-old-price">$195</span></li>
-                                        <li><span class="product-save">Save 42%</span></li>
-                                         -->
-                                    </ul>
-                                    <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
-                                        </li>
-                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                <div class="col-md-4">
-                        <div class="product-thumb">
-                            <header class="product-header">
-                                <img src="images/edu/03.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
-                            </header>
-                            <div class="product-inner">
-                                <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <h5 class="product-title">Your Business Name</h5>
-                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
-                                <div class="product-meta">
-                                    <ul class="product-price-list">
-                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
-                                        <li><span class="product-price">FR</span></li>
-                                        <li><span class="product-price">EN</span></li>
-                                        <li><span class="product-price">SP</span></li>
-                                        <!-- 
-                                        <li><span class="product-old-price">$195</span></li>
-                                        <li><span class="product-save">Save 42%</span></li>
-                                         -->
-                                    </ul>
-                                    <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="http://www.athensoft.com" target="_blank"><i class="fa fa-home"></i> Home</a>
-                                        </li>
-                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <c:forEach var="booth" items="${boothPopularEduList}">
+	            	<div class="col-md-4">
+		                <div class="product-thumb">
+		                	<header class="product-header">
+	                            <img src="${booth.logoCoverUrl}" alt="" title="" />
+	                        </header>
+		                    <div class="product-inner">
+	                             <ul class="icon-group icon-list-rating" title="5/5 rating">
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                             </ul>
+	                             <c:if test="${booth.bizName.length()<=30}">
+	                             	<h5 class="product-title">${booth.bizName}<br/>
+	                             	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5>
+	                             </c:if>
+	                             <c:if test="${booth.bizName.length()>30}">
+	                             	<h5 class="product-title">${booth.bizName}</h5>
+	                             </c:if>
+	                             
+	                             <p class="product-desciption">${booth.bizDesc}</p>
+	                             <div class="product-meta">                                        
+	                                 <p class="product-location">
+	                                     <i class="fa fa-map-marker"></i> ${booth.locCity}&nbsp;&nbsp;
+	                                     <c:set var="arrayvalue" value="${booth.supportLang}" />
+										 <c:set var="delim" value=","/> 
+										 <c:set var="array" value="${fn:split(arrayvalue, delim)}"/>
+	                                    	<c:forEach var="lang" items="${array}">
+	                                    		<span class="product-price">${lang}</span>
+	                                    	</c:forEach>
+	                                 </p>
+	                                 <ul class="product-actions-list">
+	                                     <li><a class="btn btn-sm" href="#" target="_blank"><i class="fa fa-home"></i> Home</a>
+	                                     </li>
+	                                     <li><a class="btn btn-sm" href="/biz/31001"><i class="fa fa-bars"></i> Profile</a>
+	                                     </li>
+	                                 </ul>
+	                             </div>
+	                         </div>
+		                </div>
+	                </div>
+	            </c:forEach>
             </div>
             <div class="gap gap-small"></div>
             
-            <h1 class="mb20">Popular in Tourism Service <small><a href="#">View All</a></small></h1>
+            <h1 class="mb20">Popular in Tourism and Hotel Service <small><a href="#">View All</a></small></h1>
             <div class="row row-wrap">
-                <div class="col-md-4">
-                        <div class="product-thumb">
-                            <header class="product-header">
-                                <img src="images/transport/01.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
-                            </header>
-                            <div class="product-inner">
-                                <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <h5 class="product-title">Your Business Name</h5>
-                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
-                                <div class="product-meta">
-                                    <ul class="product-price-list">
-                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
-                                        <li><span class="product-price">FR</span></li>
-                                        <li><span class="product-price">EN</span></li>
-                                        <li><span class="product-price">CH</span></li>
-                                        <!-- 
-                                        <li><span class="product-old-price">$195</span></li>
-                                        <li><span class="product-save">Save 42%</span></li>
-                                         -->
-                                    </ul>
-                                    <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
-                                        </li>
-                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-					<div class="col-md-4">
-                        <div class="product-thumb">
-                            <header class="product-header">
-                                <img src="images/transport/02.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
-                            </header>
-                            <div class="product-inner">
-                                <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <h5 class="product-title">Your Business Name</h5>
-                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
-                                <div class="product-meta">
-                                    <ul class="product-price-list">
-                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
-                                        <li><span class="product-price">FR</span></li>
-                                        <li><span class="product-price">EN</span></li>
-                                        <li><span class="product-price">RA</span></li>
-                                        <!-- 
-                                        <li><span class="product-old-price">$195</span></li>
-                                        <li><span class="product-save">Save 42%</span></li>
-                                         -->
-                                    </ul>
-                                    <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
-                                        </li>
-                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                <div class="col-md-4">
-                        <div class="product-thumb">
-                            <header class="product-header">
-                                <img src="images/transport/03.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
-                            </header>
-                            <div class="product-inner">
-                                <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <h5 class="product-title">Your Business Name</h5>
-                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
-                                <div class="product-meta">
-                                    <ul class="product-price-list">
-                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
-                                        <li><span class="product-price">FR</span></li>
-                                        <li><span class="product-price">EN</span></li>
-                                        <li><span class="product-price">SP</span></li>
-                                        <!-- 
-                                        <li><span class="product-old-price">$195</span></li>
-                                        <li><span class="product-save">Save 42%</span></li>
-                                         -->
-                                    </ul>
-                                    <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="http://www.athensoft.com" target="_blank"><i class="fa fa-home"></i> Home</a>
-                                        </li>
-                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <c:forEach var="booth" items="${boothPopularTourList}">
+	            	<div class="col-md-4">
+		                <div class="product-thumb">
+		                	<header class="product-header">
+	                            <img src="${booth.logoCoverUrl}" alt="" title="" />
+	                        </header>
+		                    <div class="product-inner">
+	                             <ul class="icon-group icon-list-rating" title="5/5 rating">
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                             </ul>
+	                             <c:if test="${booth.bizName.length()<=30}">
+	                             	<h5 class="product-title">${booth.bizName}<br/>
+	                             	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5>
+	                             </c:if>
+	                             <c:if test="${booth.bizName.length()>30}">
+	                             	<h5 class="product-title">${booth.bizName}</h5>
+	                             </c:if>
+	                             
+	                             <p class="product-desciption">${booth.bizDesc}</p>
+	                             <div class="product-meta">                                        
+	                                 <p class="product-location">
+	                                     <i class="fa fa-map-marker"></i> ${booth.locCity}&nbsp;&nbsp;
+	                                     <c:set var="arrayvalue" value="${booth.supportLang}" />
+										 <c:set var="delim" value=","/> 
+										 <c:set var="array" value="${fn:split(arrayvalue, delim)}"/>
+	                                    	<c:forEach var="lang" items="${array}">
+	                                    		<span class="product-price">${lang}</span>
+	                                    	</c:forEach>
+	                                 </p>
+	                                 <ul class="product-actions-list">
+	                                     <li><a class="btn btn-sm" href="#" target="_blank"><i class="fa fa-home"></i> Home</a>
+	                                     </li>
+	                                     <li><a class="btn btn-sm" href="/biz/31001"><i class="fa fa-bars"></i> Profile</a>
+	                                     </li>
+	                                 </ul>
+	                             </div>
+	                         </div>
+		                </div>
+	                </div>
+	            </c:forEach>
+            </div>
+            <div class="gap gap-small"></div>
+            
+            <h1 class="mb20">Popular in Transport and Logistics Service <small><a href="#">View All</a></small></h1>
+            <div class="row row-wrap">
+                <c:forEach var="booth" items="${boothPopularTransportList}">
+	            	<div class="col-md-4">
+		                <div class="product-thumb">
+		                	<header class="product-header">
+	                            <img src="${booth.logoCoverUrl}" alt="" title="" />
+	                        </header>
+		                    <div class="product-inner">
+	                             <ul class="icon-group icon-list-rating" title="5/5 rating">
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                             </ul>
+	                             <c:if test="${booth.bizName.length()<=30}">
+	                             	<h5 class="product-title">${booth.bizName}<br/>
+	                             	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5>
+	                             </c:if>
+	                             <c:if test="${booth.bizName.length()>30}">
+	                             	<h5 class="product-title">${booth.bizName}</h5>
+	                             </c:if>
+	                             
+	                             <p class="product-desciption">${booth.bizDesc}</p>
+	                             <div class="product-meta">                                        
+	                                 <p class="product-location">
+	                                     <i class="fa fa-map-marker"></i> ${booth.locCity}&nbsp;&nbsp;
+	                                     <c:set var="arrayvalue" value="${booth.supportLang}" />
+										 <c:set var="delim" value=","/> 
+										 <c:set var="array" value="${fn:split(arrayvalue, delim)}"/>
+	                                    	<c:forEach var="lang" items="${array}">
+	                                    		<span class="product-price">${lang}</span>
+	                                    	</c:forEach>
+	                                 </p>
+	                                 <ul class="product-actions-list">
+	                                     <li><a class="btn btn-sm" href="#" target="_blank"><i class="fa fa-home"></i> Home</a>
+	                                     </li>
+	                                     <li><a class="btn btn-sm" href="/biz/31001"><i class="fa fa-bars"></i> Profile</a>
+	                                     </li>
+	                                 </ul>
+	                             </div>
+	                         </div>
+		                </div>
+	                </div>
+	            </c:forEach>
             </div>
             <div class="gap gap-small"></div>
             
             <h1 class="mb20">Popular in Sport, Recreation and Entertainment <small><a href="#">View All</a></small></h1>
             <div class="row row-wrap">
-                <div class="col-md-4">
-                        <div class="product-thumb">
-                            <header class="product-header">
-                                <img src="images/sport/01.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
-                            </header>
-                            <div class="product-inner">
-                                <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <h5 class="product-title">Your Business Name</h5>
-                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
-                                <div class="product-meta">
-                                    <ul class="product-price-list">
-                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
-                                        <li><span class="product-price">FR</span></li>
-                                        <li><span class="product-price">EN</span></li>
-                                        <li><span class="product-price">CH</span></li>
-                                        <!-- 
-                                        <li><span class="product-old-price">$195</span></li>
-                                        <li><span class="product-save">Save 42%</span></li>
-                                         -->
-                                    </ul>
-                                    <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
-                                        </li>
-                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-					<div class="col-md-4">
-                        <div class="product-thumb">
-                            <header class="product-header">
-                                <img src="images/sport/02.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
-                            </header>
-                            <div class="product-inner">
-                                <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <h5 class="product-title">Your Business Name</h5>
-                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
-                                <div class="product-meta">
-                                    <ul class="product-price-list">
-                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
-                                        <li><span class="product-price">FR</span></li>
-                                        <li><span class="product-price">EN</span></li>
-                                        <li><span class="product-price">RA</span></li>
-                                        <!-- 
-                                        <li><span class="product-old-price">$195</span></li>
-                                        <li><span class="product-save">Save 42%</span></li>
-                                         -->
-                                    </ul>
-                                    <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
-                                        </li>
-                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                <div class="col-md-4">
-                        <div class="product-thumb">
-                            <header class="product-header">
-                                <img src="images/sport/03.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
-                            </header>
-                            <div class="product-inner">
-                                <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <h5 class="product-title">Your Business Name</h5>
-                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
-                                <div class="product-meta">
-                                    <ul class="product-price-list">
-                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
-                                        <li><span class="product-price">FR</span></li>
-                                        <li><span class="product-price">EN</span></li>
-                                        <li><span class="product-price">SP</span></li>
-                                        <!-- 
-                                        <li><span class="product-old-price">$195</span></li>
-                                        <li><span class="product-save">Save 42%</span></li>
-                                         -->
-                                    </ul>
-                                    <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="http://www.athensoft.com" target="_blank"><i class="fa fa-home"></i> Home</a>
-                                        </li>
-                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <c:forEach var="booth" items="${boothPopularSportList}">
+	            	<div class="col-md-4">
+		                <div class="product-thumb">
+		                	<header class="product-header">
+	                            <img src="${booth.logoCoverUrl}" alt="" title="" />
+	                        </header>
+		                    <div class="product-inner">
+	                             <ul class="icon-group icon-list-rating" title="5/5 rating">
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                             </ul>
+	                             <c:if test="${booth.bizName.length()<=30}">
+	                             	<h5 class="product-title">${booth.bizName}<br/>
+	                             	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5>
+	                             </c:if>
+	                             <c:if test="${booth.bizName.length()>30}">
+	                             	<h5 class="product-title">${booth.bizName}</h5>
+	                             </c:if>
+	                             
+	                             <p class="product-desciption">${booth.bizDesc}</p>
+	                             <div class="product-meta">                                        
+	                                 <p class="product-location">
+	                                     <i class="fa fa-map-marker"></i> ${booth.locCity}&nbsp;&nbsp;
+	                                     <c:set var="arrayvalue" value="${booth.supportLang}" />
+										 <c:set var="delim" value=","/> 
+										 <c:set var="array" value="${fn:split(arrayvalue, delim)}"/>
+	                                    	<c:forEach var="lang" items="${array}">
+	                                    		<span class="product-price">${lang}</span>
+	                                    	</c:forEach>
+	                                 </p>
+	                                 <ul class="product-actions-list">
+	                                     <li><a class="btn btn-sm" href="#" target="_blank"><i class="fa fa-home"></i> Home</a>
+	                                     </li>
+	                                     <li><a class="btn btn-sm" href="/biz/31001"><i class="fa fa-bars"></i> Profile</a>
+	                                     </li>
+	                                 </ul>
+	                             </div>
+	                         </div>
+		                </div>
+	                </div>
+	            </c:forEach>
             </div>
             <div class="gap gap-small"></div>
             
             <h1 class="mb20">Popular in Non-profit Organization, Community <small><a href="#">View All</a></small></h1>
             <div class="row row-wrap">
-                <div class="col-md-4">
-                        <div class="product-thumb">
-                            <header class="product-header">
-                                <img src="images/nonprofit/01.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
-                            </header>
-                            <div class="product-inner">
-                                <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <h5 class="product-title">Your Business Name</h5>
-                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
-                                <div class="product-meta">
-                                    <ul class="product-price-list">
-                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
-                                        <li><span class="product-price">FR</span></li>
-                                        <li><span class="product-price">EN</span></li>
-                                        <li><span class="product-price">CH</span></li>
-                                        <!-- 
-                                        <li><span class="product-old-price">$195</span></li>
-                                        <li><span class="product-save">Save 42%</span></li>
-                                         -->
-                                    </ul>
-                                    <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
-                                        </li>
-                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-					<div class="col-md-4">
-                        <div class="product-thumb">
-                            <header class="product-header">
-                                <img src="images/nonprofit/02.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
-                            </header>
-                            <div class="product-inner">
-                                <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <h5 class="product-title">Your Business Name</h5>
-                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
-                                <div class="product-meta">
-                                    <ul class="product-price-list">
-                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
-                                        <li><span class="product-price">FR</span></li>
-                                        <li><span class="product-price">EN</span></li>
-                                        <li><span class="product-price">RA</span></li>
-                                        <!-- 
-                                        <li><span class="product-old-price">$195</span></li>
-                                        <li><span class="product-save">Save 42%</span></li>
-                                         -->
-                                    </ul>
-                                    <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
-                                        </li>
-                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                <div class="col-md-4">
-                        <div class="product-thumb">
-                            <header class="product-header">
-                                <img src="images/nonprofit/03.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
-                            </header>
-                            <div class="product-inner">
-                                <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <h5 class="product-title">Your Business Name</h5>
-                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
-                                <div class="product-meta">
-                                    <ul class="product-price-list">
-                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
-                                        <li><span class="product-price">FR</span></li>
-                                        <li><span class="product-price">EN</span></li>
-                                        <li><span class="product-price">SP</span></li>
-                                        <!-- 
-                                        <li><span class="product-old-price">$195</span></li>
-                                        <li><span class="product-save">Save 42%</span></li>
-                                         -->
-                                    </ul>
-                                    <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="http://www.athensoft.com" target="_blank"><i class="fa fa-home"></i> Home</a>
-                                        </li>
-                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <c:forEach var="booth" items="${boothPopularNonprofitList}">
+	            	<div class="col-md-4">
+		                <div class="product-thumb">
+		                	<header class="product-header">
+	                            <img src="${booth.logoCoverUrl}" alt="" title="" />
+	                        </header>
+		                    <div class="product-inner">
+	                             <ul class="icon-group icon-list-rating" title="5/5 rating">
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                                 <li><i class="fa fa-star"></i>
+	                                 </li>
+	                             </ul>
+	                             <c:if test="${booth.bizName.length()<=30}">
+	                             	<h5 class="product-title">${booth.bizName}<br/>
+	                             	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5>
+	                             </c:if>
+	                             <c:if test="${booth.bizName.length()>30}">
+	                             	<h5 class="product-title">${booth.bizName}</h5>
+	                             </c:if>
+	                             
+	                             <p class="product-desciption">${booth.bizDesc}</p>
+	                             <div class="product-meta">                                        
+	                                 <p class="product-location">
+	                                     <i class="fa fa-map-marker"></i> ${booth.locCity}&nbsp;&nbsp;
+	                                     <c:set var="arrayvalue" value="${booth.supportLang}" />
+										 <c:set var="delim" value=","/> 
+										 <c:set var="array" value="${fn:split(arrayvalue, delim)}"/>
+	                                    	<c:forEach var="lang" items="${array}">
+	                                    		<span class="product-price">${lang}</span>
+	                                    	</c:forEach>
+	                                 </p>
+	                                 <ul class="product-actions-list">
+	                                     <li><a class="btn btn-sm" href="#" target="_blank"><i class="fa fa-home"></i> Home</a>
+	                                     </li>
+	                                     <li><a class="btn btn-sm" href="/biz/31001"><i class="fa fa-bars"></i> Profile</a>
+	                                     </li>
+	                                 </ul>
+	                             </div>
+	                         </div>
+		                </div>
+	                </div>
+	            </c:forEach>
             </div>
             <div class="gap"></div>
         </div>
@@ -1762,12 +1366,9 @@ Business card, printing service etc.
 	////////////////////////////////////-->
 
 
-
 		<!-- Main footer -->
 		<jsp:include page="inc/footer_inc.jsp"></jsp:include>
 		<!-- EMDS Main footer -->
-
-
 
 
         <!-- Scripts queries -->

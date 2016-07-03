@@ -26,6 +26,7 @@
                         </li>
                         <li class="active"><a href="faq">Public test</a>
                         	<ul>
+                                <li><a class="popup-text" href="#public-test-dialog" data-effect="mfp-move-from-top">Apply Now</a></li>
                                 <li><a href="/faq">FAQ (CHS)</a></li>
                             </ul>
                         </li>                   
@@ -124,9 +125,11 @@
 	            		<li><c:out value="${userAccount.acctName}"/>&nbsp;&nbsp;&nbsp;&nbsp;</li>
 	            		 <li><a class="" href="signout"><i class="fa fa-sign-in"></i>Sign out</a>
                     	</li>
-	            	</c:if> 
+	            	</c:if>
+	            	<!--  
                     <li><a class="popup-text" href="#public-test-dialog" data-effect="mfp-move-from-top"><i class="fa fa-edit"></i>Apply Now</a>
                     </li>
+                     -->
                     
                 </ul>
             </div>
