@@ -18,9 +18,9 @@
                                 <li><a href="/about/ch">About (CHS)</a></li>
                             </ul>
                         </li>
-                        <li class="active"><a href="faq">Public test</a>
+                        <li class="active"><a href="/applybooth">Public Test</a>
                         	<ul>
-                                <li><a class="popup-text" href="/applybooth" data-effect="mfp-move-from-top">Apply a booth(CHS)</a></li>
+                                <li><a href="/applybooth">Apply a booth(CHS)</a></li>
                                 <li><a href="/faq">FAQ (CHS)</a></li>
                             </ul>
                         </li>
@@ -89,7 +89,7 @@
                     	</li>
 	            	</c:if>
 	            	<c:if test="${!empty userAccount}">
-	            		<li><c:out value="${userAccount.acctName}"/>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+	            		<li><i class="fa fa-user" id="user_signin" data-toggle="tooltip" data-placement="bottom" title="${userAccount.acctName}"></i>&nbsp;&nbsp;&nbsp;&nbsp;</li>
 	            		 <li><a class="" href="signout"><i class="fa fa-sign-in"></i>Sign out</a>
                     	</li>
 	            	</c:if>
@@ -104,3 +104,10 @@
         </div>
     </div>
 </header>
+
+<script src="/js/jquery.js"></script>
+<script src="/js/boostrap.min.js"></script>
+<script>
+
+
+</script>

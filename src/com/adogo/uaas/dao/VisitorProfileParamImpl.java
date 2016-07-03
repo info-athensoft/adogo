@@ -48,14 +48,14 @@ public class VisitorProfileParamImpl implements VisitorProfileDao {
 		
 		StringBuffer sbf = new StringBuffer();
 		sbf.append("insert into "+TABLE);
-		sbf.append("(uid,user_id,first_name,last_name,nick_name,country_code,province_code,city_code,postal_code,");
+		sbf.append("(user_id,first_name,last_name,nick_name,country_code,province_code,city_code,postal_code,");
 		sbf.append("gender,birth_year,birth_month,birth_day,phone_country_code,phone_num) ");
-		sbf.append("values(:uid,:user_id,:first_name,:last_name,:nick_name,:country_code,:province_code,:city_code,:postal_code,");
+		sbf.append("values(:user_id,:first_name,:last_name,:nick_name,:country_code,:province_code,:city_code,:postal_code,");
 		sbf.append(":gender,:birth_year,:birth_month,:birth_day,:phone_country_code,:phone_num)");
 		String sql = sbf.toString();
 		
 		MapSqlParameterSource paramSource = new MapSqlParameterSource();
-		paramSource.addValue("uid", visitorProfile.getUid());
+		//paramSource.addValue("uid", visitorProfile.getUid());
 		paramSource.addValue("user_id", visitorProfile.getUserId());
 		paramSource.addValue("first_name", visitorProfile.getFirstName());
 		paramSource.addValue("last_name", visitorProfile.getLastName());

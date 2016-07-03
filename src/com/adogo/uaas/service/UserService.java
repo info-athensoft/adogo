@@ -40,28 +40,28 @@ public class UserService {
 	 */
 	public long createUser(User user){		
 		final long INVALID_KEY = -1;
-		long key = 0L;
+		long key_userId = 0L;
 		
 		try{
 			//create userAccount
-			key = userAccoutDao.create(user.getUserAccount());
-				System.out.println("UserService:  key="+key);
+			key_userId = userAccoutDao.create(user.getUserAccount());
+				System.out.println("UserService:  key_userId="+key_userId);
 
 			//key >0 means a valid user account has been created		
-			if(key>0){
+			if(key_userId>0){
 				//create visitor
 				VisitorProfile vp = user.getVisitorProfile();
-				vp.setUid(key);
+				vp.setUserId(key_userId);
 				visitorPorfileDao.create(vp);
-			}else if(key==0){
+			}else if(key_userId<=0){
 				throw new InvalidKeyValueException();
 			}
 		}catch(org.springframework.dao.DuplicateKeyException ex){
-			System.out.println("UserService:  DuplicateKeyException  key="+key);
-			key = INVALID_KEY;
+			System.out.println("UserService:  DuplicateKeyException  key_userId="+key_userId);
+			key_userId = INVALID_KEY;
 			throw new UserAccountExistException();
 		}
-		return key;
+		return key_userId;
 	}
 	
 	public UserAccount signIn(UserAccount ua){
