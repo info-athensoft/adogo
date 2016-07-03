@@ -3,7 +3,7 @@
     <i class="fa fa-sign-in dialog-icon"></i>
     <h3>Member Login</h3>
     <h5>Welcome back, friend. Login to get started</h5>
-    <form class="dialog-form" action="signin" method="post">
+    <form class="dialog-form" action="/signin" method="post">
         <div class="form-group">
             <label>E-mail</label>
             <input type="text" placeholder="email@domain.com" class="form-control" name="acctName">
@@ -32,7 +32,7 @@
     <i class="fa fa-edit dialog-icon"></i>
     <h3>Member Register</h3>
     <h5>Ready to get best offers? Let's get started!</h5>
-    <form class="dialog-form" action="signup" method="post">
+    <form class="dialog-form" action="/signup" method="post">
         <div class="form-group">
             <label>E-mail</label>
             <input type="text" placeholder="email@domain.com" class="form-control" name="acctName">

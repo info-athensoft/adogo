@@ -1,6 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
+	<!-- LOGIN REGISTER LINKS CONTENT -->
+        <jsp:include page="login_inc.jsp"></jsp:include>
+        <!-- END LOGIN REGISTER LINKS CONTENT -->
+
 <header class="main main-white">
     <div class="container">
         <div class="row">
@@ -88,9 +92,9 @@
                    		<li><a class="popup-text" href="#register-dialog" data-effect="mfp-move-from-top"><i class="fa fa-edit"></i>Sign up</a>
                     	</li>
 	            	</c:if>
-	            	<c:if test="${!empty userAccount}">
+	            	<c:if test="${not empty userAccount}">
 	            		<li><i class="fa fa-user" id="user_signin" data-toggle="tooltip" data-placement="bottom" title="${userAccount.acctName}"></i>&nbsp;&nbsp;&nbsp;&nbsp;</li>
-	            		 <li><a class="" href="signout"><i class="fa fa-sign-in"></i>Sign out</a>
+	            		 <li><a class="" href="/signout"><i class="fa fa-sign-in"></i>Sign out</a>
                     	</li>
 	            	</c:if>
 	            	
@@ -108,6 +112,47 @@
 <script src="/js/jquery.js"></script>
 <script src="/js/boostrap.min.js"></script>
 <script>
-
-
-</script>
+		var countryObject = {
+		    "Canada": {
+		        "Alberta": ["Salinas", "Gonzales"],
+		        "British Columbia": ["Oakland", "Berkeley"],
+		        "Quebec": ["Montreal", "OtherCity"]
+		    },
+		    "The United States": {
+		        "Douglas": ["Roseburg", "Winston"],
+		        "Jackson": ["Medford", "Jacksonville"]
+		    },
+		    "China": {
+		        "FuJian": ["XiaMen", "Winston"],
+		        "GuangDong": ["ShengZheng", "Jacksonville"]
+		    }
+		}
+		
+		$(document).ready(function(){
+			 var c_countryCode = document.getElementById("c_countryCode"),
+		     c_provinceCode = document.getElementById("c_provinceCode"),
+		     c_cityCode = document.getElementById("c_cityCode");
+			 for (var state in countryObject) {
+			     c_countryCode.options[c_countryCode.options.length] = new Option(state, state);
+			 }
+			 c_countryCode.onchange = function () {
+			     c_provinceCode.length = 1; // remove all options bar first
+			     c_cityCode.length = 1; // remove all options bar first
+			     if (this.selectedIndex < 1) return; // done   
+			     for (var county in countryObject[this.value]) {
+			         c_provinceCode.options[c_provinceCode.options.length] = new Option(county, county);
+			     }
+			 }
+		     $('#c_countryCode').val("Canada");
+			 c_countryCode.onchange(); // reset in case page is reloaded
+			 c_provinceCode.onchange = function () {
+			     c_cityCode.length = 1; // remove all options bar first
+			     if (this.selectedIndex < 1) return; // done   
+			     var cities = countryObject[c_countryCode.value][this.value];
+			     for (var i = 0; i < cities.length; i++) {
+			         c_cityCode.options[c_cityCode.options.length] = new Option(cities[i], cities[i]);
+			     }
+			 }
+			
+		});
+		</script>

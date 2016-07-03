@@ -2,13 +2,14 @@ package com.adogo.uaas.controller;
 
 import java.util.Map;
 
+import javax.servlet.http.HttpSession;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.adogo.uaas.entity.User;
@@ -93,7 +94,8 @@ public class UserController {
 		
 		/* assemble model and view */
 		data.put("userAccount", ua);		
-		mav.setViewName(viewName);
+		mav.setViewName(viewName);		
+		
 		return mav;		
 	}
 	
@@ -107,9 +109,12 @@ public class UserController {
 	 * @return
 	 */
 	@RequestMapping(value="/signin")
+//	@RequestMapping(value={"/signin","/about/signin"})
 	public ModelAndView signin(
 			@RequestParam String acctName,
-			@RequestParam String password){
+			@RequestParam String password,
+			HttpSession session
+			){
 		
 		System.out.println("/signin");
 		
@@ -152,20 +157,22 @@ public class UserController {
 		
 		mav.setViewName(viewName);
 		data.put("userAccount", ua);
+		
+		session.setAttribute("userAccount", ua);
 			//test
-			System.out.println(ua.toString());
+			//System.out.println(ua.toString());
 		return mav;
 	}
 	
 	@RequestMapping(value="/signout")
-	public ModelAndView signout(){
+	public ModelAndView signout(HttpSession session){
 		
 		System.out.println("/signout");
 		
 		/* initial settings */
 		ModelAndView mav = new ModelAndView();
 		Map<String,Object> data = mav.getModel();
-		String viewName = "index";
+		//String viewName = "index";
 		
 		/* data construction */
 //		UserAccount ua = new UserAccount();
@@ -174,7 +181,9 @@ public class UserController {
 		
 		/* assemble model and view */
 		mav.setViewName("redirect:/");
-		data.put("userAccount", ua);		
+		//data.put("userAccount", ua);
+		session.removeAttribute("userAccount");
+		
 		return mav;
 	}
 	
