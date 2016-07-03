@@ -122,6 +122,18 @@ public class BoothDaoImpl implements BoothDao{
 		return jdbc.query(sql, new BoothRowMapper());
 	}
 
+	@Override
+	public List<Booth> findMonthlyStars() {
+		String sql = "select * from view_booth_monthly_star where biz_no > 0";		
+		return jdbc.query(sql, new BoothRowMapper());
+	}
+
+	@Override
+	public List<Booth> findPopular() {
+		String sql = "select * from view_booth_popular where biz_no > 0";		
+		return jdbc.query(sql, new BoothRowMapper());
+	}
+
 	
 	
 }

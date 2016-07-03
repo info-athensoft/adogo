@@ -32,10 +32,14 @@ public class GeneralController {
 		
 		List<Booth> boothNewBrands = boothService.findNewBrands();
 		List<Booth> boothWeeklyFeatured = boothService.findWeeklyFeatured();
+		List<Booth> boothMonthlyStars = boothService.findMonthlyStars();
+		List<Booth> boothPopular = boothService.findPopular();
 		
 		Map<String,Object> data = mav.getModel();
 		data.put("boothNewBrandsList", boothNewBrands);
 		data.put("boothWeeklyFeaturedList", boothWeeklyFeatured);
+		data.put("boothMonthlyStarsList", boothMonthlyStars);
+		data.put("boothPopularList", boothPopular);
 		
 		mav.setViewName("index");
 		return mav;
@@ -52,10 +56,14 @@ public class GeneralController {
 		
 		List<Booth> boothNewBrands = boothService.findNewBrands();
 		List<Booth> boothWeeklyFeatured = boothService.findWeeklyFeatured();
+		List<Booth> boothMonthlyStars = boothService.findMonthlyStars();
+		List<Booth> boothPopular = boothService.findPopular();
 		
 		Map<String,Object> data = mav.getModel();
 		data.put("boothNewBrandsList", boothNewBrands);
 		data.put("boothWeeklyFeaturedList", boothWeeklyFeatured);
+		data.put("boothMonthlyStarsList", boothMonthlyStars);
+		data.put("boothPopularList", boothPopular);
 		
 		mav.setViewName("index");
 		return mav;

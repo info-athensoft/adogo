@@ -13,4 +13,6 @@ public interface BoothDao {
 	
 	public List<Booth> findNewBrands();
 	public List<Booth> findWeeklyFeatured();
+	public List<Booth> findMonthlyStars();
+	public List<Booth> findPopular();
 }
