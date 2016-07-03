@@ -47,7 +47,7 @@ public class BoothController {
 		Map<String,Object> data = mav.getModel();
 		data.put("boothList", booth);
 		
-		mav.setViewName("booth/allbooth");
+		mav.setViewName("booth/boothbyclass");
 		return mav;
 	}	
 }

@@ -52,7 +52,7 @@
         <!-- END LOGIN REGISTER LINKS CONTENT -->
 
         <!-- SEARCH AREA -->
-        <jsp:include page="../inc/search_inc.jsp"></jsp:include>
+        <!-- <jsp:include page="../inc/search_inc.jsp"></jsp:include> -->
         <!-- END SEARCH AREA -->
 
         <div class="gap"></div>
@@ -93,6 +93,7 @@
                             <li><a href="#"><i class="fa fa-plane"></i>Sports, Fitness</a></li>
                             <li><a href="#"><i class="fa fa-plane"></i>Outdoor, Recreation</a></li>
                         </ul>
+                        <!-- 
                         <div class="sidebar-box">
                             <h5>Filter By Price</h5>
                             <input type="text" id="price-slider">
@@ -186,6 +187,7 @@
                                 </li>
                             </ul>
                         </div>
+                         -->
                     </aside>
                 </div>
                 <div class="col-md-9">
