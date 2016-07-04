@@ -45,13 +45,13 @@ public class BoothDaoImpl implements BoothDao{
 
 	@Override
 	public List<Booth> findAll() {
-		String sql = "select * from booth where biz_no > 0";		
+		String sql = "select * from booth where booth_status > 0";		
 		return jdbc.query(sql, new BoothRowMapper());
 	}
 	
 	@Override
 	public List<Booth> findByClassLevel1(int classNum) {
-		String sql = "select * from booth where class_num=:classNum and biz_no > 0";
+		String sql = "select * from booth where class_num=:classNum and where booth_status > 0";
 		MapSqlParameterSource paramSource = new MapSqlParameterSource();
 		paramSource.addValue("classNum", classNum);
 		List<Booth> boothList = new ArrayList<Booth>();
@@ -66,7 +66,7 @@ public class BoothDaoImpl implements BoothDao{
 
 	@Override
 	public List<Booth> findByClassLevel1(String classCode) {
-		String sql = "select * from booth where class_code=:classCode and biz_no > 0";
+		String sql = "select * from booth where class_code=:classCode and where booth_status > 0";
 		MapSqlParameterSource paramSource = new MapSqlParameterSource();
 		paramSource.addValue("classCode", classCode);
 		List<Booth> boothList = new ArrayList<Booth>();
@@ -106,37 +106,38 @@ public class BoothDaoImpl implements BoothDao{
 			x.setNumOfLiked(rs.getLong("num_of_liked"));
 			x.setNumOfFavourite(rs.getLong("num_of_favourite"));
 			x.setNumOfShared(rs.getLong("num_of_shared"));
+			x.setHomepageUrl(rs.getString("homepage_url"));
             return x;
 		}		
 	}
 
 	@Override
 	public List<Booth> findNewBrands() {
-		String sql = "select * from view_booth_new_brand where biz_no > 0";		
+		String sql = "select * from view_booth_new_brand ";		
 		return jdbc.query(sql, new BoothRowMapper());
 	}
 
 	@Override
 	public List<Booth> findWeeklyFeatured() {
-		String sql = "select * from view_booth_weekly_featured where biz_no > 0";		
+		String sql = "select * from view_booth_weekly_featured ";		
 		return jdbc.query(sql, new BoothRowMapper());
 	}
 
 	@Override
 	public List<Booth> findMonthlyStars() {
-		String sql = "select * from view_booth_monthly_star where biz_no > 0";		
+		String sql = "select * from view_booth_monthly_star ";		
 		return jdbc.query(sql, new BoothRowMapper());
 	}
 
 	@Override
 	public List<Booth> findPopular() {
-		String sql = "select * from view_booth_popular where biz_no > 0";		
+		String sql = "select * from view_booth_popular ";		
 		return jdbc.query(sql, new BoothRowMapper());
 	}
 
 	@Override
 	public List<Booth> findPopular(int classNum) {
-		String sql = "select distinct * from view_booth_popular where class_num=:classNum";
+		String sql = "select distinct * from view_booth_popular where class_num=:classNum ";
 		MapSqlParameterSource paramSource = new MapSqlParameterSource();
 		paramSource.addValue("classNum", classNum);
 		List<Booth> boothList = jdbc.query(sql, paramSource, new BoothRowMapper());

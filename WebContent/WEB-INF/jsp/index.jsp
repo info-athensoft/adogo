@@ -158,9 +158,9 @@
                                            	</c:forEach>
                                         </p>
                                         <ul class="product-actions-list">
-                                            <li><a class="btn btn-sm" href="#" target="_blank"><i class="fa fa-home"></i> Home</a>
+                                            <li><a class="btn btn-sm" href="http://${booth.homepage_url}" target="_blank"><i class="fa fa-home"></i> Home</a>
                                             </li>
-                                            <li><a class="btn btn-sm" href="/biz/31001"><i class="fa fa-bars"></i> Profile</a>
+                                            <li><a class="btn btn-sm" href="####"><i class="fa fa-bars"></i> Profile</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -169,116 +169,7 @@
                         </div>
                       </c:forEach>
                     	
-<!--                 		<div class="col-md-4">
-                        <div class="product-thumb">
-                            <header class="product-header">
-                                <img src="images/newbrand/silvertac-big.jpg" alt="Image Alternative text" title="silvertac" />
-                            </header>
-                            <div class="product-inner">
-                                <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <h5 class="product-title">Silvertac Design Studio</h5>
-                                <p class="product-desciption">Graphic Design,
-Company logo, Product design, Concept design,Poster, Car wrapping Menu, video editing, 
-Business card, printing service etc.
-</p>
-                                <div class="product-meta">
-                                    <ul class="product-price-list">
-                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
 
-                                    </ul>
-                                    <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
-                                        </li>
-                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-					<div class="col-md-4">
-                        <div class="product-thumb">
-                            <header class="product-header">
-                                <img src="images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="zhenimport" />
-                            </header>
-                            <div class="product-inner">
-                                <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <h5 class="product-title">Zhenimport Inc.</h5>
-                                <p class="product-desciption">Wholesaler and distributor of 
-                                decoration products and gifts. Glass vases, artificial flowers, fiberglass planters and ceramic pots and more...</p>
-                                <div class="product-meta">
-                                    <ul class="product-price-list">
-                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
-
-                                    </ul>
-                                    <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
-                                        </li>
-                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                <div class="col-md-4">
-                        <div class="product-thumb">
-                            <header class="product-header">
-                                <img src="images/newbrand/clc-big.jpg" alt="Image Alternative text" title="CLC" />
-                            </header>
-                            <div class="product-inner">
-                                <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <h5 class="product-title">CLC Logistics International Inc</h5>
-                                <p class="product-desciption">Complete international shipping and logistical 
-                                services for import and export requirements and specialized in handling ocean shipments...</p>
-                                <div class="product-meta">
-                                    <ul class="product-price-list">
-                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
-
-                                    </ul>
-                                    <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="http://www.clclogistics.com/aboutus.asp" target="_blank"><i class="fa fa-home"></i> Home</a>
-                                        </li>
-                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
             </div>
                 </div>
             </div>
@@ -326,9 +217,9 @@ Business card, printing service etc.
                                     	</c:forEach>
                                  </p>
                                  <ul class="product-actions-list">
-                                     <li><a class="btn btn-sm" href="#" target="_blank"><i class="fa fa-home"></i> Home</a>
+                                     <li><a class="btn btn-sm" href="http://${booth.homepage_url}" target="_blank"><i class="fa fa-home"></i> Home</a>
                                      </li>
-                                     <li><a class="btn btn-sm" href="/biz/31001"><i class="fa fa-bars"></i> Profile</a>
+                                     <li><a class="btn btn-sm" href="####"><i class="fa fa-bars"></i> Profile</a>
                                      </li>
                                  </ul>
                              </div>
@@ -337,129 +228,7 @@ Business card, printing service etc.
                 </div>
             </c:forEach>
             
-<!--                 <div class="col-md-4">
-                        <div class="product-thumb">
-                            <header class="product-header">
-                                <img src="images/lifeservice/csbg-big.jpg" alt="csbg" title="csbg" />
-                            </header>
-                            <div class="product-inner">
-                                <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <h5 class="product-title">Clinique Santé-Beauté globale</h5>
-                                <p class="product-desciption">
-                                	Votre santé-beauté est notre propriétaire! Notre talent est  seulement pour vous!
-                                	<br/><br/>
-                                </p>
-                                <div class="product-meta">
-                                    <ul class="product-price-list">
-                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
-                                        <li><span class="product-price">FR</span></li>
-                                        <li><span class="product-price">EN</span></li>
-                                        <li><span class="product-price">CH</span></li>
-                                        
-                                    </ul>
-                                    <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
-                                        </li>
-                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-					<div class="col-md-4">
-                        <div class="product-thumb">
-                            <header class="product-header">
-                                <img src="images/weekfeature/pke_big.jpg" alt="Image Alternative text" title="Pest Kontrol" />
-                            </header>
-                            <div class="product-inner">
-                                <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <h5 class="product-title">Extermination PK</h5>
-                                <p class="product-desciption">
-                                	Services d'extermination et de gestion parasitaire de rongeur et insecte nuisible
-                                	<br/><br/>
-                                </p>
-                                <div class="product-meta">
-                                    <ul class="product-price-list">
-                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
-                                        <li><span class="product-price">FR</span></li>
-                                        <li><span class="product-price">EN</span></li>
-                                        <li><span class="product-price">CH</span></li>
-                                        
-                                    </ul>
-                                    <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="http://www.facebook.com/exterminationpk"><i class="fa fa-home"></i> Home</a>
-                                        </li>
-                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                <div class="col-md-4">
-                        <div class="product-thumb">
-                            <header class="product-header">
-                                <img src="images/weekfeature/silaw-big.jpg" alt="Image Alternative text" title="silaw" />
-                            </header>
-                            <div class="product-inner">
-                                <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <h5 class="product-title">Silaw Legal Consulting Service</h5>
-                                <p class="product-desciption">
-                                	Outre le droit corporatif et des affaires, le droit de l’immigration et le litige civil et 
-                                	commercial où nos avocats interviennent localement
-                                	 ...</p>
-                                <div class="product-meta">
-                                    <ul class="product-price-list">
-                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
-                                        <li><span class="product-price">FR</span></li>
-                                        <li><span class="product-price">EN</span></li>
-                                        <li><span class="product-price">CH</span></li>
-                                        
-                                    </ul>
-                                    <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="https://silaws.com/" target="_blank"><i class="fa fa-home"></i> Home</a>
-                                        </li>
-                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
+
             </div>
             <div class="gap gap-small"></div>
             
@@ -506,9 +275,9 @@ Business card, printing service etc.
                                            	</c:forEach>
                                         </p>
                                         <ul class="product-actions-list">
-                                            <li><a class="btn btn-sm" href="#" target="_blank"><i class="fa fa-home"></i> Home</a>
+                                            <li><a class="btn btn-sm" href="http://${booth.homepage_url}" target="_blank"><i class="fa fa-home"></i> Home</a>
                                             </li>
-                                            <li><a class="btn btn-sm" href="/biz/31001"><i class="fa fa-bars"></i> Profile</a>
+                                            <li><a class="btn btn-sm" href="####"><i class="fa fa-bars"></i> Profile</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -517,119 +286,7 @@ Business card, printing service etc.
                         </div>
                       </c:forEach>
             
-<!--                 <div class="col-md-4">
-                        <div class="product-thumb">
-                            <header class="product-header">
-                                <img src="images/monthstar/xinyueanni-big.jpg" alt="Image Alternative text" title="Xinyueanni" />
-                            </header>
-                            <div class="product-inner">
-                                <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <h5 class="product-title">Cabinet de Convalescence Xinyue Annie</h5>
-                                <p class="product-desciption">We are specialized in breast care during lactation, 
-                                breastfeeding training and care, health care program for mommy during lactation, 
-                                family activities and more...</p>
-                                <div class="product-meta">
-                                    <ul class="product-price-list">
-                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
-                                        <li><span class="product-price">FR</span></li>
-                                        <li><span class="product-price">EN</span></li>
-                                        <li><span class="product-price">CH</span></li>                                        
-                                    </ul>
-                                    <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
-                                        </li>
-                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-					<div class="col-md-4">
-                        <div class="product-thumb">
-                            <header class="product-header">
-                                <img src="images/monthstar/02.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
-                            </header>
-                            <div class="product-inner">
-                                <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <h5 class="product-title">Your Business Name</h5>
-                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
-                                <div class="product-meta">
-                                    <ul class="product-price-list">
-                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
-                                        <li><span class="product-price">FR</span></li>
-                                        <li><span class="product-price">EN</span></li>
-                                        <li><span class="product-price">RA</span></li>                                        
-                                    </ul>
-                                    <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
-                                        </li>
-                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                <div class="col-md-4">
-                        <div class="product-thumb">
-                            <header class="product-header">
-                                <img src="images/monthstar/03.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
-                            </header>
-                            <div class="product-inner">
-                                <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <h5 class="product-title">Your Business Name</h5>
-                                <p class="product-desciption">One sentence with less than 15 words to describe your business</p>
-                                <div class="product-meta">
-                                    <ul class="product-price-list">
-                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
-                                        <li><span class="product-price">FR</span></li>
-                                        <li><span class="product-price">EN</span></li>
-                                        <li><span class="product-price">SP</span></li>                                        
-                                    </ul>
-                                    <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="http://www.athensoft.com" target="_blank"><i class="fa fa-home"></i> Home</a>
-                                        </li>
-                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
+
             </div>
             <div class="gap gap-small"></div>
             
@@ -674,9 +331,9 @@ Business card, printing service etc.
 	                                    	</c:forEach>
 	                                 </p>
 	                                 <ul class="product-actions-list">
-	                                     <li><a class="btn btn-sm" href="#" target="_blank"><i class="fa fa-home"></i> Home</a>
+	                                     <li><a class="btn btn-sm" href="http://${booth.homepage_url}" target="_blank"><i class="fa fa-home"></i> Home</a>
 	                                     </li>
-	                                     <li><a class="btn btn-sm" href="/biz/31001"><i class="fa fa-bars"></i> Profile</a>
+	                                     <li><a class="btn btn-sm" href="####"><i class="fa fa-bars"></i> Profile</a>
 	                                     </li>
 	                                 </ul>
 	                             </div>
@@ -728,9 +385,9 @@ Business card, printing service etc.
 	                                    	</c:forEach>
 	                                 </p>
 	                                 <ul class="product-actions-list">
-	                                     <li><a class="btn btn-sm" href="#" target="_blank"><i class="fa fa-home"></i> Home</a>
+	                                     <li><a class="btn btn-sm" href="http://${booth.homepage_url}" target="_blank"><i class="fa fa-home"></i> Home</a>
 	                                     </li>
-	                                     <li><a class="btn btn-sm" href="/biz/31001"><i class="fa fa-bars"></i> Profile</a>
+	                                     <li><a class="btn btn-sm" href="####"><i class="fa fa-bars"></i> Profile</a>
 	                                     </li>
 	                                 </ul>
 	                             </div>
@@ -783,9 +440,9 @@ Business card, printing service etc.
 	                                    	</c:forEach>
 	                                 </p>
 	                                 <ul class="product-actions-list">
-	                                     <li><a class="btn btn-sm" href="#" target="_blank"><i class="fa fa-home"></i> Home</a>
+	                                     <li><a class="btn btn-sm" href="http://${booth.homepage_url}" target="_blank"><i class="fa fa-home"></i> Home</a>
 	                                     </li>
-	                                     <li><a class="btn btn-sm" href="/biz/31001"><i class="fa fa-bars"></i> Profile</a>
+	                                     <li><a class="btn btn-sm" href="####"><i class="fa fa-bars"></i> Profile</a>
 	                                     </li>
 	                                 </ul>
 	                             </div>
@@ -794,125 +451,7 @@ Business card, printing service etc.
 	                </div>
 	            </c:forEach>
             
-                <!-- <div class="col-md-4">
-                        <div class="product-thumb">
-                            <header class="product-header">
-                                <img src="images/lifeservice/pke_big.jpg" alt="Image Alternative text" title="Pest Kontrol" />
-                            </header>
-                            <div class="product-inner">
-                                <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <h5 class="product-title">Extermination PK</h5>
-                                <p class="product-desciption">
-                                	Services d'extermination et de gestion parasitaire de rongeur et insecte nuisible
-                                	<br/><br/>
-                                </p>
-                                <div class="product-meta">
-                                    <ul class="product-price-list">
-                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
-                                        <li><span class="product-price">FR</span></li>
-                                        <li><span class="product-price">EN</span></li>
-                                        <li><span class="product-price">CH</span></li>
-                                    </ul>
-                                    <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="http://www.facebook.com/exterminationpk"><i class="fa fa-home"></i> Home</a>
-                                        </li>
-                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-					<div class="col-md-4">
-                        <div class="product-thumb">
-                            <header class="product-header">
-                                <img src="images/lifeservice/csbg-big.jpg" alt="csbg" title="csbg" />
-                            </header>
-                            <div class="product-inner">
-                                <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <h5 class="product-title">Clinique Santé-Beauté Globale</h5>
-                                <p class="product-desciption">
-                                	Votre santé-beauté est notre propriétaire! Notre talent est  seulement pour vous!
-                                	<br/><br/>
-                                </p>
-                                <div class="product-meta">
-                                    <ul class="product-price-list">
-                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
-                                        <li><span class="product-price">FR</span></li>
-                                        <li><span class="product-price">EN</span></li>
-                                        <li><span class="product-price">CH</span></li>
-                                    </ul>
-                                    <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
-                                        </li>
-                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                <div class="col-md-4">
-                        <div class="product-thumb">
-                            <header class="product-header">
-                                <img src="images/monthstar/xinyueanni-big.jpg" alt="Image Alternative text" title="Xinyueanni" />
-                            </header>
-                            <div class="product-inner">
-                                <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <h5 class="product-title">Cabinet de Convalescence Xinyue Annie</h5>
-                                <p class="product-desciption">We are specialized in breast care during lactation, 
-                                breastfeeding training and care, health care program for mommy during lactation, 
-                                family activities and more...</p>
-                                <div class="product-meta">
-                                    <ul class="product-price-list">
-                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
-                                        <li><span class="product-price">FR</span></li>
-                                        <li><span class="product-price">EN</span></li>
-                                        <li><span class="product-price">CH</span></li>
-                                    </ul>
-                                    <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
-                                        </li>
-                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
+                
             </div>
             <div class="gap gap-small"></div>
             
@@ -958,9 +497,9 @@ Business card, printing service etc.
 	                                    	</c:forEach>
 	                                 </p>
 	                                 <ul class="product-actions-list">
-	                                     <li><a class="btn btn-sm" href="#" target="_blank"><i class="fa fa-home"></i> Home</a>
+	                                     <li><a class="btn btn-sm" href="http://${booth.homepage_url}" target="_blank"><i class="fa fa-home"></i> Home</a>
 	                                     </li>
-	                                     <li><a class="btn btn-sm" href="/biz/31001"><i class="fa fa-bars"></i> Profile</a>
+	                                     <li><a class="btn btn-sm" href="####"><i class="fa fa-bars"></i> Profile</a>
 	                                     </li>
 	                                 </ul>
 	                             </div>
@@ -969,123 +508,7 @@ Business card, printing service etc.
 	                </div>
 	            </c:forEach>
             
-<!--             <div class="col-md-4">
-                        <div class="product-thumb">
-                            <header class="product-header">
-                                <img src="images/weekfeature/silaw-big.jpg" alt="Image Alternative text" title="silaw" />
-                            </header>
-                            <div class="product-inner">
-                                <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <h5 class="product-title">Silaw Legal Consulting Service</h5>
-                                <p class="product-desciption">
-                                	Outre le droit corporatif et des affaires, le droit de l’immigration et le litige civil et 
-                                	commercial où nos avocats interviennent localement ...</p>
-                                <div class="product-meta">
-                                    <ul class="product-price-list">
-                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
-                                        <li><span class="product-price">FR</span></li>
-                                        <li><span class="product-price">EN</span></li>
-                                        <li><span class="product-price">CH</span></li>
-                                    </ul>
-                                    <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="https://silaws.com/" target="_blank"><i class="fa fa-home"></i> Home</a>
-                                        </li>
-                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-					<div class="col-md-4">
-                        <div class="product-thumb">
-                            <header class="product-header">
-                                <img src="images/proservice/jstudio-big.png" alt="Image Alternative text" title="Design JStudio" />
-                            </header>
-                            <div class="product-inner">
-                                <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <h5 class="product-title">Design J Studio</h5>
-                                <p class="product-desciption">
-                                	Concept design, creative design, graphic design, mobile poster, banner, company logo, 
-                                	business card, catalogue, menu, flyer, commercial advertising service and more...
-                                </p>
-                                <div class="product-meta">
-                                    <ul class="product-price-list">
-                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
-                                        <li><span class="product-price">FR</span></li>
-                                        <li><span class="product-price">EN</span></li>
-                                    </ul>
-                                    <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="#"><i class="fa fa-home"></i> Home</a>
-                                        </li>
-                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                <div class="col-md-4">
-                        <div class="product-thumb">
-                            <header class="product-header">
-                                <img src="images/proservice/leonstudio-big.jpg" alt="Image Alternative text" title="Leon Studio Photography" />
-                            </header>
-                            <div class="product-inner">
-                                <ul class="icon-group icon-list-rating" title="5/5 rating">
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <h5 class="product-title">Leon Studio Photography</h5>
-                                <p class="product-desciption">
-                                	Photographie maternité, nouveau-né, enfant, mariage à Montréal
-                                	<br/><br/>
-                                </p>
-                                <div class="product-meta">
-                                    <ul class="product-price-list">
-                                    	<i class="fa fa-map-marker"></i> Montreal &nbsp;&nbsp;
-                                        <li><span class="product-price">FR</span></li>
-                                        <li><span class="product-price">EN</span></li>
-                                    </ul>
-                                    <ul class="product-actions-list">
-                                        <li><a class="btn btn-sm" href="http://www.leonstudio.ca" target="_blank"><i class="fa fa-home"></i> Home</a>
-                                        </li>
-                                        <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Profile</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
+
             </div>
             <div class="gap gap-small"></div>
             
@@ -1130,9 +553,9 @@ Business card, printing service etc.
 	                                    	</c:forEach>
 	                                 </p>
 	                                 <ul class="product-actions-list">
-	                                     <li><a class="btn btn-sm" href="#" target="_blank"><i class="fa fa-home"></i> Home</a>
+	                                     <li><a class="btn btn-sm" href="http://${booth.homepage_url}" target="_blank"><i class="fa fa-home"></i> Home</a>
 	                                     </li>
-	                                     <li><a class="btn btn-sm" href="/biz/31001"><i class="fa fa-bars"></i> Profile</a>
+	                                     <li><a class="btn btn-sm" href="####"><i class="fa fa-bars"></i> Profile</a>
 	                                     </li>
 	                                 </ul>
 	                             </div>
@@ -1184,9 +607,9 @@ Business card, printing service etc.
 	                                    	</c:forEach>
 	                                 </p>
 	                                 <ul class="product-actions-list">
-	                                     <li><a class="btn btn-sm" href="#" target="_blank"><i class="fa fa-home"></i> Home</a>
+	                                     <li><a class="btn btn-sm" href="http://${booth.homepage_url}" target="_blank"><i class="fa fa-home"></i> Home</a>
 	                                     </li>
-	                                     <li><a class="btn btn-sm" href="/biz/31001"><i class="fa fa-bars"></i> Profile</a>
+	                                     <li><a class="btn btn-sm" href="####"><i class="fa fa-bars"></i> Profile</a>
 	                                     </li>
 	                                 </ul>
 	                             </div>
@@ -1238,9 +661,9 @@ Business card, printing service etc.
 	                                    	</c:forEach>
 	                                 </p>
 	                                 <ul class="product-actions-list">
-	                                     <li><a class="btn btn-sm" href="#" target="_blank"><i class="fa fa-home"></i> Home</a>
+	                                     <li><a class="btn btn-sm" href="http://${booth.homepage_url}" target="_blank"><i class="fa fa-home"></i> Home</a>
 	                                     </li>
-	                                     <li><a class="btn btn-sm" href="/biz/31001"><i class="fa fa-bars"></i> Profile</a>
+	                                     <li><a class="btn btn-sm" href="####"><i class="fa fa-bars"></i> Profile</a>
 	                                     </li>
 	                                 </ul>
 	                             </div>
@@ -1292,9 +715,9 @@ Business card, printing service etc.
 	                                    	</c:forEach>
 	                                 </p>
 	                                 <ul class="product-actions-list">
-	                                     <li><a class="btn btn-sm" href="#" target="_blank"><i class="fa fa-home"></i> Home</a>
+	                                     <li><a class="btn btn-sm" href="http://${booth.homepage_url}" target="_blank"><i class="fa fa-home"></i> Home</a>
 	                                     </li>
-	                                     <li><a class="btn btn-sm" href="/biz/31001"><i class="fa fa-bars"></i> Profile</a>
+	                                     <li><a class="btn btn-sm" href="####"><i class="fa fa-bars"></i> Profile</a>
 	                                     </li>
 	                                 </ul>
 	                             </div>
@@ -1346,9 +769,9 @@ Business card, printing service etc.
 	                                    	</c:forEach>
 	                                 </p>
 	                                 <ul class="product-actions-list">
-	                                     <li><a class="btn btn-sm" href="#" target="_blank"><i class="fa fa-home"></i> Home</a>
+	                                     <li><a class="btn btn-sm" href="http://${booth.homepage_url}" target="_blank"><i class="fa fa-home"></i> Home</a>
 	                                     </li>
-	                                     <li><a class="btn btn-sm" href="/biz/31001"><i class="fa fa-bars"></i> Profile</a>
+	                                     <li><a class="btn btn-sm" href="####"><i class="fa fa-bars"></i> Profile</a>
 	                                     </li>
 	                                 </ul>
 	                             </div>

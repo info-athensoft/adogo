@@ -25,6 +25,7 @@ public class Booth {
 	private long numOfLiked;
 	private long numOfFavourite;
 	private long numOfShared;
+	private String homepageUrl;
 	
 	public long getUid() {
 		return uid;
@@ -180,5 +181,11 @@ public class Booth {
 	}
 	public void setLocName(String locName) {
 		this.locName = locName;
+	}
+	public String getHomepageUrl() {
+		return homepageUrl;
+	}
+	public void setHomepageUrl(String homepageUrl) {
+		this.homepageUrl = homepageUrl;
 	}
 }
