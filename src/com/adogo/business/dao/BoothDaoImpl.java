@@ -51,7 +51,7 @@ public class BoothDaoImpl implements BoothDao{
 	
 	@Override
 	public List<Booth> findByClassLevel1(int classNum) {
-		String sql = "select * from booth where class_num=:classNum and where booth_status > 0";
+		String sql = "select * from booth where class_num=:classNum and  booth_status > 0";
 		MapSqlParameterSource paramSource = new MapSqlParameterSource();
 		paramSource.addValue("classNum", classNum);
 		List<Booth> boothList = new ArrayList<Booth>();
@@ -66,7 +66,7 @@ public class BoothDaoImpl implements BoothDao{
 
 	@Override
 	public List<Booth> findByClassLevel1(String classCode) {
-		String sql = "select * from booth where class_code=:classCode and where booth_status > 0";
+		String sql = "select * from booth where class_code=:classCode and booth_status > 0";
 		MapSqlParameterSource paramSource = new MapSqlParameterSource();
 		paramSource.addValue("classCode", classCode);
 		List<Booth> boothList = new ArrayList<Booth>();

@@ -256,7 +256,7 @@
                                            	</c:forEach>
                                         </p>
                                         <ul class="product-actions-list">
-                                            <li><a class="btn btn-sm" href="http://${booth.homepage_url}" target="_blank"><i class="fa fa-home"></i> Home</a>
+                                            <li><a class="btn btn-sm" href="http://${booth.homepageUrl}" target="_blank"><i class="fa fa-home"></i> Home</a>
                                             </li>
                                             <li><a class="btn btn-sm" href="###"><i class="fa fa-bars"></i> Profile</a>
                                             </li>
