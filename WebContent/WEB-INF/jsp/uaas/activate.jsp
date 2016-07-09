@@ -77,8 +77,9 @@
 	            
 	            <div id="info-msg"></div>
 	            <div style="text-align: center">
-	            	 <a href="javascript:void(0);" class="btn btn-primary" onclick="sendActivateLink('${userAccount.acctId}','${userAccount.primaryEmail}');">Send Activate Link</a>
-            		<a href="/index" class="btn">Activate later</a>
+	            	<span><a href="javascript:void(0);" class="btn btn-primary" onclick="sendActivateLink('${userAccount.acctId}','${userAccount.primaryEmail}');">Send Activate Link</a></span>
+            		<span><img id="signup_loder" src="img/signup/spiffygif_30x30.gif" style="height: 30px; width: 30px; display: none;" /></span>
+            		<span><a href="/index" class="btn">Activate later</a></span>
 	            </div>
 	           	
 	           	<div>
@@ -186,6 +187,9 @@
 			
 			//alert("sendActivateLink "+acctId+":"+email);
 			
+			var img = document.getElementById('signup_loder');
+    		img.style.display = 'inline';
+			
 			$.ajax({
 				type:"post",
 				url:"activaterequest",
@@ -193,6 +197,7 @@
 				data: {	acctId:acctId, email:email },
 				timeout : 5000,
 				success:function(data){
+					img.style.display = 'none';
 					//var activateLink = data.activateLink;
 					//location = "goactivateemail?activateLink="+activateLink+"&acctId="+acctId;
 					location="goactivatenotice";
