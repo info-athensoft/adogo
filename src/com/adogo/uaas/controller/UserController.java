@@ -213,8 +213,8 @@ public class UserController {
 			//1. url encode
 			//2. encrypt
 			
-			String activateLink = "http://www.adogo.ca/activatemail?acctId="+acctId;
-//			String activateLink = "http://104.233.108.12/activatemail?acctId="+acctId;
+//			String activateLink = "http://www.adogo.ca/activatemail?acctId="+acctId;
+			String activateLink = "http://104.233.108.12/activatemail?acctId="+acctId;
 			System.out.println("activation request sent to: activateLink");	//to log
 			
 			try{
