@@ -821,24 +821,8 @@
 		
         <!-- Custom scripts -->
         <script src="/js/custom.js"></script>
-        
-        <script>
-		var countryObject = {
-		    "Canada": {
-		        "Alberta": ["Salinas", "Gonzales"],
-		        "British Columbia": ["Oakland", "Berkeley"],
-		        "Quebec": ["Montreal", "OtherCity"]
-		    },
-		    "The United States": {
-		        "Douglas": ["Roseburg", "Winston"],
-		        "Jackson": ["Medford", "Jacksonville"]
-		    },
-		    "China": {
-		        "FuJian": ["XiaMen", "Winston"],
-		        "GuangDong": ["ShengZheng", "Jacksonville"]
-		    }
-		}
-		
+        <script src="/js/countryObject.js"></script>
+        <script>		
 		$(document).ready(function(){
 			 var c_countryCode = document.getElementById("c_countryCode"),
 		     c_provinceCode = document.getElementById("c_provinceCode"),
