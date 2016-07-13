@@ -74,11 +74,11 @@
 	//////////////MAIN HEADER///////////// 
 	////////////////////////////////////-->
         <!-- Main header -->
-		<jsp:include page="inc/nav_inc.jsp"></jsp:include>
+		<jsp:include page="../inc/nav_inc.jsp"></jsp:include>
 		<!-- EMDS Main header -->
         
         <!-- LOGIN REGISTER LINKS CONTENT -->
-        <jsp:include page="inc/login_inc.jsp"></jsp:include>
+        <jsp:include page="../inc/login_inc.jsp"></jsp:include>
         <!-- END LOGIN REGISTER LINKS CONTENT -->
 
         <!-- SEARCH AREA -->
@@ -251,7 +251,7 @@
 	//////////////MAIN FOOTER////////////// 
 	////////////////////////////////////-->
 		<!-- Main footer -->
-		<jsp:include page="inc/footer_inc.jsp"></jsp:include>
+		<jsp:include page="../inc/footer_inc.jsp"></jsp:include>
 		<!-- EMDS Main footer -->
         <!-- //////////////////////////////////
 	//////////////END MAIN  FOOTER///////// 

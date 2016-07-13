@@ -112,23 +112,25 @@ public class GeneralController {
 	
 	@RequestMapping("/about")
 	public String goAbout(){
-		return "about";
-	}
-	
-	@RequestMapping("/faq")
-	public String goFaq(){
-		return "faq";
-	}
-	
-	@RequestMapping("/applybooth")
-	public String goApplybooth(){
-		return "applybooth";
+		return "support/about";
 	}
 	
 	@RequestMapping("/about/ch")
 	public String goAboutCH(){
-		return "about-ch";
+		return "home/about-ch";
 	}
+	
+	@RequestMapping("/faq")
+	public String goFaq(){
+		return "support/faq";
+	}
+	
+	@RequestMapping("/applybooth")
+	public String goApplybooth(){
+		return "publictest/applybooth";
+	}
+	
+	
 	
 	
 }
