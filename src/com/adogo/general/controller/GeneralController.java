@@ -112,7 +112,7 @@ public class GeneralController {
 	
 	@RequestMapping("/about")
 	public String goAbout(){
-		return "support/about";
+		return "home/about";
 	}
 	
 	@RequestMapping("/about/ch")

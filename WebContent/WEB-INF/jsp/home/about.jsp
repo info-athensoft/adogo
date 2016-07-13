@@ -51,7 +51,7 @@
 
         <!-- SEARCH AREA -->
         <!-- 
-        <jsp:include page="search_inc.jsp"></jsp:include>
+        <jsp:include page="../search_inc.jsp"></jsp:include>
          -->
         <!-- END SEARCH AREA -->
 
