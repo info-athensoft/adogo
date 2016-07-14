@@ -83,8 +83,6 @@
                             <li><a href="#"><i class="fa fa-plane"></i>Kid &amp; Family</a></li>
                             <li><a href="#"><i class="fa fa-plane"></i>Pet</a></li>
                             <li><a href="#"><i class="fa fa-headphones"></i>Funeral</a></li>
-                            
-                            
                         </ul>
                         <div class="sidebar-box">
                             <h5>Filter By Price</h5>

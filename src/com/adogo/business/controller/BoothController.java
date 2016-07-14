@@ -42,7 +42,7 @@ public class BoothController {
 		ModelAndView mav = new ModelAndView();
 		
 		List<Booth> booth = boothService.findByClassLevel1(classNum);
-		System.out.println("classNum="+classNum);
+		//System.out.println("classNum="+classNum);
 		
 		Map<String,Object> data = mav.getModel();
 		data.put("boothList", booth);
