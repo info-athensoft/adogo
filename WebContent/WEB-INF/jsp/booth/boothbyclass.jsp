@@ -173,7 +173,7 @@
                         <div class="col-md-2 col-md-offset-7">
                             <div class="product-view pull-right">
                                 <a class="fa fa-th-large active" href="#"></a>
-                                <a class="fa fa-list" href="category-page-thumbnails-shop-horizontal.html"></a>
+                                <a class="fa fa-list" href="/"></a>
                             </div>
                         </div>
                     </div>                    
