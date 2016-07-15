@@ -22,10 +22,9 @@
                                 <li><a href="/about/ch">About (CHS)</a></li>
                             </ul>
                         </li>
-                        <li class="active"><a href="/applybooth">Public Test</a>
+                        <li class="active"><a href="/publictest/applybooth">Public Test</a>
                         	<ul>
-                                <li><a href="/applybooth">Apply a booth(CHS)</a></li>
-                                <li><a href="/faq">FAQ (CHS)</a></li>
+                                <li><a href="/publictest/applybooth">Apply for a booth</a></li>
                             </ul>
                         </li>
                         <!--                    
@@ -44,8 +43,8 @@
                         -->
                         <li><a href="#">Support</a>
                             <ul>
-                                <li><a href="/faq">FAQ (CHS)</a>
-                                </li>
+                            	<li><a href="/support/applybooth">How to apply a booth(CHS)</a></li>
+                                <li><a href="/support/faq">FAQ (CHS)</a></li>
                             </ul>
                         </li>
                          

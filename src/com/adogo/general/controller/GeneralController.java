@@ -120,14 +120,14 @@ public class GeneralController {
 		return "home/about-ch";
 	}
 	
-	@RequestMapping("/faq")
+	@RequestMapping("/support/faq")
 	public String goFaq(){
 		return "support/faq";
 	}
 	
-	@RequestMapping("/applybooth")
+	@RequestMapping("/support/applybooth")
 	public String goApplybooth(){
-		return "publictest/applybooth";
+		return "support/applybooth";
 	}
 	
 	
