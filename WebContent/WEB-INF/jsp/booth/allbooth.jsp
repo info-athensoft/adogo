@@ -9,7 +9,7 @@
 <html>
 
 <head>
-    <title>Adogo - Shopwise</title>
+    <title>Adogo | Online Brands and Advertising Marketing</title>
     <!-- meta info -->
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
     <meta name="keywords" content="Adogo Montreal Canada Online Brand and Ad Marketing" />

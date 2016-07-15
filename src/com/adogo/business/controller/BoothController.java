@@ -46,8 +46,25 @@ public class BoothController {
 		
 		Map<String,Object> data = mav.getModel();
 		data.put("boothList", booth);
+		data.put("boothCategoryNum", classNum);
 		
 		mav.setViewName("booth/boothbyclass");
 		return mav;
-	}	
+	}
+	
+	@RequestMapping("/category/{classNum}/{classNumLv2}")
+	public ModelAndView showBoothLevel2(
+			@PathVariable int classNum){
+		ModelAndView mav = new ModelAndView();
+		
+		List<Booth> booth = boothService.findByClassLevel1(classNum);
+		//System.out.println("classNum="+classNum);
+		
+		Map<String,Object> data = mav.getModel();
+		data.put("boothList", booth);
+		data.put("boothCategoryNum", classNum);
+		
+		mav.setViewName("booth/boothbyclasslv2");
+		return mav;
+	}
 }
