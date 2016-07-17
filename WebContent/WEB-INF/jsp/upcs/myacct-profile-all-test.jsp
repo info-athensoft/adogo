@@ -75,8 +75,9 @@
                 <div class="col-md-3">
                     <aside class="sidebar-left">
                         <ul class="nav nav-pills nav-stacked nav-arrow">
-                            <li class="active"><a href="page-my-account-settings.html">Settings</a>
+                            <li class="active"><a href="/myacct">Settings</a>
                             </li>
+                            <li><a href="/myacct/recharge">Recharge</a></li>
                             <li><a href="page-my-account-addresses.html">Address Book</a>
                             </li>
                             <li><a href="page-my-account-orders.html">Orders History</a>

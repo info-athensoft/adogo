@@ -48,5 +48,18 @@ public class UpcsController {
 		return mav;
 	}
 	
+	@RequestMapping("/myacct/recharge")
+	public ModelAndView goRecharge(){
+		ModelAndView mav = new ModelAndView();
+		
+		List<UserAccount> userAccountList = userAccountService.getUserAccountAll();
+		
+		Map<String,Object> data = mav.getModel();
+		data.put("userAccountList", userAccountList);
+		
+		mav.setViewName("upcs/myacct-recharge");
+		return mav;
+	}
+	
 
 }
