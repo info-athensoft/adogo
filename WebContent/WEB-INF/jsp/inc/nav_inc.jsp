@@ -110,22 +110,8 @@
 
 <script src="/js/jquery.js"></script>
 <script src="/js/boostrap.min.js"></script>
+<script src="/js/adogo/web/countryObject.js"></script>
 <script>
-		var countryObject = {
-		    "Canada": {
-		        "Alberta": ["Salinas", "Gonzales"],
-		        "British Columbia": ["Oakland", "Berkeley"],
-		        "Quebec": ["Montreal", "OtherCity"]
-		    },
-		    "The United States": {
-		        "Douglas": ["Roseburg", "Winston"],
-		        "Jackson": ["Medford", "Jacksonville"]
-		    },
-		    "China": {
-		        "FuJian": ["XiaMen", "Winston"],
-		        "GuangDong": ["ShengZheng", "Jacksonville"]
-		    }
-		}
 		
 		$(document).ready(function(){
 			 var c_countryCode = document.getElementById("c_countryCode"),

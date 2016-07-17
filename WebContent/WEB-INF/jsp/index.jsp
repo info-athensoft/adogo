@@ -821,8 +821,11 @@
 		
         <!-- Custom scripts -->
         <script src="/js/custom.js"></script>
-        <script src="/js/countryObject.js"></script>
-        <script>		
+        <!--  
+        	<script src="/js/countryObject.js"></script>
+         -->
+        <script>
+      /*
 		$(document).ready(function(){
 			 var c_countryCode = document.getElementById("c_countryCode"),
 		     c_provinceCode = document.getElementById("c_provinceCode"),
@@ -850,6 +853,7 @@
 			 }
 			
 		});
+       */
 		</script>
         
         <script>
