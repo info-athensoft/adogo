@@ -22,9 +22,9 @@
                                 <li><a href="/about/ch">About (CHS)</a></li>
                             </ul>
                         </li>
-                        <li class="active"><a href="/publictest/applybooth">Public Test</a>
+                        <li class="active"><a href="/publictest/goapplybooth">Public Test</a>
                         	<ul>
-                                <li><a href="/publictest/applybooth">Apply for a booth</a></li>
+                                <li><a href="/publictest/goapplybooth">Apply for a booth</a></li>
                             </ul>
                         </li>
                         <!--                    
@@ -98,7 +98,7 @@
 	            	</c:if>
 	            	
 	            	  
-                    <li><a class="popup-text" href="#public-test-dialog" data-effect="mfp-move-from-top"><i class="fa fa-edit"></i>Contact us</a>
+                    <li><a class="popup-text" href="#public-test-dialog" data-effect="mfp-move-from-top"><i class="fa fa-edit"></i><span id="contact-us">Contact us</span></a>
                     </li>
                      
                     
