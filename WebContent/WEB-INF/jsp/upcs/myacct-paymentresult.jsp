@@ -75,10 +75,10 @@
                 <div class="col-md-3">
                     <aside class="sidebar-left">
                         <ul class="nav nav-pills nav-stacked nav-arrow">
-                            <li class="active"><a href="/myacct">Settings</a>
+                            <li><a href="/myacct">Settings</a>
                             </li>
                             <li><a href="/myacct/mywallet">My Wallet</a></li>
-                            <li><a href="/myacct/recharge">Recharge</a></li>
+                            <li  class="active"><a href="/myacct/recharge">Recharge</a></li>
                             <li><a href="page-my-account-addresses.html">Address Book</a>
                             </li>
                             <li><a href="page-my-account-orders.html">Orders History</a>
@@ -91,25 +91,9 @@
                 <div class="col-md-9">
                     <div class="row">
                         <div class="col-md-6">
-                            <form action="">
-                                <div class="form-group">
-                                    <label for="">First Name</label>
-                                    <input type="text" value="John" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <label for="">Last Name</label>
-                                    <input type="text" value="Doe" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <label for="">E-mail</label>
-                                    <input type="text" value="johndoe@gmail.com" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <label for="">Phone Number</label>
-                                    <input type="text" value="+1 202 555 0113" class="form-control">
-                                </div>
-                                <input type="submit" value="Save Changes" class="btn btn-primary">
-                            </form>
+                            <h3>Braintree example - Get paid</h3>
+							<br/>
+							Result:${resultMessage}
                         </div>
                     </div>
                     <div class="gap"></div>
@@ -122,7 +106,7 @@
 	
 	
 	<!-- remove the section below -->
-		<c:forEach items="${userAccountList}" var="userAccount">
+		
 		<c:out value="${userAccount.acctId}"></c:out>	&nbsp;&nbsp;
 		<c:out value="${userAccount.acctName}"></c:out> &nbsp;&nbsp;
 		<c:out value="${userAccount.password}"></c:out> &nbsp;&nbsp;
@@ -137,7 +121,7 @@
 		<c:out value="${userAccount.lastModDate}"></c:out>  &nbsp;&nbsp;
 		<c:out value="${userAccount.acctStatus}"></c:out>  &nbsp;&nbsp;
 		<br/>
-	</c:forEach>
+	
 
         <!-- //////////////////////////////////
 	//////////////END PAGE CONTENT///////// 

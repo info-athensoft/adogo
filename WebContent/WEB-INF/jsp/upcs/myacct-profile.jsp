@@ -77,6 +77,7 @@
                         <ul class="nav nav-pills nav-stacked nav-arrow">
                             <li class="active"><a href="#">Settings</a>
                             </li>
+                            <li><a href="/myacct/mywallet">My Wallet</a></li>
                             <li><a href="/myacct/recharge">Recharge</a></li>
                             <li><a href="page-my-account-addresses.html">Address Book</a>
                             </li>

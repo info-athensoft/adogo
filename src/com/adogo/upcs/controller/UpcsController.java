@@ -48,6 +48,7 @@ public class UpcsController {
 		return mav;
 	}
 	
+	/*
 	@RequestMapping("/myacct/recharge")
 	public ModelAndView goRecharge(){
 		ModelAndView mav = new ModelAndView();
@@ -60,6 +61,8 @@ public class UpcsController {
 		mav.setViewName("upcs/myacct-recharge");
 		return mav;
 	}
+	*/
+	
 	
 
 }
