@@ -22,7 +22,7 @@
                                 <li><a href="/about/ch">About (CHS)</a></li>
                             </ul>
                         </li>
-                        <li class="active"><a href="/publictest/goapplybooth">Public Test</a>
+                        <li><a href="/publictest/goapplybooth">Public Test</a>
                         	<ul>
                                 <li><a href="/publictest/goapplybooth">Apply for a booth</a></li>
                             </ul>
@@ -41,6 +41,16 @@
                             </ul>
                         </li>
                         -->
+                        <li><a href="/blog">Blog</a>
+                            <ul>
+                                <li><a href="/blog/1">E-Commerce</a></li>
+                                <li><a href="/blog/2">Health care</a></li>
+                                <li><a href="/blog/3">Legislation</a></li>
+                                <li><a href="/blog/4">Accounting and Taxing</a></li>
+                                <li><a href="/blog/4">Finance</a></li>
+                                
+                            </ul>
+                        </li>
                         <li><a href="#">Support</a>
                             <ul>
                             	<li><a href="/support/applybooth">How to apply a booth(CHS)</a></li>
