@@ -21,10 +21,10 @@ ga('send', 'pageview');
 
 // click
 function track(data) {
-	if (!!data.id === 1) {
-		ga('send', 'event', 'Adveriser profile page:', data.mid);		
+	if (data.type === "1") {
+		ga('send', 'event', 'Adveriser profile page:'+ data.mechantId);		
 	}
-	if (!!data.id === 2) {
-		ga('send', 'event', 'Adveriser homepage:', data.mid);		
+	if (data.type === "2") {
+		ga('send', 'event', 'Adveriser homepage:'+ data.mechantId);		
 	}
 }
