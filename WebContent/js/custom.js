@@ -289,6 +289,7 @@ $(document).ready(function() {
 
 
     // Twitter Ticker
+    /*
     var ul = $('#twitter-ticker').find(".tweet-list");
     var ticker = function() {
         setTimeout(function() {
@@ -302,7 +303,7 @@ $(document).ready(function() {
         }, 5000);
     };
     ticker();
-
+	*/
 
      // footer always on bottom
    var docHeight = $(window).height();
