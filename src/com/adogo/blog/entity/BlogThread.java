@@ -5,6 +5,7 @@ import java.util.Date;
 public class BlogThread {
 	private long uid;
 	private int langNo;
+	private int categoryNo;
 	private String title;
 	private Date postDate;
 	private String author;
@@ -59,6 +60,12 @@ public class BlogThread {
 	}
 	public void setContent(String content) {
 		this.content = content;
+	}
+	public int getCategoryNo() {
+		return categoryNo;
+	}
+	public void setCategoryNo(int categoryNo) {
+		this.categoryNo = categoryNo;
 	}
 	
 }

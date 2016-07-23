@@ -23,8 +23,7 @@ public class BoothController {
 	}
 	
 	@RequestMapping("/booth")
-	public ModelAndView showCustProfile(
-			){
+	public ModelAndView showCustProfile(){
 		ModelAndView mav = new ModelAndView();
 		
 		List<Booth> booth = boothService.findAll();

@@ -106,30 +106,44 @@
                     </article>
                    -->
                     <h2>Post a thread</h2>
-                    <form>
+                    <form action="/blog/post" method="post">
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="form-group">
-                                    <label>Name</label>
-                                    <input type="text" name="" value="" placeholder="Type Your Name" class="form-control">
+                                    <label>Author</label>
+                                    <input type="text" name="author" placeholder="Type Author Name" class="form-control">
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
-                                    <label>E-mail</label>
-                                    <input type="text" name="" value="" placeholder="Your E-mail Address" class="form-control">
+                                    <label>Category</label>
+                                    <select class="form-control" name="categoryNo">
+                                    	<option value="0">Choose a category</option>
+                                    	<option value="1" >电子商务</option>
+                                    	<option value="2">留学移民</option>
+                                    	<option value="3">医疗健康</option>
+                                    	<option value="4">教育培训</option>
+                                    	<option value="5">会计税务</option>
+                                    	<option value="6">法律事务</option>
+                                    	<option value="7">投资理财</option>
+                                    	<option value="8">创业合作</option>
+                                    </select>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-8">
+                            	<div class="form-group">
+                                    <label>Title</label>
+                                    <input type="text" name="title" placeholder="Title" class="form-control">
+                                </div>
                                 <div class="form-group">
-                                    <label>Comment</label>
-                                    <textarea name="" class="form-control" placeholder="Your Comment Here"></textarea>
+                                    <label>Content</label>
+                                    <textarea name="content" class="form-control" placeholder="Content of thread"></textarea>
                                 </div>
                             </div>
                         </div>
-                        <input type="submit" name="" value="Post a Comment" class="btn btn-primary">
+                        <input type="submit" name="post" value="Post a thread" class="btn btn-primary">
                     </form>
                     <div class="gap"></div>
                     <h2 class="mb20">Comments</h2>

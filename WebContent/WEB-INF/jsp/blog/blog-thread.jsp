@@ -77,17 +77,17 @@
                     <article class="post">
                         <header class="post-header">
                             <div class="fotorama">
-                                <img src="img/900x400.png" alt="Image Alternative text" title="4 Strokes of Fun" />
-                                <img src="img/900x400.png" alt="Image Alternative text" title="4 Strokes of Fun" />
-                                <img src="img/900x400.png" alt="Image Alternative text" title="4 Strokes of Fun" />
+                                <img src="/img/900x400.png" alt="Image Alternative text" title="4 Strokes of Fun" />
+                                <img src="/img/900x400.png" alt="Image Alternative text" title="4 Strokes of Fun" />
+                                <img src="/img/900x400.png" alt="Image Alternative text" title="4 Strokes of Fun" />
                             </div>
                         </header>
                         <div class="post-inner">
-                            <h3 class="post-title">Fusce integer ornare egestas montes</h3>
+                            <h3 class="post-title"><c:out value="${blogThread.title}"></c:out></h3>
                             <ul class="post-meta">
-                                <li><i class="fa fa-calendar"></i><a href="#">03 August, 2013</a>
+                                <li><i class="fa fa-calendar"></i><a href="#"><c:out value="${blogThread.postDate}"/></a>
                                 </li>
-                                <li><i class="fa fa-user"></i>by <a href="#">Oliver Ross</a>
+                                <li><i class="fa fa-user"></i>by <a href="#"><c:out value="${blogThread.author}"></c:out></a>
                                 </li>
                                 <li><i class="fa fa-tags"></i><a href="#">Design</a>, <a href="#">Digital</a>
                                 </li>
@@ -95,7 +95,7 @@
                                 </li>
                             </ul>
                             <div class="gap gap-mini"></div>
-                            <p>Tortor libero placerat turpis arcu etiam maecenas mi consectetur vestibulum nibh a ridiculus tellus luctus ipsum erat senectus consectetur hendrerit euismod dapibus vestibulum vel bibendum quisque ac quis hac ut porttitor tempus fringilla molestie ad ultrices proin turpis lacinia venenatis rhoncus tortor tortor nisl cursus sodales torquent varius convallis nibh imperdiet nascetur inceptos maecenas suscipit natoque diam iaculis enim morbi dictumst nibh aptent nisi ornare volutpat eget fames etiam turpis elit ridiculus facilisis dis auctor netus lacinia dignissim dictum sodales tempus proin mollis cras id diam non nascetur cubilia hac hendrerit praesent tincidunt nullam etiam placerat sociis senectus faucibus at</p>
+                            <p><c:out value="${blogThread.content}"></c:out></p>
                             <h3>Porta euismod</h3>
                             <p>Varius vel porttitor tellus conubia varius nascetur turpis gravida consequat massa enim nam blandit elementum elit elementum ut viverra pretium hac erat litora aliquet id cum torquent aenean et dolor vulputate aliquet mattis mattis viverra ultrices aptent per neque ac id ridiculus a cum ligula interdum vitae placerat purus phasellus porttitor ligula egestas diam ullamcorper senectus habitasse volutpat sociis non congue potenti cursus dapibus vel lectus cras gravida suspendisse ridiculus lobortis luctus facilisi scelerisque iaculis ipsum eget congue nec malesuada convallis scelerisque facilisi natoque venenatis lobortis elit vivamus donec dolor orci nascetur semper nisi dui pharetra et quam dapibus cubilia mollis enim eleifend feugiat bibendum dis nullam arcu tempor dictum arcu platea imperdiet facilisi quisque arcu neque convallis leo mattis urna sagittis feugiat tortor integer suspendisse convallis morbi lobortis laoreet augue fermentum class congue tempor montes purus vitae quam augue inceptos nunc justo erat mauris cursus condimentum ultrices auctor diam metus lacinia molestie quis torquent nisl taciti magnis urna sed mollis magna suscipit tellus metus fusce imperdiet cubilia eu conubia quam lorem sapien libero parturient dis metus interdum fermentum curae laoreet nibh lorem posuere ac class feugiat placerat dis massa nisi lacus luctus ultricies mattis sapien sit varius risus consectetur</p>
                             <h3>Porta parturient nullam elementum</h3>
@@ -137,7 +137,7 @@
                             <!-- COMMENT -->
                             <article class="comment">
                                 <div class="comment-author">
-                                    <img src="img/50x50.png" alt="Image Alternative text" title="Gamer Chick" />
+                                    <img src="/img/50x50.png" alt="Image Alternative text" title="Gamer Chick" />
                                 </div>
                                 <div class="comment-inner"><span class="comment-author-name">Keith Churchill</span>
                                     <p class="comment-content">Etiam interdum nisi commodo semper conubia etiam molestie pellentesque sociosqu purus rhoncus cum adipiscing class ad convallis odio ullamcorper vulputate varius curae fames ultricies laoreet mus suspendisse mi vehicula euismod</p><span class="comment-time">15 seconds ago</span><a class="comment-reply" href="#"><i class="fa fa-reply"></i> Reply</a><a class="comment-like" href="#"><i class="fa fa-heart"></i> 0</a>
@@ -148,7 +148,7 @@
                             <!-- COMMENT -->
                             <article class="comment">
                                 <div class="comment-author">
-                                    <img src="img/50x50.png" alt="Image Alternative text" title="Ana 29" />
+                                    <img src="/img/50x50.png" alt="Image Alternative text" title="Ana 29" />
                                 </div>
                                 <div class="comment-inner"><span class="comment-author-name">Alison Mackenzie</span>
                                     <p class="comment-content">Himenaeos porta augue proin nisi dapibus quam cubilia lacus a</p><span class="comment-time">15 seconds ago</span><a class="comment-reply" href="#"><i class="fa fa-reply"></i> Reply</a><a class="comment-like" href="#"><i class="fa fa-heart"></i> 16</a>
@@ -159,7 +159,7 @@
                                     <!-- COMMENT -->
                                     <article class="comment">
                                         <div class="comment-author">
-                                            <img src="img/50x50.png" alt="Image Alternative text" title="Afro" />
+                                            <img src="/img/50x50.png" alt="Image Alternative text" title="Afro" />
                                         </div>
                                         <div class="comment-inner"><span class="comment-author-name">Frank Mills</span>
                                             <p class="comment-content">Morbi senectus turpis rhoncus eget taciti habitasse pellentesque litora curae sociosqu</p><span class="comment-time">15 seconds ago</span><a class="comment-reply" href="#"><i class="fa fa-reply"></i> Reply</a><a class="comment-like" href="#"><i class="fa fa-heart"></i> 48</a>
@@ -171,7 +171,7 @@
                                 <!-- COMMENT -->
                                 <article class="comment">
                                     <div class="comment-author">
-                                        <img src="img/50x50.png" alt="Image Alternative text" title="Bubbles" />
+                                        <img src="/img/50x50.png" alt="Image Alternative text" title="Bubbles" />
                                     </div>
                                     <div class="comment-inner"><span class="comment-author-name">Richard Jones</span>
                                         <p class="comment-content">Rutrum maecenas phasellus euismod vel curae facilisis fermentum cras feugiat habitasse sociis aptent feugiat faucibus turpis ultrices ac cubilia curabitur ligula posuere</p><span class="comment-time">15 seconds ago</span><a class="comment-reply" href="#"><i class="fa fa-reply"></i> Reply</a><a class="comment-like" href="#"><i class="fa fa-heart"></i> 8</a>
@@ -182,7 +182,7 @@
                                         <!-- COMMENT -->
                                         <article class="comment">
                                             <div class="comment-author">
-                                                <img src="img/50x50.png" alt="Image Alternative text" title="Me with the Uke" />
+                                                <img src="/img/50x50.png" alt="Image Alternative text" title="Me with the Uke" />
                                             </div>
                                             <div class="comment-inner"><span class="comment-author-name">Bernadette Cornish</span>
                                                 <p class="comment-content">Luctus cursus convallis fusce eros bibendum montes dolor condimentum nisi faucibus adipiscing luctus sem parturient ornare habitant fames facilisi justo dictumst dictumst leo</p><span class="comment-time">15 seconds ago</span><a class="comment-reply" href="#"><i class="fa fa-reply"></i> Reply</a><a class="comment-like" href="#"><i class="fa fa-heart"></i> 45</a>
@@ -194,7 +194,7 @@
                                     <!-- COMMENT -->
                                     <article class="comment">
                                         <div class="comment-author">
-                                            <img src="img/50x50.png" alt="Image Alternative text" title="AMaze" />
+                                            <img src="/img/50x50.png" alt="Image Alternative text" title="AMaze" />
                                         </div>
                                         <div class="comment-inner"><span class="comment-author-name">Sarah Slater</span>
                                             <p class="comment-content">Congue vehicula dictum ipsum cursus augue donec molestie fames hendrerit ante suscipit iaculis ridiculus faucibus commodo praesent risus auctor luctus diam fusce urna potenti blandit urna viverra aenean faucibus mauris</p><span class="comment-time">15 seconds ago</span><a class="comment-reply" href="#"><i class="fa fa-reply"></i> Reply</a><a class="comment-like" href="#"><i class="fa fa-heart"></i> 2</a>
@@ -205,26 +205,14 @@
                                     <!-- COMMENT -->
                                     <article class="comment">
                                         <div class="comment-author">
-                                            <img src="img/50x50.png" alt="Image Alternative text" title="Chiara" />
+                                            <img src="/img/50x50.png" alt="Image Alternative text" title="Chiara" />
                                         </div>
                                         <div class="comment-inner"><span class="comment-author-name">Blake Abraham</span>
                                             <p class="comment-content">Odio mi dolor justo curabitur tellus nostra bibendum facilisis vitae est ut</p><span class="comment-time">15 seconds ago</span><a class="comment-reply" href="#"><i class="fa fa-reply"></i> Reply</a><a class="comment-like" href="#"><i class="fa fa-heart"></i> 8</a>
                                         </div>
                                     </article>
-                                    <ul>
-                                        <li>
-                                            <!-- COMMENT -->
-                                            <article class="comment">
-                                                <div class="comment-author">
-                                                    <img src="img/50x50.png" alt="Image Alternative text" title="Andrea" />
-                                                </div>
-                                                <div class="comment-inner"><span class="comment-author-name">Cyndy Naquin</span>
-                                                    <p class="comment-content">Justo nascetur iaculis pharetra velit torquent pellentesque euismod nascetur penatibus consequat etiam sodales non condimentum congue tellus varius leo quam elit</p><span class="comment-time">15 seconds ago</span><a class="comment-reply" href="#"><i class="fa fa-reply"></i> Reply</a><a class="comment-like" href="#"><i class="fa fa-heart"></i> 25</a>
-                                                </div>
-                                            </article>
-                                            <ul></ul>
-                                    </ul>
-                    </ul>
+                                </li>                    
+                          </ul>
                     <!-- END COMMENTS -->
                     <div class="gap"></div>
                 </div>
@@ -265,7 +253,7 @@
                             <ul class="thumb-list">
                                 <li>
                                     <a href="#">
-                                        <img src="img/70x70.png" alt="Image Alternative text" title="Urbex Esch/Lux with Laney and Laaaaag" />
+                                        <img src="/img/70x70.png" alt="Image Alternative text" title="Urbex Esch/Lux with Laney and Laaaaag" />
                                     </a>
                                     <div class="thumb-list-item-caption">
                                         <p class="thumb-list-item-meta">Jul 18, 2014</p>
@@ -275,7 +263,7 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="img/70x70.png" alt="Image Alternative text" title="AMaze" />
+                                        <img src="/img/70x70.png" alt="Image Alternative text" title="AMaze" />
                                     </a>
                                     <div class="thumb-list-item-caption">
                                         <p class="thumb-list-item-meta">Jul 18, 2014</p>
@@ -285,7 +273,7 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="img/70x70.png" alt="Image Alternative text" title="The Hidden Power of the Heart" />
+                                        <img src="/img/70x70.png" alt="Image Alternative text" title="The Hidden Power of the Heart" />
                                     </a>
                                     <div class="thumb-list-item-caption">
                                         <p class="thumb-list-item-meta">Jul 18, 2014</p>
@@ -326,7 +314,7 @@
                             <ul class="thumb-list thumb-list-right">
                                 <li>
                                     <a href="#">
-                                        <img src="img/50x50.png" alt="Image Alternative text" title="Gamer Chick" class="rounded" />
+                                        <img src="/img/50x50.png" alt="Image Alternative text" title="Gamer Chick" class="rounded" />
                                     </a>
                                     <div class="thumb-list-item-caption">
                                         <p class="thumb-list-item-meta">7 minutes ago</p>
@@ -336,7 +324,7 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="img/50x50.png" alt="Image Alternative text" title="Ana 29" class="rounded" />
+                                        <img src="/img/50x50.png" alt="Image Alternative text" title="Ana 29" class="rounded" />
                                     </a>
                                     <div class="thumb-list-item-caption">
                                         <p class="thumb-list-item-meta">7 minutes ago</p>
@@ -346,7 +334,7 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="img/50x50.png" alt="Image Alternative text" title="Afro" class="rounded" />
+                                        <img src="/img/50x50.png" alt="Image Alternative text" title="Afro" class="rounded" />
                                     </a>
                                     <div class="thumb-list-item-caption">
                                         <p class="thumb-list-item-meta">8 minutes ago</p>
