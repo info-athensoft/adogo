@@ -108,13 +108,13 @@
                     <h2>Post a thread</h2>
                     <form action="/blog/post" method="post">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <div class="form-group">
                                     <label>Author</label>
                                     <input type="text" name="author" placeholder="Type Author Name" class="form-control">
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <div class="form-group">
                                     <label>Category</label>
                                     <select class="form-control" name="categoryNo">
@@ -132,117 +132,21 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-8">
+                            <div class="col-md-12">
                             	<div class="form-group">
                                     <label>Title</label>
                                     <input type="text" name="title" placeholder="Title" class="form-control">
                                 </div>
                                 <div class="form-group">
                                     <label>Content</label>
-                                    <textarea name="content" class="form-control" placeholder="Content of thread"></textarea>
+                                    <textarea name="content" class="form-control" placeholder="Content of thread" rows="12"></textarea>
                                 </div>
                             </div>
                         </div>
-                        <input type="submit" name="post" value="Post a thread" class="btn btn-primary">
+                        <input type="submit" name="post" value="Post now" class="btn btn-primary">
                     </form>
                     <div class="gap"></div>
-                    <h2 class="mb20">Comments</h2>
-                    <!-- START COMMENTS -->
-                    <ul class="comments-list">
-                        <li>
-                            <!-- COMMENT -->
-                            <article class="comment">
-                                <div class="comment-author">
-                                    <img src="img/50x50.png" alt="Image Alternative text" title="Gamer Chick" />
-                                </div>
-                                <div class="comment-inner"><span class="comment-author-name">Keith Churchill</span>
-                                    <p class="comment-content">Etiam interdum nisi commodo semper conubia etiam molestie pellentesque sociosqu purus rhoncus cum adipiscing class ad convallis odio ullamcorper vulputate varius curae fames ultricies laoreet mus suspendisse mi vehicula euismod</p><span class="comment-time">15 seconds ago</span><a class="comment-reply" href="#"><i class="fa fa-reply"></i> Reply</a><a class="comment-like" href="#"><i class="fa fa-heart"></i> 0</a>
-                                </div>
-                            </article>
-                        </li>
-                        <li>
-                            <!-- COMMENT -->
-                            <article class="comment">
-                                <div class="comment-author">
-                                    <img src="img/50x50.png" alt="Image Alternative text" title="Ana 29" />
-                                </div>
-                                <div class="comment-inner"><span class="comment-author-name">Alison Mackenzie</span>
-                                    <p class="comment-content">Himenaeos porta augue proin nisi dapibus quam cubilia lacus a</p><span class="comment-time">15 seconds ago</span><a class="comment-reply" href="#"><i class="fa fa-reply"></i> Reply</a><a class="comment-like" href="#"><i class="fa fa-heart"></i> 16</a>
-                                </div>
-                            </article>
-                            <ul>
-                                <li>
-                                    <!-- COMMENT -->
-                                    <article class="comment">
-                                        <div class="comment-author">
-                                            <img src="img/50x50.png" alt="Image Alternative text" title="Afro" />
-                                        </div>
-                                        <div class="comment-inner"><span class="comment-author-name">Frank Mills</span>
-                                            <p class="comment-content">Morbi senectus turpis rhoncus eget taciti habitasse pellentesque litora curae sociosqu</p><span class="comment-time">15 seconds ago</span><a class="comment-reply" href="#"><i class="fa fa-reply"></i> Reply</a><a class="comment-like" href="#"><i class="fa fa-heart"></i> 48</a>
-                                        </div>
-                                    </article>
-                                </li>
-                            </ul>
-                            <li>
-                                <!-- COMMENT -->
-                                <article class="comment">
-                                    <div class="comment-author">
-                                        <img src="img/50x50.png" alt="Image Alternative text" title="Bubbles" />
-                                    </div>
-                                    <div class="comment-inner"><span class="comment-author-name">Richard Jones</span>
-                                        <p class="comment-content">Rutrum maecenas phasellus euismod vel curae facilisis fermentum cras feugiat habitasse sociis aptent feugiat faucibus turpis ultrices ac cubilia curabitur ligula posuere</p><span class="comment-time">15 seconds ago</span><a class="comment-reply" href="#"><i class="fa fa-reply"></i> Reply</a><a class="comment-like" href="#"><i class="fa fa-heart"></i> 8</a>
-                                    </div>
-                                </article>
-                                <ul>
-                                    <li>
-                                        <!-- COMMENT -->
-                                        <article class="comment">
-                                            <div class="comment-author">
-                                                <img src="img/50x50.png" alt="Image Alternative text" title="Me with the Uke" />
-                                            </div>
-                                            <div class="comment-inner"><span class="comment-author-name">Bernadette Cornish</span>
-                                                <p class="comment-content">Luctus cursus convallis fusce eros bibendum montes dolor condimentum nisi faucibus adipiscing luctus sem parturient ornare habitant fames facilisi justo dictumst dictumst leo</p><span class="comment-time">15 seconds ago</span><a class="comment-reply" href="#"><i class="fa fa-reply"></i> Reply</a><a class="comment-like" href="#"><i class="fa fa-heart"></i> 45</a>
-                                            </div>
-                                        </article>
-                                    </li>
-                                </ul>
-                                <li>
-                                    <!-- COMMENT -->
-                                    <article class="comment">
-                                        <div class="comment-author">
-                                            <img src="img/50x50.png" alt="Image Alternative text" title="AMaze" />
-                                        </div>
-                                        <div class="comment-inner"><span class="comment-author-name">Sarah Slater</span>
-                                            <p class="comment-content">Congue vehicula dictum ipsum cursus augue donec molestie fames hendrerit ante suscipit iaculis ridiculus faucibus commodo praesent risus auctor luctus diam fusce urna potenti blandit urna viverra aenean faucibus mauris</p><span class="comment-time">15 seconds ago</span><a class="comment-reply" href="#"><i class="fa fa-reply"></i> Reply</a><a class="comment-like" href="#"><i class="fa fa-heart"></i> 2</a>
-                                        </div>
-                                    </article>
-                                </li>
-                                <li>
-                                    <!-- COMMENT -->
-                                    <article class="comment">
-                                        <div class="comment-author">
-                                            <img src="img/50x50.png" alt="Image Alternative text" title="Chiara" />
-                                        </div>
-                                        <div class="comment-inner"><span class="comment-author-name">Blake Abraham</span>
-                                            <p class="comment-content">Odio mi dolor justo curabitur tellus nostra bibendum facilisis vitae est ut</p><span class="comment-time">15 seconds ago</span><a class="comment-reply" href="#"><i class="fa fa-reply"></i> Reply</a><a class="comment-like" href="#"><i class="fa fa-heart"></i> 8</a>
-                                        </div>
-                                    </article>
-                                    <ul>
-                                        <li>
-                                            <!-- COMMENT -->
-                                            <article class="comment">
-                                                <div class="comment-author">
-                                                    <img src="img/50x50.png" alt="Image Alternative text" title="Andrea" />
-                                                </div>
-                                                <div class="comment-inner"><span class="comment-author-name">Cyndy Naquin</span>
-                                                    <p class="comment-content">Justo nascetur iaculis pharetra velit torquent pellentesque euismod nascetur penatibus consequat etiam sodales non condimentum congue tellus varius leo quam elit</p><span class="comment-time">15 seconds ago</span><a class="comment-reply" href="#"><i class="fa fa-reply"></i> Reply</a><a class="comment-like" href="#"><i class="fa fa-heart"></i> 25</a>
-                                                </div>
-                                            </article>
-                                            <ul></ul>
-                                    </ul>
-                    </ul>
-                    <!-- END COMMENTS -->
-                    <div class="gap"></div>
+                    
                 </div>
                 <div class="col-md-3">
                     <aside class="sidebar-right hidden-phone">
@@ -265,59 +169,7 @@
                         </div>
 
 
-                        <div class="sidebar-box">
-
-                            <h5>Newsletter singup</h5>
-                            <form class="sign-up">
-                                <input type="text" class="form-control" placeholder="E-mail">
-                                <small class="help-block">*We never send spam</small>
-                                <input type="submit" class="btn btn-primary" value="Subscribe">
-                            </form>
-                        </div>
-
-
-                        <div class="sidebar-box">
-                            <h5>Recent Posts</h5>
-                            <ul class="thumb-list">
-                                <li>
-                                    <a href="#">
-                                        <img src="img/70x70.png" alt="Image Alternative text" title="Urbex Esch/Lux with Laney and Laaaaag" />
-                                    </a>
-                                    <div class="thumb-list-item-caption">
-                                        <p class="thumb-list-item-meta">Jul 18, 2014</p>
-                                        <h5 class="thumb-list-item-title"><a href="#">Rhoncus tincidunt</a></h5>
-                                        <p class="thumb-list-item-desciption">Volutpat venenatis vitae dis nisl</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="img/70x70.png" alt="Image Alternative text" title="AMaze" />
-                                    </a>
-                                    <div class="thumb-list-item-caption">
-                                        <p class="thumb-list-item-meta">Jul 18, 2014</p>
-                                        <h5 class="thumb-list-item-title"><a href="#">Vehicula odio</a></h5>
-                                        <p class="thumb-list-item-desciption">Mollis interdum accumsan nisl tempus</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="img/70x70.png" alt="Image Alternative text" title="The Hidden Power of the Heart" />
-                                    </a>
-                                    <div class="thumb-list-item-caption">
-                                        <p class="thumb-list-item-meta">Jul 18, 2014</p>
-                                        <h5 class="thumb-list-item-title"><a href="#">A tellus</a></h5>
-                                        <p class="thumb-list-item-desciption">Duis placerat lorem pulvinar feugiat</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="sidebar-box">
-                            <h5>Twitter Feed</h5>
-                            <!-- START TWITTER -->
-                            <div class="twitter" id="twitter"></div>
-                            <!-- END TWITTER -->
-                        </div>
+                        
 
                         <div class="sidebar-box">
                             <h5>Popular Tags</h5>
@@ -336,65 +188,18 @@
                                 </li>
                             </ul>
                         </div>
-
-                        <div class="sidebar-box">
-                            <h5>Recent Comments</h5>
-                            <ul class="thumb-list thumb-list-right">
-                                <li>
-                                    <a href="#">
-                                        <img src="img/50x50.png" alt="Image Alternative text" title="Gamer Chick" class="rounded" />
-                                    </a>
-                                    <div class="thumb-list-item-caption">
-                                        <p class="thumb-list-item-meta">7 minutes ago</p>
-                                        <h5 class="thumb-list-item-title"><a href="#">Cheryl Gustin</a></h5>
-                                        <p class="thumb-list-item-desciption">Feugiat nisl pellentesque dignissim duis...</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="img/50x50.png" alt="Image Alternative text" title="Ana 29" class="rounded" />
-                                    </a>
-                                    <div class="thumb-list-item-caption">
-                                        <p class="thumb-list-item-meta">7 minutes ago</p>
-                                        <h5 class="thumb-list-item-title"><a href="#">Cyndy Naquin</a></h5>
-                                        <p class="thumb-list-item-desciption">Rhoncus morbi adipiscing dui...</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="img/50x50.png" alt="Image Alternative text" title="Afro" class="rounded" />
-                                    </a>
-                                    <div class="thumb-list-item-caption">
-                                        <p class="thumb-list-item-meta">8 minutes ago</p>
-                                        <h5 class="thumb-list-item-title"><a href="#">Richard Jones</a></h5>
-                                        <p class="thumb-list-item-desciption">Etiam magna cras interdum...</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-
                     </aside>
-
-
                 </div>
             </div>
-
         </div>
-
-	
 
         <!-- //////////////////////////////////
 	//////////////END PAGE CONTENT///////// 
 	////////////////////////////////////-->
 
-
-
 		<!-- Main footer -->
 		<jsp:include page="../inc/footer_inc.jsp"></jsp:include>
 		<!-- EMDS Main footer -->
-
-
-
 
         <!-- Scripts queries -->
         <script src="/js/jquery.js"></script>
