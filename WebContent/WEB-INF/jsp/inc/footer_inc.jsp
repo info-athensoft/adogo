@@ -51,8 +51,8 @@
                         <div class="col-md-3">
                             <h3>Adogo on Twitter</h3>
                             <!-- START TWITTER -->
-                   <div class="twitter-ticker" id="twitter-ticker"></div>
-                   <!-- END TWITTER -->
+		                   <!-- <div class="twitter-ticker" id="twitter-ticker"></div>  -->
+		                   <!-- END TWITTER -->
                 </div>
                 <div class="col-md-3">
                     <h3>Recent News</h3>

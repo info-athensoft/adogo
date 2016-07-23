@@ -225,6 +225,7 @@
 													onclick="track({'type':'1','mechantId':<c:out value='${booth.bizNo}'/>});">
 														<i class="fa fa-bars"></i> Profile
 												</a></li>
+
 											</ul>
 										</div>
 									</div>

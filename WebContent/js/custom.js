@@ -1,6 +1,6 @@
 "use strict";
 // Global vars
-var TWITTER_USERNAME = 'envato',
+var TWITTER_USERNAME = 'adogo_service',
     GOOGLE_MAP_LAT = 45.4540644,
     GOOGLE_MAP_LNG = -73.594746;
 
@@ -289,6 +289,7 @@ $(document).ready(function() {
 
 
     // Twitter Ticker
+    /*
     var ul = $('#twitter-ticker').find(".tweet-list");
     var ticker = function() {
         setTimeout(function() {
@@ -302,7 +303,7 @@ $(document).ready(function() {
         }, 5000);
     };
     ticker();
-
+	*/
 
      // footer always on bottom
    var docHeight = $(window).height();
