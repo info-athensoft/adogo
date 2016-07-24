@@ -11,8 +11,27 @@
 	<mvc:annotation-driven></mvc:annotation-driven>
 	
 	<!-- Component auto-scan support -->
-	<context:component-scan base-package="com.adogo.business.controller"></context:component-scan>
+	<context:component-scan base-package="com.adogo.general.controller">
+	</context:component-scan>
 	
+	<context:component-scan base-package="com.adogo.business.controller">
+	</context:component-scan>
+	
+	<context:component-scan base-package="com.adogo.uaas.controller">
+	</context:component-scan>
+	
+	<context:component-scan base-package="com.adogo.upcs.controller">
+	</context:component-scan>
+	
+	<context:component-scan base-package="com.adogo.blog.controller">
+	</context:component-scan>
+	
+	<context:component-scan base-package="com.athensoft.common.email.controller">
+	</context:component-scan>
+	
+	<!-- test module -->
+	<context:component-scan base-package="com.adogo.publictest.controller">
+	</context:component-scan>
 
 	<!-- View Resolver -->
 	<bean id="jspViewResolver"
@@ -27,4 +46,5 @@
 	<mvc:resources mapping="/js/**" location="js/" />
 	<mvc:resources mapping="/fonts/**" location="fonts/" />
 	<mvc:resources mapping="/customer/**" location="customer/" />
+	<mvc:resources mapping="/includes/**" location="includes/" />
 </beans>
