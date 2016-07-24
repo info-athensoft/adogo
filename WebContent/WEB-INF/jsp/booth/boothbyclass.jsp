@@ -207,15 +207,17 @@
 										<p class="product-desciption">${booth.bizDesc}</p>
 										<div class="product-meta">
 											<p class="product-location">
-												<i class="fa fa-map-marker"></i>
-												${booth.locCity}&nbsp;&nbsp;
+												<span class="product-price">1200 Views</span>&nbsp;&nbsp;&nbsp;&nbsp;
 												<c:set var="arrayvalue" value="${booth.supportLang}" />
 												<c:set var="delim" value="," />
 												<c:set var="array" value="${fn:split(arrayvalue, delim)}" />
-
 												<c:forEach var="lang" items="${array}">
 													<span class="product-price">${lang}</span>
 												</c:forEach>
+											</p>
+											<p class="product-location">
+												<i class="fa fa-map-marker"></i>
+												${booth.locCity}
 											</p>
 											<ul class="product-actions-list">
 												<li><a class="btn btn-sm"
