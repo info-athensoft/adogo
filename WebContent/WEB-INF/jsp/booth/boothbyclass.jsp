@@ -223,8 +223,11 @@
 												<li><a class="btn btn-sm"
 													href="http://${booth.homepageUrl}" target="_blank"><i
 														class="fa fa-home"></i> Home</a></li>
-												<li><a class="btn btn-sm" href="/profile.jsp" ><i
-														class="fa fa-bars"></i> Profile</a></li>
+												<li><a class="btn btn-sm" href="/profile.jsp"
+													onclick="track({'type':'1','mechantId':<c:out value='${booth.bizNo}'/>});">
+														<i class="fa fa-bars"></i> Profile
+												</a></li>
+
 											</ul>
 										</div>
 									</div>
@@ -299,8 +302,8 @@
 				"8" : "sport & recreation",
 				"9" : "non-profit"
 			};
-			
-			var category_num = <c:out value='${boothCategoryNum}'/>;				
+
+			var category_num = <c:out value='${boothCategoryNum}'/>;
 
 			var data_layer = {
 				"page_name" : category_map[category_num]
@@ -309,6 +312,12 @@
 
 		<!-- TMS  -->
 		<script src="/js/adogo/tracking/tracker.js"></script>
+
+		<script type="text/javascript">
+           function test(){
+        	   alert("OK");
+           }
+        </script>
 
 	</div>
 </body>
