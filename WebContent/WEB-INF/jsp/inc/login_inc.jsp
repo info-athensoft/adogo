@@ -128,7 +128,7 @@
         <h5>请注明标题"参加ADOGO内测"</h5>
         <label>选择二：微信申请</label>
         <h5>加微信好友  athens314</h5>
-        <div><img src="img/logos/athens_wechat_qr_code.jpg" width="80"/></div>
+        <div><img src="/img/logos/athens_wechat_qr_code.jpg" width="80"/></div>
     </form>
 </div>
 
