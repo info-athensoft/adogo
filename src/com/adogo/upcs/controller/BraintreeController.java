@@ -15,10 +15,8 @@ import com.adogo.upcs.entity.UserPaymentAccount;
 import com.adogo.upcs.service.UserPaymentAccountService;
 import com.braintreegateway.BraintreeGateway;
 import com.braintreegateway.ClientTokenRequest;
-import com.braintreegateway.Customer;
-import com.braintreegateway.CustomerRequest;
 import com.braintreegateway.Environment;
-import com.braintreegateway.Result;
+
 
 @Controller
 public class BraintreeController {
@@ -91,6 +89,59 @@ public class BraintreeController {
 		String lastName = request.getParameter("last_name");
 		String email = request.getParameter("e_mail");
 		
+		
+		UserPaymentAccount userPaymentAccount = new UserPaymentAccount();
+    	//userPaymentAccount.setCustomerId("");
+    	userPaymentAccount.setFirstName(firstName);
+    	userPaymentAccount.setLastName(lastName);
+    	userPaymentAccount.setEmail(email);
+    	UserAccount userAcct = (UserAccount)(request.getSession().getAttribute("userAccount"));
+    	String userAccountName = userAcct.getAcctName();
+    	userPaymentAccount.setUserAcct(userAccountName);
+		
+		//business logic
+    	/* if userAccount already exists in table: user_acct_payment
+    	 * 		to test if customer_id exits with a valid value
+    	 * 			if YES or true,  do not register this user payment account
+    	 * 			if NO or false,  just do register this user payment account now  
+    	 */
+    	
+    	
+    	UserPaymentAccount userPaymentAccountInTable = userPaymentAccountService.findByUserAcctName(userAccountName);
+    	
+    	String strMsg = "";
+    	if(userPaymentAccountInTable==null){
+    		strMsg = userPaymentAccountService.registerUserPaymentAccount(userPaymentAccount);
+    	}else{
+    		String customerIdInTable = userPaymentAccountInTable.getCustomerId().trim();
+    		if(customerIdInTable==null || customerIdInTable.length()==0){
+    			strMsg = userPaymentAccountService.registerUserPaymentAccount(userPaymentAccount); //TODO update
+    		}else{
+    			strMsg = "INFO: userPaymentAccount exist.";
+    		}
+    	}
+        
+        //
+        Map<String,Object> data = mav.getModel();
+        data.put("resultMessage", strMsg);
+            
+        String viewName = "upcs/myacct-create-payment-account-result";
+		mav.setViewName(viewName);
+		System.out.println("exiting /myacct/createUserAccountPayment");
+		return mav;
+	}
+	
+	/*
+	 @RequestMapping("/myacct/createUserAccountPayment")
+	public ModelAndView doRegisterUserPaymentAccount(HttpServletRequest request, HttpServletResponse response){
+		System.out.println("entering /myacct/createUserAccountPayment");
+		ModelAndView mav = new ModelAndView();		
+		
+		//data
+		String firstName = request.getParameter("first_name");
+		String lastName = request.getParameter("last_name");
+		String email = request.getParameter("e_mail");
+		
 		CustomerRequest customerRequest = new CustomerRequest()
 				//.id("31518330")
                 .firstName(firstName)
@@ -126,4 +177,7 @@ public class BraintreeController {
 		System.out.println("exiting /myacct/createUserAccountPayment");
 		return mav;
 	}
+	 */
+	
+	
 }

@@ -1,11 +1,17 @@
 package com.adogo.upcs.dao;
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Timestamp;
+import java.util.Date;
 import java.util.List;
 
 import javax.sql.DataSource;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.dao.EmptyResultDataAccessException;
+import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.jdbc.support.GeneratedKeyHolder;
@@ -44,6 +50,20 @@ public class UserPaymentAccountDaoParamImpl implements UserPaymentAccountDao {
 	}
 
 	@Override
+	public UserPaymentAccount findByUserAccountName(String userAcctName) {
+		String sql = "select * from user_account_payment where user_acct =:user_acct";
+		MapSqlParameterSource paramSource = new MapSqlParameterSource();
+		paramSource.addValue("user_acct", userAcctName);
+		UserPaymentAccount obj = null;
+		try{
+			obj = jdbc.queryForObject(sql, paramSource, new UserPaymentAccountRowMapper());
+		}catch(EmptyResultDataAccessException ex){
+			obj = null;
+		}
+		return obj;
+	}
+
+	@Override
 	public long create(UserPaymentAccount obj) {
 		final String TABLE1 = "user_account_payment";
 		
@@ -78,6 +98,17 @@ public class UserPaymentAccountDaoParamImpl implements UserPaymentAccountDao {
 		
 	}
 	
-	
+	private static class UserPaymentAccountRowMapper implements RowMapper<UserPaymentAccount>{
+		public UserPaymentAccount mapRow(ResultSet rs, int rowNumber) throws SQLException {
+			UserPaymentAccount x = new UserPaymentAccount();
+			x.setUid(rs.getLong("uid"));
+			x.setUserAcct(rs.getString("user_acct"));
+			x.setCustomerId(rs.getString("customer_id"));
+			x.setFirstName(rs.getString("first_name"));
+			x.setLastName(rs.getString("last_name"));
+			x.setEmail(rs.getString("email"));
+            return x;
+		}		
+	}
 
 }
