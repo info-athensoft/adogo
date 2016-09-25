@@ -4,7 +4,7 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 
-<c:set var="title" value="My Profile"/>
+<c:set var="title" value="Create payment account result page"/>
 
 <!DOCTYPE HTML>
 <html>
@@ -75,10 +75,10 @@
                 <div class="col-md-3">
                     <aside class="sidebar-left">
                         <ul class="nav nav-pills nav-stacked nav-arrow">
-                            <li><a href="/myacct">Settings---</a>
+                            <li><a href="/myacct">Settings</a>
                             </li>
-                            <li class="active"><a href="#">My Wallet</a></li>
-                            <li><a href="/myacct/recharge">Recharge</a></li>
+                            <li><a href="/myacct/mywallet">My Wallet</a></li>
+                            <li  class="active"><a href="/myacct/recharge">Recharge</a></li>
                             <li><a href="page-my-account-addresses.html">Address Book</a>
                             </li>
                             <li><a href="page-my-account-orders.html">Orders History</a>
@@ -91,21 +91,9 @@
                 <div class="col-md-9">
                     <div class="row">
                         <div class="col-md-6">
-                            <form action="/myacct/createUserAccountPayment">
-                                <div class="form-group">
-                                    <label for="">First Name</label>
-                                    <input type="text" name="first_name" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <label for="">Last Name</label>
-                                    <input type="text" name="last_name" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <label for="">E-mail</label>
-                                    <input type="text" name="e_mail" class="form-control">
-                                </div>
-                                <input type="submit" value="Create" class="btn btn-primary">
-                            </form>
+                            <h3><c:out value="title"></c:out></h3>
+							<br/>
+							Result:${resultMessage}
                         </div>
                     </div>
                     <div class="gap"></div>
@@ -119,7 +107,21 @@
 	
 	<!-- remove the section below -->
 		
-
+		<c:out value="${userAccount.acctId}"></c:out>	&nbsp;&nbsp;
+		<c:out value="${userAccount.acctName}"></c:out> &nbsp;&nbsp;
+		<c:out value="${userAccount.password}"></c:out> &nbsp;&nbsp;
+		<c:out value="${userAccount.primaryEmail}"></c:out> &nbsp;&nbsp;
+		<c:out value="${userAccount.secureEmail}"></c:out>  &nbsp;&nbsp;
+		<c:out value="${userAccount.createDate}"></c:out>  &nbsp;&nbsp;
+		
+		<fmt:formatDate type="both" 
+            dateStyle="medium" timeStyle="medium" 
+            value="${userAccount.createDate}" />
+            		
+		<c:out value="${userAccount.lastModDate}"></c:out>  &nbsp;&nbsp;
+		<c:out value="${userAccount.acctStatus}"></c:out>  &nbsp;&nbsp;
+		<br/>
+	
 
         <!-- //////////////////////////////////
 	//////////////END PAGE CONTENT///////// 
