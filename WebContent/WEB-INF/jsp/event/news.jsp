@@ -215,7 +215,7 @@
                     </div>                    
                     <div class="row row-wrap">
                       <c:forEach var="news" items="${listNews}">
-                    	<div class="col-md-4">
+                    	<!-- <div class="col-md-4">
                             <div class="product-thumb">
                                 <header class="product-header">
                                     <img src="" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
@@ -260,7 +260,27 @@
                                     </div>
                                 </div>
                             </div>
+                        </div> --> 
+                        <a class="product-thumb product-thumb-horizontal" href="#">
+                        <header class="product-header">
+                            <img src="${news.primaryEventMedia.mediaURL}" alt="Image Alternative text" title="The Violin" />
+                        </header>
+                        <div class="product-inner">
+                            <h5 class="product-title">${news.descShort}</h5>
+                            <div class="product-desciption">${news.descLong}</div>
+                            <div class="product-meta"><span class="product-time"><i class="fa fa-clock-o"></i> 7 days 28 h remaining</span>
+                                <ul class="product-price-list">
+                                    <li><span class="product-price">$121</span>
+                                    </li>
+                                    <li><span class="product-old-price">$183</span>
+                                    </li>
+                                    <li><span class="product-save">Save 66%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p class="product-location"><i class="fa fa-map-marker"></i> ${news.author}</p>
                         </div>
+                    </a>
                       </c:forEach>
 <!--                      
                         <div class="col-md-4">
