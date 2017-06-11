@@ -263,7 +263,17 @@
                         </div> --> 
                         <a class="product-thumb product-thumb-horizontal" href="#">
                         <header class="product-header">
-                            <img src="${news.primaryEventMedia.mediaURL}" alt="Image Alternative text" title="The Violin" />
+                        	<c:choose>
+							    <c:when test="${news.primaryEventMedia.mediaURL!=NULL}">
+							        <img src="${news.primaryEventMedia.mediaURL}" alt="Image Alternative text" title="The Violin" /> 
+							        <br />
+							    </c:when>    
+							    <c:otherwise>
+							        <img src="/images/blank/800x600.png" alt="Image Alternative text" title="The Violin" /> 
+							        <br />
+							    </c:otherwise>
+							</c:choose>
+                        	
                         </header>
                         <div class="product-inner">
                             <h5 class="product-title">${news.descShort}</h5>
