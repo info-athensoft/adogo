@@ -123,7 +123,7 @@ public class Event {
 			System.out.println("WARNING: "+this.getClass().getName()+" - no eventmedia object in the list");
 			em = new EventMedia();
 			em.setMediaName("default media");
-			em.setMediaURL("event-default.png");
+			em.setMediaURL("/images/blank/800x600.png");
 		}
 		
 		this.primaryEventMedia = em;
