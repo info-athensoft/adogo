@@ -232,7 +232,7 @@
                         </header>
                         <div class="product-inner">
                             <h5 class="product-title">${news.title}</h5>
-                            <div class="product-desciption">${news.descLong}</div>
+                            <div class="product-desciption">${news.descShort}</div>
                             <div class="product-meta"><span class="product-time"><i class="fa fa-clock-o"></i> 7 days 28 h remaining</span>
                                 <ul class="product-price-list">
                                     <li><span class="product-price">$121</span>
