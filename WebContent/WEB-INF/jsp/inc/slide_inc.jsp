@@ -2,7 +2,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
 <c:set var="imagePathBase" value="/images/slide"/>
-<c:set var="countdownDateTime" value="Sep 30, 2016 23:59:59"/>
+<c:set var="countdownDateTime" value="Jul 1, 2017 00:00:00"/>
 
 <!-- slide images -->
 <c:set var="imageTitle" value="adogo - online brands and advertising marketing"/>
