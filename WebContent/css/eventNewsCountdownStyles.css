@@ -1,0 +1,15 @@
+/*YOUR CUSTOM STYLES*/
+.countdown {
+  width: 200px;
+  overflow: hidden;
+  height: 30px;
+  margin: 2px 0;
+  display: table;
+}
+span.count {
+  font-size: 18px;
+  line-height: 20px;
+}
+.countdown-big .title {
+  color: rgba(155,155,155,0.7);
+}

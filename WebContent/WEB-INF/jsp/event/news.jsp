@@ -32,6 +32,9 @@
 
     <!-- Your custom styles (blank file) -->
     <link rel="stylesheet" href="/css/mystyles.css">
+    
+    <!-- eventNewsCountdownStyles -->
+    <link rel="stylesheet" href="/css/eventNewsCountdownStyles.css">
 
 
 </head>
@@ -213,7 +216,7 @@
                             </div>
                         </div>
                     </div>                    
-                   
+           			<c:set var="countdownDateTime" value="Jul 1, 2017 00:00:00"/>
                       <c:forEach var="news" items="${listNews}">
                     	
                         <a class="product-thumb product-thumb-horizontal" href="#">
@@ -221,11 +224,9 @@
                         	<c:choose>
 							    <c:when test="${news.primaryEventMedia.mediaURL!=NULL}">
 							        <img src="${news.primaryEventMedia.mediaURL}" alt="Image Alternative text" title="The Violin" /> 
-							        
 							    </c:when>    
 							    <c:otherwise>
 							        <img src="/images/blank/800x600.png" alt="Image Alternative text" title="The Violin" /> 
-							        
 							    </c:otherwise>
 							</c:choose>
                         	
@@ -233,15 +234,18 @@
                         <div class="product-inner">
                             <h5 class="product-title">${news.title}</h5>
                             <div class="product-desciption">${news.descShort}</div>
-                            <div class="product-meta"><span class="product-time"><i class="fa fa-clock-o"></i> 7 days 28 h remaining</span>
-                                <ul class="product-price-list">
-                                    <li><span class="product-price">$121</span>
-                                    </li>
-                                    <li><span class="product-old-price">$183</span>
-                                    </li>
-                                    <li><span class="product-save">Save 66%</span>
-                                    </li>
-                                </ul>
+                            
+                            <div class="product-meta"><!-- <span class="product-time"><i class="fa fa-clock-o"></i> 7 days 28 h remaining</span> -->
+                                <!-- <div> ${news.newsOver} </div> -->
+                                <c:choose>
+								    <c:when test="${news.newsOver==true}">
+								        <div> The news is over. </div>
+								    </c:when>    
+								    <c:otherwise>
+								        <div class="countdown countdown-big" data-countdown="${news.finishedDate}"> </div>
+								    </c:otherwise>
+								</c:choose>
+							
                             </div>
                             <p class="product-location"><i class="fa fa-map-marker"></i> ${news.author}</p>
                         </div>
