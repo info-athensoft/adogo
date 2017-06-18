@@ -15,10 +15,11 @@ public class News extends Event {
 		return "News [toString()=" + super.toString() + "]";
 	}
 	
-	public String getFinishedDate() {		
+	public String getFinishedDate() {
+		/*
 		String dt = this.getPostDatetime().toLocaleString();  // Start date
-//		System.out.println("dt="+dt);
-		SimpleDateFormat sdf = new SimpleDateFormat("MMM dd, yyyy HH:mm:ss");
+		System.out.println("dt="+dt);
+		SimpleDateFormat sdf = new SimpleDateFormat("MMM dd, yyyy HH:mm:ss ");
 		Calendar c = Calendar.getInstance();
 		try {
 			c.setTime(sdf.parse(dt));
@@ -30,6 +31,18 @@ public class News extends Event {
 		dt = sdf.format(c.getTime());  // dt is now the new date
 //		System.out.println("dt2="+dt);
 		return dt.toString();
+		*/
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("MMM dd, yyyy HH:mm:ss ");
+		 
+		 Calendar c = Calendar.getInstance();
+		 c.setTime(this.getPostDatetime());
+		 c.add(Calendar.MINUTE, 2);
+		 String date = sdf.format(c.getTime());
+		 
+		 System.out.println(date);
+		 return date;
+		
 	}
 	
 	public boolean isNewsOver(){
@@ -74,5 +87,16 @@ public class News extends Event {
 	     Date date = new Date();
 	     return new SimpleDateFormat(format).format(date);
 	 }
+	  
+	 public static void main(String[] args) {
+		 SimpleDateFormat sdf = new SimpleDateFormat("MMM dd, yyyy HH:mm:ss ");
+		 
+		 Calendar c = Calendar.getInstance();
+		 c.setTime(new Date());
+		 c.add(Calendar.DATE, 1);
+		 String date = sdf.format(c.getTime());
+		 
+		 System.out.println(date);
+	}
 	
 }

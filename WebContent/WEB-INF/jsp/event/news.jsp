@@ -215,7 +215,10 @@
                                 <a class="fa fa-list" href="category-page-thumbnails-shop-horizontal.html"></a>
                             </div>
                         </div>
-                    </div>                    
+                    </div> 
+                    <div id="pageTimer">
+                    hello
+                    </div>                   
            			<c:set var="countdownDateTime" value="Jul 1, 2017 00:00:00"/>
                       <c:forEach var="news" items="${listNews}">
                     	
@@ -299,7 +302,7 @@
         <!-- Scripts queries -->
         <script src="/js/jquery.js"></script>
         <script src="/js/boostrap.min.js"></script>
-        <script src="/js/countdown.min.js"></script>
+        <!-- <script src="/js/countdown.min.js"></script>  -->
         <script src="/js/flexnav.min.js"></script>
         <script src="/js/magnific.js"></script>
         <script src="/js/tweet.min.js"></script>
@@ -316,6 +319,10 @@
 
         <!-- Custom scripts -->
         <script src="/js/custom.js"></script>
+        <script src="/js/adogo/timer/countdown.js"></script>
+        <script src="/js/adogo/timer/test.js"></script>
+        
+        
     </div>
 </body>
 
