@@ -216,12 +216,24 @@
                             </div>
                         </div>
                     </div> 
-                    <div id="pageTimer">
-                    hello
-                    </div>                   
-           			<c:set var="countdownDateTime" value="Jul 1, 2017 00:00:00"/>
+                    <!-- <div id="pageTimer"> hello </div>                   
+           			<c:set var="countdownDateTime" value="Jul 1, 2017 00:00:00"/> --> 
+           			<script>
+	           			var finishedDateList = [];
+	           			//var index = 0;
+           			</script>
                       <c:forEach var="news" items="${listNews}">
-                    	
+                    	<script>
+		           		/*	finishedDateList[index] = [2];
+		           			finishedDateList[index][0] = ${news.eventUUID};
+		           			finishedDateList[index][1] =new Date("${news.finishedDate}");
+		           			if (index==0) {
+		           				alert('id='+finishedDateList[index][0]+' finishedDate='+finishedDateList[index][1]);
+		           			}
+		           			index++; */
+		           			finishedDateList["${news.globalId}"] = new Date("${news.finishedDate}"); //eventUUID
+		           			//alert(' finishedDate='+finishedDateList["${news.eventUUID}"]);
+	           			</script>
                         <a class="product-thumb product-thumb-horizontal" href="#">
                         <header class="product-header">
                         	<c:choose>
@@ -235,8 +247,8 @@
                         	
                         </header>
                         <div class="product-inner">
-                            <h5 class="product-title">${news.title}</h5>
-                            <div class="product-desciption">${news.descShort}</div>
+                            <h5 class="product-title">${news.title}</h5> <!-- globalId -->
+                            <div class="product-desciption">${news.descShort}</div> <!-- finishedDate -->
                             
                             <div class="product-meta"><!-- <span class="product-time"><i class="fa fa-clock-o"></i> 7 days 28 h remaining</span> -->
                                 <!-- <div> ${news.newsOver} </div> -->
@@ -245,7 +257,8 @@
 								        <div> The news is over. </div>
 								    </c:when>    
 								    <c:otherwise>
-								        <div class="countdown countdown-big" data-countdown="${news.finishedDate}"> </div>
+								        <!-- <div class="countdown countdown-big" data-countdown="${news.finishedDate}"> </div> -->
+								        <div id="pageTimer${news.globalId}"></div> <!-- eventUUID -->
 								    </c:otherwise>
 								</c:choose>
 							

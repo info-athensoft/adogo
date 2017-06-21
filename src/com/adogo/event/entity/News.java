@@ -37,7 +37,7 @@ public class News extends Event {
 		 
 		 Calendar c = Calendar.getInstance();
 		 c.setTime(this.getPostDatetime());
-		 c.add(Calendar.MINUTE, 2);
+		 c.add(Calendar.MONTH, 6);//c.add(Calendar.MINUTE, (4*30+12-15)*24*60-15-7*60);
 		 String date = sdf.format(c.getTime());
 		 
 		 System.out.println(date);
