@@ -3,10 +3,14 @@ package com.adogo.event.controller;
 import java.util.List;
 import java.util.Map;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.adogo.event.entity.Event;
@@ -20,6 +24,19 @@ import com.adogo.event.service.NewsService;
 public class NewsController {
 	
 	private final static Logger logger = Logger.getLogger(NewsController.class);
+	
+	private int hitCount;
+	
+	@PostConstruct
+	public void init() {
+		hitCount = 0;
+		System.out.println("PostConstruct: hitCount="+hitCount);
+	}
+	@PreDestroy
+	public void destroy() { 
+      // Write hitCount value in database.
+		System.out.println("destroy hit counter. hitCount="+hitCount);
+   } 
 	
 	@Autowired
 	private NewsService newsService;
@@ -40,6 +57,24 @@ public class NewsController {
 
 	public void setEventTagService(EventTagService eventTagService) {
 		this.eventTagService = eventTagService;
+	}
+	
+	@RequestMapping("/event/act")
+	public ModelAndView getActHome(@RequestParam String bizNo){
+		
+		System.out.println("entering -- /event/act ... bizNo= " + bizNo + ", hitCount="+hitCount);
+		hitCount++;
+		
+		ModelAndView mav = new ModelAndView();
+		
+		String viewName = "event/act";
+		mav.setViewName(viewName);
+		
+		Map<String, Object> data = mav.getModel();
+		data.put("bizNo", bizNo);
+				
+		System.out.println("exiting -- /event/act hitCount="+hitCount);
+		return mav;
 	}
 	
 	@RequestMapping("/event/news")
