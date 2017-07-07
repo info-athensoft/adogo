@@ -1,5 +1,7 @@
 package com.adogo.event.controller;
 
+import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
@@ -13,6 +15,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.adogo.business.entity.Booth;
+import com.adogo.business.service.BoothService;
 import com.adogo.event.entity.Event;
 import com.adogo.event.entity.EventMedia;
 import com.adogo.event.entity.EventTag;
@@ -26,17 +30,59 @@ public class NewsController {
 	private final static Logger logger = Logger.getLogger(NewsController.class);
 	
 	private int hitCount;
+private HashMap<Long, Long> hitCounts = new HashMap<Long, Long>();
+	
+	@Autowired
+	private BoothService boothService;
+		
+	@Autowired
+	public void setBoothService(BoothService boothService) {
+		this.boothService = boothService;
+	}
 	
 	@PostConstruct
 	public void init() {
-		hitCount = 0;
+//		hitCount = 0;
 		System.out.println("PostConstruct: hitCount="+hitCount);
+		
+		List<Booth> booths = boothService.findAll();
+		for(Booth booth : booths){
+			hitCounts.put(booth.getBizNo(), booth.getCounter());
+			if (booth.getCounter()>0)
+				System.out.println("PostConstruct: BizNo=" + booth.getBizNo() + " Counter=" + booth.getCounter());
+		}
 	}
+	
 	@PreDestroy
 	public void destroy() { 
       // Write hitCount value in database.
-		System.out.println("destroy hit counter. hitCount="+hitCount);
-   } 
+//		System.out.println("entering destroy hit counter. ");
+/*		
+		for (Map.Entry<Long, Long> entry : hitCounts.entrySet()) {
+		    Long bizNo = entry.getKey();
+		    Long counter = entry.getValue();
+		    System.out.println("destroy ... saving hit counter. bizNo="+bizNo+" counter="+counter);
+		    if (counter>0) {
+		    	boothService.updateCounter(bizNo, counter);
+		    	System.out.println("destroy ... saving hit counter>>>>>>>>>>>. bizNo="+bizNo+" counter="+counter);
+		    }
+
+		} */
+		Iterator it = hitCounts.entrySet().iterator();
+	    while (it.hasNext()) {
+	        Map.Entry entry = (Map.Entry)it.next();
+//	        System.out.println(entry.getKey() + " = " + entry.getValue());
+	        Long bizNo = (Long) entry.getKey();
+		    Long counter = (Long) entry.getValue();
+//		    System.out.println("destroy ... saving hit counter. bizNo="+bizNo+" counter="+counter);
+		    if (counter>0) {
+		    	boothService.updateCounter(bizNo, counter);
+		    	System.out.println("destroy ... saving hit counter>>>>>>>>>>>. bizNo="+bizNo+" counter="+counter);
+		    	
+		    }
+	        it.remove(); // avoids a ConcurrentModificationException
+	    }
+   }
 	
 	@Autowired
 	private NewsService newsService;
@@ -62,8 +108,11 @@ public class NewsController {
 	@RequestMapping("/event/act")
 	public ModelAndView getActHome(@RequestParam String bizNo){
 		
-		System.out.println("entering -- /event/act ... bizNo= " + bizNo + ", hitCount="+hitCount);
-		hitCount++;
+		
+//		hitCount++;
+		Long key = Long.valueOf(bizNo);
+		System.out.println("entering -- /event/act ... bizNo= " + bizNo + ", hitCount="+hitCounts.get(key));
+		hitCounts.put(key, hitCounts.get(key) + 1);
 		
 		ModelAndView mav = new ModelAndView();
 		
@@ -73,7 +122,7 @@ public class NewsController {
 		Map<String, Object> data = mav.getModel();
 		data.put("bizNo", bizNo);
 				
-		System.out.println("exiting -- /event/act hitCount="+hitCount);
+		System.out.println("exiting -- /event/act hitCount="+hitCounts.get(key));
 		return mav;
 	}
 	

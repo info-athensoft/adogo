@@ -54,4 +54,8 @@ private BoothDao boothDao;
 	public List<Booth> findPopular(int classNum){
 		return boothDao.findPopular(classNum);
 	}
+	
+	public void updateCounter(long bizNo, long counter){
+		boothDao.updateCounter(bizNo, counter);
+	}
 }
