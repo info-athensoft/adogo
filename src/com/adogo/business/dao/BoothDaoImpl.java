@@ -107,6 +107,7 @@ public class BoothDaoImpl implements BoothDao{
 			x.setNumOfFavourite(rs.getLong("num_of_favourite"));
 			x.setNumOfShared(rs.getLong("num_of_shared"));
 			x.setHomepageUrl(rs.getString("homepage_url"));
+			x.setCounter(rs.getLong("counter"));
             return x;
 		}		
 	}
@@ -145,6 +146,23 @@ public class BoothDaoImpl implements BoothDao{
 		
 	}
 
-	
+	@Override
+	public void updateCounter(long bizNo, long counter) {
+		final String TABLE1 = "booth";
+		
+		StringBuffer sbf = new StringBuffer();
+		sbf.append("update "+TABLE1);
+		sbf.append(" set counter=:counter ");
+		sbf.append("where 1=1 ");
+		sbf.append("and biz_no=:bizNo");
+		String sql = sbf.toString();
+		
+		MapSqlParameterSource paramSource = new MapSqlParameterSource();
+		paramSource.addValue("bizNo",bizNo);
+		paramSource.addValue("counter",counter);
+		
+		jdbc.update(sql, paramSource);
+		System.out.println("leaving ... updateCounter. ");
+	}
 	
 }

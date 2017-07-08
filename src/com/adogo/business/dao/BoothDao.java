@@ -29,4 +29,6 @@ public interface BoothDao {
 	 */
 	public List<Booth> findPopular(int classNum);
 	
+	public void updateCounter(long bizNo, long counter);
+	
 }

@@ -233,8 +233,8 @@
 									</p>
 									<ul class="product-actions-list">
 										<li><a class="btn btn-sm"
-											href="http://${booth.homepageUrl}" target="_blank"><i
-												class="fa fa-home"></i> Home</a></li>
+											href="/event/act?bizNo=${booth.bizNo}" target="_blank"><i
+												class="fa fa-home"></i> ${booth.counter}</a></li>
 										<li><a class="btn btn-sm" href="/profile.jsp"><i
 												class="fa fa-bars"></i> Profile</a></li>
 									</ul>

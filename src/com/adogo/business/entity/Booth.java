@@ -26,6 +26,7 @@ public class Booth {
 	private long numOfFavourite;
 	private long numOfShared;
 	private String homepageUrl;
+	private long counter;
 	
 	public long getUid() {
 		return uid;
@@ -144,7 +145,7 @@ public class Booth {
 				+ ", locArea=" + locArea + ", locCity=" + locCity + ", locDistriction=" + locDistriction + ", locName="
 				+ locName + ", logoCoverUrl=" + logoCoverUrl + ", score=" + score + ", viewedBooth=" + viewedBooth
 				+ ", viewedHomepage=" + viewedHomepage + ", viewedProfile=" + viewedProfile + ", numOfLiked="
-				+ numOfLiked + ", numOfFavourite=" + numOfFavourite + ", numOfShared=" + numOfShared + "]";
+				+ numOfLiked + ", numOfFavourite=" + numOfFavourite + ", numOfShared=" + numOfShared + ", counter=" + counter + "]";
 	}
 	public String getLocCountry() {
 		return locCountry;
@@ -187,5 +188,11 @@ public class Booth {
 	}
 	public void setHomepageUrl(String homepageUrl) {
 		this.homepageUrl = homepageUrl;
+	}
+	public long getCounter() {
+		return counter;
+	}
+	public void setCounter(long counter) {
+		this.counter = counter;
 	}
 }
