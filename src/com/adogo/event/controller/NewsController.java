@@ -30,7 +30,7 @@ public class NewsController {
 	private final static Logger logger = Logger.getLogger(NewsController.class);
 	
 	private int hitCount;
-private HashMap<Long, Long> hitCounts = new HashMap<Long, Long>();
+//private HashMap<Long, Long> hitCounts = new HashMap<Long, Long>();
 	
 	@Autowired
 	private BoothService boothService;
@@ -39,7 +39,7 @@ private HashMap<Long, Long> hitCounts = new HashMap<Long, Long>();
 	public void setBoothService(BoothService boothService) {
 		this.boothService = boothService;
 	}
-	
+/*	
 	@PostConstruct
 	public void init() {
 //		hitCount = 0;
@@ -57,17 +57,7 @@ private HashMap<Long, Long> hitCounts = new HashMap<Long, Long>();
 	public void destroy() { 
       // Write hitCount value in database.
 //		System.out.println("entering destroy hit counter. ");
-/*		
-		for (Map.Entry<Long, Long> entry : hitCounts.entrySet()) {
-		    Long bizNo = entry.getKey();
-		    Long counter = entry.getValue();
-		    System.out.println("destroy ... saving hit counter. bizNo="+bizNo+" counter="+counter);
-		    if (counter>0) {
-		    	boothService.updateCounter(bizNo, counter);
-		    	System.out.println("destroy ... saving hit counter>>>>>>>>>>>. bizNo="+bizNo+" counter="+counter);
-		    }
 
-		} */
 		Iterator it = hitCounts.entrySet().iterator();
 	    while (it.hasNext()) {
 	        Map.Entry entry = (Map.Entry)it.next();
@@ -83,7 +73,7 @@ private HashMap<Long, Long> hitCounts = new HashMap<Long, Long>();
 	        it.remove(); // avoids a ConcurrentModificationException
 	    }
    }
-	
+*/	
 	@Autowired
 	private NewsService newsService;
 
@@ -110,9 +100,9 @@ private HashMap<Long, Long> hitCounts = new HashMap<Long, Long>();
 		
 		
 //		hitCount++;
-		Long key = Long.valueOf(bizNo);
+/*		Long key = Long.valueOf(bizNo);
 		System.out.println("entering -- /event/act ... bizNo= " + bizNo + ", hitCount="+hitCounts.get(key));
-		hitCounts.put(key, hitCounts.get(key) + 1);
+		hitCounts.put(key, hitCounts.get(key) + 1); */
 		
 		ModelAndView mav = new ModelAndView();
 		
@@ -122,7 +112,7 @@ private HashMap<Long, Long> hitCounts = new HashMap<Long, Long>();
 		Map<String, Object> data = mav.getModel();
 		data.put("bizNo", bizNo);
 				
-		System.out.println("exiting -- /event/act hitCount="+hitCounts.get(key));
+		System.out.println("exiting -- /event/act");
 		return mav;
 	}
 	
