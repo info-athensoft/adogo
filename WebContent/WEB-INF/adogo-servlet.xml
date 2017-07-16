@@ -10,14 +10,16 @@
 	<!-- Annotation support -->
 	<mvc:annotation-driven></mvc:annotation-driven>
 	
+	  
 	<mvc:interceptors>
 		<mvc:interceptor>
-            <!-- <mvc:mapping path="/**"/> -->
+            
             <mvc:mapping path="/event/*"/>
             <bean class="com.adogo.web.interceptor.TestInterceptor"/>
         </mvc:interceptor>
 	</mvc:interceptors>
 	
+		
 	<!-- Component auto-scan support -->
 	<context:component-scan base-package="com.adogo.general.controller">
 	</context:component-scan>
