@@ -11,4 +11,6 @@ public class AdController {
 		String viewName = "ad/ad-post-detail";
 		return viewName;
 	}
+	
+	
 }
