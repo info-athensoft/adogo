@@ -10,19 +10,19 @@ public class UserAccount {
 	public static final int ACCOUNT_CLOSED = 3;
 	
 	
-	private long acctId;
+	private Long acctId;
 	private String acctName;
 	private String password;
 	private String primaryEmail;
 	private String secureEmail;
 	private Date createDate;
 	private Date lastModDate;
-	private int acctStatus;
+	private Integer acctStatus;
 	
-	public long getAcctId() {
+	public Long getAcctId() {
 		return acctId;
 	}
-	public void setAcctId(long acctId) {
+	public void setAcctId(Long acctId) {
 		this.acctId = acctId;
 	}
 	public String getAcctName() {
@@ -63,10 +63,10 @@ public class UserAccount {
 	public void setLastModDate(Date lastModDate) {
 		this.lastModDate = lastModDate;
 	}
-	public int getAcctStatus() {
+	public Integer getAcctStatus() {
 		return acctStatus;
 	}
-	public void setAcctStatus(int acctStatus) {
+	public void setAcctStatus(Integer acctStatus) {
 		this.acctStatus = acctStatus;
 	}
 	
