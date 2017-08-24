@@ -40,7 +40,7 @@ public class Main
          * Setting up data to be sent to REST service
          */
         Map<String, String> vars = new HashMap<String, String>();
-        vars.put("id", "1");
+        vars.put("id", "26");
         //vars.put("name", "Regan");
         /**
          * Doing the REST call and then displaying the data/user object
@@ -64,14 +64,27 @@ public class Main
 
            // LOGGER.info("User:  " + getResult.toString());
             System.out.println("Get User:  " + getResult.toString());
-            
+            /*
             //test post api
             String postUri = new String("http://127.0.0.1:8088/acp/useracct-test");
             UserAccount userAccount = new UserAccount();
-    		userAccount.setAcctName("f1@gmail.com");
+    		userAccount.setAcctName("f3@gmail.com");
     		userAccount.setPassword("123");
     		UserAccount postResult = rt.postForObject(postUri, userAccount, UserAccount.class, vars);
-    		System.out.println("Post User:  " + postResult.toString()); 
+    		System.out.println("Post User:  " + postResult.toString());
+    		
+    		
+            //test put api
+            String putUri = new String("http://127.0.0.1:8088/acp/useracct-test/{id}");
+            UserAccount userAccount = new UserAccount();
+      		userAccount.setAcctName("athens314@hotmail.com");
+      		userAccount.setPassword("112");
+      		rt.put(putUri, userAccount, vars);
+      		//System.out.println("Post User:  " + putResult.toString()); 
+      		*/
+      		//test delete api
+      		String deleteUri = new String("http://127.0.0.1:8088/acp/useracct-test/{id}");
+      		rt.delete(deleteUri, vars);
         }
         catch (HttpClientErrorException e)
         {
