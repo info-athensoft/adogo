@@ -53,14 +53,14 @@ public class Main
             rt.getMessageConverters().add(new StringHttpMessageConverter());
 
             //String uri = new String("http://" + mRESTServer.getHost() + ":8080/springmvc-resttemplate-test/api/{id}");
-            String uri = new String("http://127.0.0.1:8088/acp/useracct-test/{id}");
+            String uri = new String("http://127.0.0.1:8080/acp/useracct-test/{id}");
 
             UserAccount getResult = rt.getForObject(uri, UserAccount.class, vars);
 
             System.out.println("Get User:  " + getResult.toString());
             
             //test post api
-            String postUri = new String("http://127.0.0.1:8088/acp/useracct-test");
+            String postUri = new String("http://127.0.0.1:8080/acp/useracct-test");
             UserAccount userAccount = new UserAccount();
     		userAccount.setAcctName("f6@gmail.com");
     		userAccount.setPassword("123");
@@ -70,7 +70,7 @@ public class Main
     		vars.put("id", Long.toString(id));
     		
             //test put api
-            String putUri = new String("http://127.0.0.1:8088/acp/useracct-test/{id}");
+            String putUri = new String("http://127.0.0.1:8080/acp/useracct-test/{id}");
             UserAccount userAccountToBeChanged = new UserAccount();
             userAccountToBeChanged.setAcctName("athens319@hotmail.com");
             userAccountToBeChanged.setPassword("112");
@@ -78,7 +78,7 @@ public class Main
       		//System.out.println("Put User:  " + putResult.toString()); 
       		
       		//test delete api
-      		String deleteUri = new String("http://127.0.0.1:8088/acp/useracct-test/{id}");
+      		String deleteUri = new String("http://127.0.0.1:8080/acp/useracct-test/{id}");
       		rt.delete(deleteUri, vars);
         }
         catch (HttpClientErrorException e)
