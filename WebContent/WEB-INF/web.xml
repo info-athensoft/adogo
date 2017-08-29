@@ -13,8 +13,8 @@
   
   <context-param>
 		<param-name>log4jConfigLocation</param-name>
-		<param-value>/WEB-INF/classes/com/adogo/config/log4j.properties</param-value>
-</context-param>
+		<param-value>classpath:com/adogo/config/log4j.properties</param-value>
+  </context-param>
   
   <filter>
     <filter-name>Spring character encoding filter</filter-name>
