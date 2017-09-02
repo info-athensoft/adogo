@@ -1,5 +1,9 @@
 <%@ page contentType="text/html; charset=utf-8" %>
 <%@ page pageEncoding="utf-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 
 <!DOCTYPE HTML>
 <html>
@@ -32,7 +36,9 @@
 
 </head>
 
-<body>
+<body class="boxed bg-cover"
+	style="background-image: url(/img/backgrounds/s4.jpg)">
+	
     <div class="global-wrap">
     <!-- //////////////////////////////////
 	//////////////MAIN HEADER///////////// 
@@ -67,10 +73,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-9">
-                    <div class="fotorama">
-                        <img src="/customer/31001/photo_id.png" alt="Image Alternative text" title="cascada" />
-                        <img src="/customer/31001/photo_id.png" alt="Image Alternative text" title="waipio valley" />
-                        <img src="/customer/31001/photo_id.png" alt="Image Alternative text" title="the best mode of transport here in maldives" />
+                	<div class="row row-wrap">
+                		<div class="col-md-12">
+	                    <div class="fotorama">
+	                        <img src="/customer/31001/1.jpg" alt="Image Alternative text" title="title" />
+	                        <img src="/customer/31001/1.jpg" alt="Image Alternative text" title="title" />
+	                        <img src="/customer/31001/1.jpg" alt="Image Alternative text" title="title" />
+	                    </div>
+	                    </div>
                     </div>
                     <div class="gap gap-small"></div>
                     <div class="tabbable">
@@ -307,6 +317,137 @@
                         </a>
                     </div>
                     <div class="gap gap-small"></div>
+                    
+                    <!-- ad list of this advertiser,booth -->
+                    <h3 class="mb20">Ad Post</h3>
+                    <div class="row row-wrap">
+                    	<div class="col-md-12">
+	                    	<a class="product-thumb product-thumb-horizontal" href="#">
+	                        <header class="product-header">
+	                        	<c:choose>
+								    <c:when test="${adPost.media_cover_url!=NULL}">
+								        <img src="${adPost.media_cover_url}" alt="Image Alternative text" title="The Violin" /> 
+								    </c:when>    
+								    <c:otherwise>
+								        <img src="/images/blank/800x600.png" alt="Image Alternative text" title="The Violin" /> 
+								    </c:otherwise>
+								</c:choose>
+	                        </header>
+	                        <div class="product-inner">
+	                            <h5 class="product-title">AD Post Title - Bla Bla Bla ${adPost.post_title}</h5>
+	                            <div class="product-desciption"> WARN org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/category/img/ame 'adogo' ${adPost.short_desc}</div>
+	                            
+	                            <div class="product-meta">
+	                                <c:choose>
+									    <c:when test="${adPost.create_datetime!=NULL}">
+									        <div> ${adPost.create_datetime} </div>
+									    </c:when>    
+									    <c:otherwise>
+									        <div id="pageTimer${adPost.global_id}">create date time is null</div>
+									    </c:otherwise>
+									</c:choose>
+								
+	                            </div>
+	                            <p class="product-location">
+	                            	<i class="fa fa-map-marker"></i> Admin ${adPost.post_author} &nbsp;&nbsp;
+									<i class="fa fa-map-marker"></i>
+									Tags:&nbsp;&nbsp;
+									<c:set var="tags" value="${adPost.tags}" />
+									<c:set var="delim" value="," />
+									<c:set var="TagsArray" value="${fn:split(tags, delim)}" />
+	
+									<c:forEach var="tag" items="${TagsArray}">
+										<span class="product-price">${tag}</span>
+									</c:forEach>
+								</p>
+	                        </div>
+	                    	</a>
+	                    	
+	                    	
+	                    	<a class="product-thumb product-thumb-horizontal" href="#">
+	                        <header class="product-header">
+	                        	<c:choose>
+								    <c:when test="${adPost.media_cover_url!=NULL}">
+								        <img src="${adPost.media_cover_url}" alt="Image Alternative text" title="The Violin" /> 
+								    </c:when>    
+								    <c:otherwise>
+								        <img src="/images/blank/800x600.png" alt="Image Alternative text" title="The Violin" /> 
+								    </c:otherwise>
+								</c:choose>
+	                        </header>
+	                        <div class="product-inner">
+	                            <h5 class="product-title">AD Post Title - Bla Bla Bla ${adPost.post_title}</h5>
+	                            <div class="product-desciption"> WARN org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/category/img/ame 'adogo' ${adPost.short_desc}</div>
+	                            
+	                            <div class="product-meta">
+	                                <c:choose>
+									    <c:when test="${adPost.create_datetime!=NULL}">
+									        <div> ${adPost.create_datetime} </div>
+									    </c:when>    
+									    <c:otherwise>
+									        <div id="pageTimer${adPost.global_id}">create date time is null</div>
+									    </c:otherwise>
+									</c:choose>
+								
+	                            </div>
+	                            <p class="product-location">
+	                            	<i class="fa fa-map-marker"></i> Admin ${adPost.post_author} &nbsp;&nbsp;
+									<i class="fa fa-map-marker"></i>
+									Tags:&nbsp;&nbsp;
+									<c:set var="tags" value="${adPost.tags}" />
+									<c:set var="delim" value="," />
+									<c:set var="TagsArray" value="${fn:split(tags, delim)}" />
+	
+									<c:forEach var="tag" items="${TagsArray}">
+										<span class="product-price">${tag}</span>
+									</c:forEach>
+								</p>
+	                        </div>
+	                    	</a>
+	                    	
+	                    	
+	                    	<a class="product-thumb product-thumb-horizontal" href="#">
+	                        <header class="product-header">
+	                        	<c:choose>
+								    <c:when test="${adPost.media_cover_url!=NULL}">
+								        <img src="${adPost.media_cover_url}" alt="Image Alternative text" title="The Violin" /> 
+								    </c:when>    
+								    <c:otherwise>
+								        <img src="/images/blank/800x600.png" alt="Image Alternative text" title="The Violin" /> 
+								    </c:otherwise>
+								</c:choose>
+	                        </header>
+	                        <div class="product-inner">
+	                            <h5 class="product-title">AD Post Title - Bla Bla Bla ${adPost.post_title}</h5>
+	                            <div class="product-desciption"> WARN org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/category/img/ame 'adogo' ${adPost.short_desc}</div>
+	                            
+	                            <div class="product-meta">
+	                                <c:choose>
+									    <c:when test="${adPost.create_datetime!=NULL}">
+									        <div> ${adPost.create_datetime} </div>
+									    </c:when>    
+									    <c:otherwise>
+									        <div id="pageTimer${adPost.global_id}">create date time is null</div>
+									    </c:otherwise>
+									</c:choose>
+								
+	                            </div>
+	                            <p class="product-location">
+	                            	<i class="fa fa-map-marker"></i> Admin ${adPost.post_author} &nbsp;&nbsp;
+									<i class="fa fa-map-marker"></i>
+									Tags:&nbsp;&nbsp;
+									<c:set var="tags" value="${adPost.tags}" />
+									<c:set var="delim" value="," />
+									<c:set var="TagsArray" value="${fn:split(tags, delim)}" />
+	
+									<c:forEach var="tag" items="${TagsArray}">
+										<span class="product-price">${tag}</span>
+									</c:forEach>
+								</p>
+	                        </div>
+	                    	</a>
+                    	</div>
+                    </div>
                     
                     
                     <!-- comments -->

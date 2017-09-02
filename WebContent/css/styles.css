@@ -966,6 +966,7 @@ label {
   font-size: 12px;
   margin-bottom: 0;
   line-height: 1.4em;
+  
 }
 .product-time {
   color: #666;
@@ -1028,7 +1029,8 @@ label {
   transform: translate3d(0, 0, 0);
   z-index: 2;
   margin-bottom: 5px;
-  font-size: 16px;
+  font-size: 16px;		/*edited by Athens on 2017-09-01*/
+  font-size: 14px;		/*edited by Athens on 2017-09-01*/
 }
 .product-thumb .icon-list-rating {
   font-size: 11px;
@@ -1119,7 +1121,8 @@ label {
   filter: none;
 }
 .product-thumb-horizontal {
-  margin-bottom: 30px;
+  margin-bottom: 30px;		/* edited by Athens */
+  margin-bottom: 30px;		/* edited by Athens */
 }
 @media (min-width:992px) {
 .product-thumb-horizontal {
@@ -1143,10 +1146,11 @@ label {
   display: block;
   width: 70%;
   padding-right: 30%;
+  padding-right: 0%;		/*edited by Athens*/
 }
 .product-thumb-horizontal .product-meta {
   position: absolute;
-  width: 40%;
+  width: 40%;			/*edited by Athens from 40% to 5%*/
   margin-top: 0;
   top: 0;
   right: 0;
