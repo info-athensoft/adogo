@@ -412,14 +412,14 @@
                         <tbody>
                             <tr>
                                 <td>uaas</td>
-                                <td><a href="/gosignup">Sign up</a></td>
+                                <td><a href="/gosignup">Sign up page</a></td>
                                 <td><a href="/gosignup">/publictest/goapplybooth</a></td>
                                 <td>com.adogo.uaas.controller.UaasController</td>
                                 <td>Active</td>
                         	</tr>
                         	<tr>
                                 <td>uaas</td>
-                                <td><a href="/gosignin">Sign in</a></td>
+                                <td><a href="/gosignin">Sign in page</a></td>
                                 <td><a href="/gosignin">/publictest/goapplybooth</a></td>
                                 <td>com.adogo.uaas.controller.UaasController</td>
                                 <td>Active</td>
@@ -447,21 +447,21 @@
                         	</tr>
                         	<tr>
                                 <td>uaas</td>
-                                <td><a href="/signup">Sign up execution page</a></td>
+                                <td><a href="/signup">Sign up execution</a></td>
                                 <td><a href="/signup">/signup</a></td>
                                 <td>com.adogo.uaas.controller.UserController</td>
                                 <td>Active</td>
                         	</tr>
                         	<tr>
                                 <td>uaas</td>
-                                <td><a href="/signin">Sign in execution page</a></td>
+                                <td><a href="/signin">Sign in execution</a></td>
                                 <td><a href="/signin">/signin</a></td>
                                 <td>com.adogo.uaas.controller.UserController</td>
                                 <td>Active</td>
                         	</tr>
                         	<tr>
                                 <td>uaas</td>
-                                <td><a href="/signout">Sign out execution page</a></td>
+                                <td><a href="/signout">Sign out execution</a></td>
                                 <td><a href="/signout">/signout</a></td>
                                 <td>com.adogo.uaas.controller.UserController</td>
                                 <td>Active</td>
