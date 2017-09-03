@@ -65,12 +65,7 @@ public class GeneralController {
 		mav.setViewName("index");
 		return mav;
 	}
-/*	
-	@RequestMapping("/index")
-	public String goIndex2(){
-		return "index";
-	}
-*/
+
 	@RequestMapping("/index")
 	public ModelAndView goIndex2(){
 		ModelAndView mav = new ModelAndView();
@@ -120,9 +115,9 @@ public class GeneralController {
 		return "home/about-ch";
 	}
 	
-	@RequestMapping("/support/faq")
-	public String goFaq(){
-		return "support/faq";
+	@RequestMapping("/sitemap")
+	public String goSitemap(){
+		return "home/sitemap";
 	}
 	
 	@RequestMapping("/support/applybooth")
@@ -130,7 +125,9 @@ public class GeneralController {
 		return "support/applybooth";
 	}
 	
-	
-	
+	@RequestMapping("/support/faq")
+	public String goFaq(){
+		return "support/faq";
+	}
 	
 }
