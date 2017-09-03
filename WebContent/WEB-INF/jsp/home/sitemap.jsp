@@ -539,7 +539,7 @@
                                 <td>upcs</td>
                                 <td><a href="/myacct/recharge/create_transaction">Recharging transaction execution</a></td>
                                 <td><a href="/myacct/recharge/create_transaction">/myacct/recharge/create_transaction</a></td>
-                                <td>com.adogo.upcs.controller.BraintreeController</td>
+                                <td>com.adogo.upcs.controller.GetPaidController</td>
                                 <td>Draft</td>
                         	</tr>
                         </tbody>
