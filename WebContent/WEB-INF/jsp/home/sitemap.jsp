@@ -413,16 +413,16 @@
                             <tr>
                                 <td>uaas</td>
                                 <td><a href="/gosignup">Sign up page</a></td>
-                                <td><a href="/gosignup">/publictest/goapplybooth</a></td>
+                                <td><a href="/gosignup">/gosignup</a></td>
                                 <td>com.adogo.uaas.controller.UaasController</td>
-                                <td>Active</td>
+                                <td>Not Exists</td>
                         	</tr>
                         	<tr>
                                 <td>uaas</td>
                                 <td><a href="/gosignin">Sign in page</a></td>
-                                <td><a href="/gosignin">/publictest/goapplybooth</a></td>
+                                <td><a href="/gosignin">/gosignin</a></td>
                                 <td>com.adogo.uaas.controller.UaasController</td>
-                                <td>Active</td>
+                                <td>Not Exists</td>
                         	</tr>
                         	<tr>
                                 <td>uaas</td>

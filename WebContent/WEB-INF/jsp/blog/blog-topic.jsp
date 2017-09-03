@@ -79,7 +79,7 @@
                         <header class="post-header">
                             <!-- HOVER IMAGE -->
                             <a class="hover-img" href="post-sidebar-right.html">
-                                <img src="img/900x400.png" alt="Image Alternative text" title="4 Strokes of Fun" /><i class="fa fa-link hover-icon"></i>
+                                <img src="/img/900x400.png" alt="Image Alternative text" title="4 Strokes of Fun" /><i class="fa fa-link hover-icon"></i>
                             </a>
                         </header>
                         <div class="post-inner">
@@ -121,9 +121,9 @@
                     <article class="post">
                         <header class="post-header">
                             <div class="fotorama">
-                                <img src="img/900x400.png" alt="Image Alternative text" title="4 Strokes of Fun" />
-                                <img src="img/900x400.png" alt="Image Alternative text" title="4 Strokes of Fun" />
-                                <img src="img/900x400.png" alt="Image Alternative text" title="4 Strokes of Fun" />
+                                <img src="/img/900x400.png" alt="Image Alternative text" title="4 Strokes of Fun" />
+                                <img src="/img/900x400.png" alt="Image Alternative text" title="4 Strokes of Fun" />
+                                <img src="/img/900x400.png" alt="Image Alternative text" title="4 Strokes of Fun" />
                             </div>
                         </header>
                         <div class="post-inner">
@@ -277,7 +277,7 @@
                             <ul class="thumb-list">
                                 <li>
                                     <a href="#">
-                                        <img src="img/70x70.png" alt="Image Alternative text" title="Urbex Esch/Lux with Laney and Laaaaag" />
+                                        <img src="/img/70x70.png" alt="Image Alternative text" title="Urbex Esch/Lux with Laney and Laaaaag" />
                                     </a>
                                     <div class="thumb-list-item-caption">
                                         <p class="thumb-list-item-meta">Jul 18, 2014</p>
@@ -287,7 +287,7 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="img/70x70.png" alt="Image Alternative text" title="AMaze" />
+                                        <img src="/img/70x70.png" alt="Image Alternative text" title="AMaze" />
                                     </a>
                                     <div class="thumb-list-item-caption">
                                         <p class="thumb-list-item-meta">Jul 18, 2014</p>
@@ -297,7 +297,7 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="img/70x70.png" alt="Image Alternative text" title="The Hidden Power of the Heart" />
+                                        <img src="/img/70x70.png" alt="Image Alternative text" title="The Hidden Power of the Heart" />
                                     </a>
                                     <div class="thumb-list-item-caption">
                                         <p class="thumb-list-item-meta">Jul 18, 2014</p>
@@ -338,7 +338,7 @@
                             <ul class="thumb-list thumb-list-right">
                                 <li>
                                     <a href="#">
-                                        <img src="img/50x50.png" alt="Image Alternative text" title="Gamer Chick" class="rounded" />
+                                        <img src="/img/50x50.png" alt="Image Alternative text" title="Gamer Chick" class="rounded" />
                                     </a>
                                     <div class="thumb-list-item-caption">
                                         <p class="thumb-list-item-meta">5 minutes ago</p>
@@ -348,7 +348,7 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="img/50x50.png" alt="Image Alternative text" title="Ana 29" class="rounded" />
+                                        <img src="/img/50x50.png" alt="Image Alternative text" title="Ana 29" class="rounded" />
                                     </a>
                                     <div class="thumb-list-item-caption">
                                         <p class="thumb-list-item-meta">9 minutes ago</p>
@@ -358,7 +358,7 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="img/50x50.png" alt="Image Alternative text" title="Afro" class="rounded" />
+                                        <img src="/img/50x50.png" alt="Image Alternative text" title="Afro" class="rounded" />
                                     </a>
                                     <div class="thumb-list-item-caption">
                                         <p class="thumb-list-item-meta">8 minutes ago</p>
