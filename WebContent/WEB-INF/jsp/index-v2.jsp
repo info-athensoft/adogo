@@ -69,7 +69,7 @@
 		<!-- END TOP AREA -->
 
 		<!-- SEARCH AREA -->
-		<jsp:include page="inc/search_inc.jsp"></jsp:include>
+		<!--<jsp:include page="inc/search_inc.jsp"></jsp:include>-->
 		<!-- END SEARCH AREA -->
 
 		<div class="gap"></div>
@@ -91,21 +91,30 @@
 						<ul
 							class="nav nav-tabs nav-stacked nav-coupon-category nav-coupon-category-left">
 							<li class="active"><a href="#"><i
-									class="fa fa-shopping-cart"></i>I am looking for</a></li>
+									class="fa fa-shopping-cart"></i>I want shopping</a></li>
 							<li><a href="/category/1"><i class="fa fa-shopping-cart"></i>Shopwise<span>33</span></a></li>
-							<li><a href="/category/2"><i class="fa fa-cutlery"></i>Food &amp; drink<span>50</span></a></li>
-							<li><a href="/category/3"><i class="fa fa-calendar"></i>Life Service<span>49</span></a></li>
-							<li><a href="/category/4"><i class="fa fa-calendar"></i>Pro. Service<span>49</span></a></li>
+
+							<li class="active"><a href="#"><i
+									class="fa fa-shopping-cart"></i>I need services</a></li>
+							<li><a href="/category/2"><i class="fa fa-cutlery"></i>Food
+									& drink<span>50</span></a></li>
+
+							<li><a href="/category/3"><i class="fa fa-calendar"></i>Life
+									Service<span>49</span></a></li>
+							<li><a href="/category/4"><i class="fa fa-calendar"></i>Pro.
+									Service<span>49</span></a></li>
 							<li><a href="/category/5"><i class="fa fa-headphones"></i>Education<span>48</span></a></li>
-							<li><a href="/category/6"><i class="fa fa-plane"></i>Tourism &amp; Hotel<span>38</span></a></li>
-							<li><a href="/category/7"><i class="fa fa-plane"></i>Trans. &amp; Logistic<span>38</span></a></li>
+							<li><a href="/category/6"><i class="fa fa-plane"></i>Tourism&amp;Hotel<span>38</span></a></li>
+							<li><a href="/category/7"><i class="fa fa-plane"></i>Trans.&amp;Logistic<span>38</span></a></li>
 							<li><a href="/category/8"><i class="fa fa-home"></i>Sport,Recreation<span>44</span></a></li>
 							<li><a href="/category/9"><i class="fa fa-home"></i>Non-profit<span>44</span></a></li>
-							<!-- 
-							<li class="active"><a href="#"><i class="fa fa-shopping-cart"></i>I want to do business</a></li>
-							<li><a href="#"><i class="fa fa-cutlery"></i>Connecting to Business<span>50</span></a></li>
-							 -->
-							<li><a href="#"><i class="fa fa-cutlery"></i>Buying a business<span>50</span></a></li>
+
+							<li class="active"><a href="#"><i
+									class="fa fa-shopping-cart"></i>I want to do business</a></li>
+							<li><a href="#"><i class="fa fa-cutlery"></i>Connecting
+									to Business<span>50</span></a></li>
+							<li><a href="#"><i class="fa fa-cutlery"></i>Buying a
+									Business<span>50</span></a></li>
 
 							<!--
                             <li><a href="#"><i class="fa fa-cutlery"></i>Housing<span>50</span></a></li>

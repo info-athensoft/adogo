@@ -223,7 +223,7 @@
                         <header class="product-header">
                         	<c:choose>
 							    <c:when test="${adPost.media_cover_url!=NULL}">
-							        <img src="${adPost.media_cover_url}" alt="Image Alternative text" title="The Violin" /> 
+							        <img src="${adPost.media_cover_url}" alt="Image Alternative text" title="The Violin" />
 							    </c:when>    
 							    <c:otherwise>
 							        <img src="/images/blank/800x600.png" alt="Image Alternative text" title="The Violin" /> 

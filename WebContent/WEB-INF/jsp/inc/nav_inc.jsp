@@ -55,6 +55,7 @@
                             <ul>
                             	<li><a href="/support/applybooth">How to apply a booth(CHS)</a></li>
                                 <li><a href="/support/faq">FAQ (CHS)</a></li>
+                                <li><a href="/sitemap">Site Map</a></li>
                             </ul>
                         </li>
                          

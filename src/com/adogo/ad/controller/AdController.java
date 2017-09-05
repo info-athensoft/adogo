@@ -6,7 +6,9 @@ import java.util.Map;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.adogo.ad.entity.AdPost;
@@ -27,7 +29,7 @@ public class AdController {
 	
 	@RequestMapping("/ad")
 	public String gotoAdPostDetail(){
-		String viewName = "ad/ad-post-detail";
+		String viewName = "ad/ad-post-detail-template";
 		return viewName;
 	}
 	
@@ -47,6 +49,34 @@ public class AdController {
 		data.put("listAdPost", listAdPost);
 		
 		logger.info("leaving /ad/adpost/list");
+		return mav;
+	}
+	
+	/**
+	 * TO FINISH THIS METHOD
+	 * 
+	 * @param adPostId
+	 * @return
+	 * 
+	 * @author SFZ
+	 * @since 2017-09-03
+	 */
+	@RequestMapping(value="/{adPostId}",method=RequestMethod.GET)
+	public ModelAndView getDataAdPostDetail(@PathVariable long adPostId){
+		logger.info("entering... /ad/adpost/{adPostId}");
+		logger.info("adPostId=" + adPostId);
+		
+		ModelAndView mav = new ModelAndView();
+		String viewName = "ad/ad-post-detail";
+		mav.setViewName(viewName);
+		
+		//data
+		
+		
+		Map<String, Object> data = mav.getModel();
+//		data.put("listAdPost", listAdPost);
+		
+		logger.info("leaving... /ad/adpost/{adPostId}");
 		return mav;
 	}
 }

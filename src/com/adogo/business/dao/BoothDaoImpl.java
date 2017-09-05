@@ -138,7 +138,8 @@ public class BoothDaoImpl implements BoothDao{
 
 	@Override
 	public List<Booth> findPopular(int classNum) {
-		String sql = "select distinct * from view_booth_popular where class_num=:classNum ";
+		String sql = "select * from view_booth_popular where class_num=:classNum ";
+//		String sql = "select distinct * from view_booth_popular where class_num=:classNum ";
 		MapSqlParameterSource paramSource = new MapSqlParameterSource();
 		paramSource.addValue("classNum", classNum);
 		List<Booth> boothList = jdbc.query(sql, paramSource, new BoothRowMapper());

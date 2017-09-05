@@ -69,7 +69,7 @@
 		<!-- END TOP AREA -->
 
 		<!-- SEARCH AREA -->
-		<jsp:include page="inc/search_inc.jsp"></jsp:include>
+		<!--<jsp:include page="inc/search_inc.jsp"></jsp:include>-->
 		<!-- END SEARCH AREA -->
 
 		<div class="gap"></div>
@@ -91,21 +91,30 @@
 						<ul
 							class="nav nav-tabs nav-stacked nav-coupon-category nav-coupon-category-left">
 							<li class="active"><a href="#"><i
-									class="fa fa-shopping-cart"></i>I am looking for</a></li>
+									class="fa fa-shopping-cart"></i>I want shopping</a></li>
 							<li><a href="/category/1"><i class="fa fa-shopping-cart"></i>Shopwise<span>33</span></a></li>
-							<li><a href="/category/2"><i class="fa fa-cutlery"></i>Food &amp; drink<span>50</span></a></li>
-							<li><a href="/category/3"><i class="fa fa-calendar"></i>Life Service<span>49</span></a></li>
-							<li><a href="/category/4"><i class="fa fa-calendar"></i>Pro. Service<span>49</span></a></li>
+
+							<li class="active"><a href="#"><i
+									class="fa fa-shopping-cart"></i>I need services</a></li>
+							<li><a href="/category/2"><i class="fa fa-cutlery"></i>Food
+									& drink<span>50</span></a></li>
+
+							<li><a href="/category/3"><i class="fa fa-calendar"></i>Life
+									Service<span>49</span></a></li>
+							<li><a href="/category/4"><i class="fa fa-calendar"></i>Pro.
+									Service<span>49</span></a></li>
 							<li><a href="/category/5"><i class="fa fa-headphones"></i>Education<span>48</span></a></li>
-							<li><a href="/category/6"><i class="fa fa-plane"></i>Tourism &amp; Hotel<span>38</span></a></li>
-							<li><a href="/category/7"><i class="fa fa-plane"></i>Trans. &amp; Logistic<span>38</span></a></li>
+							<li><a href="/category/6"><i class="fa fa-plane"></i>Tourism&amp;Hotel<span>38</span></a></li>
+							<li><a href="/category/7"><i class="fa fa-plane"></i>Trans.&amp;Logistic<span>38</span></a></li>
 							<li><a href="/category/8"><i class="fa fa-home"></i>Sport,Recreation<span>44</span></a></li>
 							<li><a href="/category/9"><i class="fa fa-home"></i>Non-profit<span>44</span></a></li>
-							<!-- 
-							<li class="active"><a href="#"><i class="fa fa-shopping-cart"></i>I want to do business</a></li>
-							<li><a href="#"><i class="fa fa-cutlery"></i>Connecting to Business<span>50</span></a></li>
-							 -->
-							<li><a href="#"><i class="fa fa-cutlery"></i>Buying a business<span>50</span></a></li>
+
+							<li class="active"><a href="#"><i
+									class="fa fa-shopping-cart"></i>I want to do business</a></li>
+							<li><a href="#"><i class="fa fa-cutlery"></i>Connecting
+									to Business<span>50</span></a></li>
+							<li><a href="#"><i class="fa fa-cutlery"></i>Buying a
+									Business<span>50</span></a></li>
 
 							<!--
                             <li><a href="#"><i class="fa fa-cutlery"></i>Housing<span>50</span></a></li>
@@ -150,7 +159,7 @@
 											<h5 class="product-title">${booth.bizName}</h5>
 										</c:if>
 
-										<!-- <p class="product-desciption">${booth.bizDesc}</p>  -->
+										<p class="product-desciption">${booth.bizDesc}</p>
 										<div class="product-meta">
 											<p class="product-location">
 												<i class="fa fa-map-marker"></i>
@@ -182,27 +191,26 @@
 			</div>
 			<div class="gap gap-small"></div>
 
-			<h3 class="mb20">
+			<h1 class="mb20">
 				Weekly Featured <small><a href="#">View All</a></small>
-			</h3>
+			</h1>
 			<div class="row row-wrap">
 
 				<c:forEach var="booth" items="${boothWeeklyFeaturedList}">
-					<div class="col-md-3">
+					<div class="col-md-4">
 						<div class="product-thumb">
 							<header class="product-header">
 								<img src="${booth.logoCoverUrl}" alt="Image Alternative text"
 									title="My Ice Cream and Your Ice Cream Spoons" />
 							</header>
 							<div class="product-inner">
-								<!-- 
 								<ul class="icon-group icon-list-rating" title="5/5 rating">
 									<li><i class="fa fa-star"></i></li>
 									<li><i class="fa fa-star"></i></li>
 									<li><i class="fa fa-star"></i></li>
 									<li><i class="fa fa-star"></i></li>
 									<li><i class="fa fa-star"></i></li>
-								</ul>  -->
+								</ul>
 								<c:if test="${booth.bizName.length()<=30}">
 									<h5 class="product-title">${booth.bizName}<br />
 										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -212,7 +220,7 @@
 									<h5 class="product-title">${booth.bizName}</h5>
 								</c:if>
 
-								<!-- <p class="product-desciption">${booth.bizDesc}</p>  -->
+								<p class="product-desciption">${booth.bizDesc}</p>
 								<div class="product-meta">
 									<p class="product-location">
 										<i class="fa fa-map-marker"></i> ${booth.locCity}&nbsp;&nbsp;
@@ -239,32 +247,27 @@
 
 			</div>
 			<div class="gap gap-small"></div>
-			
-			
-			
 
-			<h3 class="mb20">
+			<h1 class="mb20">
 				Monthly Stars <small><a href="#">View All</a></small>
-			</h3>
+			</h1>
 			<div class="row row-wrap">
 
 				<c:forEach var="booth" items="${boothMonthlyStarsList}">
-					<div class="col-md-3">
+					<div class="col-md-4">
 						<div class="product-thumb">
 							<header class="product-header">
-								<a href="/test/profile"><img src="${booth.logoCoverUrl}" alt="Image Alternative text"
+								<img src="${booth.logoCoverUrl}" alt="Image Alternative text"
 									title="My Ice Cream and Your Ice Cream Spoons" />
-								</a>
 							</header>
 							<div class="product-inner">
-							<!-- 
 								<ul class="icon-group icon-list-rating" title="5/5 rating">
 									<li><i class="fa fa-star"></i></li>
 									<li><i class="fa fa-star"></i></li>
 									<li><i class="fa fa-star"></i></li>
 									<li><i class="fa fa-star"></i></li>
 									<li><i class="fa fa-star"></i></li>
-								</ul> -->
+								</ul>
 								<c:if test="${booth.bizName.length()<=30}">
 									<h5 class="product-title">${booth.bizName}<br />
 										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -274,23 +277,25 @@
 									<h5 class="product-title">${booth.bizName}</h5>
 								</c:if>
 
-								<!-- <p class="product-desciption">${booth.bizDesc}</p> -->
-								<p class="product-desciption">
-										<i class="fa fa-eye"></i> 19 Views &nbsp;&nbsp;&nbsp;&nbsp;
-										<i class="fa fa-star-o"></i> 7.8 Scores
-								</p>
+								<p class="product-desciption">${booth.bizDesc}</p>
 								<div class="product-meta">
 									<p class="product-location">
-										<i class="fa fa-map-marker"></i> ${booth.locCity},${booth.locProv}
+										<i class="fa fa-map-marker"></i> ${booth.locCity}&nbsp;&nbsp;
+										<c:set var="arrayvalue" value="${booth.supportLang}" />
+										<c:set var="delim" value="," />
+										<c:set var="array" value="${fn:split(arrayvalue, delim)}" />
+
+										<c:forEach var="lang" items="${array}">
+											<span class="product-price">${lang}</span>
+										</c:forEach>
 									</p>
-									<!-- 
 									<ul class="product-actions-list">
 										<li><a class="btn btn-sm"
 											href="http://${booth.homepageUrl}" target="_blank"><i
 												class="fa fa-home"></i> Home</a></li>
 										<li><a class="btn btn-sm" href="/profile.jsp"><i
 												class="fa fa-bars"></i> Profile</a></li>
-									</ul> -->
+									</ul>
 								</div>
 							</div>
 						</div>
@@ -300,64 +305,13 @@
 
 			</div>
 			<div class="gap gap-small"></div>
-			
-			<!-- ad list of this advertiser,booth -->
-            <h3 class="mb20">Ad Post</h3>
-			<div class="row row-wrap">
-			
-			<div class="col-md-6">    
-                    <a class="product-thumb product-thumb-horizontal" href="#">
-                        <header class="product-header">
-                            <img src="img/800x600.png" alt="Image Alternative text" title="The Violin" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Violin Lessons</h5>
-                            <div class="product-desciption">A tortor ut egestas gravida tristique porta nisl scasdfasdfasdf <br/><br/><p class="product-desciption"><i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; <i class="fa fa-clock-o"></i> 6 days 10 h </p></div>
-                        </div>
-                    </a>
-                    <a class="product-thumb product-thumb-horizontal" href="#">
-                        <header class="product-header">
-                            <img src="img/800x600.png" alt="Image Alternative text" title="The Violin" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Violin Lessons</h5>
-                            <div class="product-desciption">A tortor ut egestas gravida tristique porta nisl scasdfasdfasdf <br/><br/><p class="product-desciption"><i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; <i class="fa fa-clock-o"></i> 6 days 10 h </p></div>
-                            <div class="product-meta">test text</div>
-                        </div>
-                    </a>
-              </div> 
-             
-             <div class="col-md-6">    
-                    <a class="product-thumb product-thumb-horizontal" href="#">
-                        <header class="product-header">
-                            <img src="img/800x600.png" alt="Image Alternative text" title="The Violin" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Violin Lessons</h5>
-                            <div class="product-desciption">A tortor ut egestas gravida tristique porta nisl scas asdfasdfasdfasdf asdfa sdfa asdf asf asdf a asd fasdf asdfjk<br/><br/><i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; <i class="fa fa-clock-o"></i> 6 days 10 h </div>
-                        </div>
-                    </a>
-                    <a class="product-thumb product-thumb-horizontal" href="#">
-                        <header class="product-header">
-                            <img src="img/800x600.png" alt="Image Alternative text" title="The Violin" />
-                        </header>
-                        <div class="product-inner">
-                            <h5 class="product-title">Violin Lessons</h5>
-                            <div class="product-desciption">A tortor ut egestas gravida tristique porta nisl scasdfasdfasdf <br/><br/><p class="product-desciption"><i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; <i class="fa fa-clock-o"></i> 6 days 10 h </p></div>
-                        </div>
-                    </a>
-              </div> 
-                
-             
-            </div>
 
-
-			<h3 class="mb20">
+			<h1 class="mb20">
 				Popular in Shopwise <small><a href="#">View All</a></small>
-			</h3>
+			</h1>
 			<div class="row row-wrap">
 				<c:forEach var="booth" items="${boothPopularShopwiseList}">
-					<div class="col-md-3">
+					<div class="col-md-4">
 						<div class="product-thumb">
 							<header class="product-header">
 								<img src="${booth.logoCoverUrl}" alt="" title="" />
@@ -379,7 +333,7 @@
 									<h5 class="product-title">${booth.bizName}</h5>
 								</c:if>
 
-								<!-- <p class="product-desciption">${booth.bizDesc}</p> -->
+								<p class="product-desciption">${booth.bizDesc}</p>
 								<div class="product-meta">
 									<p class="product-location">
 										<i class="fa fa-map-marker"></i> ${booth.locCity}&nbsp;&nbsp;
@@ -405,12 +359,12 @@
 			</div>
 			<div class="gap gap-small"></div>
 
-			<h3 class="mb20">
+			<h1 class="mb20">
 				Popular in Food and drink <small><a href="#">View All</a></small>
-			</h3>
+			</h1>
 			<div class="row row-wrap">
 				<c:forEach var="booth" items="${boothPopularFooddrinkList}">
-					<div class="col-md-3">
+					<div class="col-md-4">
 						<div class="product-thumb">
 							<header class="product-header">
 								<img src="${booth.logoCoverUrl}" alt="" title="" />
@@ -432,7 +386,7 @@
 									<h5 class="product-title">${booth.bizName}</h5>
 								</c:if>
 
-								<!-- <p class="product-desciption">${booth.bizDesc}</p> -->
+								<p class="product-desciption">${booth.bizDesc}</p>
 								<div class="product-meta">
 									<p class="product-location">
 										<i class="fa fa-map-marker"></i> ${booth.locCity}&nbsp;&nbsp;
@@ -458,13 +412,13 @@
 			</div>
 			<div class="gap gap-small"></div>
 
-			<h3 class="mb20">
+			<h1 class="mb20">
 				Popular in Life Service <small><a href="#">View All</a></small>
-			</h3>
+			</h1>
 			<div class="row row-wrap">
 
 				<c:forEach var="booth" items="${boothPopularLifeServiceList}">
-					<div class="col-md-3">
+					<div class="col-md-4">
 						<div class="product-thumb">
 							<header class="product-header">
 								<img src="${booth.logoCoverUrl}" alt="" title="" />
@@ -486,7 +440,7 @@
 									<h5 class="product-title">${booth.bizName}</h5>
 								</c:if>
 
-								<!-- <p class="product-desciption">${booth.bizDesc}</p> -->
+								<p class="product-desciption">${booth.bizDesc}</p>
 								<div class="product-meta">
 									<p class="product-location">
 										<i class="fa fa-map-marker"></i> ${booth.locCity}&nbsp;&nbsp;
@@ -514,14 +468,14 @@
 			</div>
 			<div class="gap gap-small"></div>
 
-			<h3 class="mb20">
+			<h1 class="mb20">
 				Popular in Professional Service <small><a href="#">View
 						All</a></small>
-			</h3>
+			</h1>
 			<div class="row row-wrap">
 
 				<c:forEach var="booth" items="${boothPopularProServiceList}">
-					<div class="col-md-3">
+					<div class="col-md-4">
 						<div class="product-thumb">
 							<header class="product-header">
 								<img src="${booth.logoCoverUrl}" alt="" title="" />
@@ -543,7 +497,7 @@
 									<h5 class="product-title">${booth.bizName}</h5>
 								</c:if>
 
-								<!-- <p class="product-desciption">${booth.bizDesc}</p> -->
+								<p class="product-desciption">${booth.bizDesc}</p>
 								<div class="product-meta">
 									<p class="product-location">
 										<i class="fa fa-map-marker"></i> ${booth.locCity}&nbsp;&nbsp;
@@ -571,13 +525,13 @@
 			</div>
 			<div class="gap gap-small"></div>
 
-			<h3 class="mb20">
+			<h1 class="mb20">
 				Popular in Educational Service <small><a href="#">View
 						All</a></small>
-			</h3>
+			</h1>
 			<div class="row row-wrap">
 				<c:forEach var="booth" items="${boothPopularEduList}">
-					<div class="col-md-3">
+					<div class="col-md-4">
 						<div class="product-thumb">
 							<header class="product-header">
 								<img src="${booth.logoCoverUrl}" alt="" title="" />
@@ -599,7 +553,7 @@
 									<h5 class="product-title">${booth.bizName}</h5>
 								</c:if>
 
-								<!-- <p class="product-desciption">${booth.bizDesc}</p> -->
+								<p class="product-desciption">${booth.bizDesc}</p>
 								<div class="product-meta">
 									<p class="product-location">
 										<i class="fa fa-map-marker"></i> ${booth.locCity}&nbsp;&nbsp;
@@ -625,13 +579,13 @@
 			</div>
 			<div class="gap gap-small"></div>
 
-			<h3 class="mb20">
+			<h1 class="mb20">
 				Popular in Tourism and Hotel Service <small><a href="#">View
 						All</a></small>
-			</h3>
+			</h1>
 			<div class="row row-wrap">
 				<c:forEach var="booth" items="${boothPopularTourList}">
-					<div class="col-md-3">
+					<div class="col-md-4">
 						<div class="product-thumb">
 							<header class="product-header">
 								<img src="${booth.logoCoverUrl}" alt="" title="" />
@@ -653,7 +607,7 @@
 									<h5 class="product-title">${booth.bizName}</h5>
 								</c:if>
 
-								<!-- <p class="product-desciption">${booth.bizDesc}</p> -->
+								<p class="product-desciption">${booth.bizDesc}</p>
 								<div class="product-meta">
 									<p class="product-location">
 										<i class="fa fa-map-marker"></i> ${booth.locCity}&nbsp;&nbsp;
@@ -679,13 +633,13 @@
 			</div>
 			<div class="gap gap-small"></div>
 
-			<h3 class="mb20">
+			<h1 class="mb20">
 				Popular in Transport and Logistics Service <small><a
 					href="#">View All</a></small>
-			</h3>
+			</h1>
 			<div class="row row-wrap">
 				<c:forEach var="booth" items="${boothPopularTransportList}">
-					<div class="col-md-3">
+					<div class="col-md-4">
 						<div class="product-thumb">
 							<header class="product-header">
 								<img src="${booth.logoCoverUrl}" alt="" title="" />
@@ -707,7 +661,7 @@
 									<h5 class="product-title">${booth.bizName}</h5>
 								</c:if>
 
-								<!-- <p class="product-desciption">${booth.bizDesc}</p> -->
+								<p class="product-desciption">${booth.bizDesc}</p>
 								<div class="product-meta">
 									<p class="product-location">
 										<i class="fa fa-map-marker"></i> ${booth.locCity}&nbsp;&nbsp;
@@ -733,13 +687,13 @@
 			</div>
 			<div class="gap gap-small"></div>
 
-			<h3 class="mb20">
+			<h1 class="mb20">
 				Popular in Sport, Recreation and Entertainment <small><a
 					href="#">View All</a></small>
-			</h3>
+			</h1>
 			<div class="row row-wrap">
 				<c:forEach var="booth" items="${boothPopularSportList}">
-					<div class="col-md-3">
+					<div class="col-md-4">
 						<div class="product-thumb">
 							<header class="product-header">
 								<img src="${booth.logoCoverUrl}" alt="" title="" />
@@ -761,7 +715,7 @@
 									<h5 class="product-title">${booth.bizName}</h5>
 								</c:if>
 
-								<!-- <p class="product-desciption">${booth.bizDesc}</p> -->
+								<p class="product-desciption">${booth.bizDesc}</p>
 								<div class="product-meta">
 									<p class="product-location">
 										<i class="fa fa-map-marker"></i> ${booth.locCity}&nbsp;&nbsp;
@@ -787,13 +741,13 @@
 			</div>
 			<div class="gap gap-small"></div>
 
-			<h3 class="mb20">
+			<h1 class="mb20">
 				Popular in Non-profit Organization, Community <small><a
 					href="#">View All</a></small>
-			</h3>
+			</h1>
 			<div class="row row-wrap">
 				<c:forEach var="booth" items="${boothPopularNonprofitList}">
-					<div class="col-md-3">
+					<div class="col-md-4">
 						<div class="product-thumb">
 							<header class="product-header">
 								<img src="${booth.logoCoverUrl}" alt="" title="" />
@@ -815,7 +769,7 @@
 									<h5 class="product-title">${booth.bizName}</h5>
 								</c:if>
 
-								<!-- <p class="product-desciption">${booth.bizDesc}</p> -->
+								<p class="product-desciption">${booth.bizDesc}</p>
 								<div class="product-meta">
 									<p class="product-location">
 										<i class="fa fa-map-marker"></i> ${booth.locCity}&nbsp;&nbsp;
