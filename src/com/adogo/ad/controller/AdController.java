@@ -1,14 +1,19 @@
 package com.adogo.ad.controller;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.converter.StringHttpMessageConverter;
+import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.client.HttpClientErrorException;
+import org.springframework.web.client.RestTemplate;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.adogo.ad.entity.AdPost;
@@ -71,10 +76,35 @@ public class AdController {
 		mav.setViewName(viewName);
 		
 		//data
-		
-		
-		Map<String, Object> data = mav.getModel();
-//		data.put("listAdPost", listAdPost);
+		Map<String, String> vars = new HashMap<String, String>();
+        vars.put("adPostId", Long.toString(adPostId));
+        
+        try
+        {
+            RestTemplate rt = new RestTemplate();
+            rt.getMessageConverters().add(new MappingJackson2HttpMessageConverter());
+            rt.getMessageConverters().add(new StringHttpMessageConverter());
+
+            String uri = new String("http://127.0.0.1:8088/acp/ad/adpost/{adPostId}");
+
+            AdPost adPost = rt.getForObject(uri, AdPost.class, vars);
+
+            logger.info("adPost:  " + adPost.toString());
+            logger.info("adPost.getMediaCoverUrl():  " + adPost.getMediaCoverUrl());
+            logger.info("adPost.getShortDesc():  " + adPost.getShortDesc());
+            
+            Map<String, Object> data = mav.getModel();
+    		data.put("adPost", adPost);
+        }
+        catch (HttpClientErrorException e)
+        {
+          //If we get a HTTP Exception display the error message            
+        	System.out.println("error1:  " + e.getMessage()); //.getResponseBodyAsString()
+        }
+        catch(Exception e)
+        {
+        	System.out.println("error2:  " + e.getMessage());
+        }
 		
 		logger.info("leaving... /ad/adpost/{adPostId}");
 		return mav;
