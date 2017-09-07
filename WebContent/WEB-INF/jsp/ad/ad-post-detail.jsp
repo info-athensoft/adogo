@@ -223,8 +223,10 @@
 	                    <article class="post">
 	                        <header class="post-header">
 	                            <!-- HOVER IMAGE -->
+	                            <c:set var="coverImageList" value="${adPost.getListAdPostCoverImage()}" />
+	                            <c:set var="primaryCoverImage" value="${adPost.getPrimaryMediaObject(coverImageList)}" />
 	                            <a class="hover-img" href="post-sidebar-right.html">
-	                                <img src="/img/900x400.png" alt="Image Alternative text" title="4 Strokes of Fun" /><i class="fa fa-link hover-icon"></i>
+	                                <img src="${primaryCoverImage.getMediaUrl()}" alt="Image Alternative text" title="4 Strokes of Fun" /><i class="fa fa-link hover-icon"></i>
 	                            </a>
 	                        </header>
                         <div class="post-inner">
@@ -239,7 +241,7 @@
                                 <li><i class="fa fa-comments"></i><a href="#">18 Comments</a>
                                 </li>
                             </ul>
-                            <p class="post-desciption">Vulputate viverra bibendum laoreet elit nisl felis fermentum sit ridiculus sapien elementum libero sodales volutpat facilisi fusce ornare tempor at donec mollis turpis penatibus etiam hac auctor per est libero senectus dictum inceptos pellentesque cras sagittis imperdiet fermentum luctus nisi libero facilisi semper dignissim faucibus turpis nulla penatibus dictum accumsan</p><a class="btn btn-small btn-primary" href="post-sidebar-right.html">Read More</a>
+                            <p class="post-desciption">${adPost.getShortDesc()} Vulputate viverra bibendum laoreet elit nisl felis fermentum sit ridiculus sapien elementum libero sodales volutpat facilisi fusce ornare tempor at donec mollis turpis penatibus etiam hac auctor per est libero senectus dictum inceptos pellentesque cras sagittis imperdiet fermentum luctus nisi libero facilisi semper dignissim faucibus turpis nulla penatibus dictum accumsan</p><a class="btn btn-small btn-primary" href="post-sidebar-right.html">Read More</a>
                         </div>
                     	</article>
                     	
