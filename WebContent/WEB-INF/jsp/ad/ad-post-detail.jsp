@@ -583,9 +583,11 @@
                     
                     
                     <!-- BLOG POST -->
+                    <c:set var="audioList" value="${adPost.getListAdPostAudio()}" />
+                    <c:set var="primaryAudio" value="${adPost.getPrimaryMediaObject(audioList)}" />
                     <article class="post">
                         <header class="post-header">
-                            <iframe width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/150793348&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=false"></iframe>
+                            <iframe width="100%" height="150" scrolling="no" frameborder="no" src="${primaryAudio.getMediaUrl()}"></iframe>
                         </header>
                         <!-- 
                         <div class="post-inner">
