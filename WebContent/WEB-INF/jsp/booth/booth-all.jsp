@@ -191,23 +191,23 @@
                 </div>
                 <div class="col-md-9">
                     <div class="row">
-                        <div class="col-md-3">
+                        <div class="col-md-5">
                             <div class="product-sort">
                                 <span class="product-sort-selected">sort by <b>Price</b></span>
                                 <a href="#" class="product-sort-order fa fa-angle-down"></a>
                                 <ul>
                                     <li><a href="#">sort by Name</a>
                                     </li>
-                                    <li><a href="#">sort by Update Date</a>
+                                    <li><a href="#">sort by Update date</a>
                                     </li>
                                     <li><a href="#">sort by View numbers</a>
                                     </li>
-                                    <li><a href="#">sort by Rating</a>
+                                    <li><a href="#">sort by Score</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-md-2 col-md-offset-7">
+                        <div class="col-md-2 col-md-offset-5">
                             <div class="product-view pull-right">
                                 <a class="fa fa-th-large active" href="#"></a>
                                 <a class="fa fa-list" href="category-page-thumbnails-shop-horizontal.html"></a>
@@ -219,7 +219,7 @@
                     	<div class="col-md-4">
                             <div class="product-thumb">
                                 <header class="product-header">
-                                    <img src="${booth.logoCoverUrl}" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                                    <a href="" target="_blank"><img src="${booth.logoCoverUrl}" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" /></a>
                                 </header>
                                 <!--
                                 <div class="product-inner">
@@ -250,7 +250,7 @@
 									</div>
 									<div class="adogo-div-body-location">
 										<span class="product-desciption">
-											<i class="fa fa-eye"></i> 19 Views &nbsp;&nbsp;&nbsp;&nbsp; 
+											<i class="fa fa-eye"></i> ${booth.viewedBooth} &nbsp;&nbsp;&nbsp;&nbsp; 
 											<i class="fa fa-star-o"></i> 7.8 Scores
 										</span>
 										<br/>

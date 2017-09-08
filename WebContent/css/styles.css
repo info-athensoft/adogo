@@ -1483,6 +1483,7 @@ label {
   border-radius: 3px;
   background: #fff;
   border: 1px solid #e6e6e6;
+  /* width:  200px;   edited by Athens*/
 }
 .product-sort .product-sort-order {
   margin-left: 4px;
