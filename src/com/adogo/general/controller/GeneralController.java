@@ -8,6 +8,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.adogo.ad.entity.AdPost;
+import com.adogo.ad.service.AdPostService;
 import com.adogo.business.entity.Booth;
 import com.adogo.business.service.BoothService;
 
@@ -20,12 +22,15 @@ public class GeneralController {
 	public void setBoothService(BoothService boothService) {
 		this.boothService = boothService;
 	}
-/*	
-	@RequestMapping("/")
-	public String goIndex(){
-		return "index";
+	
+	private AdPostService adPostService;
+	
+	@Autowired
+	public void setAdPostService(AdPostService adPostService) {
+		this.adPostService = adPostService;
 	}
-*/	
+
+
 	@RequestMapping("/")
 	public ModelAndView goIndex(){
 		ModelAndView mav = new ModelAndView();
@@ -44,6 +49,13 @@ public class GeneralController {
 		List<Booth> boothPopularSport = boothService.findPopular(8);
 		List<Booth> boothPopularNonprofit = boothService.findPopular(9);
 		
+		List<Booth> boothAllList = boothService.findAll();
+		
+		final int QTY_OF_LATEST_ADS = 6;
+		List<AdPost> AdPostLatest = adPostService.findLatestAdPostByQty(QTY_OF_LATEST_ADS);
+		
+		
+		
 		/*added by Athens on July-02-2016*/
 		
 		Map<String,Object> data = mav.getModel();
@@ -61,6 +73,16 @@ public class GeneralController {
 		data.put("boothPopularSportList", boothPopularSport);
 		data.put("boothPopularNonprofitList", boothPopularNonprofit);
 		
+		data.put("boothAllList", boothAllList);
+		
+		data.put("AdPostLatest_1", AdPostLatest.get(0));	//#1 of Latest Ads
+		data.put("AdPostLatest_2", AdPostLatest.get(1));	//#2 of Latest Ads
+		data.put("AdPostLatest_3", AdPostLatest.get(2));	//#3 of Latest Ads
+		data.put("AdPostLatest_4", AdPostLatest.get(3));	//#4 of Latest Ads
+		data.put("AdPostLatest_5", AdPostLatest.get(4));	//#5 of Latest Ads
+		data.put("AdPostLatest_6", AdPostLatest.get(5));	//#6 of Latest Ads
+		
+		
 		
 		mav.setViewName("index");
 		return mav;
@@ -68,6 +90,7 @@ public class GeneralController {
 
 	@RequestMapping("/index")
 	public ModelAndView goIndex2(){
+		/*
 		ModelAndView mav = new ModelAndView();
 		
 		List<Booth> boothNewBrands = boothService.findNewBrands();
@@ -84,8 +107,6 @@ public class GeneralController {
 		List<Booth> boothPopularSport = boothService.findPopular(8);
 		List<Booth> boothPopularNonprofit = boothService.findPopular(9);
 		
-		/*added by Athens on July-02-2016*/
-		
 		Map<String,Object> data = mav.getModel();
 		data.put("boothNewBrandsList", boothNewBrands);
 		data.put("boothWeeklyFeaturedList", boothWeeklyFeatured);
@@ -103,6 +124,8 @@ public class GeneralController {
 		
 		mav.setViewName("index");
 		return mav;
+		*/
+		return goIndex();
 	}
 	
 	@RequestMapping("/about")

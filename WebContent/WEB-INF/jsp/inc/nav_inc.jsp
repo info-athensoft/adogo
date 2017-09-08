@@ -22,6 +22,16 @@
                                 <li><a href="/about/ch">About (CHS)</a></li>
                             </ul>
                         </li>
+                        <li><a href="/">Booth</a>
+                        	<ul>
+                                <li><a href="/booth">All booth</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/">Ads</a>
+                        	<ul>
+                                <li><a href="/ad/adpost/list">All Ads</a></li>
+                            </ul>
+                        </li>
                         <li><a href="/publictest/goapplybooth">Public Test</a>
                         	<ul>
                                 <li><a href="/publictest/goapplybooth">Apply for a booth</a></li>

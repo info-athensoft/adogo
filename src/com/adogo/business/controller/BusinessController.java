@@ -33,5 +33,7 @@ public class BusinessController {
 		
 		mav.setViewName("profile");
 		return mav;
-	}	
+	}
+	
+	
 }

@@ -6,14 +6,14 @@
                 <label><i class="fa fa-search"></i><span>I want </span>
                 </label>
                 <div class="search-area-division search-area-division-input">
-                    <input class="form-control" type="text" placeholder="input to do something or something here" />
+                    <input class="form-control" type="text" placeholder="input doing something or something" />
                 </div>
             </div>
             <div class="col-md-3 clearfix">
                 <label><i class="fa fa-map-marker"></i><span>In</span>
                 </label>
                 <div class="search-area-division search-area-division-location">
-                    <input class="form-control" type="text" placeholder="input your city here" />
+                    <input class="form-control" type="text" placeholder="input your city" />
                 </div>
             </div>
             <div class="col-md-1">
