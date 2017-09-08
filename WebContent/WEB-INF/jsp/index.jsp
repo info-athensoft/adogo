@@ -180,9 +180,7 @@
 				</div>
 			 -->
 				<div class="col-md-12">
-					<h3 class="mb20">
-						New brands <small><a href="#">View All</a></small>
-					</h3>
+					<h3 class="mb20">New brands <small><a href="#">View All</a></small></h3>
 					<div class="row row-wrap">
 						<!--  
 						<c:forEach var="booth" items="${boothNewBrandsList}">
@@ -216,39 +214,37 @@
 						</c:forEach>
 						-->
 						
-						<!-- <h3>Content Slider</h3>  -->
-                        <div class="owl-carousel" id="owl-carousel" data-items="4">
-                        	<c:forEach var="booth" items="${boothAllList}">
-	                            <div>
-	                                <div class="product-thumb">
-	                                    <header class="product-header">
-	                                        <img src="${booth.logoCoverUrl}" alt="${booth.bizName}" title="${booth.bizName}" />
-	                                    </header>
-	                                    <div class="product-inner">
-	                                        <h5 class="product-title">${booth.bizName}</h5>
-	                                        <p class="product-desciption">
-	                                        	<i class="fa fa-eye"></i> 19 Views &nbsp;&nbsp;&nbsp;&nbsp; 
-												<i class="fa fa-star-o"></i> 7.8 Scores
-											</p>
-	                                        <ul class="product-actions-list">
-	                                            <li><a class="btn btn-sm" href="#"><i class="fa fa-shopping-cart"></i> To Cart</a>
-	                                            </li>
-	                                            <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Details</a>
-	                                            </li>
-	                                        </ul>
-	                                    </div>
-	                                </div>
-	                            </div>
-                            </c:forEach>
+					<!-- new sponsor slide  -->
+                   	<div class="owl-carousel" id="owl-carousel" data-items="4">
+                     		<c:forEach var="booth" items="${boothAllList}">
+                           <div>
+                               <div class="product-thumb">
+                                   <header class="product-header">
+                                       <img src="${booth.logoCoverUrl}" alt="${booth.bizName}" title="${booth.bizName}" />
+                                   </header>
+                                   <div class="product-inner">
+                                       <h5 class="product-title">${booth.bizName}</h5>
+                                       <p class="product-desciption">
+                                       	<i class="fa fa-eye"></i> 19 Views &nbsp;&nbsp;&nbsp;&nbsp; 
+										<i class="fa fa-star-o"></i> 7.8 Scores
+									</p>
+                                       <ul class="product-actions-list">
+                                           <li><a class="btn btn-sm" href="#"><i class="fa fa-shopping-cart"></i> To Cart</a>
+                                           </li>
+                                           <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Details</a>
+                                           </li>
+                                       </ul>
+                                   </div>
+                               </div>
+                           </div>
+                         </c:forEach>
 					</div>
 				</div>
 			</div>
 			<!-- <div class="gap gap-small"></div> -->
 
 			<!-- ad list of this advertiser,booth -->
-			<h4 class="mt10 mb10">
-				The Latest Ads <small><a href="/ad/adpost/list">View All</a></small>
-			</h4>
+			<h4 class="mt10 mb10">The Latest Ads <small><a href="/ad/adpost/list">View All</a></small></h4>
 			<div class="row row-wrap">
 				<div class="col-md-6">
 					<a class="product-thumb product-thumb-horizontal" href="/test/profile#section_adpost"> 
@@ -262,8 +258,8 @@
 								<br />
 								<br />
 								<p class="product-desciption">
-									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; <i
-										class="fa fa-clock-o"></i> ${AdPostLatest_1.post_datetime}
+									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_1.post_datetime}
 								</p>
 							</div>
 						</div>
@@ -280,8 +276,8 @@
 								<br />
 								<br />
 								<p class="product-desciption">
-									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; <i
-										class="fa fa-clock-o"></i> ${AdPostLatest_2.post_datetime}
+									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_2.post_datetime}
 								</p>
 							</div>
 						</div>
@@ -298,8 +294,8 @@
 								<br />
 								<br />
 								<p class="product-desciption">
-									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; <i
-										class="fa fa-clock-o"></i> ${AdPostLatest_3.post_datetime}
+									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_3.post_datetime}
 								</p>
 							</div>
 						</div>
@@ -318,8 +314,8 @@
 								<br />
 								<br />
 								<p class="product-desciption">
-									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; <i
-										class="fa fa-clock-o"></i> ${AdPostLatest_4.post_datetime}
+									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_4.post_datetime}
 								</p>
 							</div>
 						</div>
@@ -336,8 +332,8 @@
 								<br />
 								<br />
 								<p class="product-desciption">
-									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; <i
-										class="fa fa-clock-o"></i> ${AdPostLatest_5.post_datetime}
+									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_5.post_datetime}
 								</p>
 							</div>
 						</div>
@@ -354,16 +350,15 @@
 								<br />
 								<br />
 								<p class="product-desciption">
-									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; <i
-										class="fa fa-clock-o"></i> ${AdPostLatest_6.post_datetime}
+									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_6.post_datetime}
 								</p>
 							</div>
 						</div>
 					</a>
 				</div>
 			</div>
-			<!-- <div class="gap gap-small"></div>  -->
-
+			<div class="gap gap-small"></div>
 			
 			<!-- 
 			<h3 class="mb20">
@@ -410,24 +405,18 @@
 						</div>
 					</div>
 				</c:forEach>
-
-
 			</div>
 			<div class="gap gap-small"></div>
 			 -->
 
-
 			<!-- monthly stars -->
-			<h4 class="mt10 mb10">
-				Monthly Stars <small><a href="#">View All</a></small>
-			</h4>
+			<h4 class="mt10 mb10">Monthly Stars <small><a href="#">View All</a></small></h4>
 			<div class="row row-wrap">
 				<c:forEach var="booth" items="${boothMonthlyStarsList}">
 					<div class="col-md-3">
 						<div class="product-thumb">
 							<header class="product-header">
-								<a href="/test/profile"><img src="${booth.logoCoverUrl}" alt="Image Alternative text"
-									title="" /> </a>
+								<a href="/test/profile"><img src="${booth.logoCoverUrl}" alt="Image Alternative text" title="" /></a>
 							</header>
 							<div class="product-inner mb0">
 								<c:if test="${booth.bizName.length()<=30}">
@@ -443,8 +432,7 @@
 								</span>
 								<div class="product-meta">
 									<p class="product-location">
-										<i class="fa fa-map-marker"></i>
-										${booth.locCity}&nbsp;&nbsp;${booth.locProv}
+										<i class="fa fa-map-marker"></i>${booth.locCity}&nbsp;&nbsp;${booth.locProv}
 									</p>
 								</div>
 							</div>
@@ -454,14 +442,8 @@
 			</div>
 			<div class="gap gap-small"></div>
 			
-			
-					
-			
-			
 			<!-- sponsored booth -->
-			<h4 class="mt10 mb10">
-				Sponsors <small><a href="/booth">View All</a></small>
-			</h4>
+			<h4 class="mt10 mb10">Sponsors <small><a href="/booth">View All</a></small></h4>
 			<div class="row row-wrap">
 				<c:forEach var="booth" items="${boothAllList}">
 					<div class="col-md-3">
@@ -480,11 +462,7 @@
 			</div>
 			<div class="gap gap-small"></div>
 			
-			 
-			
-			<h3 class="mb20">
-				Shopwise <small><a href="#">View All</a></small>
-			</h3>
+			<h3 class="mb20">Shopwise <small><a href="#">View All</a></small></h3>
 			<div class="row row-wrap">
 				<c:forEach var="booth" items="${boothPopularShopwiseList}">
 					<div class="col-md-3">
@@ -520,11 +498,10 @@
 										</c:forEach>
 									</p>
 									<ul class="product-actions-list">
-										<li><a class="btn btn-sm"
-											href="http://${booth.homepageUrl}" target="_blank"><i
-												class="fa fa-home"></i> Home</a></li>
-										<li><a class="btn btn-sm" href="/test/profile"><i
-												class="fa fa-bars"></i> Profile</a></li>
+										<li><a class="btn btn-sm" href="http://${booth.homepageUrl}" target="_blank">
+											<i class="fa fa-home"></i> Home</a></li>
+										<li><a class="btn btn-sm" href="/test/profile">
+											<i class="fa fa-bars"></i> Profile</a></li>
 									</ul>
 								</div>
 							</div>
@@ -534,10 +511,7 @@
 			</div>
 			<div class="gap gap-small"></div>
 			
-			
-			<h4 class="mt10 mb10">
-				The Latest Ads of Shopwise <small><a href="/ad/adpost/list">View All</a></small>
-			</h4>
+			<h4 class="mt10 mb10">The Latest Ads of Shopwise <small><a href="/ad/adpost/list">View All</a></small></h4>
 			<div class="row row-wrap">
 				<div class="col-md-6">
 					<a class="product-thumb product-thumb-horizontal" href="/test/profile#section_adpost"> 
@@ -551,8 +525,8 @@
 								<br />
 								<br />
 								<p class="product-desciption">
-									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; <i
-										class="fa fa-clock-o"></i> ${AdPostLatest_1.post_datetime}
+									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_1.post_datetime}
 								</p>
 							</div>
 						</div>
@@ -569,8 +543,8 @@
 								<br />
 								<br />
 								<p class="product-desciption">
-									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; <i
-										class="fa fa-clock-o"></i> ${AdPostLatest_2.post_datetime}
+									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_2.post_datetime}
 								</p>
 							</div>
 						</div>
@@ -613,15 +587,11 @@
 							</div>
 						</div>
 					</a>
-					
-					
 				</div>
 			</div>
-			<!-- <div class="gap gap-small"></div>  -->
+			<div class="gap gap-small"></div>
 
-			<h3 class="mb20">
-				Food and drink <small><a href="#">View All</a></small>
-			</h3>
+			<h3 class="mb20">Food and drink <small><a href="#">View All</a></small></h3>
 			<div class="row row-wrap">
 				<c:forEach var="booth" items="${boothPopularFooddrinkList}">
 					<div class="col-md-3">
@@ -657,11 +627,10 @@
 										</c:forEach>
 									</p>
 									<ul class="product-actions-list">
-										<li><a class="btn btn-sm"
-											href="http://${booth.homepageUrl}" target="_blank"><i
-												class="fa fa-home"></i> Home</a></li>
-										<li><a class="btn btn-sm" href="/test/profile"><i
-												class="fa fa-bars"></i> Profile</a></li>
+										<li><a class="btn btn-sm" href="http://${booth.homepageUrl}" target="_blank">
+											<i class="fa fa-home"></i> Home</a></li>
+										<li><a class="btn btn-sm" href="/test/profile">
+											<i class="fa fa-bars"></i> Profile</a></li>
 									</ul>
 								</div>
 							</div>
@@ -671,9 +640,7 @@
 			</div>
 			<div class="gap gap-small"></div>
 
-			<h4 class="mt10 mb10">
-				The Latest Ads of Shopwise <small><a href="/ad/adpost/list">View All</a></small>
-			</h4>
+			<h4 class="mt10 mb10">The Latest Ads of Shopwise <small><a href="/ad/adpost/list">View All</a></small></h4>
 			<div class="row row-wrap">
 				<div class="col-md-6">
 					<a class="product-thumb product-thumb-horizontal" href="/test/profile#section_adpost"> 
@@ -687,8 +654,8 @@
 								<br />
 								<br />
 								<p class="product-desciption">
-									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; <i
-										class="fa fa-clock-o"></i> ${AdPostLatest_1.post_datetime}
+									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_1.post_datetime}
 								</p>
 							</div>
 						</div>
@@ -705,8 +672,8 @@
 								<br />
 								<br />
 								<p class="product-desciption">
-									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; <i
-										class="fa fa-clock-o"></i> ${AdPostLatest_2.post_datetime}
+									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_2.post_datetime}
 								</p>
 							</div>
 						</div>
@@ -749,17 +716,11 @@
 							</div>
 						</div>
 					</a>
-					
-					
 				</div>
 			</div>
-			<!-- <div class="gap gap-small"></div>  -->
-			
+			<div class="gap gap-small"></div>
 
-
-			<h3 class="mb20">
-				Life Service <small><a href="#">View All</a></small>
-			</h3>
+			<h3 class="mb20">Life Service <small><a href="#">View All</a></small></h3>
 			<div class="row row-wrap">
 				<c:forEach var="booth" items="${boothPopularLifeServiceList}">
 					<div class="col-md-3">
@@ -795,11 +756,10 @@
 										</c:forEach>
 									</p>
 									<ul class="product-actions-list">
-										<li><a class="btn btn-sm"
-											href="http://${booth.homepageUrl}" target="_blank"><i
-												class="fa fa-home"></i> Home</a></li>
-										<li><a class="btn btn-sm" href="/test/profile"><i
-												class="fa fa-bars"></i> Profile</a></li>
+										<li><a class="btn btn-sm" href="http://${booth.homepageUrl}" target="_blank">
+											<i class="fa fa-home"></i> Home</a></li>
+										<li><a class="btn btn-sm" href="/test/profile">
+											<i class="fa fa-bars"></i> Profile</a></li>
 									</ul>
 								</div>
 							</div>
@@ -807,13 +767,10 @@
 					</div>
 				</c:forEach>
 
-
 			</div>
 			<div class="gap gap-small"></div>
 
-			<h4 class="mt10 mb10">
-				The Latest Ads of Shopwise <small><a href="/ad/adpost/list">View All</a></small>
-			</h4>
+			<h4 class="mt10 mb10">The Latest Ads of Shopwise <small><a href="/ad/adpost/list">View All</a></small></h4>
 			<div class="row row-wrap">
 				<div class="col-md-6">
 					<a class="product-thumb product-thumb-horizontal" href="/test/profile#section_adpost"> 
@@ -827,8 +784,8 @@
 								<br />
 								<br />
 								<p class="product-desciption">
-									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; <i
-										class="fa fa-clock-o"></i> ${AdPostLatest_1.post_datetime}
+									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_1.post_datetime}
 								</p>
 							</div>
 						</div>
@@ -845,8 +802,8 @@
 								<br />
 								<br />
 								<p class="product-desciption">
-									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; <i
-										class="fa fa-clock-o"></i> ${AdPostLatest_2.post_datetime}
+									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_2.post_datetime}
 								</p>
 							</div>
 						</div>
@@ -865,8 +822,8 @@
 								<br />
 								<br />
 								<p class="product-desciption">
-									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; <i
-										class="fa fa-clock-o"></i> ${AdPostLatest_4.post_datetime}
+									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_4.post_datetime}
 								</p>
 							</div>
 						</div>
@@ -883,23 +840,17 @@
 								<br />
 								<br />
 								<p class="product-desciption">
-									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; <i
-										class="fa fa-clock-o"></i> ${AdPostLatest_5.post_datetime}
+									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_5.post_datetime}
 								</p>
 							</div>
 						</div>
 					</a>
-					
-					
 				</div>
 			</div>
-			<!-- <div class="gap gap-small"></div>  -->
-			
+			<div class="gap gap-small"></div>
 
-
-			<h3 class="mb20">
-				Professional Service <small><a href="#">View All</a></small>
-			</h3>
+			<h3 class="mb20">Professional Service <small><a href="#">View All</a></small></h3>
 			<div class="row row-wrap">
 				<c:forEach var="booth" items="${boothPopularProServiceList}">
 					<div class="col-md-3">
@@ -935,25 +886,20 @@
 										</c:forEach>
 									</p>
 									<ul class="product-actions-list">
-										<li><a class="btn btn-sm"
-											href="http://${booth.homepageUrl}" target="_blank"><i
-												class="fa fa-home"></i> Home</a></li>
-										<li><a class="btn btn-sm" href="/test/profile"><i
-												class="fa fa-bars"></i> Profile</a></li>
+										<li><a class="btn btn-sm" href="http://${booth.homepageUrl}" target="_blank">
+											<i class="fa fa-home"></i> Home</a></li>
+										<li><a class="btn btn-sm" href="/test/profile">
+											<i class="fa fa-bars"></i> Profile</a></li>
 									</ul>
 								</div>
 							</div>
 						</div>
 					</div>
 				</c:forEach>
-
-
 			</div>
 			<div class="gap gap-small"></div>
 
-			<h4 class="mt10 mb10">
-				The Latest Ads of Shopwise <small><a href="/ad/adpost/list">View All</a></small>
-			</h4>
+			<h4 class="mt10 mb10"> The Latest Ads of Shopwise <small><a href="/ad/adpost/list">View All</a></small></h4>
 			<div class="row row-wrap">
 				<div class="col-md-6">
 					<a class="product-thumb product-thumb-horizontal" href="/test/profile#section_adpost"> 
@@ -967,8 +913,8 @@
 								<br />
 								<br />
 								<p class="product-desciption">
-									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; <i
-										class="fa fa-clock-o"></i> ${AdPostLatest_1.post_datetime}
+									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_1.post_datetime}
 								</p>
 							</div>
 						</div>
@@ -985,8 +931,8 @@
 								<br />
 								<br />
 								<p class="product-desciption">
-									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; <i
-										class="fa fa-clock-o"></i> ${AdPostLatest_2.post_datetime}
+									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_2.post_datetime}
 								</p>
 							</div>
 						</div>
@@ -1023,23 +969,17 @@
 								<br />
 								<br />
 								<p class="product-desciption">
-									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; <i
-										class="fa fa-clock-o"></i> ${AdPostLatest_5.post_datetime}
+									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_5.post_datetime}
 								</p>
 							</div>
 						</div>
 					</a>
-					
-					
 				</div>
 			</div>
-			<!-- <div class="gap gap-small"></div>  -->
-			
+			<div class="gap gap-small"></div>
 
-
-			<h3 class="mb20">
-				Educational Service <small><a href="#">View All</a></small>
-			</h3>
+			<h3 class="mb20">Educational Service <small><a href="#">View All</a></small></h3>
 			<div class="row row-wrap">
 				<c:forEach var="booth" items="${boothPopularEduList}">
 					<div class="col-md-3">
@@ -1075,11 +1015,10 @@
 										</c:forEach>
 									</p>
 									<ul class="product-actions-list">
-										<li><a class="btn btn-sm"
-											href="http://${booth.homepageUrl}" target="_blank"><i
-												class="fa fa-home"></i> Home</a></li>
-										<li><a class="btn btn-sm" href="/test/profile"><i
-												class="fa fa-bars"></i> Profile</a></li>
+										<li><a class="btn btn-sm" href="http://${booth.homepageUrl}" target="_blank">
+											<i class="fa fa-home"></i> Home</a></li>
+										<li><a class="btn btn-sm" href="/test/profile">
+											<i class="fa fa-bars"></i> Profile</a></li>
 									</ul>
 								</div>
 							</div>
@@ -1089,9 +1028,7 @@
 			</div>
 			<div class="gap gap-small"></div>
 
-			<h3 class="mb20">
-				Tourism and Hotel Service <small><a href="#">View All</a></small>
-			</h3>
+			<h3 class="mb20">Tourism and Hotel Service <small><a href="#">View All</a></small></h3>
 			<div class="row row-wrap">
 				<c:forEach var="booth" items="${boothPopularTourList}">
 					<div class="col-md-3">
@@ -1141,10 +1078,7 @@
 			</div>
 			<div class="gap gap-small"></div>
 
-			<h3 class="mb20">
-				Transport and Logistics Service <small><a
-					href="#">View All</a></small>
-			</h3>
+			<h3 class="mb20">Transport and Logistics Service <small><a href="#">View All</a></small></h3>
 			<div class="row row-wrap">
 				<c:forEach var="booth" items="${boothPopularTransportList}">
 					<div class="col-md-3">
@@ -1180,11 +1114,10 @@
 										</c:forEach>
 									</p>
 									<ul class="product-actions-list">
-										<li><a class="btn btn-sm"
-											href="http://${booth.homepageUrl}" target="_blank"><i
-												class="fa fa-home"></i> Home</a></li>
-										<li><a class="btn btn-sm" href="/test/profile"><i
-												class="fa fa-bars"></i> Profile</a></li>
+										<li><a class="btn btn-sm" href="http://${booth.homepageUrl}" target="_blank">
+											<i class="fa fa-home"></i> Home</a></li>
+										<li><a class="btn btn-sm" href="/test/profile">
+											<i class="fa fa-bars"></i> Profile</a></li>
 									</ul>
 								</div>
 							</div>
@@ -1194,10 +1127,7 @@
 			</div>
 			<div class="gap gap-small"></div>
 
-			<h3 class="mb20">
-				Sport, Recreation and Entertainment <small><a
-					href="#">View All</a></small>
-			</h3>
+			<h3 class="mb20">Sport, Recreation and Entertainment <small><a href="#">View All</a></small></h3>
 			<div class="row row-wrap">
 				<c:forEach var="booth" items="${boothPopularSportList}">
 					<div class="col-md-3">
@@ -1247,9 +1177,7 @@
 			</div>
 			<div class="gap gap-small"></div>
 
-			<h3 class="mb20">
-				Non-profit Organization, Community <small><a href="#">View All</a></small>
-			</h3>
+			<h3 class="mb20">Non-profit Organization, Community <small><a href="#">View All</a></small></h3>
 			<div class="row row-wrap">
 				<c:forEach var="booth" items="${boothPopularNonprofitList}">
 					<div class="col-md-3">
@@ -1297,20 +1225,16 @@
 				</c:forEach>
 			</div>
 			<div class="gap"></div>
-			
 			 
 		</div>
-
 
 		<!-- //////////////////////////////////
 	//////////////END PAGE CONTENT///////// 
 	////////////////////////////////////-->
 
-
 		<!-- Main footer -->
 		<jsp:include page="inc/footer_inc.jsp"></jsp:include>
 		<!-- EMDS Main footer -->
-
 
 		<!-- Scripts queries -->
 		<script src="/js/jquery.js"></script>
@@ -1344,7 +1268,6 @@
          -->
 
 
-
 		<!-- Datalayer -->
 		<script type="text/javascript">
 			var data_layer = {
@@ -1352,10 +1275,8 @@
 			};
 		</script>
 
-
 		<!-- TMS -->
 		<script src="/js/adogo/tracking/tracker.js"></script>
-
 
 	</div>
 
