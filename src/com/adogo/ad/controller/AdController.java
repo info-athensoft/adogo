@@ -17,7 +17,9 @@ import org.springframework.web.client.RestTemplate;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.adogo.ad.entity.AdPost;
+import com.adogo.ad.entity.AdPostAudio;
 import com.adogo.ad.entity.AdPostCoverImage;
+import com.adogo.ad.entity.AdPostVideo;
 import com.adogo.ad.service.AdPostService;
 
 @Controller
@@ -93,10 +95,19 @@ public class AdController {
             logger.info("adPost:  " + adPost.toString());
             logger.info("adPost.getMediaCoverUrl():  " + adPost.getMediaCoverUrl());
             logger.info("adPost.getShortDesc():  " + adPost.getShortDesc());
+            
             List<AdPostCoverImage> coverImageList = adPost.getListAdPostCoverImage();
             AdPostCoverImage primaryCoverImage = adPost.getPrimaryMediaObject(coverImageList);
     		logger.info("primaryCoverImage getMediaUrl()="+primaryCoverImage.getMediaUrl());
             
+    		List<AdPostAudio> audioList = adPost.getListAdPostAudio();
+            AdPostAudio primaryAudio = adPost.getPrimaryMediaObject(audioList);
+    		logger.info("primaryAudio getMediaUrl()="+primaryAudio.getMediaUrl());
+    		
+    		List<AdPostVideo> videoList = adPost.getListAdPostVideo();
+            AdPostVideo primaryVideo = adPost.getPrimaryMediaObject(videoList);
+    		logger.info("primaryVideo getMediaUrl()="+primaryVideo.getMediaUrl());
+    		
             Map<String, Object> data = mav.getModel();
     		data.put("adPost", adPost);
         }

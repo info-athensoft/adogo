@@ -243,8 +243,21 @@
                             </ul>
                             <p class="post-desciption">${adPost.getShortDesc()} Vulputate viverra bibendum laoreet elit nisl felis fermentum sit ridiculus sapien elementum libero sodales volutpat facilisi fusce ornare tempor at donec mollis turpis penatibus etiam hac auctor per est libero senectus dictum inceptos pellentesque cras sagittis imperdiet fermentum luctus nisi libero facilisi semper dignissim faucibus turpis nulla penatibus dictum accumsan</p><a class="btn btn-small btn-primary" href="post-sidebar-right.html">Read More</a>
                         </div>
+                        
+                        <c:set var="galleryImageList" value="${adPost.getListAdPostGalleryImage()}" />
+                        <div class="post-inner">
+                            <ul class="post-meta">
+                            	<c:forEach var="galleryImage" items="${galleryImageList}">
+                            		<c:if test="${galleryImage.getMediaUrl() != NULL}">
+										<li style="margin: 0 0 2px 0;">
+		                                	<img src="${galleryImage.getMediaUrl()}" alt="" title="" />
+		                                </li>	
+									</c:if>
+								</c:forEach>
+                            </ul>
+                        </div>
+                        
                     	</article>
-                    	
                     	
                     	<!-- <h3>Content Slider</h3>  -->
                         <div class="owl-carousel" id="owl-carousel" data-items="3">
@@ -560,9 +573,11 @@
                     <div class="gap"></div>
                     
                     <!-- BLOG POST -->
+                    <c:set var="videoList" value="${adPost.getListAdPostVideo()}" />
+                    <c:set var="primaryVideo" value="${adPost.getPrimaryMediaObject(videoList)}" />
                     <article class="post">
                         <header class="post-header">
-                            <iframe src="//www.youtube.com/embed/9bZkp7q19f0" frameborder="0" allowfullscreen></iframe>
+                            <iframe src="${primaryVideo.getMediaUrl()}" frameborder="0" allowfullscreen></iframe>
                         </header>
                         <!-- 
                         <div class="post-inner">
