@@ -32,7 +32,8 @@
 
     <!-- Your custom styles (blank file) -->
     <link rel="stylesheet" href="/css/mystyles.css">
-
+	
+	<link rel="stylesheet" href="/css/styles-adogo.css">
 
 </head>
 
@@ -197,9 +198,9 @@
                                 <ul>
                                     <li><a href="#">sort by Name</a>
                                     </li>
-                                    <li><a href="#">sort by Date</a>
+                                    <li><a href="#">sort by Update Date</a>
                                     </li>
-                                    <li><a href="#">sort by Popularity</a>
+                                    <li><a href="#">sort by View numbers</a>
                                     </li>
                                     <li><a href="#">sort by Rating</a>
                                     </li>
@@ -220,6 +221,7 @@
                                 <header class="product-header">
                                     <img src="${booth.logoCoverUrl}" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
                                 </header>
+                                <!--
                                 <div class="product-inner">
                                     <ul class="icon-group icon-list-rating" title="5/5 rating">
                                         <li><i class="fa fa-star"></i>
@@ -233,6 +235,7 @@
                                         <li><i class="fa fa-star"></i>
                                         </li>
                                     </ul>
+                                     
                                     <c:if test="${booth.bizName.length()<=30}">
                                     	<h5 class="product-title">${booth.bizName}<br/>
                                     	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5>
@@ -240,27 +243,19 @@
                                     <c:if test="${booth.bizName.length()>30}">
                                     	<h5 class="product-title">${booth.bizName}</h5>
                                     </c:if>
-                                    
-                                    <p class="product-desciption">${booth.bizDesc}</p>
-                                    <div class="product-meta">                                        
-                                        <p class="product-location">
-                                            	<i class="fa fa-map-marker"></i> ${booth.locCity}&nbsp;&nbsp;
-                                            <c:set var="arrayvalue" value="${booth.supportLang}" />
-											<c:set var="delim" value=","/> 
-											<c:set var="array" value="${fn:split(arrayvalue, delim)}"/>
-                                            	
-                                           	<c:forEach var="lang" items="${array}">
-                                           		<span class="product-price">${lang}</span>
-                                           	</c:forEach>
-                                        </p>
-                                        <ul class="product-actions-list">
-                                            <li><a class="btn btn-sm" href="http://${booth.homepageUrl}" target="_blank"><i class="fa fa-home"></i> Home</a>
-                                            </li>
-                                            <li><a class="btn btn-sm" href="####"><i class="fa fa-bars"></i> Profile</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
+                                     
+                                </div>-->
+                                <div class="adogo-div-body">
+										<span class="adogo-title-small"><strong>${booth.bizName}</strong></span>
+									</div>
+									<div class="adogo-div-body-location">
+										<span class="product-desciption">
+											<i class="fa fa-eye"></i> 19 Views &nbsp;&nbsp;&nbsp;&nbsp; 
+											<i class="fa fa-star-o"></i> 7.8 Scores
+										</span>
+										<br/>
+										<span class="product-location adogo-title-small"><i class="fa fa-map-marker"></i>&nbsp;${booth.locCity}&nbsp;&nbsp;${booth.locProv}</span>
+									</div>
                             </div>
                         </div>
                       </c:forEach>

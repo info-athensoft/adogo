@@ -11,6 +11,15 @@ public interface BoothDao {
 	public List<Booth> findByClassLevel1(int classNum);
 	public List<Booth> findByClassLevel1(String classCode);
 	
+	/**
+	 * TODO
+	 * 
+	 * @param categoryNumLv1
+	 * @param categoryNumLv2
+	 * @return
+	 */
+	public List<Booth> findByClass(int categoryNumLv1, int categoryNumLv2);
+	
 	public List<Booth> findNewBrands();
 	public List<Booth> findWeeklyFeatured();
 	public List<Booth> findMonthlyStars();

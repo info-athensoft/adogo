@@ -79,37 +79,24 @@ public class BoothDaoImpl implements BoothDao{
 		return boothList;
 	} 
 	
-	private static class BoothRowMapper implements RowMapper<Booth>{
-		public Booth mapRow(ResultSet rs, int rowNumber) throws SQLException {
-			Booth x = new Booth();
-			x.setUid(rs.getLong("uid"));
-			x.setBizNo(rs.getLong("biz_no"));
-			x.setClassNum(rs.getInt("class_num"));
-			x.setClassCode(rs.getString("class_code"));
-			x.setBizName(rs.getString("biz_name"));
-			x.setBizDesc(rs.getString("biz_desc"));
-			x.setBoothStauts(rs.getInt("booth_status"));
-			x.setHasAdpage(rs.getInt("has_adpage"));
-			x.setHasWebsite(rs.getInt("has_website"));
-			x.setLocCountry(rs.getString("loc_country"));
-			x.setLocProv(rs.getString("loc_prov"));
-			x.setLocArea(rs.getString("loc_area"));
-			x.setLocCity(rs.getString("loc_city"));
-			x.setLocDistriction(rs.getString("loc_distriction"));
-			x.setLocName(rs.getString("loc_name"));
-			x.setLogoCoverUrl(rs.getString("logo_cover_url"));
-			x.setScore(rs.getDouble("score"));
-			x.setSupportLang(rs.getString("support_lang"));
-			x.setViewedBooth(rs.getLong("viewed_booth"));
-			x.setViewedHomepage(rs.getLong("viewed_homepage"));
-			x.setViewedProfile(rs.getLong("viewed_profile"));
-			x.setNumOfLiked(rs.getLong("num_of_liked"));
-			x.setNumOfFavourite(rs.getLong("num_of_favourite"));
-			x.setNumOfShared(rs.getLong("num_of_shared"));
-			x.setHomepageUrl(rs.getString("homepage_url"));
-			x.setCounter(rs.getLong("counter"));
-            return x;
-		}		
+	/* 
+	 * NOT READY
+	 * (non-Javadoc)
+	 * @see com.adogo.business.dao.BoothDao#findByClass(int, int)
+	 */
+	@Override
+	public List<Booth> findByClass(int categoryNumLv1, int categoryNumLv2) {
+		String sql = "select * from booth where category_num_lv1=:categoryNumLv1 and category_num_lv2=:categoryNumLv2 and booth_status > 0";
+		MapSqlParameterSource paramSource = new MapSqlParameterSource();
+		paramSource.addValue("categoryNumLv1", categoryNumLv1);
+		paramSource.addValue("categoryNumLv2", categoryNumLv2);
+		List<Booth> boothList = new ArrayList<Booth>();
+		try{
+			boothList = jdbc.query(sql, paramSource, new BoothRowMapper());
+		}catch(EmptyResultDataAccessException ex){
+			ex.printStackTrace();
+		}
+		return boothList;
 	}
 
 	@Override
@@ -164,6 +151,41 @@ public class BoothDaoImpl implements BoothDao{
 		
 		jdbc.update(sql, paramSource);
 		System.out.println("leaving ... updateCounter. ");
+	}
+
+	private static class BoothRowMapper implements RowMapper<Booth>{
+		public Booth mapRow(ResultSet rs, int rowNumber) throws SQLException {
+			Booth x = new Booth();
+			x.setUid(rs.getLong("uid"));
+			x.setBizNo(rs.getLong("biz_no"));
+			x.setClassNum(rs.getInt("class_num"));
+			x.setClassCode(rs.getString("class_code"));
+			x.setCategoryNumLv1(rs.getInt("category_num_lv1"));
+			x.setCategoryNumLv2(rs.getInt("category_num_lv2"));
+			x.setBizName(rs.getString("biz_name"));
+			x.setBizDesc(rs.getString("biz_desc"));
+			x.setBoothStauts(rs.getInt("booth_status"));
+			x.setHasAdpage(rs.getInt("has_adpage"));
+			x.setHasWebsite(rs.getInt("has_website"));
+			x.setLocCountry(rs.getString("loc_country"));
+			x.setLocProv(rs.getString("loc_prov"));
+			x.setLocArea(rs.getString("loc_area"));
+			x.setLocCity(rs.getString("loc_city"));
+			x.setLocDistriction(rs.getString("loc_distriction"));
+			x.setLocName(rs.getString("loc_name"));
+			x.setLogoCoverUrl(rs.getString("logo_cover_url"));
+			x.setScore(rs.getDouble("score"));
+			x.setSupportLang(rs.getString("support_lang"));
+			x.setViewedBooth(rs.getLong("viewed_booth"));
+			x.setViewedHomepage(rs.getLong("viewed_homepage"));
+			x.setViewedProfile(rs.getLong("viewed_profile"));
+			x.setNumOfLiked(rs.getLong("num_of_liked"));
+			x.setNumOfFavourite(rs.getLong("num_of_favourite"));
+			x.setNumOfShared(rs.getLong("num_of_shared"));
+			x.setHomepageUrl(rs.getString("homepage_url"));
+			x.setCounter(rs.getLong("counter"));
+	        return x;
+		}		
 	}
 	
 }

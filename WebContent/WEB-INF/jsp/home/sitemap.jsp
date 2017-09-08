@@ -346,22 +346,22 @@
                         <tbody>
                             <tr>
                                 <td>booth</td>
-                                <td><a href="/booth">All Booths</a></td>
-                                <td><a href="/booth">/booth</a></td>
+                                <td><a href="/ad/booths">All Booths</a></td>
+                                <td><a href="/ad/booths">/ad/booths</a></td>
                                 <td>com.adogo.business.controller.BoothController</td>
                                 <td>Test</td>
                         	</tr>
                         	<tr>
                                 <td>booth</td>
-                                <td><a href="/category/1">Booths by class<br/> classNum=1</a></td>
-                                <td><a href="/category/1">/category/{classNum}</a></td>
+                                <td><a href="/ad/booths/c1/1">Booths by category level1<br/> categoryNum=1</a></td>
+                                <td><a href="/ad/booths/c1/1">/ad/booths/c1/{categoryNumLv1}</a></td>
                                 <td>com.adogo.business.controller.BoothController</td>
                                 <td>Test</td>
                         	</tr>
                         	<tr>
                                 <td>booth</td>
-                                <td><a href="/category/1/1">Booths by class level2<br/> classNum=1, classNumLv2=1</a></td>
-                                <td><a href="/category/1/1">/category/{classNum}/{classNumLv2}</a></td>
+                                <td><a href="/ad/booths/c1/1/c2/1">Booths by category level2<br/> categoryNum=1, categoryNumLv2=1</a></td>
+                                <td><a href="/ad/booths/c1/1/c2/1">/ad/booths/c1/{categoryNumLv1}/c2/{categoryNumLv2}</a></td>
                                 <td>com.adogo.business.controller.BoothController</td>
                                 <td>Test</td>
                         	</tr>
