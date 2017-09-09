@@ -88,7 +88,7 @@ public class AdController {
             rt.getMessageConverters().add(new MappingJackson2HttpMessageConverter());
             rt.getMessageConverters().add(new StringHttpMessageConverter());
 
-            String uri = new String("http://127.0.0.1:8088/acp/ad/adpost/{adPostId}");
+            String uri = new String("http://127.0.0.1:8080/acp/ad/adpost/{adPostId}");
 
             AdPost adPost = rt.getForObject(uri, AdPost.class, vars);
 
