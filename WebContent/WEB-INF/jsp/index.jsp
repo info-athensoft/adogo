@@ -95,7 +95,7 @@
                            	<div>
                                <div class="product-thumb">
                                    <header class="product-header">
-                                       <img src="${booth.logoCoverUrl}" alt="${booth.bizName}" title="${booth.bizName}" />
+                                       <a href="/ad/boothprofile/${booth.bizNo}"><img src="${booth.logoCoverUrl}" alt="${booth.bizName}" title="${booth.bizName}" /></a>
                                    </header>
                                    <div class="product-inner">
                                        <h5 class="product-title">${booth.bizName}</h5>

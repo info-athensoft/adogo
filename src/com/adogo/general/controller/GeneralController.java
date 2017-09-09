@@ -39,15 +39,15 @@ public class GeneralController {
 		List<Booth> boothWeeklyFeatured = boothService.findWeeklyFeatured();
 		List<Booth> boothMonthlyStars = boothService.findMonthlyStars();
 		//List<Booth> boothPopular = boothService.findPopular();
-		List<Booth> boothPopularShopwise = boothService.findPopular(1);
-		List<Booth> boothPopularFooddrink = boothService.findPopular(2);
-		List<Booth> boothPopularLifeService = boothService.findPopular(3);
-		List<Booth> boothPopularProService = boothService.findPopular(4);
-		List<Booth> boothPopularEdu = boothService.findPopular(5);
-		List<Booth> boothPopularTour = boothService.findPopular(6);
-		List<Booth> boothPopularTransport = boothService.findPopular(7);
-		List<Booth> boothPopularSport = boothService.findPopular(8);
-		List<Booth> boothPopularNonprofit = boothService.findPopular(9);
+		List<Booth> boothPopularShopwise = boothService.findPopular(100);
+		List<Booth> boothPopularFooddrink = boothService.findPopular(200);
+		List<Booth> boothPopularLifeService = boothService.findPopular(300);
+		List<Booth> boothPopularProService = boothService.findPopular(400);
+		List<Booth> boothPopularEdu = boothService.findPopular(500);
+		List<Booth> boothPopularTour = boothService.findPopular(600);
+		List<Booth> boothPopularTransport = boothService.findPopular(700);
+		List<Booth> boothPopularSport = boothService.findPopular(800);
+		List<Booth> boothPopularNonprofit = boothService.findPopular(900);
 		
 		List<Booth> boothAllList = boothService.findAll();
 		

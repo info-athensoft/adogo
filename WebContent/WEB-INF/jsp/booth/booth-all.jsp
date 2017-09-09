@@ -219,7 +219,7 @@
                     	<div class="col-md-4">
                             <div class="product-thumb">
                                 <header class="product-header">
-                                    <a href="" target="_blank"><img src="${booth.logoCoverUrl}" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" /></a>
+                                    <a href="/ad/boothprofile/${booth.bizNo}" target="_blank"><img src="${booth.logoCoverUrl}" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" /></a>
                                 </header>
                                 <!--
                                 <div class="product-inner">

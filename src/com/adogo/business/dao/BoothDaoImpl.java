@@ -30,7 +30,7 @@ public class BoothDaoImpl implements BoothDao{
 	
 	@Override
 	public Booth findByBizNo(int bizNo) {
-		String sql = "select * from booth where bizNo =:bizNo";
+		String sql = "select * from booth where biz_no =:bizNo";
 		MapSqlParameterSource paramSource = new MapSqlParameterSource();
 		paramSource.addValue("bizNo", bizNo);
 		Booth booth = null;

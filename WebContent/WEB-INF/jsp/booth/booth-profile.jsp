@@ -36,7 +36,7 @@
 
 </head>
 
-<body class="boxed bg-cover"
+<body class="boxed bg-cover sticky-search"
 	style="background-image: url(/img/backgrounds/s4.jpg)">
 	
     <div class="global-wrap">
@@ -44,16 +44,16 @@
 	//////////////MAIN HEADER///////////// 
 	////////////////////////////////////-->
         <!-- Main header -->
-		<jsp:include page="inc/nav_inc.jsp"></jsp:include>
+		<jsp:include page="../inc/nav_inc.jsp"></jsp:include>
 		<!-- EMDS Main header -->
         
         <!-- LOGIN REGISTER LINKS CONTENT -->
-        <jsp:include page="inc/login_inc.jsp"></jsp:include>
+        <jsp:include page="../inc/login_inc.jsp"></jsp:include>
         <!-- END LOGIN REGISTER LINKS CONTENT -->
 		
 
         <!-- SEARCH AREA -->
-        <jsp:include page="inc/search_inc.jsp"></jsp:include>
+        <jsp:include page="../inc/search_inc.jsp"></jsp:include>
         <!-- END SEARCH AREA -->
 
         <div class="gap"></div>
@@ -544,9 +544,9 @@
                 
                 <div class="col-md-3">
                     <div class="product-page-meta box">
-                        <p><img src="/customer/21001/logo.jpg" title="mara coiffuire"/></p>
-                        <h4><strong>Silvertac Design Studio</strong></h4>
-                        <p>Mr. Roni is providing services for you which includes haircut, perm, hair color, doing hairstyle etc.<br/></p>
+                        <p><img src="${booth.logoCoverUrl}" title="${booth.bizName}"/></p>
+                        <h4><strong>${booth.bizName}</strong></h4>
+                        <p>${booth.bizDesc}<br/></p>
                         <!-- 
                         <a class="btn btn-primary btn-block" href="#"  target="_blank">View Ad. Page</a>
                          -->
@@ -569,7 +569,7 @@
                             </li>-->
                             <li>
                             	<i class="fa fa-language"></i>&nbsp;&nbsp; Service languages
-                            	<span class="product-page-meta-title">FR, EN, CH</span> 
+                            	<span class="product-page-meta-title">${booth.supportLang}</span> 
                             </li>
                             
                             <li>
@@ -579,7 +579,7 @@
                             
                             <li>
                                 <ul class="list product-page-meta-price-list">
-                                    <li><span class="product-page-meta-title"><i class="fa fa-eye"></i>&nbsp;&nbsp; Views</span><span class="product-page-meta-price">5000</span>
+                                    <li><span class="product-page-meta-title"><i class="fa fa-eye"></i>&nbsp;&nbsp; Views</span><span class="product-page-meta-price">${booth.viewedBooth}</span>
                                     </li>
                                     <li><span class="product-page-meta-title"><i class="fa fa-heart-o"></i>&nbsp;&nbsp;Likes</span><span class="product-page-meta-price">100</span>
                                     </li>
@@ -729,7 +729,7 @@
 	////////////////////////////////////-->
 
 		<!-- Main footer -->
-		<jsp:include page="inc/footer_inc.jsp"></jsp:include>
+		<jsp:include page="../inc/footer_inc.jsp"></jsp:include>
 		<!-- EMDS Main footer -->
         <!-- //////////////////////////////////
 	//////////////END MAIN  FOOTER///////// 
