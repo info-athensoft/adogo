@@ -72,6 +72,46 @@
             <div class="row">
                 <div class="col-md-3">
                     <aside class="sidebar-left">
+                    	<!-- <h3 class="mb20">I am Looking For</h3> -->
+						<ul
+							class="nav nav-tabs nav-stacked nav-coupon-category nav-coupon-category-left">
+							<li class="active"><a href="#">
+								<i class="fa fa-shopping-cart"></i>I want shopping</a></li>
+							
+							<li><a href="/ad/booths/c1/100"><i class="fa fa-shopping-cart"></i>Shopwise<span>33</span></a></li>
+
+							<li class="active"><a href="#"><i class="fa fa-shopping-cart"></i>I need services</a></li>
+							<li><a href="/ad/booths/c1/200"><i class="fa fa-cutlery"></i>Food &amp; drink<span>50</span></a></li>
+							<li><a href="/ad/booths/c1/300"><i class="fa fa-calendar"></i>Life Service<span>49</span></a></li>
+							<li><a href="/ad/booths/c1/400"><i class="fa fa-calendar"></i>Pro. Service<span>49</span></a></li>
+							<li><a href="/ad/booths/c1/500"><i class="fa fa-headphones"></i>Education<span>48</span></a></li>
+							<li><a href="/ad/booths/c1/600"><i class="fa fa-plane"></i>Tourism&amp;Hotel<span>38</span></a></li>
+							<li><a href="/ad/booths/c1/700"><i class="fa fa-plane"></i>Trans.&amp;Logistic<span>38</span></a></li>
+							<li><a href="/ad/booths/c1/800"><i class="fa fa-home"></i>Sport,Recreation<span>44</span></a></li>
+							<li><a href="/ad/booths/c1/900"><i class="fa fa-home"></i>Non-profit<span>44</span></a></li>
+							
+							
+							<!--
+							<li class="active"><a href="#"><i
+									class="fa fa-shopping-cart"></i>I want to do business</a></li>
+							<li><a href="#"><i class="fa fa-cutlery"></i>Connecting
+									to Business<span>50</span></a></li>
+							<li><a href="#"><i class="fa fa-cutlery"></i>Buying a
+									Business<span>50</span></a></li>
+
+							
+                            <li><a href="#"><i class="fa fa-cutlery"></i>Housing<span>50</span></a></li>
+                            <li><a href="#"><i class="fa fa-cutlery"></i>Auto, Motor &amp; Bike<span>50</span></a></li> 
+                            <li><a href="#"><i class="fa fa-umbrella"></i>Clothing<span>40</span></a></li>
+                            <li><a href="#"><i class="fa fa-bolt"></i>Sport,Fitness<span>36</span></a></li>
+                            
+                            <li><a href="#"><i class="fa fa-cutlery"></i>Selling a Business<span>50</span></a></li>
+                             -->
+
+
+						</ul>
+                    
+                    	<!-- 
                         <ul class="nav nav-tabs nav-stacked nav-coupon-category">
                             <li class="active"><a href="#"><i class="fa fa-ticket"></i>SHOPWISE</a></li>
                             <li><a href="#"><i class="fa fa-cutlery"></i>Clothing, Shoes</a></li>
@@ -94,6 +134,7 @@
                             <li><a href="#"><i class="fa fa-plane"></i>Sports, Fitness</a></li>
                             <li><a href="#"><i class="fa fa-plane"></i>Outdoor, Recreation</a></li>
                         </ul>
+                         -->
                         <div class="sidebar-box">
                             <h5>Filter By Price</h5>
                             <input type="text" id="price-slider">

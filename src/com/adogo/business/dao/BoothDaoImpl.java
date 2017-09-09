@@ -45,7 +45,7 @@ public class BoothDaoImpl implements BoothDao{
 
 	@Override
 	public List<Booth> findAll() {
-		String sql = "select * from booth where booth_status > 0";		
+		String sql = "select * from booth where booth_status > 0 order by rand()";		
 		return jdbc.query(sql, new BoothRowMapper());
 	}
 	

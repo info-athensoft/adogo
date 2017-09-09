@@ -15,6 +15,7 @@
 <c:set var="sec7" value="7. Public Test Round #2"/>
 <c:set var="sec8" value="8. UAAS - User Authentication and Authorization System"/>
 <c:set var="sec9" value="9. UPCS - User Personal Center System"/>
+<c:set var="sec10" value="10. Search"/>
 
 
 <!DOCTYPE HTML>
@@ -602,6 +603,32 @@
                         </table>
                     </div>
                     
+                    
+                    <!-- section: search -->              	
+                	<div><h5 class="panel-title"><c:out value="${sec10}"/></h5></div>
+                	
+                    <div class="panel-group" id="">
+                        <table class="table">
+                        <thead>
+                            <tr>
+                                <th class="cell-1">Package</th>
+                                <th class="cell-2">Page Name</th>
+                                <th class="cell-3">URL</th>
+                                <th class="cell-4">Controller</th>
+                                <th class="cell-5">Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        	<tr>
+                                <td>search</td>
+                                <td><a href="/search/result">Search result page</a></td>
+                                <td><a href="/search/result">/search/result</a></td>
+                                <td>com.adogo.upcs.controller.GeneralController</td>
+                                <td>Draft</td>
+                        	</tr>
+                        </tbody>
+                        </table>
+                    </div>
                     
                     
                 </div>

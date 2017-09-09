@@ -89,7 +89,7 @@
 		<div class="container">
 			<div class="row row-wrap">
 				<div class="col-md-12">
-					<h3 class="mb20  text-center">Featured sponsors <small><a href="#">View All</a></small></h3>
+					<h3 class="mb20  text-center">Featured sponsors <small><a href="/ad/booths">View All</a></small></h3>
                    	<div class="owl-carousel" id="owl-carousel" data-items="4">
                      		<c:forEach var="booth" items="${boothAllList}">
                            	<div>
@@ -318,6 +318,7 @@
 			<div class="gap gap-small"></div>
 			
 			<!-- sponsored booth -->
+			<!-- 
 			<h4 class="mt10 mb10">Sponsors <small><a href="/booth">View All</a></small></h4>
 			<div class="row row-wrap">
 				<c:forEach var="booth" items="${boothAllList}">
@@ -341,6 +342,7 @@
 				</c:forEach>
 			</div>
 			<div class="gap gap-small"></div>
+			 -->
 			
 			<h3 class="mb20">Shopwise <small><a href="#">View All</a></small></h3>
 			<div class="row row-wrap">
