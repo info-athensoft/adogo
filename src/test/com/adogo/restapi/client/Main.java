@@ -53,13 +53,17 @@ public class Main
             rt.getMessageConverters().add(new StringHttpMessageConverter());
 
             //String uri = new String("http://" + mRESTServer.getHost() + ":8080/springmvc-resttemplate-test/api/{id}");
+            //String uri = new String("http://127.0.0.1:8088/api/{id}");
+            //String uri = new String("http://127.0.0.1:8088/acp/useracct-test/{id}");
             String uri = new String("http://127.0.0.1:8080/acp/useracct-test/{id}");
+            //String uri = new String("http://127.0.0.1:8088/api/{name}");
 
             UserAccount getResult = rt.getForObject(uri, UserAccount.class, vars);
 
             System.out.println("Get User:  " + getResult.toString());
             
             //test post api
+//          String postUri = new String("http://127.0.0.1:8088/acp/useracct-test");
             String postUri = new String("http://127.0.0.1:8080/acp/useracct-test");
             UserAccount userAccount = new UserAccount();
     		userAccount.setAcctName("f6@gmail.com");

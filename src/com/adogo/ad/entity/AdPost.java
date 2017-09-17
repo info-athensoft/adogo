@@ -1,124 +1,120 @@
 package com.adogo.ad.entity;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
-public class AdPost {
-	private long global_id;
-	private long user_id;
-	private String adpost_id;
-	private String media_cover_url;
-	private String post_title;
-	private String post_author;
-	private Date create_datetime;
-	private Date post_datetime;
-	private int lang_no;
-	private String tags;
-	private int view_num;
-	private String short_desc;
+import org.apache.log4j.Logger;
+
+
+public class AdPost extends AdPostHead {
 	
-	public long getGlobal_id() {
-		return global_id;
+	private static final Logger logger = Logger.getLogger(AdPost.class);
+	
+	private List<AdPostText> listAdPostText;
+	private List<AdPostCoverImage> listAdPostCoverImage = new ArrayList<AdPostCoverImage>();
+	private List<AdPostSlideImage> listAdPostSlideImage = new ArrayList<AdPostSlideImage>();
+	private List<AdPostGalleryImage> listAdPostGalleryImage = new ArrayList<AdPostGalleryImage>();
+	private List<AdPostAudio> listAdPostAudio = new ArrayList<AdPostAudio>();
+	private List<AdPostVideo> listAdPostVideo = new ArrayList<AdPostVideo>();
+	
+	
+	/**
+	 * @param mediaList
+	 * @return
+	 */
+	public <T extends AdPostMediaBody> T getPrimaryMediaObject(List<T> mediaList){
+		T primaryMediaObj = null;
+		
+		int listSize = mediaList.size();
+		
+		if(listSize==0){
+			logger.info("The media list does not exist.");
+		}else if(listSize==1){
+			primaryMediaObj = mediaList.get(0);
+		}else{
+			for(T obj : mediaList){
+				if(obj.isPrimary==null){
+					continue;
+				}else{
+					if(obj.getIsPrimary()){
+						primaryMediaObj = obj;
+						break;
+					}
+				}
+			}//end-of-for-loop
+			if(primaryMediaObj ==null){
+				primaryMediaObj = mediaList.get(0);
+			}
+		}//end-of-else
+		
+		return primaryMediaObj;
 	}
-
-	public void setGlobal_id(long global_id) {
-		this.global_id = global_id;
+	
+	public void setAdPostHead(AdPostHead adPostHead){
+		this.globalId = adPostHead.getGlobalId();
+		this.userId = adPostHead.getUserId();
+		this.adPostId = adPostHead.getAdPostId();
+		this.mediaCoverUrl = adPostHead.getMediaCoverUrl();
+		this.postTitle = adPostHead.getPostTitle();
+		this.postAuthor = adPostHead.getPostAuthor();
+		this.postCategory = adPostHead.getPostCategory();
+		this.createDatetime = adPostHead.getCreateDatetime();
+		this.postDatetime = adPostHead.getPostDatetime();
+		this.langNo = adPostHead.getLangNo();
+		this.tags = adPostHead.getTags();
+		this.viewNum = adPostHead.getViewNum();
+		this.shortDesc = adPostHead.getShortDesc();
 	}
-
-	public long getUser_id() {
-		return user_id;
+	
+	
+	public List<AdPostAudio> getListAdPostAudio() {
+		return listAdPostAudio;
 	}
-
-	public void setUser_id(long user_id) {
-		this.user_id = user_id;
+	public void setListAdPostAudio(List<AdPostAudio> listAdPostAudio) {
+		this.listAdPostAudio = listAdPostAudio;
 	}
-
-	public String getAdpost_id() {
-		return adpost_id;
+	public List<AdPostVideo> getListAdPostVideo() {
+		return listAdPostVideo;
 	}
-
-	public void setAdpost_id(String adpost_id) {
-		this.adpost_id = adpost_id;
+	public void setListAdPostVideo(List<AdPostVideo> listAdPostVideo) {
+		this.listAdPostVideo = listAdPostVideo;
 	}
-
-	public String getMedia_cover_url() {
-		return media_cover_url;
+	public List<AdPostCoverImage> getListAdPostCoverImage() {
+		return listAdPostCoverImage;
 	}
-
-	public void setMedia_cover_url(String media_cover_url) {
-		this.media_cover_url = media_cover_url;
+	public void setListAdPostCoverImage(List<AdPostCoverImage> listAdPostCoverImage) {
+		this.listAdPostCoverImage = listAdPostCoverImage;
 	}
-
-	public String getPost_title() {
-		return post_title;
+	public List<AdPostSlideImage> getListAdPostSlideImage() {
+		return listAdPostSlideImage;
 	}
-
-	public void setPost_title(String post_title) {
-		this.post_title = post_title;
+	public void setListAdPostSlideImage(List<AdPostSlideImage> listAdPostSlideImage) {
+		this.listAdPostSlideImage = listAdPostSlideImage;
 	}
-
-	public String getPost_author() {
-		return post_author;
+	public List<AdPostGalleryImage> getListAdPostGalleryImage() {
+		return listAdPostGalleryImage;
 	}
-
-	public void setPost_author(String post_author) {
-		this.post_author = post_author;
+	public void setListAdPostGalleryImage(List<AdPostGalleryImage> listAdPostGalleryImage) {
+		this.listAdPostGalleryImage = listAdPostGalleryImage;
 	}
-
-	public Date getCreate_datetime() {
-		return create_datetime;
+	public List<AdPostText> getListAdPostText() {
+		return listAdPostText;
 	}
-
-	public void setCreate_datetime(Date create_datetime) {
-		this.create_datetime = create_datetime;
+	public void setListAdPostText(List<AdPostText> listAdPostText) {
+		this.listAdPostText = listAdPostText;
 	}
-
-	public Date getPost_datetime() {
-		return post_datetime;
-	}
-
-	public void setPost_datetime(Date post_datetime) {
-		this.post_datetime = post_datetime;
-	}
-
-	public int getLang_no() {
-		return lang_no;
-	}
-
-	public void setLang_no(int lang_no) {
-		this.lang_no = lang_no;
-	}
-
-	public String getTags() {
-		return tags;
-	}
-
-	public void setTags(String tags) {
-		this.tags = tags;
-	}
-
-	public int getView_num() {
-		return view_num;
-	}
-
-	public void setView_num(int view_num) {
-		this.view_num = view_num;
-	}
-
-	public String getShort_desc() {
-		return short_desc;
-	}
-
-	public void setShort_desc(String short_desc) {
-		this.short_desc = short_desc;
-	}
-
+	
 	@Override
 	public String toString() {
-		return "AdPost [global_id=" + global_id + ", user_id=" + user_id + ", adpost_id=" + adpost_id
-				+ ", media_cover_url=" + media_cover_url + ", post_title=" + post_title + ", post_author=" + post_author
-				+ ", create_datetime=" + create_datetime + ", post_datetime=" + post_datetime + ", lang_no=" + lang_no
-				+ ", tags=" + tags + ", view_num=" + view_num + ", short_desc=" + short_desc + "]";
+		return "AdPost [listAdPostText=" + listAdPostText + ", listAdPostCoverImage=" + listAdPostCoverImage
+				+ ", listAdPostSlideImage=" + listAdPostSlideImage + ", listAdPostGalleryImage="
+				+ listAdPostGalleryImage + ", listAdPostAudio=" + listAdPostAudio + ", listAdPostVideo="
+				+ listAdPostVideo + ", globalId=" + globalId + ", userId=" + userId + ", adPostId=" + adPostId
+				+ ", mediaCoverUrl=" + mediaCoverUrl + ", postTitle=" + postTitle + ", postAuthor=" + postAuthor
+				+ ", createDatetime=" + createDatetime + ", postDatetime=" + postDatetime + ", langNo=" + langNo
+				+ ", tags=" + tags + "]";
 	}
-
-
+	
+	
 }
