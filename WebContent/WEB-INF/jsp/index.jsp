@@ -127,14 +127,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_1.post_title}</h5>
+							<h5 class="product-title">${AdPostLatest_1.postTitle}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_1.short_desc}
+								${AdPostLatest_1.shortDesc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
-									<i class="fa fa-clock-o"></i> ${AdPostLatest_1.post_datetime}
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_1.postDatetime}
 								</p>
 							</div>
 						</div>
@@ -145,14 +145,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_2.post_title}</h5>
+							<h5 class="product-title">${AdPostLatest_2.postTitle}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_2.short_desc}
+								${AdPostLatest_2.shortDesc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
-									<i class="fa fa-clock-o"></i> ${AdPostLatest_2.post_datetime}
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_2.postDatetime}
 								</p>
 							</div>
 						</div>
@@ -163,14 +163,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_3.post_title}</h5>
+							<h5 class="product-title">${AdPostLatest_3.postTitle}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_3.short_desc}
+								${AdPostLatest_3.shortDesc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
-									<i class="fa fa-clock-o"></i> ${AdPostLatest_3.post_datetime}
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_3.postDatetime}
 								</p>
 							</div>
 						</div>
@@ -183,14 +183,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_4.post_title}</h5>
+							<h5 class="product-title">${AdPostLatest_4.postTitle}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_4.short_desc}
+								${AdPostLatest_4.shortDesc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
-									<i class="fa fa-clock-o"></i> ${AdPostLatest_4.post_datetime}
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_4.postDatetime}
 								</p>
 							</div>
 						</div>
@@ -201,14 +201,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_5.post_title}</h5>
+							<h5 class="product-title">${AdPostLatest_5.postTitle}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_5.short_desc}
+								${AdPostLatest_5.shortDesc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
-									<i class="fa fa-clock-o"></i> ${AdPostLatest_5.post_datetime}
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_5.postDatetime}
 								</p>
 							</div>
 						</div>
@@ -219,14 +219,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_6.post_title}</h5>
+							<h5 class="product-title">${AdPostLatest_6.postTitle}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_6.short_desc}
+								${AdPostLatest_6.shortDesc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
-									<i class="fa fa-clock-o"></i> ${AdPostLatest_6.post_datetime}
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_6.postDatetime}
 								</p>
 							</div>
 						</div>
@@ -401,14 +401,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_1.post_title}</h5>
+							<h5 class="product-title">${AdPostLatest_1.postTitle}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_1.short_desc}
+								${AdPostLatest_1.shortDesc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
-									<i class="fa fa-clock-o"></i> ${AdPostLatest_1.post_datetime}
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_1.postDatetime}
 								</p>
 							</div>
 						</div>
@@ -419,14 +419,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_2.post_title}</h5>
+							<h5 class="product-title">${AdPostLatest_2.postTitle}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_2.short_desc}
+								${AdPostLatest_2.shortDesc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
-									<i class="fa fa-clock-o"></i> ${AdPostLatest_2.post_datetime}
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_2.postDatetime}
 								</p>
 							</div>
 						</div>
@@ -439,14 +439,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_4.post_title}</h5>
+							<h5 class="product-title">${AdPostLatest_4.postTitle}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_4.short_desc}
+								${AdPostLatest_4.shortDesc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; <i
-										class="fa fa-clock-o"></i> ${AdPostLatest_4.post_datetime}
+										class="fa fa-clock-o"></i> ${AdPostLatest_4.postDatetime}
 								</p>
 							</div>
 						</div>
@@ -457,14 +457,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_5.post_title}</h5>
+							<h5 class="product-title">${AdPostLatest_5.postTitle}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_5.short_desc}
+								${AdPostLatest_5.shortDesc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; <i
-										class="fa fa-clock-o"></i> ${AdPostLatest_5.post_datetime}
+										class="fa fa-clock-o"></i> ${AdPostLatest_5.postDatetime}
 								</p>
 							</div>
 						</div>
@@ -530,14 +530,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_1.post_title}</h5>
+							<h5 class="product-title">${AdPostLatest_1.postTitle}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_1.short_desc}
+								${AdPostLatest_1.shortDesc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
-									<i class="fa fa-clock-o"></i> ${AdPostLatest_1.post_datetime}
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_1.postDatetime}
 								</p>
 							</div>
 						</div>
@@ -548,14 +548,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_2.post_title}</h5>
+							<h5 class="product-title">${AdPostLatest_2.postTitle}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_2.short_desc}
+								${AdPostLatest_2.shortDesc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
-									<i class="fa fa-clock-o"></i> ${AdPostLatest_2.post_datetime}
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_2.postDatetime}
 								</p>
 							</div>
 						</div>
@@ -568,14 +568,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_4.post_title}</h5>
+							<h5 class="product-title">${AdPostLatest_4.postTitle}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_4.short_desc}
+								${AdPostLatest_4.shortDesc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; <i
-										class="fa fa-clock-o"></i> ${AdPostLatest_4.post_datetime}
+										class="fa fa-clock-o"></i> ${AdPostLatest_4.postDatetime}
 								</p>
 							</div>
 						</div>
@@ -586,14 +586,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_5.post_title}</h5>
+							<h5 class="product-title">${AdPostLatest_5.postTitle}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_5.short_desc}
+								${AdPostLatest_5.shortDesc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; <i
-										class="fa fa-clock-o"></i> ${AdPostLatest_5.post_datetime}
+										class="fa fa-clock-o"></i> ${AdPostLatest_5.postDatetime}
 								</p>
 							</div>
 						</div>
@@ -660,14 +660,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_1.post_title}</h5>
+							<h5 class="product-title">${AdPostLatest_1.postTitle}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_1.short_desc}
+								${AdPostLatest_1.shortDesc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
-									<i class="fa fa-clock-o"></i> ${AdPostLatest_1.post_datetime}
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_1.postDatetime}
 								</p>
 							</div>
 						</div>
@@ -678,14 +678,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_2.post_title}</h5>
+							<h5 class="product-title">${AdPostLatest_2.postTitle}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_2.short_desc}
+								${AdPostLatest_2.shortDesc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
-									<i class="fa fa-clock-o"></i> ${AdPostLatest_2.post_datetime}
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_2.postDatetime}
 								</p>
 							</div>
 						</div>
@@ -698,14 +698,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_4.post_title}</h5>
+							<h5 class="product-title">${AdPostLatest_4.postTitle}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_4.short_desc}
+								${AdPostLatest_4.shortDesc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
-									<i class="fa fa-clock-o"></i> ${AdPostLatest_4.post_datetime}
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_4.postDatetime}
 								</p>
 							</div>
 						</div>
@@ -716,14 +716,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_5.post_title}</h5>
+							<h5 class="product-title">${AdPostLatest_5.postTitle}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_5.short_desc}
+								${AdPostLatest_5.shortDesc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
-									<i class="fa fa-clock-o"></i> ${AdPostLatest_5.post_datetime}
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_5.postDatetime}
 								</p>
 							</div>
 						</div>
@@ -789,14 +789,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_1.post_title}</h5>
+							<h5 class="product-title">${AdPostLatest_1.postTitle}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_1.short_desc}
+								${AdPostLatest_1.shortDesc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
-									<i class="fa fa-clock-o"></i> ${AdPostLatest_1.post_datetime}
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_1.postDatetime}
 								</p>
 							</div>
 						</div>
@@ -807,14 +807,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_2.post_title}</h5>
+							<h5 class="product-title">${AdPostLatest_2.postTitle}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_2.short_desc}
+								${AdPostLatest_2.shortDesc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
-									<i class="fa fa-clock-o"></i> ${AdPostLatest_2.post_datetime}
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_2.postDatetime}
 								</p>
 							</div>
 						</div>
@@ -827,14 +827,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_4.post_title}</h5>
+							<h5 class="product-title">${AdPostLatest_4.postTitle}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_4.short_desc}
+								${AdPostLatest_4.shortDesc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; <i
-										class="fa fa-clock-o"></i> ${AdPostLatest_4.post_datetime}
+										class="fa fa-clock-o"></i> ${AdPostLatest_4.postDatetime}
 								</p>
 							</div>
 						</div>
@@ -845,14 +845,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_5.post_title}</h5>
+							<h5 class="product-title">${AdPostLatest_5.postTitle}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_5.short_desc}
+								${AdPostLatest_5.shortDesc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
-									<i class="fa fa-clock-o"></i> ${AdPostLatest_5.post_datetime}
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_5.postDatetime}
 								</p>
 							</div>
 						</div>

@@ -211,7 +211,7 @@
 								</c:choose>
 	                        </header>
 	                        <div class="product-inner">
-	                            <h5 class="product-title">AD Post Title - Bla Bla Bla ${adPost.post_title}</h5>
+	                            <h5 class="product-title">AD Post Title - Bla Bla Bla ${adPost.postTitle}</h5>
 	                            <div class="product-desciption"> WARN org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/category/img/ame 'adogo' ${adPost.short_desc}</div>
 	                            
 	                            <div class="product-meta">
@@ -253,7 +253,7 @@
 								</c:choose>
 	                        </header>
 	                        <div class="product-inner">
-	                            <h5 class="product-title">AD Post Title - Bla Bla Bla ${adPost.post_title}</h5>
+	                            <h5 class="product-title">AD Post Title - Bla Bla Bla ${adPost.postTitle}</h5>
 	                            <div class="product-desciption"> WARN org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/category/img/ame 'adogo' ${adPost.short_desc}</div>
 	                            
 	                            <div class="product-meta">
@@ -295,7 +295,7 @@
 								</c:choose>
 	                        </header>
 	                        <div class="product-inner">
-	                            <h5 class="product-title">AD Post Title - Bla Bla Bla ${adPost.post_title}</h5>
+	                            <h5 class="product-title">AD Post Title - Bla Bla Bla ${adPost.postTitle}</h5>
 	                            <div class="product-desciption"> WARN org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/category/img/ame 'adogo' ${adPost.short_desc}</div>
 	                            
 	                            <div class="product-meta">

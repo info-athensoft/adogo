@@ -222,8 +222,8 @@
                         <a class="product-thumb product-thumb-horizontal" href="#">
                         <header class="product-header">
                         	<c:choose>
-							    <c:when test="${adPost.media_cover_url!=NULL}">
-							        <img src="${adPost.media_cover_url}" alt="Image Alternative text" title="The Violin" />
+							    <c:when test="${adPost.mediaCoverUrl!=NULL}">
+							        <img src="${adPost.mediaCoverUrl}" alt="Image Alternative text" title="The Violin" />
 							    </c:when>    
 							    <c:otherwise>
 							        <img src="/images/blank/800x600.png" alt="Image Alternative text" title="The Violin" /> 
@@ -232,21 +232,21 @@
                         	
                         </header>
                         <div class="product-inner">
-                            <h5 class="product-title">${adPost.post_title}</h5>
-                            <div class="product-desciption">${adPost.short_desc}</div>
+                            <h5 class="product-title">${adPost.postTitle}</h5>
+                            <div class="product-desciption">${adPost.shortDesc}</div>
                             
                             <div class="product-meta">
                                 <c:choose>
-								    <c:when test="${adPost.create_datetime!=NULL}">
-								        <div> ${adPost.create_datetime} </div>
+								    <c:when test="${adPost.createDatetime!=NULL}">
+								        <div> ${adPost.createDatetime} </div>
 								    </c:when>    
 								    <c:otherwise>
-								        <div id="pageTimer${adPost.global_id}">create date time is null</div>
+								        <div id="pageTimer${adPost.globalId}">create date time is null</div>
 								    </c:otherwise>
 								</c:choose>
 							
                             </div>
-                            <p class="product-location"><i class="fa fa-map-marker"></i> ${adPost.post_author}</p>
+                            <p class="product-location"><i class="fa fa-map-marker"></i> ${adPost.postAuthor}</p>
                             
                             <p class="product-location">
 								<i class="fa fa-map-marker"></i>
