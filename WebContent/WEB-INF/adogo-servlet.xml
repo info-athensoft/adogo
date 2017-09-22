@@ -13,7 +13,6 @@
 	  
 	<mvc:interceptors>
 		<mvc:interceptor>
-            
             <mvc:mapping path="/event/*"/>
             <bean class="com.adogo.web.interceptor.TestInterceptor"/>
         </mvc:interceptor>
