@@ -220,11 +220,15 @@ public class UserController {
 			
 			String activateLink = "http://www.adogo.ca/activatemail?acctId="+acctId;
 //			String activateLink = "http://104.233.108.12/activatemail?acctId="+acctId;
+			
+			StringBuffer mailBodyContent = new StringBuffer();
+			mailBodyContent.append("<a href='"+activateLink+"'>Click me to activate now</a>");
+			
 			logger.info("activation request sent to: activateLink");	//to log
 			
 			try{
 	//			emailService.sendSimpleMail(activateLink);
-				emailService.sendMail(activateLink, ua.getPrimaryEmail());
+				emailService.sendMail(mailBodyContent.toString(), ua.getPrimaryEmail());
 			}catch(Exception ex){
 				logger.info("ERROR: Activation email failed.");
 				ex.printStackTrace();
