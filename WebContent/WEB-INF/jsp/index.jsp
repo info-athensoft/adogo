@@ -393,6 +393,228 @@
 			</div>
 			<div class="gap gap-small"></div>
 			
+			
+			<h3 class="mb20">Basic Needs of Life
+				<small><a href="#">Dressing |</a></small>
+				<small><a href="#">Food &amp; drink |</a></small>
+				<small><a href="#">Dwelling |</a></small>
+				<small><a href="#">View all</a></small>
+			</h3>
+			<div class="row row-wrap">
+				<c:forEach var="booth" items="${boothPopularShopwiseList}">
+					<div class="col-md-3">
+						<div class="product-thumb">
+							<header class="product-header">
+								<img src="${booth.logoCoverUrl}" alt="" title="" />
+							</header>
+							<div class="product-inner">
+								<ul class="icon-group icon-list-rating" title="5/5 rating">
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+								</ul>
+								<c:if test="${booth.bizName.length()<=30}">
+									<h5 class="product-title">${booth.bizName}<br />
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									</h5>
+								</c:if>
+								<c:if test="${booth.bizName.length()>30}">
+									<h5 class="product-title">${booth.bizName}</h5>
+								</c:if>
+
+								<div class="product-meta">
+									<p class="product-location">
+										<i class="fa fa-map-marker"></i> ${booth.locCity}&nbsp;&nbsp;
+										<c:set var="arrayvalue" value="${booth.supportLang}" />
+										<c:set var="delim" value="," />
+										<c:set var="array" value="${fn:split(arrayvalue, delim)}" />
+										<c:forEach var="lang" items="${array}">
+											<span class="product-price">${lang}</span>
+										</c:forEach>
+									</p>
+									<ul class="product-actions-list">
+										<li><a class="btn btn-sm" href="http://${booth.homepageUrl}" target="_blank">
+											<i class="fa fa-home"></i> Home</a></li>
+										<li><a class="btn btn-sm" href="/test/profile">
+											<i class="fa fa-bars"></i> Profile</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</c:forEach>
+			</div>
+			<div class="gap gap-small"></div>
+			
+			
+			<h3 class="mb20">Relationship and Family
+				<small><a href="#">Man &amp; Woman |</a></small>
+				<small><a href="#">Parent |</a></small>
+				<small><a href="#">Kid |</a></small>
+				<small><a href="#">Wedding |</a></small>
+				<small><a href="#">Funeral |</a></small>
+				<small><a href="#">View all</a></small>
+			</h3>
+			<div class="row row-wrap">
+				<c:forEach var="booth" items="${boothPopularShopwiseList}">
+					<div class="col-md-3">
+						<div class="product-thumb">
+							<header class="product-header">
+								<img src="${booth.logoCoverUrl}" alt="" title="" />
+							</header>
+							<div class="product-inner">
+								<ul class="icon-group icon-list-rating" title="5/5 rating">
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+								</ul>
+								<c:if test="${booth.bizName.length()<=30}">
+									<h5 class="product-title">${booth.bizName}<br />
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									</h5>
+								</c:if>
+								<c:if test="${booth.bizName.length()>30}">
+									<h5 class="product-title">${booth.bizName}</h5>
+								</c:if>
+
+								<div class="product-meta">
+									<p class="product-location">
+										<i class="fa fa-map-marker"></i> ${booth.locCity}&nbsp;&nbsp;
+										<c:set var="arrayvalue" value="${booth.supportLang}" />
+										<c:set var="delim" value="," />
+										<c:set var="array" value="${fn:split(arrayvalue, delim)}" />
+										<c:forEach var="lang" items="${array}">
+											<span class="product-price">${lang}</span>
+										</c:forEach>
+									</p>
+									<ul class="product-actions-list">
+										<li><a class="btn btn-sm" href="http://${booth.homepageUrl}" target="_blank">
+											<i class="fa fa-home"></i> Home</a></li>
+										<li><a class="btn btn-sm" href="/test/profile">
+											<i class="fa fa-bars"></i> Profile</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</c:forEach>
+			</div>
+			<div class="gap gap-small"></div>
+			
+			
+			<h3 class="mb20">Medic and Health care
+				<small><a href="#">Clinic |</a></small>
+				<small><a href="#">Rehabilitation |</a></small>
+				<small><a href="#">Health care |</a></small>
+				<small><a href="#">Dental care |</a></small>
+				<small><a href="#">View all</a></small>
+			</h3>
+			<div class="row row-wrap">
+				<c:forEach var="booth" items="${boothPopularShopwiseList}">
+					<div class="col-md-3">
+						<div class="product-thumb">
+							<header class="product-header">
+								<img src="${booth.logoCoverUrl}" alt="" title="" />
+							</header>
+							<div class="product-inner">
+								<ul class="icon-group icon-list-rating" title="5/5 rating">
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+								</ul>
+								<c:if test="${booth.bizName.length()<=30}">
+									<h5 class="product-title">${booth.bizName}<br />
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									</h5>
+								</c:if>
+								<c:if test="${booth.bizName.length()>30}">
+									<h5 class="product-title">${booth.bizName}</h5>
+								</c:if>
+
+								<div class="product-meta">
+									<p class="product-location">
+										<i class="fa fa-map-marker"></i> ${booth.locCity}&nbsp;&nbsp;
+										<c:set var="arrayvalue" value="${booth.supportLang}" />
+										<c:set var="delim" value="," />
+										<c:set var="array" value="${fn:split(arrayvalue, delim)}" />
+										<c:forEach var="lang" items="${array}">
+											<span class="product-price">${lang}</span>
+										</c:forEach>
+									</p>
+									<ul class="product-actions-list">
+										<li><a class="btn btn-sm" href="http://${booth.homepageUrl}" target="_blank">
+											<i class="fa fa-home"></i> Home</a></li>
+										<li><a class="btn btn-sm" href="/test/profile">
+											<i class="fa fa-bars"></i> Profile</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</c:forEach>
+			</div>
+			<div class="gap gap-small"></div>
+			
+			
+			<h3 class="mb20">Traveling
+				<small><a href="#">Traveling |</a></small>
+				<small><a href="#">View all</a></small>
+			</h3>
+			<div class="row row-wrap">
+				<c:forEach var="booth" items="${boothPopularShopwiseList}">
+					<div class="col-md-3">
+						<div class="product-thumb">
+							<header class="product-header">
+								<img src="${booth.logoCoverUrl}" alt="" title="" />
+							</header>
+							<div class="product-inner">
+								<ul class="icon-group icon-list-rating" title="5/5 rating">
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+								</ul>
+								<c:if test="${booth.bizName.length()<=30}">
+									<h5 class="product-title">${booth.bizName}<br />
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									</h5>
+								</c:if>
+								<c:if test="${booth.bizName.length()>30}">
+									<h5 class="product-title">${booth.bizName}</h5>
+								</c:if>
+
+								<div class="product-meta">
+									<p class="product-location">
+										<i class="fa fa-map-marker"></i> ${booth.locCity}&nbsp;&nbsp;
+										<c:set var="arrayvalue" value="${booth.supportLang}" />
+										<c:set var="delim" value="," />
+										<c:set var="array" value="${fn:split(arrayvalue, delim)}" />
+										<c:forEach var="lang" items="${array}">
+											<span class="product-price">${lang}</span>
+										</c:forEach>
+									</p>
+									<ul class="product-actions-list">
+										<li><a class="btn btn-sm" href="http://${booth.homepageUrl}" target="_blank">
+											<i class="fa fa-home"></i> Home</a></li>
+										<li><a class="btn btn-sm" href="/test/profile">
+											<i class="fa fa-bars"></i> Profile</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</c:forEach>
+			</div>
+			<div class="gap gap-small"></div>
+			
+			
 			<h4 class="mt10 mb10">The Latest Ads of Shopwise <small><a href="/ad/adpost/list">View All</a></small></h4>
 			<div class="row row-wrap">
 				<div class="col-md-6">
