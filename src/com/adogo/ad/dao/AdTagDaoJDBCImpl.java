@@ -95,9 +95,9 @@ public class AdTagDaoJDBCImpl implements AdTagDao{
 		public AdTag mapRow(ResultSet rs, int rowNumber) throws SQLException {
 			
 			AdTag x = new AdTag();
-			x.setTag_id(rs.getLong("tag_id"));
-			x.setTag_name(rs.getString("tag_name"));
-			x.setTag_score(rs.getInt("tag_score"));
+			x.setTagId(rs.getLong("tag_id"));
+			x.setTagName(rs.getString("tag_name"));
+			x.setTagScore(rs.getInt("tag_score"));
 			
             return x;
 		}		
