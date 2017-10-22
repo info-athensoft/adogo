@@ -5,7 +5,13 @@ import java.util.List;
 import com.adogo.ad.entity.AdPost;
 
 public interface AdPostDao {
-	public AdPost findById(long globalId);
-	public int saveTags(String adpostId, String tags);
+	
 	public List<AdPost> findAll();
+	
+	public List<AdPost> findLatestByQty(final int qty);
+	
+	public AdPost findById(long globalId);
+	
+	public int saveTags(String adpostId, String tags);
+	
 }

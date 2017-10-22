@@ -44,8 +44,74 @@
 <!-- Your custom styles (blank file) -->
 <link rel="stylesheet" href="/css/mystyles.css">
 
-<link rel="stylesheet" href="/css/styles-adogo.css">
+<style>
+	.adogo-title-small{
+		font-size: 12px;
+		margin: 0;
+		padding: 0;
+		border:0;
+		
+	}
+	
+	.adogo-div-head{
+		z-index: 1;
+		display: block;
+		text-align: center;
+		-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  		box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  		-webkit-border-radius: 5px 5px 0 0;
+  		border-radius: 5px 5px 0 0;
+	}
+	
+	.product-thumb .adogo-div-head >img {
+	  display: block;
+	  -webkit-border-radius: 5px 5px 0 0;
+	  border-radius: 5px 5px 0 0;
+	}
+	
+	.adogo-div-body{
+		border:none;
+		text-align: center;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		padding-top: 2px;
+		padding-bottom: 0px;
+		height: 34px;
+		overflow: hidden;
+		background-color: #fff;
+		line-height: 1em;
+		
+		display         : flex;
+		justify-content : center;
+		align-items     : center;
+	}
+	
+	.adogo-div-body-location{
+		color: #a3a3a3;
+	  	font-size: 12px;
+		text-align: center;
+		margin-top: 0px;
+		margin-bottom: 2px;
+		padding-top: 1px;
+		padding-bottom: 8px;
+		height: 24px;
+		overflow: hidden;
+		background-color: #fff;
+		-webkit-border-radius: 0 0 5px 5px;
+  		border-radius: 0 0 5px 5px;
+	}
+	
+	.adogo-border-0{
+		border: none;
+	}
+	
+	.adogo-gap{
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
 
+
+</style>
 
 
 </head>
@@ -87,15 +153,74 @@
 	//////////////PAGE CONTENT///////////// 
 	////////////////////////////////////-->
 		<div class="container">
-			<div class="row row-wrap">
+			<div class="row">
+			 <!-- 
+				<div class="col-md-3">
+					<aside class="sidebar-left">
+						 <h4 class="mb20">I am Looking For</h4> 
+						<ul
+							class="nav nav-tabs nav-stacked nav-coupon-category nav-coupon-category-left">
+							
+							<li><a href="/category/1"><i class="fa fa-shopping-cart"></i>Shopwise<span>33</span></a></li>
+							<li><a href="/category/2"><i class="fa fa-cutlery"></i>Food
+									&amp; drink<span>50</span></a></li>
+							<li><a href="/category/3"><i class="fa fa-calendar"></i>Life
+									Service<span>49</span></a></li>
+							<li><a href="/category/4"><i class="fa fa-calendar"></i>Pro.
+									Service<span>49</span></a></li>
+							<li><a href="/category/5"><i class="fa fa-headphones"></i>Education<span>48</span></a></li>
+							<li><a href="/category/6"><i class="fa fa-plane"></i>Tourism
+									&amp; Hotel<span>38</span></a></li>
+							<li><a href="/category/7"><i class="fa fa-plane"></i>Trans.
+									&amp; Logistic<span>38</span></a></li>
+							<li><a href="/category/8"><i class="fa fa-home"></i>Sport,Recreation<span>44</span></a></li>
+							
+						</ul>
+					</aside>
+				</div>
+			 -->
 				<div class="col-md-12">
-					<h3 class="mb20  text-center">Featured sponsors <small><a href="/ad/booths">View All</a></small></h3>
+					<h3 class="mb20">New brands <small><a href="#">View All</a></small></h3>
+					<div class="row row-wrap">
+						<!--  
+						<c:forEach var="booth" items="${boothNewBrandsList}">
+							<div class="col-md-4">
+								<div class="product-thumb">
+									<header class="product-header">
+										<a href="/test/profile"><img src="${booth.logoCoverUrl}" alt="Image Alternative text"
+											title="" /> </a>
+									</header>
+									<div class="product-inner">
+										<c:if test="${booth.bizName.length()<=30}">
+											<h5 class="product-title">${booth.bizName}<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5>
+										</c:if>
+										<c:if test="${booth.bizName.length()>30}">
+											<h5 class="product-title">${booth.bizName}</h5>
+										</c:if>
+		
+										<p class="product-desciption">
+											<i class="fa fa-eye"></i> 19 Views &nbsp;&nbsp;&nbsp;&nbsp; 
+											<i class="fa fa-star-o"></i> 7.8 Scores
+										</p>
+										<div class="product-meta">
+											<p class="product-location">
+												<i class="fa fa-map-marker"></i>
+												${booth.locCity}&nbsp;&nbsp;${booth.locProv}
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</c:forEach>
+						-->
+						
+					<!-- new sponsor slide  -->
                    	<div class="owl-carousel" id="owl-carousel" data-items="4">
                      		<c:forEach var="booth" items="${boothAllList}">
-                           	<div>
+                           <div>
                                <div class="product-thumb">
                                    <header class="product-header">
-                                       <a href="/ad/boothprofile/${booth.bizNo}"><img src="${booth.logoCoverUrl}" alt="${booth.bizName}" title="${booth.bizName}" /></a>
+                                       <img src="${booth.logoCoverUrl}" alt="${booth.bizName}" title="${booth.bizName}" />
                                    </header>
                                    <div class="product-inner">
                                        <h5 class="product-title">${booth.bizName}</h5>
@@ -119,7 +244,7 @@
 			<!-- <div class="gap gap-small"></div> -->
 
 			<!-- ad list of this advertiser,booth -->
-			<h3 class="mt10 mb10">The Latest Ads <small><a href="/ad/adpost/list">View All</a></small></h3>
+			<h4 class="mt10 mb10">The Latest Ads <small><a href="/ad/adpost/list">View All</a></small></h4>
 			<div class="row row-wrap">
 				<div class="col-md-6">
 					<a class="product-thumb product-thumb-horizontal" href="/test/profile#section_adpost"> 
@@ -127,14 +252,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_1.postTitle}</h5>
+							<h5 class="product-title">${AdPostLatest_1.post_title}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_1.shortDesc}
+								${AdPostLatest_1.short_desc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
-									<i class="fa fa-clock-o"></i> ${AdPostLatest_1.postDatetime}
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_1.post_datetime}
 								</p>
 							</div>
 						</div>
@@ -145,14 +270,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_2.postTitle}</h5>
+							<h5 class="product-title">${AdPostLatest_2.post_title}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_2.shortDesc}
+								${AdPostLatest_2.short_desc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
-									<i class="fa fa-clock-o"></i> ${AdPostLatest_2.postDatetime}
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_2.post_datetime}
 								</p>
 							</div>
 						</div>
@@ -163,14 +288,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_3.postTitle}</h5>
+							<h5 class="product-title">${AdPostLatest_3.post_title}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_3.shortDesc}
+								${AdPostLatest_3.short_desc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
-									<i class="fa fa-clock-o"></i> ${AdPostLatest_3.postDatetime}
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_3.post_datetime}
 								</p>
 							</div>
 						</div>
@@ -183,14 +308,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_4.postTitle}</h5>
+							<h5 class="product-title">${AdPostLatest_4.post_title}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_4.shortDesc}
+								${AdPostLatest_4.short_desc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
-									<i class="fa fa-clock-o"></i> ${AdPostLatest_4.postDatetime}
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_4.post_datetime}
 								</p>
 							</div>
 						</div>
@@ -201,14 +326,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_5.postTitle}</h5>
+							<h5 class="product-title">${AdPostLatest_5.post_title}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_5.shortDesc}
+								${AdPostLatest_5.short_desc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
-									<i class="fa fa-clock-o"></i> ${AdPostLatest_5.postDatetime}
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_5.post_datetime}
 								</p>
 							</div>
 						</div>
@@ -219,14 +344,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_6.postTitle}</h5>
+							<h5 class="product-title">${AdPostLatest_6.post_title}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_6.shortDesc}
+								${AdPostLatest_6.short_desc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
-									<i class="fa fa-clock-o"></i> ${AdPostLatest_6.postDatetime}
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_6.post_datetime}
 								</p>
 							</div>
 						</div>
@@ -318,7 +443,6 @@
 			<div class="gap gap-small"></div>
 			
 			<!-- sponsored booth -->
-			<!-- 
 			<h4 class="mt10 mb10">Sponsors <small><a href="/booth">View All</a></small></h4>
 			<div class="row row-wrap">
 				<c:forEach var="booth" items="${boothAllList}">
@@ -330,11 +454,6 @@
 								<span class="adogo-title-small"><strong>${booth.bizName}</strong></span>
 							</div>
 							<div class="adogo-div-body-location">
-								<span class="product-desciption">
-									<i class="fa fa-eye"></i> 19 Views &nbsp;&nbsp;&nbsp;&nbsp; 
-									<i class="fa fa-star-o"></i> 7.8 Scores
-								</span>
-								<br/>
 								<span class="product-location adogo-title-small"><i class="fa fa-map-marker"></i>&nbsp;${booth.locCity}&nbsp;&nbsp;${booth.locProv}</span>
 							</div>
 						</div>
@@ -342,7 +461,6 @@
 				</c:forEach>
 			</div>
 			<div class="gap gap-small"></div>
-			 -->
 			
 			<h3 class="mb20">Shopwise <small><a href="#">View All</a></small></h3>
 			<div class="row row-wrap">
@@ -393,228 +511,6 @@
 			</div>
 			<div class="gap gap-small"></div>
 			
-			
-			<h3 class="mb20">Basic Needs of Life
-				<small><a href="#">Dressing |</a></small>
-				<small><a href="#">Food &amp; drink |</a></small>
-				<small><a href="#">Dwelling |</a></small>
-				<small><a href="#">View all</a></small>
-			</h3>
-			<div class="row row-wrap">
-				<c:forEach var="booth" items="${boothPopularShopwiseList}">
-					<div class="col-md-3">
-						<div class="product-thumb">
-							<header class="product-header">
-								<img src="${booth.logoCoverUrl}" alt="" title="" />
-							</header>
-							<div class="product-inner">
-								<ul class="icon-group icon-list-rating" title="5/5 rating">
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-								</ul>
-								<c:if test="${booth.bizName.length()<=30}">
-									<h5 class="product-title">${booth.bizName}<br />
-										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-									</h5>
-								</c:if>
-								<c:if test="${booth.bizName.length()>30}">
-									<h5 class="product-title">${booth.bizName}</h5>
-								</c:if>
-
-								<div class="product-meta">
-									<p class="product-location">
-										<i class="fa fa-map-marker"></i> ${booth.locCity}&nbsp;&nbsp;
-										<c:set var="arrayvalue" value="${booth.supportLang}" />
-										<c:set var="delim" value="," />
-										<c:set var="array" value="${fn:split(arrayvalue, delim)}" />
-										<c:forEach var="lang" items="${array}">
-											<span class="product-price">${lang}</span>
-										</c:forEach>
-									</p>
-									<ul class="product-actions-list">
-										<li><a class="btn btn-sm" href="http://${booth.homepageUrl}" target="_blank">
-											<i class="fa fa-home"></i> Home</a></li>
-										<li><a class="btn btn-sm" href="/test/profile">
-											<i class="fa fa-bars"></i> Profile</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</c:forEach>
-			</div>
-			<div class="gap gap-small"></div>
-			
-			
-			<h3 class="mb20">Relationship and Family
-				<small><a href="#">Man &amp; Woman |</a></small>
-				<small><a href="#">Parent |</a></small>
-				<small><a href="#">Kid |</a></small>
-				<small><a href="#">Wedding |</a></small>
-				<small><a href="#">Funeral |</a></small>
-				<small><a href="#">View all</a></small>
-			</h3>
-			<div class="row row-wrap">
-				<c:forEach var="booth" items="${boothPopularShopwiseList}">
-					<div class="col-md-3">
-						<div class="product-thumb">
-							<header class="product-header">
-								<img src="${booth.logoCoverUrl}" alt="" title="" />
-							</header>
-							<div class="product-inner">
-								<ul class="icon-group icon-list-rating" title="5/5 rating">
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-								</ul>
-								<c:if test="${booth.bizName.length()<=30}">
-									<h5 class="product-title">${booth.bizName}<br />
-										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-									</h5>
-								</c:if>
-								<c:if test="${booth.bizName.length()>30}">
-									<h5 class="product-title">${booth.bizName}</h5>
-								</c:if>
-
-								<div class="product-meta">
-									<p class="product-location">
-										<i class="fa fa-map-marker"></i> ${booth.locCity}&nbsp;&nbsp;
-										<c:set var="arrayvalue" value="${booth.supportLang}" />
-										<c:set var="delim" value="," />
-										<c:set var="array" value="${fn:split(arrayvalue, delim)}" />
-										<c:forEach var="lang" items="${array}">
-											<span class="product-price">${lang}</span>
-										</c:forEach>
-									</p>
-									<ul class="product-actions-list">
-										<li><a class="btn btn-sm" href="http://${booth.homepageUrl}" target="_blank">
-											<i class="fa fa-home"></i> Home</a></li>
-										<li><a class="btn btn-sm" href="/test/profile">
-											<i class="fa fa-bars"></i> Profile</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</c:forEach>
-			</div>
-			<div class="gap gap-small"></div>
-			
-			
-			<h3 class="mb20">Medic and Health care
-				<small><a href="#">Clinic |</a></small>
-				<small><a href="#">Rehabilitation |</a></small>
-				<small><a href="#">Health care |</a></small>
-				<small><a href="#">Dental care |</a></small>
-				<small><a href="#">View all</a></small>
-			</h3>
-			<div class="row row-wrap">
-				<c:forEach var="booth" items="${boothPopularShopwiseList}">
-					<div class="col-md-3">
-						<div class="product-thumb">
-							<header class="product-header">
-								<img src="${booth.logoCoverUrl}" alt="" title="" />
-							</header>
-							<div class="product-inner">
-								<ul class="icon-group icon-list-rating" title="5/5 rating">
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-								</ul>
-								<c:if test="${booth.bizName.length()<=30}">
-									<h5 class="product-title">${booth.bizName}<br />
-										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-									</h5>
-								</c:if>
-								<c:if test="${booth.bizName.length()>30}">
-									<h5 class="product-title">${booth.bizName}</h5>
-								</c:if>
-
-								<div class="product-meta">
-									<p class="product-location">
-										<i class="fa fa-map-marker"></i> ${booth.locCity}&nbsp;&nbsp;
-										<c:set var="arrayvalue" value="${booth.supportLang}" />
-										<c:set var="delim" value="," />
-										<c:set var="array" value="${fn:split(arrayvalue, delim)}" />
-										<c:forEach var="lang" items="${array}">
-											<span class="product-price">${lang}</span>
-										</c:forEach>
-									</p>
-									<ul class="product-actions-list">
-										<li><a class="btn btn-sm" href="http://${booth.homepageUrl}" target="_blank">
-											<i class="fa fa-home"></i> Home</a></li>
-										<li><a class="btn btn-sm" href="/test/profile">
-											<i class="fa fa-bars"></i> Profile</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</c:forEach>
-			</div>
-			<div class="gap gap-small"></div>
-			
-			
-			<h3 class="mb20">Traveling
-				<small><a href="#">Traveling |</a></small>
-				<small><a href="#">View all</a></small>
-			</h3>
-			<div class="row row-wrap">
-				<c:forEach var="booth" items="${boothPopularShopwiseList}">
-					<div class="col-md-3">
-						<div class="product-thumb">
-							<header class="product-header">
-								<img src="${booth.logoCoverUrl}" alt="" title="" />
-							</header>
-							<div class="product-inner">
-								<ul class="icon-group icon-list-rating" title="5/5 rating">
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-									<li><i class="fa fa-star"></i></li>
-								</ul>
-								<c:if test="${booth.bizName.length()<=30}">
-									<h5 class="product-title">${booth.bizName}<br />
-										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-									</h5>
-								</c:if>
-								<c:if test="${booth.bizName.length()>30}">
-									<h5 class="product-title">${booth.bizName}</h5>
-								</c:if>
-
-								<div class="product-meta">
-									<p class="product-location">
-										<i class="fa fa-map-marker"></i> ${booth.locCity}&nbsp;&nbsp;
-										<c:set var="arrayvalue" value="${booth.supportLang}" />
-										<c:set var="delim" value="," />
-										<c:set var="array" value="${fn:split(arrayvalue, delim)}" />
-										<c:forEach var="lang" items="${array}">
-											<span class="product-price">${lang}</span>
-										</c:forEach>
-									</p>
-									<ul class="product-actions-list">
-										<li><a class="btn btn-sm" href="http://${booth.homepageUrl}" target="_blank">
-											<i class="fa fa-home"></i> Home</a></li>
-										<li><a class="btn btn-sm" href="/test/profile">
-											<i class="fa fa-bars"></i> Profile</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</c:forEach>
-			</div>
-			<div class="gap gap-small"></div>
-			
-			
 			<h4 class="mt10 mb10">The Latest Ads of Shopwise <small><a href="/ad/adpost/list">View All</a></small></h4>
 			<div class="row row-wrap">
 				<div class="col-md-6">
@@ -623,14 +519,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_1.postTitle}</h5>
+							<h5 class="product-title">${AdPostLatest_1.post_title}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_1.shortDesc}
+								${AdPostLatest_1.short_desc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
-									<i class="fa fa-clock-o"></i> ${AdPostLatest_1.postDatetime}
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_1.post_datetime}
 								</p>
 							</div>
 						</div>
@@ -641,14 +537,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_2.postTitle}</h5>
+							<h5 class="product-title">${AdPostLatest_2.post_title}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_2.shortDesc}
+								${AdPostLatest_2.short_desc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
-									<i class="fa fa-clock-o"></i> ${AdPostLatest_2.postDatetime}
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_2.post_datetime}
 								</p>
 							</div>
 						</div>
@@ -661,14 +557,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_4.postTitle}</h5>
+							<h5 class="product-title">${AdPostLatest_4.post_title}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_4.shortDesc}
+								${AdPostLatest_4.short_desc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; <i
-										class="fa fa-clock-o"></i> ${AdPostLatest_4.postDatetime}
+										class="fa fa-clock-o"></i> ${AdPostLatest_4.post_datetime}
 								</p>
 							</div>
 						</div>
@@ -679,14 +575,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_5.postTitle}</h5>
+							<h5 class="product-title">${AdPostLatest_5.post_title}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_5.shortDesc}
+								${AdPostLatest_5.short_desc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; <i
-										class="fa fa-clock-o"></i> ${AdPostLatest_5.postDatetime}
+										class="fa fa-clock-o"></i> ${AdPostLatest_5.post_datetime}
 								</p>
 							</div>
 						</div>
@@ -752,14 +648,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_1.postTitle}</h5>
+							<h5 class="product-title">${AdPostLatest_1.post_title}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_1.shortDesc}
+								${AdPostLatest_1.short_desc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
-									<i class="fa fa-clock-o"></i> ${AdPostLatest_1.postDatetime}
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_1.post_datetime}
 								</p>
 							</div>
 						</div>
@@ -770,14 +666,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_2.postTitle}</h5>
+							<h5 class="product-title">${AdPostLatest_2.post_title}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_2.shortDesc}
+								${AdPostLatest_2.short_desc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
-									<i class="fa fa-clock-o"></i> ${AdPostLatest_2.postDatetime}
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_2.post_datetime}
 								</p>
 							</div>
 						</div>
@@ -790,14 +686,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_4.postTitle}</h5>
+							<h5 class="product-title">${AdPostLatest_4.post_title}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_4.shortDesc}
+								${AdPostLatest_4.short_desc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; <i
-										class="fa fa-clock-o"></i> ${AdPostLatest_4.postDatetime}
+										class="fa fa-clock-o"></i> ${AdPostLatest_4.post_datetime}
 								</p>
 							</div>
 						</div>
@@ -808,14 +704,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_5.postTitle}</h5>
+							<h5 class="product-title">${AdPostLatest_5.post_title}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_5.shortDesc}
+								${AdPostLatest_5.short_desc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; <i
-										class="fa fa-clock-o"></i> ${AdPostLatest_5.postDatetime}
+										class="fa fa-clock-o"></i> ${AdPostLatest_5.post_datetime}
 								</p>
 							</div>
 						</div>
@@ -882,14 +778,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_1.postTitle}</h5>
+							<h5 class="product-title">${AdPostLatest_1.post_title}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_1.shortDesc}
+								${AdPostLatest_1.short_desc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
-									<i class="fa fa-clock-o"></i> ${AdPostLatest_1.postDatetime}
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_1.post_datetime}
 								</p>
 							</div>
 						</div>
@@ -900,14 +796,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_2.postTitle}</h5>
+							<h5 class="product-title">${AdPostLatest_2.post_title}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_2.shortDesc}
+								${AdPostLatest_2.short_desc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
-									<i class="fa fa-clock-o"></i> ${AdPostLatest_2.postDatetime}
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_2.post_datetime}
 								</p>
 							</div>
 						</div>
@@ -920,14 +816,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_4.postTitle}</h5>
+							<h5 class="product-title">${AdPostLatest_4.post_title}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_4.shortDesc}
+								${AdPostLatest_4.short_desc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
-									<i class="fa fa-clock-o"></i> ${AdPostLatest_4.postDatetime}
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_4.post_datetime}
 								</p>
 							</div>
 						</div>
@@ -938,14 +834,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_5.postTitle}</h5>
+							<h5 class="product-title">${AdPostLatest_5.post_title}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_5.shortDesc}
+								${AdPostLatest_5.short_desc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
-									<i class="fa fa-clock-o"></i> ${AdPostLatest_5.postDatetime}
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_5.post_datetime}
 								</p>
 							</div>
 						</div>
@@ -1011,14 +907,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_1.postTitle}</h5>
+							<h5 class="product-title">${AdPostLatest_1.post_title}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_1.shortDesc}
+								${AdPostLatest_1.short_desc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
-									<i class="fa fa-clock-o"></i> ${AdPostLatest_1.postDatetime}
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_1.post_datetime}
 								</p>
 							</div>
 						</div>
@@ -1029,14 +925,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_2.postTitle}</h5>
+							<h5 class="product-title">${AdPostLatest_2.post_title}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_2.shortDesc}
+								${AdPostLatest_2.short_desc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
-									<i class="fa fa-clock-o"></i> ${AdPostLatest_2.postDatetime}
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_2.post_datetime}
 								</p>
 							</div>
 						</div>
@@ -1049,14 +945,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_4.postTitle}</h5>
+							<h5 class="product-title">${AdPostLatest_4.post_title}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_4.shortDesc}
+								${AdPostLatest_4.short_desc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; <i
-										class="fa fa-clock-o"></i> ${AdPostLatest_4.postDatetime}
+										class="fa fa-clock-o"></i> ${AdPostLatest_4.post_datetime}
 								</p>
 							</div>
 						</div>
@@ -1067,14 +963,14 @@
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
 						<div class="product-inner">
-							<h5 class="product-title">${AdPostLatest_5.postTitle}</h5>
+							<h5 class="product-title">${AdPostLatest_5.post_title}</h5>
 							<div class="product-desciption">
-								${AdPostLatest_5.shortDesc}
+								${AdPostLatest_5.short_desc}
 								<br />
 								<br />
 								<p class="product-desciption">
 									<i class="fa fa-map-marker"></i> Boston &nbsp;&nbsp; 
-									<i class="fa fa-clock-o"></i> ${AdPostLatest_5.postDatetime}
+									<i class="fa fa-clock-o"></i> ${AdPostLatest_5.post_datetime}
 								</p>
 							</div>
 						</div>

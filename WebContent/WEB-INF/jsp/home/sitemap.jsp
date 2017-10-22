@@ -5,6 +5,7 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 
 <c:set var="title" value="Site Map"/>
+<c:set var="sec0" value="0. Test"/>
 <c:set var="sec1" value="1. Home"/>
 <c:set var="sec2" value="2. Support"/>
 <c:set var="sec3" value="3. Ad"/>
@@ -14,6 +15,7 @@
 <c:set var="sec7" value="7. Public Test Round #2"/>
 <c:set var="sec8" value="8. UAAS - User Authentication and Authorization System"/>
 <c:set var="sec9" value="9. UPCS - User Personal Center System"/>
+<c:set var="sec10" value="10. Search"/>
 
 
 <!DOCTYPE HTML>
@@ -102,6 +104,54 @@
                 <div class="col-md-12">
                 	<div><h3><c:out value="${title}"/></h3></div>
                 	<br/> 
+                	
+                	
+                	<!-- section: test -->              	
+                	<div><h5 class="panel-title"><c:out value="${sec0}"/></h5></div>
+                	
+                    <div class="panel-group" id="">
+                        <table class="table">
+                        <thead>
+                            <tr>
+                                <th class="cell-1">Package</th>
+                                <th class="cell-2">Page Name</th>
+                                <th class="cell-3">URL</th>
+                                <th class="cell-4">Controller</th>
+                                <th class="cell-5">Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>test</td>
+                                <td><a href="/test/profile">Test profile</a></td>
+                                <td><a href="/test/profile">/test/profile</a></td>
+                                <td>com.adogo.general.controller.TestController</td>
+                                <td>Test</td>
+                        	</tr>
+                        	<tr>
+                                <td>test</td>
+                                <td><a href="/test/index/1">Test index v1</a></td>
+                                <td><a href="/test/index/1">/test/index/1</a></td>
+                                <td>com.adogo.general.controller.TestController</td>
+                                <td>Test</td>
+                        	</tr>
+                        	<tr>
+                                <td>test</td>
+                                <td><a href="/test/index/2">Test index v2</a></td>
+                                <td><a href="/test/index/2">/test/index/2</a></td>
+                                <td>com.adogo.general.controller.TestController</td>
+                                <td>Test</td>
+                        	</tr>
+                        	<tr>
+                                <td>test</td>
+                                <td><a href="/test/index/3">Test index v2</a></td>
+                                <td><a href="/test/index/3">/test/index/2</a></td>
+                                <td>com.adogo.general.controller.TestController</td>
+                                <td>Test</td>
+                        	</tr>
+                        </tbody>
+                        </table>
+                    </div>
                 	
                 	<!-- section: home -->              	
                 	<div><h5 class="panel-title"><c:out value="${sec1}"/></h5></div>
@@ -297,22 +347,22 @@
                         <tbody>
                             <tr>
                                 <td>booth</td>
-                                <td><a href="/booth">All Booths</a></td>
-                                <td><a href="/booth">/booth</a></td>
+                                <td><a href="/ad/booths">All Booths</a></td>
+                                <td><a href="/ad/booths">/ad/booths</a></td>
                                 <td>com.adogo.business.controller.BoothController</td>
                                 <td>Test</td>
                         	</tr>
                         	<tr>
                                 <td>booth</td>
-                                <td><a href="/category/1">Booths by class<br/> classNum=1</a></td>
-                                <td><a href="/category/1">/category/{classNum}</a></td>
+                                <td><a href="/ad/booths/c1/1">Booths by category level1<br/> categoryNum=1</a></td>
+                                <td><a href="/ad/booths/c1/1">/ad/booths/c1/{categoryNumLv1}</a></td>
                                 <td>com.adogo.business.controller.BoothController</td>
                                 <td>Test</td>
                         	</tr>
                         	<tr>
                                 <td>booth</td>
-                                <td><a href="/category/1/1">Booths by class level2<br/> classNum=1, classNumLv2=1</a></td>
-                                <td><a href="/category/1/1">/category/{classNum}/{classNumLv2}</a></td>
+                                <td><a href="/ad/booths/c1/1/c2/1">Booths by category level2<br/> categoryNum=1, categoryNumLv2=1</a></td>
+                                <td><a href="/ad/booths/c1/1/c2/1">/ad/booths/c1/{categoryNumLv1}/c2/{categoryNumLv2}</a></td>
                                 <td>com.adogo.business.controller.BoothController</td>
                                 <td>Test</td>
                         	</tr>
@@ -320,6 +370,13 @@
                                 <td>booth</td>
                                 <td><a href="/biz/31001">Business profile<br/> bizNo=31001</a></td>
                                 <td><a href="/biz/31001">/biz/{bizNo}</a></td>
+                                <td>com.adogo.business.controller.BusinessController</td>
+                                <td>Test</td>
+                        	</tr>
+                        	<tr>
+                                <td>booth</td>
+                                <td><a href="/test/profile">Business profile test</a></td>
+                                <td><a href="/test/profile">/profile</a></td>
                                 <td>com.adogo.business.controller.BusinessController</td>
                                 <td>Test</td>
                         	</tr>
@@ -546,6 +603,32 @@
                         </table>
                     </div>
                     
+                    
+                    <!-- section: search -->              	
+                	<div><h5 class="panel-title"><c:out value="${sec10}"/></h5></div>
+                	
+                    <div class="panel-group" id="">
+                        <table class="table">
+                        <thead>
+                            <tr>
+                                <th class="cell-1">Package</th>
+                                <th class="cell-2">Page Name</th>
+                                <th class="cell-3">URL</th>
+                                <th class="cell-4">Controller</th>
+                                <th class="cell-5">Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        	<tr>
+                                <td>search</td>
+                                <td><a href="/search/result">Search result page</a></td>
+                                <td><a href="/search/result">/search/result</a></td>
+                                <td>com.adogo.upcs.controller.GeneralController</td>
+                                <td>Draft</td>
+                        	</tr>
+                        </tbody>
+                        </table>
+                    </div>
                     
                     
                 </div>

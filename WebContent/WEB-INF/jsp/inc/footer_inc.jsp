@@ -96,7 +96,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <p>Copyright &copy; 2016, Adogo &trade; Informatique Athensoft, All Rights Reserved</p>
+                    <p>Copyright &copy; 2017, Adogo &trade; Informatique Athensoft, All Rights Reserved</p>
                 </div>
                 <div class="col-md-5 col-md-offset-1">
                     <div class="pull-right">

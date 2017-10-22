@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.adogo.business.entity.Business;
+import com.adogo.business.entity.Booth;
+import com.adogo.business.service.BoothService;
 import com.adogo.business.service.BusinessService;
 
 @Controller
@@ -21,17 +22,26 @@ public class BusinessController {
 		this.businessService = businessService;
 	}
 	
-	@RequestMapping("/biz/{bizNo}")
-	public ModelAndView showCustProfile(
+	private BoothService boothService;
+	
+	@Autowired
+	public void setBoothService(BoothService boothService) {
+		this.boothService = boothService;
+	}
+	
+	@RequestMapping("/ad/boothprofile/{bizNo}")
+	public ModelAndView getBoothProfile(
 			@PathVariable int bizNo){
 		ModelAndView mav = new ModelAndView();
 		
-		Business biz = businessService.findByBizNo(bizNo);
+		Booth boothProfile = boothService.findByBizNo(bizNo);
 		
 		Map<String,Object> data = mav.getModel();
-		data.put("business", biz);
+		data.put("booth", boothProfile);
 		
-		mav.setViewName("profile");
+		mav.setViewName("booth/booth-profile");
 		return mav;
-	}	
+	}
+	
+	
 }

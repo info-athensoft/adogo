@@ -5,6 +5,8 @@ public class Booth {
 	private long bizNo;
 	private long classNum;
 	private String classCode;
+	private int categoryNumLv1;
+	private int categoryNumLv2;
 	private String bizName;
 	private String bizDesc;
 	private int boothStauts;
@@ -194,5 +196,17 @@ public class Booth {
 	}
 	public void setCounter(long counter) {
 		this.counter = counter;
+	}
+	public int getCategoryNumLv1() {
+		return categoryNumLv1;
+	}
+	public void setCategoryNumLv1(int categoryNumLv1) {
+		this.categoryNumLv1 = categoryNumLv1;
+	}
+	public int getCategoryNumLv2() {
+		return categoryNumLv2;
+	}
+	public void setCategoryNumLv2(int categoryNumLv2) {
+		this.categoryNumLv2 = categoryNumLv2;
 	}
 }

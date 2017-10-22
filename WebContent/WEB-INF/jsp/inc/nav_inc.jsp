@@ -19,14 +19,26 @@
                     <ul class="nav nav-pills flexnav" id="flexnav" data-breakpoint="800">
                         <li><a href="/">Home</a>
                         	<ul>
-                                <li><a href="/about/ch">About (CHS)</a></li>
+                                
+		                        <li>
+		                        	<a href="/publictest/goapplybooth">Public Test</a>
+		                        	<ul>
+		                                <li><a href="/publictest/goapplybooth">Apply for a booth</a></li>
+		                            </ul>
+		                        </li>
                             </ul>
                         </li>
-                        <li><a href="/publictest/goapplybooth">Public Test</a>
+                        <li><a href="/">Booth</a>
                         	<ul>
-                                <li><a href="/publictest/goapplybooth">Apply for a booth</a></li>
+                                <li><a href="/ad/booths">All booth</a></li>
                             </ul>
                         </li>
+                        <li><a href="/">Ads</a>
+                        	<ul>
+                                <li><a href="/ad/adpost/list">All Ads</a></li>
+                            </ul>
+                        </li>
+                        
                         <!--                    
                         <li><a href="#">Find</a>
                         </li>
@@ -53,6 +65,7 @@
                         </li>
                         <li><a href="#">Support</a>
                             <ul>
+                            	<li><a href="/about/ch">About (CHS)</a></li>
                             	<li><a href="/support/applybooth">How to apply a booth(CHS)</a></li>
                                 <li><a href="/support/faq">FAQ (CHS)</a></li>
                                 <li><a href="/sitemap">Site Map</a></li>

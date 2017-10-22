@@ -4,6 +4,7 @@ import java.util.Map;
 
 import javax.servlet.http.HttpSession;
 
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -29,6 +30,8 @@ import com.athensoft.common.email.service.EmailService;
 @Controller
 //@SessionAttributes("userAccount")
 public class UserController {
+	
+	private final static Logger logger = Logger.getLogger(UserController.class);
 	
 	private UserService userService;
 	
@@ -88,7 +91,7 @@ public class UserController {
 			//2. sign in
 			ua = userService.getUserAccountById(key);
 		}catch(UserAccountExistException ex){
-			System.out.println("UserAccountExistException");
+			logger.info("UserAccountExistException");
 			data.put("error_msg", "ERROR: Duplicated user name.");
 		}
 		
@@ -116,7 +119,7 @@ public class UserController {
 			HttpSession session
 			){
 		
-		System.out.println("/signin");
+		logger.info("/signin");
 		
 		/* initial settings */
 		ModelAndView mav = new ModelAndView();
@@ -137,13 +140,13 @@ public class UserController {
 			ua = userService.signIn(ua);
 			int acctStatus = ua.getAcctStatus();
 			if(acctStatus==UserAccount.ACCOUNT_UNACTIVATED){
-				System.out.println("go activate");
+				logger.info("go activate");
 				viewName = "uaas/activate";
 			}else if(acctStatus==UserAccount.ACCOUNT_ACTIVATED){
 				viewName = "forward:/";
-				System.out.println("sign in normally");
+				logger.info("sign in normally");
 			}else{
-				System.out.println("account pending or closed, please contact admin");
+				logger.info("account pending or closed, please contact admin");
 			}
 		}catch(IncorrectUserNameOrPasswordException ex){
 //			ua = new UserAccount();
@@ -167,17 +170,19 @@ public class UserController {
 	@RequestMapping(value="/signout")
 	public ModelAndView signout(HttpSession session){
 		
-		System.out.println("/signout");
+		logger.info("/signout");
 		
 		/* initial settings */
 		ModelAndView mav = new ModelAndView();
-		Map<String,Object> data = mav.getModel();
+//		Map<String,Object> data = mav.getModel();
+		
 		//String viewName = "index";
 		
 		/* data construction */
 //		UserAccount ua = new UserAccount();
 //		ua.setAcctName("");
-		UserAccount ua = null;
+	
+//		UserAccount ua = null;
 		
 		/* assemble model and view */
 		mav.setViewName("redirect:/");
@@ -194,7 +199,7 @@ public class UserController {
 				@RequestParam long acctId,
 				@RequestParam String email){
 			
-			System.out.println("/activaterequest");
+			logger.info("/activaterequest");
 			
 			/* initial settings */
 			ModelAndView mav = new ModelAndView();
@@ -213,15 +218,19 @@ public class UserController {
 			//1. url encode
 			//2. encrypt
 			
-//			String activateLink = "http://www.adogo.ca/activatemail?acctId="+acctId;
-			String activateLink = "http://104.233.108.12/activatemail?acctId="+acctId;
-			System.out.println("activation request sent to: activateLink");	//to log
+			String activateLink = "http://www.adogo.ca/activatemail?acctId="+acctId;
+//			String activateLink = "http://104.233.108.12/activatemail?acctId="+acctId;
+			
+			StringBuffer mailBodyContent = new StringBuffer();
+			mailBodyContent.append("<a href='"+activateLink+"'>Click me to activate now</a>");
+			
+			logger.info("activation request sent to: activateLink");	//to log
 			
 			try{
 	//			emailService.sendSimpleMail(activateLink);
-				emailService.sendMail(activateLink, ua.getPrimaryEmail());
+				emailService.sendMail(mailBodyContent.toString(), ua.getPrimaryEmail());
 			}catch(Exception ex){
-				System.out.println("ERROR: Activation email failed.");
+				logger.info("ERROR: Activation email failed.");
 				ex.printStackTrace();
 			}
 			
@@ -237,7 +246,7 @@ public class UserController {
 	public Map<String,Object> activateUserAccount(
 			@RequestParam long acctId){
 		
-		System.out.println("/activate");
+		logger.info("/activate");
 		
 		/* initial settings */
 		ModelAndView mav = new ModelAndView();
@@ -250,7 +259,7 @@ public class UserController {
 		/* business logic
 		 * 		1. activate	*/
 		ua = userService.activateAccount(ua);
-		System.out.println("account activated");	//to log
+		logger.info("account activated");	//to log
 		
 		/* assemble model and view */
 		data.put("info_msg","account activated");
@@ -262,7 +271,7 @@ public class UserController {
 	public ModelAndView activateUserAccountByMail(
 			@RequestParam long acctId){
 		
-		System.out.println("/activatemail");
+		logger.info("/activatemail");
 		
 		/* initial settings */
 		ModelAndView mav = new ModelAndView();
@@ -278,7 +287,7 @@ public class UserController {
 		/* business logic
 		 * 		1. activate	*/
 		ua = userService.activateAccount(ua);
-		System.out.println("account activated");	//to log
+		logger.info("account activated");	//to log
 		
 		/* assemble model and view */
 		mav.setViewName(viewName);

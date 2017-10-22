@@ -36,7 +36,7 @@
 
 </head>
 
-<body class="boxed bg-cover"
+<body class="boxed bg-cover sticky-search"
 	style="background-image: url(/img/backgrounds/s4.jpg)">
 	
     <div class="global-wrap">
@@ -44,16 +44,16 @@
 	//////////////MAIN HEADER///////////// 
 	////////////////////////////////////-->
         <!-- Main header -->
-		<jsp:include page="inc/nav_inc.jsp"></jsp:include>
+		<jsp:include page="../inc/nav_inc.jsp"></jsp:include>
 		<!-- EMDS Main header -->
         
         <!-- LOGIN REGISTER LINKS CONTENT -->
-        <jsp:include page="inc/login_inc.jsp"></jsp:include>
+        <jsp:include page="../inc/login_inc.jsp"></jsp:include>
         <!-- END LOGIN REGISTER LINKS CONTENT -->
 		
 
         <!-- SEARCH AREA -->
-        <jsp:include page="inc/search_inc.jsp"></jsp:include>
+        <jsp:include page="../inc/search_inc.jsp"></jsp:include>
         <!-- END SEARCH AREA -->
 
         <div class="gap"></div>
@@ -85,7 +85,7 @@
                     <div class="gap gap-small"></div>
                     <div class="tabbable">
                         <ul class="nav nav-tabs" id="myTab">
-                            <li class="active"><a href="#tab-1" data-toggle="tab"><i class="fa fa-tag"></i>Home</a>
+                            <li class="active"><a href="#tab-1" data-toggle="tab"><i class="fa fa-tag"></i>Contact</a>
                             </li>
                             <li><a href="#google-map-tab" data-toggle="tab"><i class="fa fa-map-marker"></i>Location</a>
                             </li>
@@ -97,33 +97,6 @@
                         <div class="tab-content">
                             <div class="tab-pane fade in active" id="tab-1">
                                 <div class="row text-smaller">
-                                    <div class="col-md-4">
-                                        <!-- logo -->
-                                        <p>
-                                        	<img src="../../customer/31001/logo.png" title="mara coiffuire"/>
-                                        </p>
-                                        <br/>
-                                        <h4>Who we are</h4>
-										   <h5>Roni  Hairdresser</h5>
-										</p>                                        
-										   <h5>Salon de Coiffure Mara</h5>
-										</p>
-                                        
-                                    </div>
-                                    <div class="col-md-4">
-                                    	<h4>What we provide</h4>
-                                        <p>
-											Services including haircut, perm, hair color, doing hairstyle etc.
-										</p>
-										
-										<br/>
-                                        <h4>Competences</h4>
-                                        <p>
-                                        	
-											Roni hairdresser has professional experience of a variety of haircut more than 30 thousand people.
-										</p>
-                                        
-                                    </div>
                                     <div class="col-md-4">
                                     	<h4>Reach us</h4>
                                         <ul class="list">
@@ -137,32 +110,23 @@
                                             <li>Tel.: (438)875-1768</li>
                                         </ul>
                                     </div>
-                                </div>
-                            </div>
-                            <!-- 
-                            <div class="tab-pane fade" id="google-map-tab">
-                                <div class="row">
-                                    <div class="col-md-9">
-                                        <div id="map-canvas" style="width:100%; height:300px;"></div>
+                                    
+                                    <div class="col-md-4">
+                                        <h4>Follow us</h4>
+                                        <p>
+											Services including haircut, perm, hair color, doing hairstyle etc.
+										</p>
                                     </div>
-                                    <div class="col-md-3">
-                                    	<h4>Address</h4>
-                                        <ul class="list">
-                                            <li>2403 Spring Land</li>
-                                            <li>Montreal QC &nbsp; H4E 2G2</li>
-                                            <li>&nbsp;</li>
-                                            <li>Near Monk metro station, opposite Jean-Coutu shop parking place</li>
-                                        </ul>
-                                        <br/>
-                                        
-                                        <h4>Call</h4>
-                                        <ul class="list">
-                                            <li>(438)875-1768</li>
-                                        </ul>
+                                    
+                                    <div class="col-md-4">
+                                        <h4>Links</h4>
+                                        <p>
+											<a class="btn btn-primary" href="#">Check out our Website <i class="fa fa-external-link"></i></a>
+										</p>
                                     </div>
                                 </div>
                             </div>
-                            -->
+                            
                            <div class="tab-pane fade" id="google-map-tab">
                                 <div class="row">
                                     <div class="col-md-9">
@@ -187,142 +151,55 @@
                             </div>
                             <div class="tab-pane fade" id="tab-3">
                             	<div class="row">
-                                    <div class="col-md-6">
-                                    	<h4>Opening hour</h4>
-                                		<p>
-											<table>
-											<tr><td>MON.</td><td>closed</td><td></td><td></td></tr>
-											<tr><td>TUE.</td><td>10:00 am</td><td>-</td><td>6:00 pm</td></tr>
-											<tr><td>WED.</td><td>10:00 am</td><td>-</td><td>6:00 pm</td></tr>
-											<tr><td>THU.</td><td>10:00 am</td><td>-</td><td>6:00 pm</td></tr>
-											<tr><td>FRI.</td><td>10:00 am</td><td>-</td><td>6:00 pm</td></tr>
-											<tr><td>SAT.</td><td>10:00 am</td><td>-</td><td>6:00 pm</td></tr>
-											<tr><td>SUN.</td><td>10:00 am</td><td>-</td><td>6:00 pm</td></tr>
-											</table>
-                                		</p>
+                                    <div class="col-md-12">
+										<table class="table table-striped mb0">
+										<tbody>
+										<tr><td>MON.</td><td>closed</td><td></td><td></td></tr>
+										<tr><td>TUE.</td><td>10:00 am</td><td>-</td><td>6:00 pm</td></tr>
+										<tr><td>WED.</td><td>10:00 am</td><td>-</td><td>6:00 pm</td></tr>
+										<tr><td>THU.</td><td>10:00 am</td><td>-</td><td>6:00 pm</td></tr>
+										<tr><td>FRI.</td><td>10:00 am</td><td>-</td><td>6:00 pm</td></tr>
+										<tr><td>SAT.</td><td>10:00 am</td><td>-</td><td>6:00 pm</td></tr>
+										<tr><td>SUN.</td><td>10:00 am</td><td>-</td><td>6:00 pm</td></tr>
+										</tbody>
+										</table>
                                     </div>
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="tab-4">
-                                <h3>Mara Coiffeur</h3>
-                                <p>put your brief introduction here</p>
-                                <p>put your brief introduction here</p><a class="btn btn-primary" href="#">Check out our Website <i class="fa fa-external-link"></i></a>
+                            	<div class="row text-smaller">
+                                	<div class="col-md-4">
+                                        <h4>Who we are</h4>
+										   <p>Mr. Roni is providing services for you which includes haircut, perm, hair color, doing hairstyle etc.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                    	<h4>What we provide</h4>
+                                        <p>
+											Services including haircut, perm, hair color, doing hairstyle etc.
+										</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                    	<h4>Competences</h4>
+                                        <p>
+											Roni hairdresser has professional experience of a variety of haircut more than 30 thousand people.
+										</p>
+                                    </div>
+                                    
+                                  </div>
+                                
                             </div>
                         </div>
                     </div>
                     <div class="gap gap-small"></div>
-                    <h3 class="mb20">Top Deals For You <small><a href="#">see all</a></small></h3>
-                    <div class="row row-wrap">
-                        <a class="col-md-4" href="#">
-                            <div class="product-thumb">
-                                <header class="product-header">
-                                    <img src="../../img/800x600.png" alt="Image Alternative text" title="Ana 29" />
-                                </header>
-                                <div class="product-inner">
-                                    <ul class="icon-group icon-list-rating icon-list-non-rated" title="not rated yet">
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                    </ul>
-                                    <h5 class="product-title">Hot Summer Collection</h5>
-                                    <p class="product-desciption">Quam suscipit viverra phasellus laoreet conubia cubilia tellus</p>
-                                    <div class="product-meta">
-                                        <ul class="product-price-list">
-                                            <li><span class="product-price">$53</span>
-                                            </li>
-                                            <li><span class="product-old-price">$101</span>
-                                            </li>
-                                            <li><span class="product-save">Save 52%</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <p class="product-location"><i class="fa fa-map-marker"></i> Boston</p>
-                                </div>
-                            </div>
-                        </a>
-                        <a class="col-md-4" href="#">
-                            <div class="product-thumb">
-                                <header class="product-header">
-                                    <img src="../../img/800x600.png" alt="Image Alternative text" title="iPhone 5 iPad mini iPad 3" />
-                                </header>
-                                <div class="product-inner">
-                                    <ul class="icon-group icon-list-rating" title="4/5 rating">
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star-o"></i>
-                                        </li>
-                                    </ul>
-                                    <h5 class="product-title">Electronics Big Deal</h5>
-                                    <p class="product-desciption">Quam suscipit viverra phasellus laoreet conubia cubilia tellus</p>
-                                    <div class="product-meta">
-                                        <ul class="product-price-list">
-                                            <li><span class="product-price">$132</span>
-                                            </li>
-                                            <li><span class="product-old-price">$276</span>
-                                            </li>
-                                            <li><span class="product-save">Save 48%</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <p class="product-location"><i class="fa fa-map-marker"></i> Boston</p>
-                                </div>
-                            </div>
-                        </a>
-                        <a class="col-md-4" href="#">
-                            <div class="product-thumb">
-                                <header class="product-header">
-                                    <img src="../../img/800x600.png" alt="Image Alternative text" title="The Violin" />
-                                </header>
-                                <div class="product-inner">
-                                    <ul class="icon-group icon-list-rating" title="4.2/5 rating">
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star"></i>
-                                        </li>
-                                        <li><i class="fa fa-star-half-empty"></i>
-                                        </li>
-                                    </ul>
-                                    <h5 class="product-title">Violin Lessons</h5>
-                                    <p class="product-desciption">Quam suscipit viverra phasellus laoreet conubia cubilia tellus</p>
-                                    <div class="product-meta">
-                                        <ul class="product-price-list">
-                                            <li><span class="product-price">$85</span>
-                                            </li>
-                                            <li><span class="product-old-price">$202</span>
-                                            </li>
-                                            <li><span class="product-save">Save 42%</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <p class="product-location"><i class="fa fa-map-marker"></i> Boston</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="gap gap-small"></div>
+                    
+                    
+                    
                     
                     <!-- ad list of this advertiser,booth -->
-                    <h3 class="mb20">Ad Post</h3>
+                    <h3 class="mb20" id="section_adpost">Ad Post</h3>
                     <div class="row row-wrap">
                     	<div class="col-md-12">
-	                    	<a class="product-thumb product-thumb-horizontal" href="#">
+	                    	<a class="product-thumb product-thumb-horizontal" href="/ad/adpost/ad">
 	                        <header class="product-header">
 	                        	<c:choose>
 								    <c:when test="${adPost.media_cover_url!=NULL}">
@@ -334,7 +211,7 @@
 								</c:choose>
 	                        </header>
 	                        <div class="product-inner">
-	                            <h5 class="product-title">AD Post Title - Bla Bla Bla ${adPost.post_title}</h5>
+	                            <h5 class="product-title">AD Post Title - Bla Bla Bla ${adPost.postTitle}</h5>
 	                            <div class="product-desciption"> WARN org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/category/img/ame 'adogo' ${adPost.short_desc}</div>
 	                            
 	                            <div class="product-meta">
@@ -364,7 +241,7 @@
 	                    	</a>
 	                    	
 	                    	
-	                    	<a class="product-thumb product-thumb-horizontal" href="#">
+	                    	<a class="product-thumb product-thumb-horizontal" href="/ad/adpost/ad">
 	                        <header class="product-header">
 	                        	<c:choose>
 								    <c:when test="${adPost.media_cover_url!=NULL}">
@@ -376,7 +253,7 @@
 								</c:choose>
 	                        </header>
 	                        <div class="product-inner">
-	                            <h5 class="product-title">AD Post Title - Bla Bla Bla ${adPost.post_title}</h5>
+	                            <h5 class="product-title">AD Post Title - Bla Bla Bla ${adPost.postTitle}</h5>
 	                            <div class="product-desciption"> WARN org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/category/img/ame 'adogo' ${adPost.short_desc}</div>
 	                            
 	                            <div class="product-meta">
@@ -406,7 +283,7 @@
 	                    	</a>
 	                    	
 	                    	
-	                    	<a class="product-thumb product-thumb-horizontal" href="#">
+	                    	<a class="product-thumb product-thumb-horizontal" href="/ad/adpost/ad">
 	                        <header class="product-header">
 	                        	<c:choose>
 								    <c:when test="${adPost.media_cover_url!=NULL}">
@@ -418,7 +295,7 @@
 								</c:choose>
 	                        </header>
 	                        <div class="product-inner">
-	                            <h5 class="product-title">AD Post Title - Bla Bla Bla ${adPost.post_title}</h5>
+	                            <h5 class="product-title">AD Post Title - Bla Bla Bla ${adPost.postTitle}</h5>
 	                            <div class="product-desciption"> WARN org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/category/img/ame 'adogo' ${adPost.short_desc}</div>
 	                            
 	                            <div class="product-meta">
@@ -448,6 +325,156 @@
 	                    	</a>
                     	</div>
                     </div>
+                                        
+                    
+                  	<h3 class="mb20">
+						Catalog <small><a href="#">View All</a></small>
+					</h3>
+					<div class="row row-wrap">
+                        <div class="owl-carousel" id="owl-carousel" data-items="3">
+                        	<div>
+		                            <div class="product-thumb">
+		                                <header class="product-header">
+		                                    <img src="/img/800x600.png" alt="Image Alternative text" title="Ana 29" />
+		                                </header>
+		                                <div class="product-inner">
+		                                    <ul class="icon-group icon-list-rating icon-list-non-rated" title="not rated yet">
+		                                        <li><i class="fa fa-star"></i>
+		                                        </li>
+		                                        <li><i class="fa fa-star"></i>
+		                                        </li>
+		                                        <li><i class="fa fa-star"></i>
+		                                        </li>
+		                                        <li><i class="fa fa-star"></i>
+		                                        </li>
+		                                        <li><i class="fa fa-star"></i>
+		                                        </li>
+		                                    </ul>
+		                                    <h5 class="product-title">Hot Summer Collection</h5>
+		                                    <p class="product-desciption">Quam suscipit viverra phasellus laoreet conubia cubilia tellus</p>
+		                                    <div class="product-meta">
+		                                        <ul class="product-price-list">
+		                                            <li><span class="product-price">$53</span>
+		                                            </li>
+		                                            <li><span class="product-old-price">$101</span>
+		                                            </li>
+		                                            <li><span class="product-save">Save 52%</span>
+		                                            </li>
+		                                        </ul>
+		                                    </div>
+		                                    <p class="product-location"><i class="fa fa-map-marker"></i> Boston</p>
+		                                </div>
+		                            </div>
+                            </div>
+                            
+                            <div>
+		                            <div class="product-thumb">
+		                                <header class="product-header">
+		                                    <img src="/img/800x600.png" alt="Image Alternative text" title="Ana 29" />
+		                                </header>
+		                                <div class="product-inner">
+		                                    <ul class="icon-group icon-list-rating icon-list-non-rated" title="not rated yet">
+		                                        <li><i class="fa fa-star"></i>
+		                                        </li>
+		                                        <li><i class="fa fa-star"></i>
+		                                        </li>
+		                                        <li><i class="fa fa-star"></i>
+		                                        </li>
+		                                        <li><i class="fa fa-star"></i>
+		                                        </li>
+		                                        <li><i class="fa fa-star"></i>
+		                                        </li>
+		                                    </ul>
+		                                    <h5 class="product-title">Hot Summer Collection</h5>
+		                                    <p class="product-desciption">Quam suscipit viverra phasellus laoreet conubia cubilia tellus</p>
+		                                    <div class="product-meta">
+		                                        <ul class="product-price-list">
+		                                            <li><span class="product-price">$53</span>
+		                                            </li>
+		                                            <li><span class="product-old-price">$101</span>
+		                                            </li>
+		                                            <li><span class="product-save">Save 52%</span>
+		                                            </li>
+		                                        </ul>
+		                                    </div>
+		                                    <p class="product-location"><i class="fa fa-map-marker"></i> Boston</p>
+		                                </div>
+		                            </div>
+                            </div>
+                            
+                            <div>
+		                            <div class="product-thumb">
+		                                <header class="product-header">
+		                                    <img src="/img/800x600.png" alt="Image Alternative text" title="Ana 29" />
+		                                </header>
+		                                <div class="product-inner">
+		                                    <ul class="icon-group icon-list-rating icon-list-non-rated" title="not rated yet">
+		                                        <li><i class="fa fa-star"></i>
+		                                        </li>
+		                                        <li><i class="fa fa-star"></i>
+		                                        </li>
+		                                        <li><i class="fa fa-star"></i>
+		                                        </li>
+		                                        <li><i class="fa fa-star"></i>
+		                                        </li>
+		                                        <li><i class="fa fa-star"></i>
+		                                        </li>
+		                                    </ul>
+		                                    <h5 class="product-title">Hot Summer Collection</h5>
+		                                    <p class="product-desciption">Quam suscipit viverra phasellus laoreet conubia cubilia tellus</p>
+		                                    <div class="product-meta">
+		                                        <ul class="product-price-list">
+		                                            <li><span class="product-price">$53</span>
+		                                            </li>
+		                                            <li><span class="product-old-price">$101</span>
+		                                            </li>
+		                                            <li><span class="product-save">Save 52%</span>
+		                                            </li>
+		                                        </ul>
+		                                    </div>
+		                                    <p class="product-location"><i class="fa fa-map-marker"></i> Boston</p>
+		                                </div>
+		                            </div>
+                            </div>
+                            
+                            <div>
+		                            <div class="product-thumb">
+		                                <header class="product-header">
+		                                    <img src="/img/800x600.png" alt="Image Alternative text" title="Ana 29" />
+		                                </header>
+		                                <div class="product-inner">
+		                                    <ul class="icon-group icon-list-rating icon-list-non-rated" title="not rated yet">
+		                                        <li><i class="fa fa-star"></i>
+		                                        </li>
+		                                        <li><i class="fa fa-star"></i>
+		                                        </li>
+		                                        <li><i class="fa fa-star"></i>
+		                                        </li>
+		                                        <li><i class="fa fa-star"></i>
+		                                        </li>
+		                                        <li><i class="fa fa-star"></i>
+		                                        </li>
+		                                    </ul>
+		                                    <h5 class="product-title">Hot Summer Collection</h5>
+		                                    <p class="product-desciption">Quam suscipit viverra phasellus laoreet conubia cubilia tellus</p>
+		                                    <div class="product-meta">
+		                                        <ul class="product-price-list">
+		                                            <li><span class="product-price">$53</span>
+		                                            </li>
+		                                            <li><span class="product-old-price">$101</span>
+		                                            </li>
+		                                            <li><span class="product-save">Save 52%</span>
+		                                            </li>
+		                                        </ul>
+		                                    </div>
+		                                    <p class="product-location"><i class="fa fa-map-marker"></i> Boston</p>
+		                                </div>
+		                            </div>
+                            </div>
+                            
+					</div>
+				</div>
+                            
                     
                     
                     <!-- comments -->
@@ -457,14 +484,14 @@
                             <li class="active"><a href="#tab-3" data-toggle="tab"><i class="fa fa-comments"></i>Reviews</a></li>
                         </ul>
                         <div class="tab-content">
-                            <div class="tab-pane fade in active" id="tab-3">
+                            <div class="tab-pane fade in active" id="tab-5">
                                 <!-- START COMMENTS -->
                                 <ul class="comments-list">
                                     <li>
                                         <!-- COMMENT -->
                                         <article class="comment">
                                             <div class="comment-author">
-                                                <img src="../../img/50x50.png" alt="Image Alternative text" title="Gamer Chick" />
+                                                <img src="/img/50x50.png" alt="Image Alternative text" title="Gamer Chick" />
                                             </div>
                                             <div class="comment-inner"><span class="comment-author-name">Joseph Hudson</span>
                                                 <p class="comment-content">Mi volutpat mattis cum facilisis nunc platea tincidunt vehicula laoreet montes parturient urna</p><span class="comment-time">15 seconds ago</span><a class="comment-reply" href="#"><i class="fa fa-reply"></i> Reply</a><a class="comment-like" href="#"><i class="fa fa-heart"></i> 32</a>
@@ -475,7 +502,7 @@
                                         <!-- COMMENT -->
                                         <article class="comment">
                                             <div class="comment-author">
-                                                <img src="../../img/50x50.png" alt="Image Alternative text" title="Ana 29" />
+                                                <img src="/img/50x50.png" alt="Image Alternative text" title="Ana 29" />
                                             </div>
                                             <div class="comment-inner"><span class="comment-author-name">Blake Abraham</span>
                                                 <p class="comment-content">Vehicula potenti risus iaculis lacus laoreet porttitor aliquam massa mauris netus duis eu diam et</p><span class="comment-time">15 seconds ago</span><a class="comment-reply" href="#"><i class="fa fa-reply"></i> Reply</a><a class="comment-like" href="#"><i class="fa fa-heart"></i> 14</a>
@@ -486,7 +513,7 @@
                                         <!-- COMMENT -->
                                         <article class="comment">
                                             <div class="comment-author">
-                                                <img src="../../img/50x50.png" alt="Image Alternative text" title="Afro" />
+                                                <img src="/img/50x50.png" alt="Image Alternative text" title="Afro" />
                                             </div>
                                             <div class="comment-inner"><span class="comment-author-name">Keith Churchill</span>
                                                 <p class="comment-content">Ac placerat lacinia ultrices morbi ipsum non facilisis sed etiam arcu justo quam tellus magna nullam suscipit</p><span class="comment-time">15 seconds ago</span><a class="comment-reply" href="#"><i class="fa fa-reply"></i> Reply</a><a class="comment-like" href="#"><i class="fa fa-heart"></i> 6</a>
@@ -497,7 +524,7 @@
                                                 <!-- COMMENT -->
                                                 <article class="comment">
                                                     <div class="comment-author">
-                                                        <img src="../../img/50x50.png" alt="Image Alternative text" title="Bubbles" />
+                                                        <img src="/img/50x50.png" alt="Image Alternative text" title="Bubbles" />
                                                     </div>
                                                     <div class="comment-inner"><span class="comment-author-name">Blake Hardacre</span>
                                                         <p class="comment-content">Turpis natoque molestie libero elementum placerat litora molestie primis lorem ipsum velit</p><span class="comment-time">15 seconds ago</span><a class="comment-reply" href="#"><i class="fa fa-reply"></i> Reply</a><a class="comment-like" href="#"><i class="fa fa-heart"></i> 38</a>
@@ -514,27 +541,51 @@
                     </div>
                     <div class="gap gap-small"></div>
                 </div>
+                
                 <div class="col-md-3">
                     <div class="product-page-meta box">
-                        <h4><strong>Mara Coiffeur</strong></h4>
-                        <p>Mr. Roni is providing services for you which includes haircut, perm, hair color, doing hairstyle etc.<br/></p>
-                        <a class="btn btn-primary btn-lg btn-block" href="#"  target="_blank">View Ad. Page</a>
+                        <p><img src="${booth.logoCoverUrl}" title="${booth.bizName}"/></p>
+                        <h4><strong>${booth.bizName}</strong></h4>
+                        <p>${booth.bizDesc}<br/></p>
+                        <!-- 
+                        <a class="btn btn-primary btn-block" href="#"  target="_blank">View Ad. Page</a>
+                         -->
                         <ul class="list product-page-meta-info">
+                        	<li>
+                               <i class="fa fa-folder-o"></i>&nbsp;&nbsp; Category
+                               <span class="product-page-meta-title">Service / Graphic design</span>
+                            </li>
+                            
+                            <li>
+                            	<i class="fa fa-tag"></i>&nbsp;&nbsp; Tags 
+                               <span class="product-page-meta-title">Ad, Graphic design</span>
+                            </li>
+                            
+                            <!-- COUNTDOWN -->
+                            <!--  
+                            <li><span class="product-page-meta-title">Time Left to Buy</span>
+                                
+                                <div data-countdown="Aug 25, 2013 10:45:00" class="countdown countdown-inline"></div>
+                            </li>-->
+                            <li>
+                            	<i class="fa fa-language"></i>&nbsp;&nbsp; Service languages
+                            	<span class="product-page-meta-title">${booth.supportLang}</span> 
+                            </li>
+                            
+                            <li>
+                            	<i class="fa fa-map-marker"></i>&nbsp;&nbsp; Location
+                            	<span class="product-page-meta-title">Montreal QC</span> 
+                            </li>
+                            
                             <li>
                                 <ul class="list product-page-meta-price-list">
-                                    <li><span class="product-page-meta-title">List Price</span><span class="product-page-meta-price">$1000</span>
+                                    <li><span class="product-page-meta-title"><i class="fa fa-eye"></i>&nbsp;&nbsp; Views</span><span class="product-page-meta-price">${booth.viewedBooth}</span>
                                     </li>
-                                    <li><span class="product-page-meta-title">Discount</span><span class="product-page-meta-price">77.5%</span>
+                                    <li><span class="product-page-meta-title"><i class="fa fa-heart-o"></i>&nbsp;&nbsp;Likes</span><span class="product-page-meta-price">100</span>
                                     </li>
-                                    <li><span class="product-page-meta-title">Savings</span><span class="product-page-meta-price">$775</span>
+                                    <li><span class="product-page-meta-title"><i class="fa fa-star-o"></i>&nbsp;&nbsp;Score</span><span class="product-page-meta-price">8.5</span>
                                     </li>
                                 </ul>
-                            </li>
-                            <li><span class="product-page-meta-title">Time Left to Buy</span>
-                                <!-- COUNTDOWN -->
-                                <div data-countdown="Aug 25, 2013 10:45:00" class="countdown countdown-inline"></div>
-                            </li>
-                            <li><span class="product-page-meta-title">5000+ bought</span>
                             </li>
                         </ul>
                     </div>
@@ -546,7 +597,7 @@
                             <ul class="thumb-list">
                                 <li>
                                     <a href="#">
-                                        <img src="../../img/70x70.png" alt="Image Alternative text" title="Urbex Esch/Lux with Laney and Laaaaag" />
+                                        <img src="/img/70x70.png" alt="Image Alternative text" title="Urbex Esch/Lux with Laney and Laaaaag" />
                                     </a>
                                     <div class="thumb-list-item-caption">
                                         <h5 class="thumb-list-item-title"><a href="#">Excellent Copywriting Certificate</a></h5>
@@ -555,7 +606,7 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="../../img/70x70.png" alt="Image Alternative text" title="AMaze" />
+                                        <img src="/img/70x70.png" alt="Image Alternative text" title="AMaze" />
                                     </a>
                                     <div class="thumb-list-item-caption">
                                         <h5 class="thumb-list-item-title"><a href="#">Professional Photoghraphy Certificate</a></h5>
@@ -564,7 +615,7 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="../../img/70x70.png" alt="Image Alternative text" title="waipio valley" />
+                                        <img src="/img/70x70.png" alt="Image Alternative text" title="waipio valley" />
                                     </a>
                                     <div class="thumb-list-item-caption">
                                         <h5 class="thumb-list-item-title"><a href="#">Awesome Good and Service Provider</a></h5>
@@ -573,7 +624,7 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="../../img/70x70.png" alt="Image Alternative text" title="waipio valley" />
+                                        <img src="/img/70x70.png" alt="Image Alternative text" title="waipio valley" />
                                     </a>
                                     <div class="thumb-list-item-caption">
                                         <h5 class="thumb-list-item-title"><a href="#">Good Customer Serivce Provider</a></h5>
@@ -601,7 +652,7 @@
                             <ul class="thumb-list">
                                 <li>
                                     <a href="#">
-                                        <img src="../../img/70x70.png" alt="Image Alternative text" title="Urbex Esch/Lux with Laney and Laaaaag" />
+                                        <img src="/img/70x70.png" alt="Image Alternative text" title="Urbex Esch/Lux with Laney and Laaaaag" />
                                     </a>
                                     <div class="thumb-list-item-caption">
                                         <h5 class="thumb-list-item-title"><a href="#">Email Marketing</a></h5>
@@ -621,7 +672,7 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="../../img/70x70.png" alt="Image Alternative text" title="AMaze" />
+                                        <img src="/img/70x70.png" alt="Image Alternative text" title="AMaze" />
                                     </a>
                                     <div class="thumb-list-item-caption">
                                         <h5 class="thumb-list-item-title"><a href="#">Social Marketing</a></h5>
@@ -641,7 +692,7 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="../../img/70x70.png" alt="Image Alternative text" title="waipio valley" />
+                                        <img src="/img/70x70.png" alt="Image Alternative text" title="waipio valley" />
                                     </a>
                                     <div class="thumb-list-item-caption">
                                         <h5 class="thumb-list-item-title"><a href="#">Search Engine Marketing</a></h5>
@@ -678,7 +729,7 @@
 	////////////////////////////////////-->
 
 		<!-- Main footer -->
-		<jsp:include page="inc/footer_inc.jsp"></jsp:include>
+		<jsp:include page="../inc/footer_inc.jsp"></jsp:include>
 		<!-- EMDS Main footer -->
         <!-- //////////////////////////////////
 	//////////////END MAIN  FOOTER///////// 

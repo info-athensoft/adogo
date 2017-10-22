@@ -32,5 +32,15 @@ public class AdPostService {
 	public List<AdPost> getAllAdPost(){
 		return adPostDao.findAll();
 	}
+	
+	
+	/**
+	 * find the latest pieces of Ads
+	 * @param qty the specified quantity of piece of Ad
+	 * @return
+	 */
+	public List<AdPost> findLatestAdPostByQty(final int qty){
+		return adPostDao.findLatestByQty(qty);
+	}
 
 }

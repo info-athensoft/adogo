@@ -22,8 +22,8 @@ public class BoothController {
 		this.boothService = boothService;
 	}
 	
-	@RequestMapping("/booth")
-	public ModelAndView showCustProfile(){
+	@RequestMapping("/ad/booths")
+	public ModelAndView getAllBooth(){
 		ModelAndView mav = new ModelAndView();
 		
 		List<Booth> booth = boothService.findAll();
@@ -31,37 +31,39 @@ public class BoothController {
 		Map<String,Object> data = mav.getModel();
 		data.put("boothList", booth);
 		
-		mav.setViewName("booth/allbooth");
+		mav.setViewName("booth/booth-all");
 		return mav;
 	}
 	
-	@RequestMapping("/category/{classNum}")
+	@RequestMapping("/ad/booths/c1/{categoryNum}")
 	public ModelAndView showBoothLevel1(
-			@PathVariable int classNum){
+			@PathVariable int categoryNum){
 		ModelAndView mav = new ModelAndView();
 		
-		List<Booth> booth = boothService.findByClassLevel1(classNum);
-		//System.out.println("classNum="+classNum);
+		List<Booth> booth = boothService.findByClassLevel1(categoryNum);
 		
 		Map<String,Object> data = mav.getModel();
 		data.put("boothList", booth);
-		data.put("boothCategoryNum", classNum);
+		data.put("boothCategoryNum", categoryNum);
 		
 		mav.setViewName("booth/boothbyclass");
 		return mav;
 	}
 	
-	@RequestMapping("/category/{classNum}/{classNumLv2}")
+	@RequestMapping("/ad/booths/c1/{categoryNumLv1}/c2/{categoryNumLv2}")
+//	/ad/booths/c1/{categoryNumLv1}/c2/{categoryNumLv2}
 	public ModelAndView showBoothLevel2(
-			@PathVariable int classNum){
+			@PathVariable int categoryNumLv1,
+			@PathVariable int categoryNumLv2
+			){
 		ModelAndView mav = new ModelAndView();
 		
-		List<Booth> booth = boothService.findByClassLevel1(classNum);
+		List<Booth> booth = boothService.findByClass(categoryNumLv1,categoryNumLv2);
 		//System.out.println("classNum="+classNum);
 		
 		Map<String,Object> data = mav.getModel();
 		data.put("boothList", booth);
-		data.put("boothCategoryNum", classNum);
+		data.put("boothCategoryNum", categoryNumLv2);
 		
 		mav.setViewName("booth/boothbyclasslv2");
 		return mav;

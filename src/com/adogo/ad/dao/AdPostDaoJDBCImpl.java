@@ -35,6 +35,33 @@ public class AdPostDaoJDBCImpl implements AdPostDao{
 	}
 	
 	@Override
+	public List<AdPost> findAll() {
+		String sql = "select * from AD_POST";
+		MapSqlParameterSource paramSource = new MapSqlParameterSource();
+//		paramSource.addValue("global_id", globalId);
+		List<AdPost> x = new ArrayList<AdPost>();
+		try{
+			x = jdbc.query(sql, paramSource, new AdPostRowMapper());
+		}catch(EmptyResultDataAccessException ex){
+			x = null;
+		}
+		return x;
+	}
+	
+	@Override
+	public List<AdPost> findLatestByQty(final int qty) {
+		String sql = "select * from AD_POST ORDER BY global_id DESC limit "+qty;
+		MapSqlParameterSource paramSource = new MapSqlParameterSource();
+		List<AdPost> x = new ArrayList<AdPost>();
+		try{
+			x = jdbc.query(sql, paramSource, new AdPostRowMapper());
+		}catch(EmptyResultDataAccessException ex){
+			x = null;
+		}
+		return x;
+	}
+
+	@Override
 	public AdPost findById(long globalId) {
 		String sql = "select * from AD_POST where global_id =:global_id";
 		MapSqlParameterSource paramSource = new MapSqlParameterSource();
@@ -88,19 +115,5 @@ public class AdPostDaoJDBCImpl implements AdPostDao{
 			
             return x;
 		}		
-	}
-
-	@Override
-	public List<AdPost> findAll() {
-		String sql = "select * from AD_POST";
-		MapSqlParameterSource paramSource = new MapSqlParameterSource();
-//		paramSource.addValue("global_id", globalId);
-		List<AdPost> x = new ArrayList<AdPost>();
-		try{
-			x = jdbc.query(sql, paramSource, new AdPostRowMapper());
-		}catch(EmptyResultDataAccessException ex){
-			x = null;
-		}
-		return x;
 	}
 }

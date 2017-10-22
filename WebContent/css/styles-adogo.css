@@ -1,0 +1,64 @@
+.adogo-title-small{
+		font-size: 12px;
+		margin: 0;
+		padding: 0;
+		border:0;
+		
+	}
+	
+	.adogo-div-head{
+		z-index: 1;
+		display: block;
+		text-align: center;
+		-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  		box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  		-webkit-border-radius: 5px 5px 0 0;
+  		border-radius: 5px 5px 0 0;
+	}
+	
+	.product-thumb .adogo-div-head >img {
+	  display: block;
+	  -webkit-border-radius: 5px 5px 0 0;
+	  border-radius: 5px 5px 0 0;
+	}
+	
+	.adogo-div-body{
+		border:none;
+		text-align: center;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		padding-top: 2px;
+		padding-bottom: 0px;
+		height: 34px;
+		overflow: hidden;
+		background-color: #fff;
+		line-height: 1em;
+		
+		display         : flex;
+		justify-content : center;
+		align-items     : center;
+	}
+	
+	.adogo-div-body-location{
+		color: #a3a3a3;
+	  	font-size: 12px;
+		text-align: center;
+		margin-top: 0px;
+		margin-bottom: 2px;
+		padding-top: 1px;
+		padding-bottom: 8px;
+		height: 45px;
+		overflow: hidden;
+		background-color: #fff;
+		-webkit-border-radius: 0 0 5px 5px;
+  		border-radius: 0 0 5px 5px;
+	}
+	
+	.adogo-border-0{
+		border: none;
+	}
+	
+	.adogo-gap{
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
