@@ -104,7 +104,7 @@
 										<i class="fa fa-star-o"></i> 7.8 Scores
 									</p>
                                        <ul class="product-actions-list">
-                                           <li><a class="btn btn-sm" href="#"><i class="fa fa-shopping-cart"></i> To Cart</a>
+                                           <li><a class="btn btn-sm" href="#"><i class="fa fa-shopping-cart"></i> Favorite</a>
                                            </li>
                                            <li><a class="btn btn-sm"><i class="fa fa-bars"></i> Details</a>
                                            </li>

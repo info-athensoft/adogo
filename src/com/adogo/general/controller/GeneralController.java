@@ -3,6 +3,7 @@ package com.adogo.general.controller;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,6 +16,8 @@ import com.adogo.business.service.BoothService;
 
 @Controller
 public class GeneralController {
+	
+	private final static Logger logger= Logger.getLogger(GeneralController.class);
 	
 	private BoothService boothService;
 	
@@ -50,6 +53,8 @@ public class GeneralController {
 		List<Booth> boothPopularNonprofit = boothService.findPopular(900);
 		
 		List<Booth> boothAllList = boothService.findAll();
+		logger.info("boothAllList size="+boothAllList.size());
+		
 		
 		final int QTY_OF_LATEST_ADS = 6;
 		List<AdPost> AdPostLatest = adPostService.findLatestAdPostByQty(QTY_OF_LATEST_ADS);
@@ -74,6 +79,7 @@ public class GeneralController {
 		data.put("boothPopularNonprofitList", boothPopularNonprofit);
 		
 		data.put("boothAllList", boothAllList);
+		
 		
 		data.put("AdPostLatest_1", AdPostLatest.get(0));	//#1 of Latest Ads
 		data.put("AdPostLatest_2", AdPostLatest.get(1));	//#2 of Latest Ads
