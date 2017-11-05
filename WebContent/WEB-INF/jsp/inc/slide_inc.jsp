@@ -75,9 +75,4 @@
             </div>
         </div>
     </div>
-<<<<<<< HEAD
 </div>
-
-=======
-</div>
->>>>>>> refs/heads/master
