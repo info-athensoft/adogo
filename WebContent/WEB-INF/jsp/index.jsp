@@ -122,7 +122,7 @@
 			<h3 class="mt10 mb10">The Latest Ads <small><a href="/ad/adpost/list">View All</a></small></h3>
 			<div class="row row-wrap">
 				<div class="col-md-6">
-					<a class="product-thumb product-thumb-horizontal" href="/test/profile#section_adpost"> 
+					<a class="product-thumb product-thumb-horizontal" href="/ad/adpost/${AdPostLatest_1.adPostId}"> 
 						<header class="product-header">
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
@@ -140,7 +140,7 @@
 						</div>
 					</a>
 
-					<a class="product-thumb product-thumb-horizontal" href="/test/profile#section_adpost"> 
+					<a class="product-thumb product-thumb-horizontal" href="/ad/adpost/${AdPostLatest_2.adPostId}"> 
 						<header class="product-header">
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
@@ -158,7 +158,7 @@
 						</div>
 					</a>
 					
-					<a class="product-thumb product-thumb-horizontal" href="/test/profile#section_adpost"> 
+					<a class="product-thumb product-thumb-horizontal" href="/ad/adpost/${AdPostLatest_3.adPostId}"> 
 						<header class="product-header">
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>
@@ -178,7 +178,7 @@
 				</div>
 
 				<div class="col-md-6">
-					<a class="product-thumb product-thumb-horizontal" href="/test/profile#section_adpost"> 
+					<a class="product-thumb product-thumb-horizontal" href="/ad/adpost/${AdPostLatest_4.adPostId}"> 
 						<header class="product-header">
 							<img src="/images/newbrand/zhenimport-big.png" alt="Image Alternative text" title="" />
 						</header>

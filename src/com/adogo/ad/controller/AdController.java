@@ -71,7 +71,7 @@ public class AdController {
 	 */
 	@RequestMapping(value="/{adPostId}",method=RequestMethod.GET)
 	public ModelAndView getDataAdPostDetail(@PathVariable long adPostId){
-		logger.info("entering... /ad/adpost/{adPostId}");
+		logger.info("ADController entering... /ad/adpost/"+adPostId);
 		logger.info("adPostId=" + adPostId);
 		
 		ModelAndView mav = new ModelAndView();
@@ -81,6 +81,7 @@ public class AdController {
 		//data
 		Map<String, String> vars = new HashMap<String, String>();
         vars.put("adPostId", Long.toString(adPostId));
+        logger.info("ADController vars: adPost -> "+vars.get("adPostId"));
         
         try
         {
@@ -88,7 +89,7 @@ public class AdController {
             rt.getMessageConverters().add(new MappingJackson2HttpMessageConverter());
             rt.getMessageConverters().add(new StringHttpMessageConverter());
 
-            String uri = new String("http://127.0.0.1:8080/acp/ad/adpost/{adPostId}");
+            String uri = new String("http://127.0.0.1:8080/acp/ad/adpost/{adPostId}");	//TODO Please pay attention to the IP section
 
             AdPost adPost = rt.getForObject(uri, AdPost.class, vars);
 
@@ -121,7 +122,7 @@ public class AdController {
         	System.out.println("error2:  " + e.getMessage());
         }
 		
-		logger.info("leaving... /ad/adpost/{adPostId}");
+		logger.info("leaving... /ad/adpost/"+adPostId);
 		return mav;
 	}
 }
