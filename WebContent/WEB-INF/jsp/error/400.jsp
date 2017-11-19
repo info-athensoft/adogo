@@ -32,7 +32,7 @@
 
 </head>
 
-<body class="boxed bg-cover" style="background-image: url(/img/backgrounds/wood.jpg)">
+<body class="boxed bg-cover" style="background-image: url(/img/backgrounds/s6.jpg)">
 
 
     <div class="global-wrap">

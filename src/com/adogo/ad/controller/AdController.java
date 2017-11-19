@@ -19,6 +19,7 @@ import org.springframework.web.servlet.ModelAndView;
 import com.adogo.ad.entity.AdPost;
 import com.adogo.ad.entity.AdPostAudio;
 import com.adogo.ad.entity.AdPostCoverImage;
+import com.adogo.ad.entity.AdPostText;
 import com.adogo.ad.entity.AdPostVideo;
 import com.adogo.ad.service.AdPostService;
 
@@ -96,6 +97,10 @@ public class AdController {
             logger.info("adPost:  " + adPost.toString());
             logger.info("adPost.getMediaCoverUrl():  " + adPost.getMediaCoverUrl());
             logger.info("adPost.getShortDesc():  " + adPost.getShortDesc());
+            
+            List<AdPostText> textList = adPost.getListAdPostText();
+            AdPostText primaryText = adPost.getPrimaryTextObject(textList);
+    		logger.info("primaryText getMediaUrl()="+primaryText.getLongDesc());
             
             List<AdPostCoverImage> coverImageList = adPost.getListAdPostCoverImage();
             AdPostCoverImage primaryCoverImage = adPost.getPrimaryMediaObject(coverImageList);

@@ -1,22 +1,64 @@
 package com.adogo.ad.entity;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 import org.apache.log4j.Logger;
+
+import com.adogo.mvc.web.exception.ObjectNotFoundException;
 
 
 public class AdPost extends AdPostHead {
 	
 	private static final Logger logger = Logger.getLogger(AdPost.class);
 	
-	private List<AdPostText> listAdPostText;
+	private List<AdPostText> listAdPostText = new ArrayList<AdPostText>();
 	private List<AdPostCoverImage> listAdPostCoverImage = new ArrayList<AdPostCoverImage>();
 	private List<AdPostSlideImage> listAdPostSlideImage = new ArrayList<AdPostSlideImage>();
 	private List<AdPostGalleryImage> listAdPostGalleryImage = new ArrayList<AdPostGalleryImage>();
 	private List<AdPostAudio> listAdPostAudio = new ArrayList<AdPostAudio>();
 	private List<AdPostVideo> listAdPostVideo = new ArrayList<AdPostVideo>();
+	
+	
+	public AdPostText getPrimaryTextObject(List<AdPostText> textList){
+		AdPostText primaryTextObject = null;
+		
+		try {
+			if(textList==null) {
+				final String ERR_MSG = "ERROR: List of AdPost text objects does not exist.";
+				throw new ObjectNotFoundException(ERR_MSG);
+			}else{
+				int listSize = textList.size();
+				
+				if(listSize==0){
+					logger.info("ERROR: List of AdPost text objects is empty.");
+				}else if(listSize==1){
+					primaryTextObject = textList.get(0);
+				}else{
+					for(AdPostText obj : textList){
+						if(obj.isPrimary==null){
+							continue;
+						}else{
+							if(obj.getIsPrimary()){
+								primaryTextObject = obj;
+								break;
+							}
+						}
+					}//end-of-for-loop
+					if(primaryTextObject ==null){
+						primaryTextObject = textList.get(0);
+					}
+				}//end-of-else
+			}
+					
+		} catch (ObjectNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			logger.info(e.getMessage());
+		}
+		
+		return primaryTextObject;
+	}
 	
 	
 	/**
