@@ -5,7 +5,7 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -230,19 +230,42 @@
 	                            </a>
 	                        </header>
                         <div class="post-inner">
-                            <h4 class="post-title"><a href="post-sidebar-right.html">Image Post Type</a></h4>
+                            <h4 class="post-title"><a href="post-sidebar-right.html">${adPost.postTitle}</a></h4>
                             <ul class="post-meta">
-                                <li><i class="fa fa-calendar"></i><a href="#">19 August, 2014</a>
+                                <li><i class="fa fa-calendar"></i><a href="#">${adPost.postDatetime}</a>
                                 </li>
-                                <li><i class="fa fa-user"></i><a href="#">Olivia Slater</a>
+                                <li><i class="fa fa-user"></i><a href="#">${adPost.postAuthor}</a>
                                 </li>
-                                <li><i class="fa fa-tags"></i><a href="#">Web</a>, <a href="#">Typography</a>, <a href="#">Design</a>
+                                <li><i class="fa fa-tags"></i>
+                                	<c:set var="tags" value="${adPost.tags}" />
+									<c:set var="delim" value="," />
+									<c:set var="TagsArray" value="${fn:split(tags, delim)}" />
+									<c:forEach var="tag" items="${TagsArray}">
+										<span class="product-price"><a href="#">${tag}</a>&nbsp;&nbsp;</span>
+									</c:forEach>
+                                	
                                 </li>
-                                <li><i class="fa fa-comments"></i><a href="#">18 Comments</a>
+                                <li><i class="fa fa-comments"></i><a href="#">${adPost.viewNum}</a>
                                 </li>
                             </ul>
-                            <p class="post-desciption">${adPost.getShortDesc()} Vulputate viverra bibendum laoreet elit nisl felis fermentum sit ridiculus sapien elementum libero sodales volutpat facilisi fusce ornare tempor at donec mollis turpis penatibus etiam hac auctor per est libero senectus dictum inceptos pellentesque cras sagittis imperdiet fermentum luctus nisi libero facilisi semper dignissim faucibus turpis nulla penatibus dictum accumsan</p><a class="btn btn-small btn-primary" href="post-sidebar-right.html">Read More</a>
+                            <div id="adPostShortDesc" class="post-desciption">${adPost.shortDesc}</div>
+                            
+                            
+                            <div id="adPostLongDesc" class="post-desciption"></div>
+                            <div id="btnCloseDetail" style="display:none">
+                            
+                           <!--  <div id="btnCloseDetail">   -->
+                            	<a class="btn btn-small btn-primary" href="javascript:openAbstract('${adPost.shortDesc}');">Close Detail</a>
+                            </div>
+                            
+                            <c:set var="textList" value="${adPost.getListAdPostText()}" />
+	                        <c:set var="primaryText" value="${adPost.getPrimaryTextObject(textList)}" />
+	                        <div id="btnOpenDetail">	                        
+                            <a class="btn btn-small btn-primary" href="javascript:openDetail('${primaryText.longDesc}');">Read More</a>
+                            </div>
+                            
                         </div>
+                        </article>
                         
                         <c:set var="galleryImageList" value="${adPost.getListAdPostGalleryImage()}" />
                         <div class="post-inner">
@@ -257,7 +280,7 @@
                             </ul>
                         </div>
                         
-                    	</article>
+                    	
                     	
                     	<!-- <h3>Content Slider</h3>  -->
                         <div class="owl-carousel" id="owl-carousel" data-items="3">
@@ -673,7 +696,7 @@
         <script src="/js/flexnav.min.js"></script>
         <script src="/js/magnific.js"></script>
         <script src="/js/tweet.min.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+        <!--  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script> -->
         <script src="/js/fitvids.min.js"></script>
         <script src="/js/mail.min.js"></script>
         <script src="/js/ionrangeslider.js"></script>
@@ -689,6 +712,41 @@
         <script src="/js/adogo/timer/countdown.js"></script>
         <script src="/js/adogo/timer/test.js"></script>
         
+        
+        <script>
+	        jQuery(document).ready(function() {
+	        	//init
+	        	$("#btnCloseDetail").hide();
+	        	$("#adPostLongDesc").hide();
+	        		        	
+	        	$("#adPostShortDesc").show();
+	        	$("#btnOpenDetail").show();
+	        });
+        
+        
+        	function openDetail(longDesc){
+        		//alert("show detail"+longDesc);
+        		$("#adPostShortDesc").hide();
+        		
+        		$("#btnOpenDetail").hide();
+        		$("#btnCloseDetail").show();
+        		
+        		$("#adPostLongDesc").show();
+        		$("#adPostLongDesc").html(longDesc);
+        	}
+        	
+        	function openAbstract(shortDesc){
+        		//alert("show detail"+longDesc);
+        		$("#adPostLongDesc").hide();
+        		
+        		$("#btnCloseDetail").hide();
+        		$("#btnOpenDetail").show();
+        		
+        		$("#adPostShortDesc").show();
+        		$("#adPostShortDesc").html(shortDesc);
+        	}
+        	
+        </script>
         
     </div>
 </body>

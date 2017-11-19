@@ -13,7 +13,12 @@ package com.adogo.mvc.web.exception;
 
 public class ResourceNotFoundException extends Exception
 {
-    public ResourceNotFoundException(String message)
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 5619982857107259534L;
+
+	public ResourceNotFoundException(String message)
     {
         super(message);
     }

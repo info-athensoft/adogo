@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 
 import com.adogo.ad.dao.AdPostDao;
 import com.adogo.ad.entity.AdPost;
-import com.adogo.event.entity.Event;
 
 @Service
 public class AdPostService {
