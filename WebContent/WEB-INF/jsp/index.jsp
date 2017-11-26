@@ -10,7 +10,7 @@
 
 <head>
 <!-- page: Index coupon layout 1 -->
-<title>Adogo | Online Brands and Advertising Marketing</title>
+<title>Adogo | Online Branding and Advertising Marketing</title>
 <!-- meta info -->
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 <meta name="keywords"
@@ -1370,7 +1370,11 @@
 		<!--  
         	<script src="/js/countryObject.js"></script>
          -->
-
+		
+		<script type="text/javascript">
+		
+		
+		</script>
 
 		<!-- Datalayer -->
 		<script type="text/javascript">
