@@ -78,12 +78,12 @@ public class AdPostDaoJDBCImpl implements AdPostDao{
 	@Override
 	public int saveTags(String adpostId, String tags) {
 		String sql = "UPDATE AD_POST "
-	               + "SET tags = :tags "
+	               + "SET post_tags = :post_tags "
 				   + "WHERE 1=1 "
 				   + "AND adpost_id = :adpostId";
 		MapSqlParameterSource paramSource = new MapSqlParameterSource();
 		paramSource.addValue("adpostId", adpostId);
-		paramSource.addValue("tags", tags);
+		paramSource.addValue("post_tags", tags);
 		return jdbc.update(sql,paramSource);
 		
 	}
@@ -94,22 +94,22 @@ public class AdPostDaoJDBCImpl implements AdPostDao{
 			x.setGlobalId(rs.getLong("global_id"));
 			x.setUserId(rs.getLong("user_id"));
 			x.setAdPostId(rs.getLong("adpost_id"));
-			x.setMediaCoverUrl(rs.getString("media_cover_url"));
+			x.setMediaCoverUrl(rs.getString("post_cover_url"));
 			x.setPostTitle(rs.getString("post_title"));
 			x.setPostAuthor(rs.getString("post_author"));
 			
-			Timestamp cd = rs.getTimestamp("create_datetime");
+			Timestamp cd = rs.getTimestamp("create_date");
 			if (cd != null) {
 				x.setCreateDatetime(new Date(cd.getTime()));
 			}
 			
-			Timestamp pd = rs.getTimestamp("post_datetime");
+			Timestamp pd = rs.getTimestamp("post_date");
 			if (pd != null) {
 				x.setPostDatetime(new Date(pd.getTime()));			
 			}
 			
 			x.setLangNo(rs.getInt("lang_no"));
-			x.setTags(rs.getString("tags"));
+			x.setTags(rs.getString("post_tags"));
 			x.setViewNum(rs.getInt("view_num"));
 			x.setShortDesc(rs.getString("short_desc"));
 			
