@@ -13,6 +13,8 @@ import com.adogo.ad.entity.AdPost;
 import com.adogo.ad.service.AdPostService;
 import com.adogo.business.entity.Booth;
 import com.adogo.business.service.BoothService;
+import com.adogo.support.entity.Support;
+import com.adogo.support.service.SupportService;
 
 @Controller
 public class GeneralController {
@@ -33,6 +35,12 @@ public class GeneralController {
 		this.adPostService = adPostService;
 	}
 
+	private SupportService supportService;
+	
+	@Autowired
+	public void setSupportService(SupportService supportService) {
+		this.supportService = supportService;
+	}
 
 	@RequestMapping("/")
 	public ModelAndView goIndex(){
@@ -55,11 +63,11 @@ public class GeneralController {
 		List<Booth> boothAllList = boothService.findAll();
 		logger.info("boothAllList size="+boothAllList.size());
 		
-		
 		final int QTY_OF_LATEST_ADS = 6;
 		List<AdPost> AdPostLatest = adPostService.findLatestAdPostByQty(QTY_OF_LATEST_ADS);
 		
-		
+		List<Support> faqAllList = supportService.findAll();
+		logger.info("faqAllList size="+faqAllList.size());
 		
 		/*added by Athens on July-02-2016*/
 		
@@ -80,7 +88,6 @@ public class GeneralController {
 		
 		data.put("boothAllList", boothAllList);
 		
-		
 		data.put("AdPostLatest_1", AdPostLatest.get(0));	//#1 of Latest Ads
 		data.put("AdPostLatest_2", AdPostLatest.get(1));	//#2 of Latest Ads
 		data.put("AdPostLatest_3", AdPostLatest.get(2));	//#3 of Latest Ads
@@ -88,7 +95,7 @@ public class GeneralController {
 		data.put("AdPostLatest_5", AdPostLatest.get(4));	//#5 of Latest Ads
 		data.put("AdPostLatest_6", AdPostLatest.get(5));	//#6 of Latest Ads
 		
-		
+		data.put("faqAllList", faqAllList);
 		
 		mav.setViewName("index");
 		return mav;

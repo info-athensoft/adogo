@@ -1331,7 +1331,30 @@
 			<div class="gap"></div>
 			 
 		</div>
-
+		<!-- Support/Faq List Start -->
+		<div>
+			<table>
+				<tr>
+					<td>Support ID</td>
+					<td>Topic ID</td>
+					<td>Language</td>
+					<td>Title</td>
+					<td>Content</td>
+					<td>Status</td>
+				</tr>
+				<c:forEach var="faq" items="${faqAllList}">
+					<tr>
+						<td><a href='/support/faq/detail.html?supportId=${faq.globalId}'>${faq.globalId}</a></td>
+						<td>${faq.topicId}</td>
+						<td>${faq.langNo}</td>
+						<td>${faq.topicTitle}</td>
+						<td>${faq.topicContent}</td>
+						<td>${faq.topicStatus}</td>
+					</tr>
+				</c:forEach>
+			</table>
+		</div>
+		<!-- Support/Faq List End -->
 		<!-- //////////////////////////////////
 	//////////////END PAGE CONTENT///////// 
 	////////////////////////////////////-->
