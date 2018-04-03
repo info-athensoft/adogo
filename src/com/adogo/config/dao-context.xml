@@ -21,4 +21,6 @@
 	</context:component-scan>
 	<context:component-scan base-package="com.adogo.support.dao">
 	</context:component-scan>
+	<context:component-scan base-package="com.adogo.comment.dao">
+	</context:component-scan>
 </beans>
