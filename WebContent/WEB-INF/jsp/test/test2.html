@@ -1,0 +1,34 @@
+<!doctype html>
+<html ng-app>
+  <head>
+    <title>Angularjs Spring MVC sample application</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+    <script>
+      function Hello($scope, $http) {
+        $scope.getUserDetails = function()
+        {
+           $http.get('http://localhost:8000/test/userdetails').
+           success(function(data) {
+        	  // alert('successfully called');
+          	   $scope.user = data;
+          	 	console.log(data);
+	        })
+	        .error(function(error, status) {
+	        	alert(status);
+	        	$scope.data.error = { message: error, status: status};
+	        });
+      	}
+      }
+    </script>
+   </head>
+   <body>
+   	 <div ng-include="'test3.html'"></div>
+   	
+     <div ng-controller="Hello">
+       <h2>2. Angularjs Spring MVC sample application!!</h2>
+       <button ng-click="getUserDetails()">Get User Details</button>
+       <p>Name : {{user.name}}</p>
+       <p>Department : {{user.department}}</p>
+     </div>
+   </body>
+</html>
